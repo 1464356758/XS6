@@ -1,0 +1,343 @@
+{
+  "schema": "XS6-character-knowledge-2",
+  "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+  "selected_topic": "T03",
+  "frozen_chapters_at_creation": 0,
+  "authority": "本表仅为开写前约束，正式事实以冻结正文+章后记录为准；未知=未知，不得当作不存在。",
+  "fact_tiers": {
+    "author_plan": "作者规划，尚未发生",
+    "character_knowledge": "角色依据何来源得知，缺证据不得跨人转移",
+    "character_belief": "可错误；不会自动变客观事实",
+    "objective_fact": "只有对应已冻结正文与证据才能登记"
+  },
+  "characters": [
+    {
+      "id": "P01",
+      "name": "林砚秋",
+      "profile": "女35；市政通风维护承包商现场技师",
+      "skills": "维护工单、风机、基础电气、设备转运",
+      "skill_limits": "病历诊断、算法源代码、承重设计与法律审判",
+      "planned_opening_knowledge": "A区拒收女儿；知道U-07备用位但不知最终配给",
+      "initial_subjective_belief": "认为不抢机器就没有救援机会，可能高估自己的技术可控性",
+      "change_engine": "母女安全与公共责任并行，不能因主角身份自动被原谅",
+      "future_knowledge_gates": [
+        "CH001开封记录",
+        "CH005公开来源",
+        "CH016下游损害",
+        "CH075失权",
+        "CH096听证"
+      ],
+      "actual_chapter_observations": [],
+      "actual_knowledge_delta": [],
+      "actual_belief_delta": [],
+      "current_location": "未在正式正文确立",
+      "resource_control": "未在正式正文确立",
+      "health_status": "未在正式正文确立"
+    },
+    {
+      "id": "P02",
+      "name": "林知禾",
+      "profile": "女9；被拒收的儿童，既往哮喘与气道敏感史",
+      "skills": "辨认大人言行、记住承诺、表达自己感觉",
+      "skill_limits": "工程设计、药物剂量、机组调度和成人政治",
+      "planned_opening_knowledge": "知道被拒收、依赖母亲；不知道U-07曾归谁",
+      "initial_subjective_belief": "以为自己是被拒理由，也担心母亲伤害别人",
+      "change_engine": "有年龄相宜的发言权，不负责高风险外勤",
+      "future_knowledge_gates": [
+        "CH005拒替母亲保密",
+        "CH027自主发言",
+        "CH069自主选择",
+        "CH080质询",
+        "CH100承担安全工作"
+      ],
+      "actual_chapter_observations": [],
+      "actual_knowledge_delta": [],
+      "actual_belief_delta": [],
+      "current_location": "未在正式正文确立",
+      "resource_control": "未在正式正文确立",
+      "health_status": "未在正式正文确立"
+    },
+    {
+      "id": "P03",
+      "name": "周闻笙",
+      "profile": "女42；地铁行车调度员",
+      "skills": "线路、区间防火门、停运车站疏散",
+      "skill_limits": "A区内部评分和机组调配",
+      "planned_opening_knowledge": "知道旧站闸门与危险通道；不知女主盗机",
+      "initial_subjective_belief": "相信地下封闭区总比地表更可控，有过度守门倾向",
+      "change_engine": "阻止私开入口；逐渐支持可追责准入",
+      "future_knowledge_gates": [
+        "CH002交换入站条件",
+        "CH028否决权",
+        "CH042图纸风险",
+        "CH048共同签字",
+        "CH082共享通道"
+      ],
+      "actual_chapter_observations": [],
+      "actual_knowledge_delta": [],
+      "actual_belief_delta": [],
+      "current_location": "未在正式正文确立",
+      "resource_control": "未在正式正文确立",
+      "health_status": "未在正式正文确立"
+    },
+    {
+      "id": "P04",
+      "name": "陶向宁",
+      "profile": "女28；基层护士",
+      "skills": "急救分诊、感染控制、吸入药遵医嘱管理",
+      "skill_limits": "复杂外科、药物合成、结构工程",
+      "planned_opening_knowledge": "知道A区护理不足，不知偷机计划",
+      "initial_subjective_belief": "以为技术负责人会忽略病人细节",
+      "change_engine": "建立独立医疗否决权，不能凭关怀造药",
+      "future_knowledge_gates": [
+        "CH004进入决策",
+        "CH008拒绝超额收人",
+        "CH024核热症",
+        "CH028否决",
+        "CH060参与转诊"
+      ],
+      "actual_chapter_observations": [],
+      "actual_knowledge_delta": [],
+      "actual_belief_delta": [],
+      "current_location": "未在正式正文确立",
+      "resource_control": "未在正式正文确立",
+      "health_status": "未在正式正文确立"
+    },
+    {
+      "id": "P05",
+      "name": "贺为川",
+      "profile": "男39；柴油机与继电器维修师，左手旧伤",
+      "skills": "柴油机排障、机电检修",
+      "skill_limits": "风机气体净化能力、临床医疗判断",
+      "planned_opening_knowledge": "知道备用机库；不知哪台能实际启动",
+      "initial_subjective_belief": "相信先找回父亲比所有集体分配规则更急迫",
+      "change_engine": "救父亲与保站供电冲突，不得靠万能发电解决",
+      "future_knowledge_gates": [
+        "CH009停修搜亲",
+        "CH032工伤损耗",
+        "CH043排水争电",
+        "CH062油量抉择"
+      ],
+      "actual_chapter_observations": [],
+      "actual_knowledge_delta": [],
+      "actual_belief_delta": [],
+      "current_location": "未在正式正文确立",
+      "resource_control": "未在正式正文确立",
+      "health_status": "未在正式正文确立"
+    },
+    {
+      "id": "P06",
+      "name": "宋蔓",
+      "profile": "女46；夜间配送与小卖部老板",
+      "skills": "采购路线、票据、货品批次与价格",
+      "skill_limits": "医疗处方、空气净化化学模型",
+      "planned_opening_knowledge": "知道一些民用仓储位置，不能保证可取",
+      "initial_subjective_belief": "相信无偿分配必然催生投机",
+      "change_engine": "把商业账和基本生存保障谈成制度",
+      "future_knowledge_gates": [
+        "CH007水账",
+        "CH011水质",
+        "CH018滤材损失",
+        "CH039票据",
+        "CH072分配辩论"
+      ],
+      "actual_chapter_observations": [],
+      "actual_knowledge_delta": [],
+      "actual_belief_delta": [],
+      "current_location": "未在正式正文确立",
+      "resource_control": "未在正式正文确立",
+      "health_status": "未在正式正文确立"
+    },
+    {
+      "id": "P07",
+      "name": "沈朝",
+      "profile": "男17；维修学徒",
+      "skills": "低压电路、推车、基础绞盘检查",
+      "skill_limits": "承重评级、实地空气安全评估",
+      "planned_opening_knowledge": "仅听说维修间推车，未确认完好和载重",
+      "initial_subjective_belief": "误以为敢冒险就能弥补经验不足",
+      "change_engine": "学习停工与求助，不能突然变资深工程师",
+      "future_knowledge_gates": [
+        "CH006吊装风险",
+        "CH038守风口失误",
+        "CH043泵线路修复"
+      ],
+      "actual_chapter_observations": [],
+      "actual_knowledge_delta": [],
+      "actual_belief_delta": [],
+      "current_location": "未在正式正文确立",
+      "resource_control": "未在正式正文确立",
+      "health_status": "未在正式正文确立"
+    },
+    {
+      "id": "P08",
+      "name": "顾栖",
+      "profile": "女38；A区算法质控工程师",
+      "skills": "训练数据、评分决策链、隐私保护、统计检验",
+      "skill_limits": "受影响病人的真实临床结局、所有现场操作",
+      "planned_opening_knowledge": "知道模型有对儿童慢病不利的代理变量",
+      "initial_subjective_belief": "认为不完美评分优于先到先得，尚不相信B区能治理",
+      "change_engine": "其证据和妥协必须建立在合法访问与可核审计上",
+      "future_knowledge_gates": [
+        "CH049燃料联动",
+        "CH052公开目标函数",
+        "CH054阈值追责",
+        "CH059复核试点"
+      ],
+      "actual_chapter_observations": [],
+      "actual_knowledge_delta": [],
+      "actual_belief_delta": [],
+      "current_location": "未在正式正文确立",
+      "resource_control": "未在正式正文确立",
+      "health_status": "未在正式正文确立"
+    },
+    {
+      "id": "P09",
+      "name": "谢樾",
+      "profile": "男48；A区运行负责人",
+      "skills": "总量预算、床位、配额命令链、值班纪律",
+      "skill_limits": "未必知道模型每条特征因果",
+      "planned_opening_knowledge": "知道总容量与可能的危机，却不知每个病人去向",
+      "initial_subjective_belief": "相信严格配额是存活多数的必要条件",
+      "change_engine": "合理困难不免除其隐瞒、误判或滥权责任",
+      "future_knowledge_gates": [
+        "CH010索机",
+        "CH057要求认责",
+        "CH088统一调度",
+        "CH096问责"
+      ],
+      "actual_chapter_observations": [],
+      "actual_knowledge_delta": [],
+      "actual_belief_delta": [],
+      "current_location": "未在正式正文确立",
+      "resource_control": "未在正式正文确立",
+      "health_status": "未在正式正文确立"
+    },
+    {
+      "id": "P10",
+      "name": "秦棠",
+      "profile": "女33；区际救援协调员",
+      "skills": "救援交接、跨区调度、资料核验",
+      "skill_limits": "B区人数与盗机经过（开篇未知）",
+      "planned_opening_knowledge": "知道官方协同流程与权限边界",
+      "initial_subjective_belief": "认为有追溯信息的合作总比单打独斗有效",
+      "change_engine": "需在公众安全、命令与个人良知间选择",
+      "future_knowledge_gates": [
+        "CH058跨区转诊",
+        "CH085违约",
+        "CH090联盟",
+        "CH091应急分配"
+      ],
+      "actual_chapter_observations": [],
+      "actual_knowledge_delta": [],
+      "actual_belief_delta": [],
+      "current_location": "未在正式正文确立",
+      "resource_control": "未在正式正文确立",
+      "health_status": "未在正式正文确立"
+    },
+    {
+      "id": "P11",
+      "name": "赵临深",
+      "profile": "男30；物资掮客",
+      "skills": "临时仓储、运输车、滤材供应链线索",
+      "skill_limits": "站内真实承载余量、医疗伦理细节",
+      "planned_opening_knowledge": "知道旧货渠道，B区初期未知",
+      "initial_subjective_belief": "相信卖得贵才会有人继续跑高危路线",
+      "change_engine": "运力、燃油、价格、诚信都有上限",
+      "future_knowledge_gates": [
+        "CH014议价",
+        "CH031独家条件",
+        "CH036交易口",
+        "CH065燃料短缺"
+      ],
+      "actual_chapter_observations": [],
+      "actual_knowledge_delta": [],
+      "actual_belief_delta": [],
+      "current_location": "未在正式正文确立",
+      "resource_control": "未在正式正文确立",
+      "health_status": "未在正式正文确立"
+    }
+  ],
+  "relationship_edges": [
+    {
+      "from": "P01",
+      "to": "P02",
+      "dissonance": "救护与说实话的冲突",
+      "real_change_gates": [
+        "CH005",
+        "CH027",
+        "CH069",
+        "CH080",
+        "CH100"
+      ]
+    },
+    {
+      "from": "P01",
+      "to": "P03",
+      "dissonance": "公共空间守门权与个人救子权",
+      "real_change_gates": [
+        "CH002",
+        "CH048",
+        "CH082"
+      ]
+    },
+    {
+      "from": "P01",
+      "to": "P04",
+      "dissonance": "工程风险容忍与医疗分诊底线",
+      "real_change_gates": [
+        "CH008",
+        "CH028",
+        "CH060"
+      ]
+    },
+    {
+      "from": "P01",
+      "to": "P06",
+      "dissonance": "利润导向供给与基本生存保障",
+      "real_change_gates": [
+        "CH007",
+        "CH031",
+        "CH072"
+      ]
+    },
+    {
+      "from": "P01",
+      "to": "P08",
+      "dissonance": "现场经验与概率模型权责",
+      "real_change_gates": [
+        "CH049",
+        "CH054",
+        "CH059"
+      ]
+    },
+    {
+      "from": "P01",
+      "to": "P09",
+      "dissonance": "私自抢救与有约束的公共配额",
+      "real_change_gates": [
+        "CH010",
+        "CH057",
+        "CH096"
+      ]
+    },
+    {
+      "from": "P02",
+      "to": "P04",
+      "dissonance": "被当患者还是作为有发言权的儿童",
+      "real_change_gates": [
+        "CH004",
+        "CH027",
+        "CH093"
+      ]
+    }
+  ],
+  "handoff_rules": [
+    "只更新本文件的将来版本，不覆盖旧版本；人物事实不从roadmap倒灌。",
+    "所有见面与消息需要时间、地点、通信介质和见证人。",
+    "秘密、猜测、发现证据、接受事实是四个不同状态。",
+    "每章书写后将客观变化记在章后事实账；本辅助表可派生，但不能替代正式章后记录。"
+  ],
+  "future_events_are_not_facts": true,
+  "created_for": "开书规划二次补强"
+}

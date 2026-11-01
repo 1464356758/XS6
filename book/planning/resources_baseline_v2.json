@@ -1,0 +1,365 @@
+{
+  "schema": "XS6-resources-2",
+  "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+  "topic": "T03",
+  "actual_entries": [],
+  "actual_people": [],
+  "known_inventory_status": "未有任何已冻结章节，不得填期初、收入、支出、期末真实数",
+  "systems": [
+    {
+      "id": "AIR-U07",
+      "unit": "m3/h",
+      "planned_or_rated": "320额定新风量，实测未知",
+      "origin_or_evidence": "U-07设备铭牌/工单（待章内展示）",
+      "physical_limit": "滤芯阻力、漏风、烟气浓度影响实际；仅送新风不产氧",
+      "planned_checks": [
+        "CH001铭牌",
+        "CH003运行实测",
+        "CH010增人复核"
+      ],
+      "actual_opening": null,
+      "actual_receipts": [],
+      "actual_issues": [],
+      "actual_losses": [],
+      "actual_closing": null,
+      "verified_at_chapter": null,
+      "confidence": "planned_unverified"
+    },
+    {
+      "id": "POWER-U07",
+      "unit": "W",
+      "planned_or_rated": "550额定电功率，实测未知",
+      "origin_or_evidence": "铭牌（待章内出示）",
+      "physical_limit": "负载随工况变化，须含启动功率；不把额定值当实耗",
+      "planned_checks": [
+        "CH001",
+        "CH004"
+      ],
+      "actual_opening": null,
+      "actual_receipts": [],
+      "actual_issues": [],
+      "actual_losses": [],
+      "actual_closing": null,
+      "verified_at_chapter": null,
+      "confidence": "planned_unverified"
+    },
+    {
+      "id": "POWER-AUX",
+      "unit": "W",
+      "planned_or_rated": "120辅助照明监测估算",
+      "origin_or_evidence": "设定预算",
+      "physical_limit": "不能同时低估通讯、风道控制与紧急照明",
+      "planned_checks": [
+        "CH004"
+      ],
+      "actual_opening": null,
+      "actual_receipts": [],
+      "actual_issues": [],
+      "actual_losses": [],
+      "actual_closing": null,
+      "verified_at_chapter": null,
+      "confidence": "planned_unverified"
+    },
+    {
+      "id": "BATTERY-NOM",
+      "unit": "kWh",
+      "planned_or_rated": "9.6铭牌总容量，真实健康度未知",
+      "origin_or_evidence": "两块电池标签（待核）",
+      "physical_limit": "不是全部可用；禁止估计即入账",
+      "planned_checks": [
+        "CH002",
+        "CH004"
+      ],
+      "actual_opening": null,
+      "actual_receipts": [],
+      "actual_issues": [],
+      "actual_losses": [],
+      "actual_closing": null,
+      "verified_at_chapter": null,
+      "confidence": "planned_unverified"
+    },
+    {
+      "id": "BATTERY-USE",
+      "unit": "kWh",
+      "planned_or_rated": "7.2方案可用估计，实测未知",
+      "origin_or_evidence": "保守估算",
+      "physical_limit": "670W负载约10.7小时只是理想估算；真实需电压、温度、负载、衰减校正",
+      "planned_checks": [
+        "CH004"
+      ],
+      "actual_opening": null,
+      "actual_receipts": [],
+      "actual_issues": [],
+      "actual_losses": [],
+      "actual_closing": null,
+      "verified_at_chapter": null,
+      "confidence": "planned_unverified"
+    },
+    {
+      "id": "AIR-HEPA",
+      "unit": "个/批次",
+      "planned_or_rated": null,
+      "origin_or_evidence": "滤材包装及封签（待获得）",
+      "physical_limit": "只能处理部分颗粒污染；不能除CO₂/CO，吸附层容量有限",
+      "planned_checks": [
+        "CH003",
+        "CH018",
+        "CH067"
+      ],
+      "actual_opening": null,
+      "actual_receipts": [],
+      "actual_issues": [],
+      "actual_losses": [],
+      "actual_closing": null,
+      "verified_at_chapter": null,
+      "confidence": "planned_unverified"
+    },
+    {
+      "id": "AIR-ADSORB",
+      "unit": "小时/批次",
+      "planned_or_rated": null,
+      "origin_or_evidence": "实测突破曲线及批次（待获得）",
+      "physical_limit": "不能写吸附层永久有效，不能仅凭颜色判定气体安全",
+      "planned_checks": [
+        "CH003",
+        "CH018"
+      ],
+      "actual_opening": null,
+      "actual_receipts": [],
+      "actual_issues": [],
+      "actual_losses": [],
+      "actual_closing": null,
+      "verified_at_chapter": null,
+      "confidence": "planned_unverified"
+    },
+    {
+      "id": "AIR-MONITORS",
+      "unit": "台/校准",
+      "planned_or_rated": null,
+      "origin_or_evidence": "监测设备实物（待获得）",
+      "physical_limit": "CO₂/CO/颗粒物/O₂各有不同误差，断电即监测缺口",
+      "planned_checks": [
+        "CH003",
+        "CH010"
+      ],
+      "actual_opening": null,
+      "actual_receipts": [],
+      "actual_issues": [],
+      "actual_losses": [],
+      "actual_closing": null,
+      "verified_at_chapter": null,
+      "confidence": "planned_unverified"
+    },
+    {
+      "id": "WATER-DRINK",
+      "unit": "L",
+      "planned_or_rated": null,
+      "origin_or_evidence": "实际取水容器/水质记录（待获得）",
+      "physical_limit": "饮水与卫生水分账，水源不明不可直接饮用",
+      "planned_checks": [
+        "CH007",
+        "CH011"
+      ],
+      "actual_opening": null,
+      "actual_receipts": [],
+      "actual_issues": [],
+      "actual_losses": [],
+      "actual_closing": null,
+      "verified_at_chapter": null,
+      "confidence": "planned_unverified"
+    },
+    {
+      "id": "WATER-HYGIENE",
+      "unit": "L",
+      "planned_or_rated": null,
+      "origin_or_evidence": "补给与消杀记录（待获得）",
+      "physical_limit": "不能把已消耗水逆向复活",
+      "planned_checks": [
+        "CH011",
+        "CH030"
+      ],
+      "actual_opening": null,
+      "actual_receipts": [],
+      "actual_issues": [],
+      "actual_losses": [],
+      "actual_closing": null,
+      "verified_at_chapter": null,
+      "confidence": "planned_unverified"
+    },
+    {
+      "id": "FOOD-ENERGY",
+      "unit": "kcal",
+      "planned_or_rated": null,
+      "origin_or_evidence": "食品标签/称量/来源（待获得）",
+      "physical_limit": "记录人数与实际可食热量、保质期；药和零食不能替代正餐",
+      "planned_checks": [
+        "CH010",
+        "CH040"
+      ],
+      "actual_opening": null,
+      "actual_receipts": [],
+      "actual_issues": [],
+      "actual_losses": [],
+      "actual_closing": null,
+      "verified_at_chapter": null,
+      "confidence": "planned_unverified"
+    },
+    {
+      "id": "MED-RESP",
+      "unit": "剂/器",
+      "planned_or_rated": null,
+      "origin_or_evidence": "林知禾身上吸入装置实物（待核）",
+      "physical_limit": "用药按实际医嘱，剩余剂量以查看后计；不神奇补满",
+      "planned_checks": [
+        "CH001",
+        "CH013"
+      ],
+      "actual_opening": null,
+      "actual_receipts": [],
+      "actual_issues": [],
+      "actual_losses": [],
+      "actual_closing": null,
+      "verified_at_chapter": null,
+      "confidence": "planned_unverified"
+    },
+    {
+      "id": "GEN-DIESEL",
+      "unit": "台/可运行小时",
+      "planned_or_rated": null,
+      "origin_or_evidence": "维修单/试机结果（待获得）",
+      "physical_limit": "功率、储油、噪声、排气、机油、损耗均要记",
+      "planned_checks": [
+        "CH009",
+        "CH043",
+        "CH062"
+      ],
+      "actual_opening": null,
+      "actual_receipts": [],
+      "actual_issues": [],
+      "actual_losses": [],
+      "actual_closing": null,
+      "verified_at_chapter": null,
+      "confidence": "planned_unverified"
+    },
+    {
+      "id": "FUEL-DIESEL",
+      "unit": "L",
+      "planned_or_rated": null,
+      "origin_or_evidence": "燃料桶与补给签收（待获得）",
+      "physical_limit": "外勤任务和发电争同一库存；收益须减来回燃料",
+      "planned_checks": [
+        "CH009",
+        "CH014",
+        "CH062"
+      ],
+      "actual_opening": null,
+      "actual_receipts": [],
+      "actual_issues": [],
+      "actual_losses": [],
+      "actual_closing": null,
+      "verified_at_chapter": null,
+      "confidence": "planned_unverified"
+    },
+    {
+      "id": "PEOPLE-CLEAN",
+      "unit": "人",
+      "planned_or_rated": "≤12为开局规划上限，实际可承载未知",
+      "origin_or_evidence": "封闭空间排风与空气监测（待实测）",
+      "physical_limit": "不能把12人等同于必然安全；CO₂/病人需求会压缩容量",
+      "planned_checks": [
+        "CH003",
+        "CH010",
+        "CH030"
+      ],
+      "actual_opening": null,
+      "actual_receipts": [],
+      "actual_issues": [],
+      "actual_losses": [],
+      "actual_closing": null,
+      "verified_at_chapter": null,
+      "confidence": "planned_unverified"
+    },
+    {
+      "id": "FILTER-LOSS",
+      "unit": "小时/Pa",
+      "planned_or_rated": null,
+      "origin_or_evidence": "运行压差与污染暴露记录（待获得）",
+      "physical_limit": "耗材到期不可用一句更换掩盖来源",
+      "planned_checks": [
+        "CH018",
+        "CH035",
+        "CH067"
+      ],
+      "actual_opening": null,
+      "actual_receipts": [],
+      "actual_issues": [],
+      "actual_losses": [],
+      "actual_closing": null,
+      "verified_at_chapter": null,
+      "confidence": "planned_unverified"
+    },
+    {
+      "id": "ROUTE-A-B",
+      "unit": "km",
+      "planned_or_rated": "两区直线约5公里，运输实际里程未知",
+      "origin_or_evidence": "线路图与现场里程（待核）",
+      "physical_limit": "坡道、封门、污染风向、负重、车况影响耗时",
+      "planned_checks": [
+        "CH001",
+        "CH002"
+      ],
+      "actual_opening": null,
+      "actual_receipts": [],
+      "actual_issues": [],
+      "actual_losses": [],
+      "actual_closing": null,
+      "verified_at_chapter": null,
+      "confidence": "planned_unverified"
+    },
+    {
+      "id": "DRAIN-PUMP",
+      "unit": "台/m3/h",
+      "planned_or_rated": null,
+      "origin_or_evidence": "排水设施铭牌及试运行（待获得）",
+      "physical_limit": "地铁排水和主风机争电线路，停水位不等于结构安全",
+      "planned_checks": [
+        "CH041",
+        "CH050"
+      ],
+      "actual_opening": null,
+      "actual_receipts": [],
+      "actual_issues": [],
+      "actual_losses": [],
+      "actual_closing": null,
+      "verified_at_chapter": null,
+      "confidence": "planned_unverified"
+    }
+  ],
+  "transactions_schema": {
+    "id": "流水编号",
+    "time": "故事时间T+分钟",
+    "site": "A/B/转运区",
+    "resource_id": "资源代码",
+    "unit": "必须与资源记录一致",
+    "opening": "期初真实值",
+    "receipts": "入库实证",
+    "issues": "用于谁/何事",
+    "losses": "损耗与污染",
+    "closing": "期末核实",
+    "source": "物证/记录/当事人",
+    "witnesses": "人名与知情时点",
+    "confidence": "verified|estimated|unknown",
+    "linked_chapter": "冻结章引用"
+  },
+  "conservation_checks": [
+    "同一计量单位：期末=期初+入库-使用-损耗；未知字段不可当零。",
+    "电池能量=功率×时间的积分（简估用kWh=W×h/1000），负载增长不能只算风机。",
+    "新风不等于循环风；送/排气不平衡将造成压差及污染流入。",
+    "设备190kg只能通过多人和合格承重车转运；正式现场质量以称量/工单为准。",
+    "有毒气体与颗粒物独立检测，不可把一种绿灯推论为整体安全。",
+    "实际净水量需水源、方法、出水质量记录；过滤处理不能凭空无限补水。",
+    "增一人即增空气、电、水、食和医疗负荷；迁出要记真实去向，不把人从叙事里删除。"
+  ],
+  "event_log": [],
+  "created_for": "开书规划二次补强"
+}

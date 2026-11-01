@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
   "title": "《末日避难所不收我的女儿》",
-  "revision": 3,
+  "revision": 5,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -27,15 +27,15 @@
   "inputs": {
     "canon": {
       "kind": "canon",
-      "path": "inputs/canon_91ebfb9029a9e74d787564cf8863c78193668e998699a200db38d4d457898449.md",
-      "sha256": "91ebfb9029a9e74d787564cf8863c78193668e998699a200db38d4d457898449",
-      "reason": "T03选题确定：建立开篇硬设定、人物知情与资源守恒基线"
+      "path": "inputs/canon_e8c66f51f161667048f484710694f4e9e2e31b467c39961eb4063cb35f2976cb.md",
+      "sha256": "e8c66f51f161667048f484710694f4e9e2e31b467c39961eb4063cb35f2976cb",
+      "reason": "二次策划补强：修正开篇3000字行动；独立知情、资源与灾害边界"
     },
     "roadmap": {
       "kind": "roadmap",
-      "path": "inputs/roadmap_2ebe2201cd6957278f938c44477c31fe604fd3b4d381490e492c4f13b5d56af6.md",
-      "sha256": "2ebe2201cd6957278f938c44477c31fe604fd3b4d381490e492c4f13b5d56af6",
-      "reason": "T03选题确定：建立10阶段100章路线、近期5章场景安排及承诺"
+      "path": "inputs/roadmap_1df104aa779568f718148ef412466517eed33effddedac39119984fb38b25b07.md",
+      "sha256": "1df104aa779568f718148ef412466517eed33effddedac39119984fb38b25b07",
+      "reason": "二次策划补强：第一章六场重排；50章中段分场、伏笔与反重复因果"
     }
   },
   "input_history": [
@@ -50,6 +50,18 @@
       "path": "inputs/roadmap_2ebe2201cd6957278f938c44477c31fe604fd3b4d381490e492c4f13b5d56af6.md",
       "sha256": "2ebe2201cd6957278f938c44477c31fe604fd3b4d381490e492c4f13b5d56af6",
       "reason": "T03选题确定：建立10阶段100章路线、近期5章场景安排及承诺"
+    },
+    {
+      "kind": "canon",
+      "path": "inputs/canon_e8c66f51f161667048f484710694f4e9e2e31b467c39961eb4063cb35f2976cb.md",
+      "sha256": "e8c66f51f161667048f484710694f4e9e2e31b467c39961eb4063cb35f2976cb",
+      "reason": "二次策划补强：修正开篇3000字行动；独立知情、资源与灾害边界"
+    },
+    {
+      "kind": "roadmap",
+      "path": "inputs/roadmap_1df104aa779568f718148ef412466517eed33effddedac39119984fb38b25b07.md",
+      "sha256": "1df104aa779568f718148ef412466517eed33effddedac39119984fb38b25b07",
+      "reason": "二次策划补强：第一章六场重排；50章中段分场、伏笔与反重复因果"
     }
   ],
   "tasks": {},

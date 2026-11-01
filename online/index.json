@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS6",
     "branch": "main",
-    "generated_at": "2026-11-01T10:04:15.572Z",
-    "state_revision": 3,
-    "workflow_revision": 5,
-    "state_sha256": "b7f151d5dc60313a4490dc0254ad543bf6905f21eac209dcb930c09a0f5f3540",
-    "workflow_sha256": "35f319e8a1fdaa9b8bf8a2812ff221cfc13c5bed67f4b70aece103b8ca6ce43c",
+    "generated_at": "2026-11-01T10:56:26+00:00",
+    "state_revision": 5,
+    "workflow_revision": 6,
+    "state_sha256": "f4a6ea38edc5c19569b3959c90758d1303582c89106e9a156dccfba5e2a93979",
+    "workflow_sha256": "2c0726d89ed221275ba716826ff2af59997c69483c21edf9e10b010749eb131e",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -41,9 +41,9 @@
     "phase": "PLANNING",
     "label": "长篇规划",
     "chapter": 1,
-    "detail": "T03设定、人物知情及资源事实账、100章10阶段路线、近期5章安排已建立，等待作者明确授权开始写第一章。",
-    "next_action": "作者回复“开始写”后才进入CH001写前任务书、场景预算和正文；目前无已完成章节，也不安排自动日更。",
-    "updated_at": "2026-11-01T10:04:15.572Z"
+    "detail": "T03二次规划已补：CH001前2600字实际行动、11人知情账、18类资源账、12条承诺、CH031-080共50章深化场景、地下进水伏笔及同上下文文学结构复核。",
+    "next_action": "等待作者明确“开始写”授权；届时先按最新版canon/roadmap构建第一章任务书，实测黄金3000字与八项发布前审查，未通过不得冻结。",
+    "updated_at": "2026-11-01T10:56:26+00:00"
   },
   "chapters": [],
   "topics": [
@@ -395,6 +395,12 @@
       "phase": "PLANNING",
       "label": "长篇规划",
       "detail": "T03设定、人物知情及资源事实账、100章10阶段路线、近期5章安排已建立，等待作者明确授权开始写第一章。"
+    },
+    {
+      "at": "2026-11-01T10:56:26+00:00",
+      "phase": "PLANNING",
+      "label": "长篇规划",
+      "detail": "T03二次规划已补：CH001前2600字实际行动、11人知情账、18类资源账、12条承诺、CH031-080共50章深化场景、地下进水伏笔及同上下文文学结构复核。"
     }
   ]
 }

@@ -1,0 +1,215 @@
+{
+  "schema": "XS6-promise-2",
+  "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+  "record_status": "全是拟植入/拟到期，不是已兑现、未兑现或已发行的正式承诺",
+  "promises": [
+    {
+      "id": "K01",
+      "question": "遗传风险标签为什么剥夺女儿床位",
+      "first_planned_chapter": 1,
+      "planned_checkpoints": [
+        5,
+        10,
+        54,
+        59
+      ],
+      "planned_deadline": 59,
+      "acceptance_evidence": "阶段性系统误差与责任链可独立核对",
+      "actual_thread_event_id": null,
+      "actual_status": "not_planted",
+      "actual_open_at": null,
+      "actual_paid_at": null
+    },
+    {
+      "id": "K02",
+      "question": "U-07原本留给谁、偷走后是否害人",
+      "first_planned_chapter": 1,
+      "planned_checkpoints": [
+        5,
+        15,
+        16,
+        53,
+        60,
+        96
+      ],
+      "planned_deadline": 96,
+      "acceptance_evidence": "实际受影响者/能证实的因果/可补偿责任与未证实推断分开",
+      "actual_thread_event_id": null,
+      "actual_status": "not_planted",
+      "actual_open_at": null,
+      "actual_paid_at": null
+    },
+    {
+      "id": "K03",
+      "question": "B区到底能否安全呼吸且可以撑过首周",
+      "first_planned_chapter": 1,
+      "planned_checkpoints": [
+        3,
+        4,
+        10
+      ],
+      "planned_deadline": 10,
+      "acceptance_evidence": "风道与独立仪器的证据及运行可用时长",
+      "actual_thread_event_id": null,
+      "actual_status": "not_planted",
+      "actual_open_at": null,
+      "actual_paid_at": null
+    },
+    {
+      "id": "K04",
+      "question": "女儿能否知情、表达并有限参与决策",
+      "first_planned_chapter": 1,
+      "planned_checkpoints": [
+        5,
+        27,
+        69,
+        80,
+        100
+      ],
+      "planned_deadline": 100,
+      "acceptance_evidence": "以她亲自作出并承担年龄相称后果的选择兑现",
+      "actual_thread_event_id": null,
+      "actual_status": "not_planted",
+      "actual_open_at": null,
+      "actual_paid_at": null
+    },
+    {
+      "id": "K05",
+      "question": "水电粮能否从偶然所得改为可追溯补给",
+      "first_planned_chapter": 7,
+      "planned_checkpoints": [
+        11,
+        20,
+        40
+      ],
+      "planned_deadline": 40,
+      "acceptance_evidence": "真实供给对象、成本、合同、损耗与违约",
+      "actual_thread_event_id": null,
+      "actual_status": "not_planted",
+      "actual_open_at": null,
+      "actual_paid_at": null
+    },
+    {
+      "id": "K06",
+      "question": "拒收能否变成有申诉机制的有限配额",
+      "first_planned_chapter": 8,
+      "planned_checkpoints": [
+        26,
+        30,
+        59,
+        97
+      ],
+      "planned_deadline": 97,
+      "acceptance_evidence": "制度有否决、申诉和复核但仍承认资源不足",
+      "actual_thread_event_id": null,
+      "actual_status": "not_planted",
+      "actual_open_at": null,
+      "actual_paid_at": null
+    },
+    {
+      "id": "K07",
+      "question": "周闻笙为何不让人随便进旧站",
+      "first_planned_chapter": 2,
+      "planned_checkpoints": [
+        3,
+        42,
+        50
+      ],
+      "planned_deadline": 50,
+      "acceptance_evidence": "旧站结构与排水隐患实证，不依赖事后补丁",
+      "actual_thread_event_id": null,
+      "actual_status": "not_planted",
+      "actual_open_at": null,
+      "actual_paid_at": null
+    },
+    {
+      "id": "K08",
+      "question": "顾栖掌握的评分模型牵涉了什么物资",
+      "first_planned_chapter": 49,
+      "planned_checkpoints": [
+        52,
+        54,
+        59,
+        60
+      ],
+      "planned_deadline": 60,
+      "acceptance_evidence": "原始证据来源、权限、去标识和独立审计",
+      "actual_thread_event_id": null,
+      "actual_status": "not_planted",
+      "actual_open_at": null,
+      "actual_paid_at": null
+    },
+    {
+      "id": "K09",
+      "question": "寒季保温与滤材供给的下限",
+      "first_planned_chapter": 40,
+      "planned_checkpoints": [
+        62,
+        67,
+        70
+      ],
+      "planned_deadline": 70,
+      "acceptance_evidence": "实际负荷实测、应急冗余与迁移代价",
+      "actual_thread_event_id": null,
+      "actual_status": "not_planted",
+      "actual_open_at": null,
+      "actual_paid_at": null
+    },
+    {
+      "id": "K10",
+      "question": "社区有没有纠正创始人错误的制度",
+      "first_planned_chapter": 48,
+      "planned_checkpoints": [
+        75,
+        79,
+        80
+      ],
+      "planned_deadline": 80,
+      "acceptance_evidence": "被否决仍执行、居民授权与轮替",
+      "actual_thread_event_id": null,
+      "actual_status": "not_planted",
+      "actual_open_at": null,
+      "actual_paid_at": null
+    },
+    {
+      "id": "K11",
+      "question": "跨站点互助是否可靠",
+      "first_planned_chapter": 40,
+      "planned_checkpoints": [
+        85,
+        90,
+        95
+      ],
+      "planned_deadline": 95,
+      "acceptance_evidence": "协议中的履行证明、违约代价和修复机制",
+      "actual_thread_event_id": null,
+      "actual_status": "not_planted",
+      "actual_open_at": null,
+      "actual_paid_at": null
+    },
+    {
+      "id": "K12",
+      "question": "盗机私责与公共配给如何最终结算",
+      "first_planned_chapter": 16,
+      "planned_checkpoints": [
+        60,
+        91,
+        96,
+        97,
+        100
+      ],
+      "planned_deadline": 100,
+      "acceptance_evidence": "不以主角胜利替代真实问责",
+      "actual_thread_event_id": null,
+      "actual_status": "not_planted",
+      "actual_open_at": null,
+      "actual_paid_at": null
+    }
+  ],
+  "governance": [
+    "本表是作者规划，不替代serialization.promises/正式thread_events。",
+    "只有在已冻结正文实际植入后才能登记到正式承诺账。",
+    "任何节点未兑现必须通过正式miss/reschedule保留历史和代价，不能静默移截止日期。",
+    "不能用另一个人物复述旧答案来假装兑现。"
+  ]
+}
