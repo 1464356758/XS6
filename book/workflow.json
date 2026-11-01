@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 7,
+  "revision": 8,
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
-  "phase": "REVIEWING",
+  "phase": "WAITING_NEXT",
   "platform": "zongheng_girls",
   "selected_topic": {
     "id": "T03",
@@ -23,7 +23,7 @@
   },
   "research_path": "research/platform_670e090ace6bda109d42e9e37cd6783b7aee1d8339e475476c5e422b5ba243a3.json",
   "topics_path": "research/topics_abaaea43fda039b01e8560ef7703d41a251b6a43d4a872924ed917707aaf7a6e.json",
-  "chapter": 1,
+  "chapter": 2,
   "history": [
     {
       "at": "2026-11-01T09:20:05+00:00",
@@ -72,10 +72,16 @@
       "phase": "REVIEWING",
       "label": "第一章完整候选待审",
       "detail": "CH001完整候选稿已保存于drafts/CH001.txt，实测9072汉字；仍未执行正式brief-check/candidate/release-check/adopt，已冻结正文仍为0章。"
+    },
+    {
+      "at": "2026-11-01T14:02:16+00:00",
+      "phase": "WAITING_NEXT",
+      "label": "等待下一章",
+      "detail": "第001章《门外还有一个孩子》经实际文件工具release-check后采用并冻结；平台未登记发布。"
     }
   ],
-  "detail": "CH001完整候选稿已保存于drafts/CH001.txt，实测9072汉字；仍未执行正式brief-check/candidate/release-check/adopt，已冻结正文仍为0章。",
-  "next_action": "在最新XS6上执行原工具写前登记、候选、正文事实审读和release-check；通过后仅采用CH001，绝不直接写CH002。",
-  "updated_at": "2026-11-01T13:56:04.681Z",
+  "detail": "第001章《门外还有一个孩子》经实际文件工具release-check后采用并冻结；平台未登记发布。",
+  "next_action": "等作者授权续写下一章；前面冻结章绝不可更改。",
+  "updated_at": "2026-11-01T14:02:16+00:00",
   "draft_path": "drafts/CH001.txt"
 }

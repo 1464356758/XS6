@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
   "title": "《末日避难所不收我的女儿》",
-  "revision": 5,
+  "revision": 6,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -21,7 +21,18 @@
     "opening_impact_max_han": 3000,
     "narrative_review_required": true
   },
-  "chapters": {},
+  "chapters": {
+    "1": {
+      "title": "门外还有一个孩子",
+      "stage": "S01",
+      "text_path": "chapters/CH001_911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3.txt",
+      "text_sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+      "record_path": "records/CH001_211bcd5779318b3811afa9a2c54a01e249cbdf99d14487949e4155b6de00ec6c.json",
+      "record_sha256": "211bcd5779318b3811afa9a2c54a01e249cbdf99d14487949e4155b6de00ec6c",
+      "han_count": 9072,
+      "adopted_at": "2026-11-01T14:02:16+00:00"
+    }
+  },
   "checkpoints": [],
   "needs_revalidation": [],
   "inputs": {
@@ -64,15 +75,107 @@
       "reason": "二次策划补强：第一章六场重排；50章中段分场、伏笔与反重复因果"
     }
   ],
-  "tasks": {},
+  "tasks": {
+    "1": {
+      "task_id": "6bac7680-308a-41d4-99cd-6be5c634c966",
+      "chapter": 1,
+      "mode": "write",
+      "phase": "adopted",
+      "repairs": 0,
+      "history": [
+        {
+          "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+          "reason": "初稿",
+          "repairs": 0
+        }
+      ],
+      "candidate_sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+      "candidate_path": "candidates/CH001_911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3.txt"
+    }
+  },
   "completion": null,
   "serialization": {
     "schema_version": 1,
     "enabled": true,
-    "frozen": {},
+    "frozen": {
+      "1": {
+        "text_sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+        "record_sha256": "211bcd5779318b3811afa9a2c54a01e249cbdf99d14487949e4155b6de00ec6c"
+      }
+    },
     "published": {},
-    "gates": {},
-    "promises": {},
+    "gates": {
+      "1": {
+        "path": "releases/CH001_5a650eb570eda8aa392914d60a23a1c09c27ac28cb0a4977ad0901337f570898.json",
+        "sha256": "5a650eb570eda8aa392914d60a23a1c09c27ac28cb0a4977ad0901337f570898",
+        "used": true
+      }
+    },
+    "promises": {
+      "K01": {
+        "history": [
+          {
+            "id": "K01",
+            "action": "set",
+            "deadline_chapter": 10,
+            "reason": "第一章只看到行政标签，需CH010首次核查依据；模型全因果以后逐步揭示。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+              "quote": "原因：高医疗需求风险。"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 10,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      },
+      "K02": {
+        "history": [
+          {
+            "id": "K02",
+            "action": "set",
+            "deadline_chapter": 16,
+            "reason": "只有可能受影响的公共备用需求，CH016核实第一批真实下游后果。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+              "quote": "一张没有最终去向的记录，不等于没有人正等着它。"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 16,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      },
+      "K03": {
+        "history": [
+          {
+            "id": "K03",
+            "action": "set",
+            "deadline_chapter": 10,
+            "reason": "旧地铁尚无实测，CH003证明有限净化空间，CH010完成首周临时安全框架。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+              "quote": "有名字的地方，不等于可以活命的地方。"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 10,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      }
+    },
     "incidents": {}
+  },
+  "writing_briefs": {
+    "1": {
+      "path": "briefs/CH001_31351aa9e2e7ab2d5b951bef34f86240ffe2ee71d02497abdb7bdf479ecd4e17.json",
+      "sha256": "31351aa9e2e7ab2d5b951bef34f86240ffe2ee71d02497abdb7bdf479ecd4e17"
+    }
   }
 }

@@ -1,0 +1,142 @@
+{
+  "chapter": 1,
+  "title": "门外还有一个孩子",
+  "stage": "S01",
+  "base_revision": 5,
+  "canon_sha256": "e8c66f51f161667048f484710694f4e9e2e31b467c39961eb4063cb35f2976cb",
+  "text_sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+  "complete": true,
+  "story_time_end": 122,
+  "summary": "2041年9月18日，林砚秋带女儿林知禾到穹顶一号，知禾因行政高医疗需求风险被拒。母亲未能获得及时复核，为争取生存选择破坏公有U-07机组封存并留下实名记录。维护资格遭暂停，机组仍留A区。她在门外协助伍静找回入站证明，女儿接受临时观察；唐识提供已公开的转运示意信息，指出设备转运路径封闭，旧七号线可能是另一个方向但尚未实测。章末母亲承担盗机风险与未知下游责任，第二章须先解决机械搬运和地下空间安全。",
+  "review": {
+    "read_full_text": true,
+    "decision": "adopt",
+    "blocking_issues": [],
+    "sources_checked": [],
+    "conclusion": "对正文逐场复核：实际越界在第3000汉字前；9000余汉字的场景含拒收、未获批改动、唐识对立、伍静证据救济、护士观察与转运障碍。未把外部调拨后果假设成已证实伤亡。读者同上下文近似审读，仍须关注下一章实际物流与气体安全。"
+  },
+  "facts": [
+    {
+      "kind": "state",
+      "key": "entry:child",
+      "value": "林知禾被穹顶一号暂缓接收。",
+      "holder": "",
+      "valid_from": 7,
+      "valid_until": null,
+      "quote": "状态：暂缓接收。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "P02:denial",
+      "value": "林知禾知道自己被拒，却不知道真实评分原因。",
+      "holder": "P02",
+      "valid_from": 7,
+      "valid_until": null,
+      "quote": "“那我的名字为什么是灰的？”"
+    },
+    {
+      "kind": "fact",
+      "key": "U07:asset",
+      "value": "U-07是公有救灾设备，初始标识备用待分配。",
+      "holder": "",
+      "valid_from": 16,
+      "valid_until": null,
+      "quote": "标着U-07。"
+    },
+    {
+      "kind": "fact",
+      "key": "U07:breached",
+      "value": "林砚秋已经破坏U-07封存纸带并被实名记录。",
+      "holder": "",
+      "valid_from": 16,
+      "valid_until": null,
+      "quote": "系统提示：封存异常已登记。操作人，林砚秋。原设备授权状态不可自行恢复。"
+    },
+    {
+      "kind": "state",
+      "key": "P01:maintenance_authorization",
+      "value": "林砚秋维护权限与临时工位资格被暂停。",
+      "holder": "",
+      "valid_from": 24,
+      "valid_until": null,
+      "quote": "维护权限暂停的通知正式到达"
+    },
+    {
+      "kind": "knowledge",
+      "key": "P01:downstream",
+      "value": "林砚秋不知道U-07确切分配给谁，承认不能把待分配当作无人需要。",
+      "holder": "P01",
+      "valid_from": 16,
+      "valid_until": null,
+      "quote": "一张没有最终去向的记录，不等于没有人正等着它。"
+    },
+    {
+      "kind": "state",
+      "key": "P02:medical_observation",
+      "value": "林知禾经户外护士初步观察，不等于正式床位接收。",
+      "holder": "",
+      "valid_from": 69,
+      "valid_until": null,
+      "quote": "护士给她一张带时间的临时观察条"
+    },
+    {
+      "kind": "fact",
+      "key": "A:access:vehicle",
+      "value": "A区库房升降台停用，通向外面的坡道也已封闭。",
+      "holder": "",
+      "valid_from": 80,
+      "valid_until": null,
+      "quote": "可升降台今天停了。"
+    },
+    {
+      "kind": "fact",
+      "key": "U07:location:end",
+      "value": "截至章末U-07设备仍在A区受控区域，没有运到河湾。",
+      "holder": "",
+      "valid_from": 122,
+      "valid_until": null,
+      "quote": "那台近两百公斤的设备仍锁在受控区域"
+    },
+    {
+      "kind": "fact",
+      "key": "WuJing:family:reentry",
+      "value": "伍静凭补查手写登记恢复再入内核验，孩子床位没有变化。",
+      "holder": "",
+      "valid_from": 80,
+      "valid_until": null,
+      "quote": "孩子在，床位未变，监护人被误录成临时离开"
+    }
+  ],
+  "progression": {
+    "goal": "在越来越危险的外部空气中为知禾争取可以呼吸的地方。",
+    "obstacle": "行政风险配额拒收、复核迟缓、设备公产归属、现实无转运或接收空间。",
+    "method": "先申诉，再冒险触碰公产封存，随后寻找可核的转运信息和医护照护。",
+    "choice": "自行破坏U-07封存，承担可追责的设备管理风险；后来公开承认行为而不谎称已获批准。",
+    "result": "母女仍未入站，机组仍在受控区；但女主获得有限路况线索，伍静的监护登记也被补正。",
+    "consequence": "维护权限暂停，设备调拨暂停受核，孩子对母亲产生新疑虑，其他机组受益者身份未知。",
+    "next_options": "调查七号线河湾站实际状况，寻找周闻笙与合格运载工具，核对U-07完整调度归属。",
+    "scene_function": "拒收钩子、母女自主互动、可追责越界、次级救助对照、技术与责任长线。"
+  },
+  "thread_events": [
+    {
+      "id": "K01",
+      "action": "plant",
+      "description": "女儿被行政高医疗需求风险标签拒收，评分依据尚未查实。",
+      "quote": "原因：高医疗需求风险。"
+    },
+    {
+      "id": "K02",
+      "action": "plant",
+      "description": "U-07公共备用机组存在未知下游受益者，女主的夺机行为可能让其他人失去保障。",
+      "quote": "一张没有最终去向的记录，不等于没有人正等着它。"
+    },
+    {
+      "id": "K03",
+      "action": "plant",
+      "description": "旧地铁能否成为合格避难空间仍未知，机器尚无合法接收点与进排风路径。",
+      "quote": "有名字的地方，不等于可以活命的地方。"
+    }
+  ],
+  "stage_closing": false,
+  "measured_han": 9072
+}

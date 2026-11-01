@@ -1,0 +1,372 @@
+{
+  "schema_version": 1,
+  "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+  "chapter": 1,
+  "base_revision": 5,
+  "task_id": "6bac7680-308a-41d4-99cd-6be5c634c966",
+  "repairs": 0,
+  "text_sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+  "record_sha256": "211bcd5779318b3811afa9a2c54a01e249cbdf99d14487949e4155b6de00ec6c",
+  "canon_sha256": "e8c66f51f161667048f484710694f4e9e2e31b467c39961eb4063cb35f2976cb",
+  "roadmap_sha256": "1df104aa779568f718148ef412466517eed33effddedac39119984fb38b25b07",
+  "narrative_review_version": 1,
+  "writing_brief_sha256": "31351aa9e2e7ab2d5b951bef34f86240ffe2ee71d02497abdb7bdf479ecd4e17",
+  "decision": "release",
+  "read_full_text": true,
+  "blocking_issues": [],
+  "read_coverage": {
+    "1": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3"
+  },
+  "reader_reason_to_continue": "女儿仍没获得正式收容，U-07仍被锁在库房，前往旧地铁的坡道封闭；母亲损害未知的其他病人保障，读者必须知道她能否真的把设备搬走以及如何承担责任。",
+  "consequence": "封存异常实名留痕、母亲维修许可被停、U-07暂停调拨，女儿与母亲第一次明确讨论盗机可能伤害他人。",
+  "ending_runway": "剩99章约90万字的总路线中，第二章实际运输，第三章独立风道，第四章电池底线均未提前解决。",
+  "checks": {
+    "timeline": {
+      "decision": "pass",
+      "conclusion": "从06:07拒收、06:23留痕到08:02退出队列，整体正向时间无提前知情。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+          "quote": "九月十八日早晨六点零七分"
+        }
+      ]
+    },
+    "knowledge": {
+      "decision": "pass",
+      "conclusion": "女主只知台账待分配，不知受损者；知禾只见母亲碰公产，未知下游；不存在上帝视角提前定罪。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+          "quote": "一张没有最终去向的记录，不等于没有人正等着它。"
+        }
+      ]
+    },
+    "props_resources": {
+      "decision": "pass",
+      "conclusion": "设备仅破封尚未搬走，未凭空产生氧气、电力、车辆或可用滤材；药物剂量没有虚构。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+          "quote": "支架、管件、电池和机组加起来接近两百公斤"
+        }
+      ]
+    },
+    "causality": {
+      "decision": "pass",
+      "conclusion": "主角自行撕封签后系统留名，唐识上报、工位停权、设备被暂停调拨，动作带来可见代价。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+          "quote": "系统提示：封存异常已登记。操作人，林砚秋。原设备授权状态不可自行恢复。"
+        }
+      ]
+    },
+    "power_rules": {
+      "decision": "pass",
+      "conclusion": "维护工权不能替代公共调度权，唐识有正当反对理由，女孩的医学标签不等于传染诊断。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+          "quote": "你是设备维修员，不是调拨员。"
+        }
+      ]
+    },
+    "promises": {
+      "decision": "pass",
+      "conclusion": "K01拒收原因、K02下游利益、K03旧地铁安全均有实际植入并明确后续兑现章，未假装谜团已经解决。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+          "quote": "受影响的保障安排"
+        }
+      ]
+    },
+    "anti_repeat": {
+      "decision": "pass",
+      "conclusion": "首章没有旧章可以对比，伍静用纸质证据改正登记和主角偷机形成不同取舍，不连续重复争吵。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+          "quote": "找簿子花了六分钟"
+        }
+      ]
+    },
+    "character_agency": {
+      "decision": "pass",
+      "conclusion": "母亲明确选择跨线并面对代价；孩子主动帮助人、质问母亲，唐识与护士各自执行有边界的职责。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+          "quote": "她却按下了提交"
+        }
+      ]
+    }
+  },
+  "comparison": [],
+  "future_window": [
+    {
+      "chapter": 2,
+      "goal": "找到合法可走的机械运输线并联络有旧轨道权限的人。",
+      "change": "让母亲的违规从封存问题升级为实际运载与合作条件。",
+      "ending_question": "设备离开A区后究竟能在哪里运行？"
+    },
+    {
+      "chapter": 3,
+      "goal": "在地下隔间建立有排风路径和独立读数的新风方案。",
+      "change": "从拿到设备变成认识污染入侵与二氧化碳边界。",
+      "ending_question": "通风可靠却能运行多久？"
+    },
+    {
+      "chapter": 4,
+      "goal": "实测电池与照明等综合负荷，安排第一夜的用电。",
+      "change": "耗能和容量决定谁可临时进入，医护拥有真实判断权。",
+      "ending_question": "当额外求助者到来时该把谁拒之门外？"
+    }
+  ],
+  "promise_reviews": [
+    {
+      "id": "K01",
+      "action": "set",
+      "deadline_chapter": 10,
+      "reason": "第一章只看到行政标签，需CH010首次核查依据；模型全因果以后逐步揭示。",
+      "evidence": {
+        "chapter": 1,
+        "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+        "quote": "原因：高医疗需求风险。"
+      }
+    },
+    {
+      "id": "K02",
+      "action": "set",
+      "deadline_chapter": 16,
+      "reason": "只有可能受影响的公共备用需求，CH016核实第一批真实下游后果。",
+      "evidence": {
+        "chapter": 1,
+        "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+        "quote": "一张没有最终去向的记录，不等于没有人正等着它。"
+      }
+    },
+    {
+      "id": "K03",
+      "action": "set",
+      "deadline_chapter": 10,
+      "reason": "旧地铁尚无实测，CH003证明有限净化空间，CH010完成首周临时安全框架。",
+      "evidence": {
+        "chapter": 1,
+        "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+        "quote": "有名字的地方，不等于可以活命的地方。"
+      }
+    }
+  ],
+  "incident_actions": [],
+  "opening": {
+    "first_hook": {
+      "quote": "状态：暂缓接收。",
+      "why": "第一屏以九岁儿童被拒收引出明确冲突，位置在开篇800字内。"
+    },
+    "core_promise": {
+      "quote": "系统提示：封存异常已登记。操作人，林砚秋。原设备授权状态不可自行恢复。",
+      "why": "题材卖点不是空口计划，母亲在3000汉字内实际破坏公产封存并留下实名痕迹。"
+    },
+    "protagonist_impact": {
+      "quote": "她只是把自己从一个申请帮助的母亲，变成了第一责任栏上有名字的人。",
+      "why": "选择改变其法律和职业处境且不能撤销，发生在3000汉字内。"
+    }
+  },
+  "narrative_review": {
+    "schema_version": 1,
+    "actual_scenes": [
+      {
+        "event": "闸机拒收九岁儿童",
+        "choice": "母亲没有先离开孩子，也没有接受行政标签就是诊断",
+        "change": "读者即时理解风险与生存目标",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+            "quote": "状态：暂缓接收。"
+          }
+        ]
+      },
+      {
+        "event": "复核无法在下轮空气评估前兑现",
+        "choice": "母亲仍求书面来源而非第一次就暴力冲关",
+        "change": "合法救助的时效限制成为主动选择压力",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+            "quote": "二级复核，最早十点之后。"
+          }
+        ]
+      },
+      {
+        "event": "维修库看到U-07且后续归属不清",
+        "choice": "母亲扯断封签并上传实名申请",
+        "change": "公共设备封存和自身身份不可逆地受影响",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+            "quote": "系统提示：封存异常已登记。操作人，林砚秋。原设备授权状态不可自行恢复。"
+          }
+        ]
+      },
+      {
+        "event": "值守唐识拒绝违规调拨",
+        "choice": "女主不砸通讯也不撒谎，承认自己行为",
+        "change": "维护权暂停，权利边界被具体反驳",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+            "quote": "你是设备维修员，不是调拨员。"
+          }
+        ]
+      },
+      {
+        "event": "母亲帮助伍静找回监护凭证",
+        "choice": "她选择实查纸账而非用被暂停的工牌施压",
+        "change": "另一名母亲获得可核再入站凭证，但知禾仍未获得床位",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+            "quote": "孩子在，床位未变，监护人被误录成临时离开"
+          }
+        ]
+      },
+      {
+        "event": "医护检查和调度路况双重受阻",
+        "choice": "母亲接受只能初评的护士判断，承认设备无法独自搬走",
+        "change": "女儿有短时观察记录，U-07仍锁在A区，河湾成待核选项",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+            "quote": "那台近两百公斤的设备仍锁在受控区域"
+          }
+        ]
+      }
+    ],
+    "plan_comparison": "六场核心方向兑现，但实际书面复核、伍静纸账和医护观察占篇幅比原计划更多；完整机械搬运有意识留到下一章，避免近200公斤设备被单人运走。",
+    "reader": {
+      "mode": "same_context_approximation",
+      "limitation": "同一GPT写作与审读，已知道故事规划，不能冒称独立盲读或真实读者。",
+      "coverage": {
+        "1": {
+          "text_sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+          "mode": "full_text"
+        }
+      },
+      "understanding": "只从正文可得母女被拒、母亲冒险留痕、设备并未搬离、其他潜在受益者尚不明确。",
+      "information_load": "技术词只在影响现场选择时出现；纸质凭证救援是第二种对照，不混同于女儿入站。",
+      "promise_delivery": "标题所述拒收已落实，夺机实质冒险已发生，完整救援的代价尚未解除。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+          "quote": "她只是把自己从一个申请帮助的母亲，变成了第一责任栏上有名字的人。"
+        }
+      ],
+      "issues": []
+    },
+    "character_causality": {
+      "opposition": {
+        "status": "reviewed",
+        "conclusion": "唐识反对基于公产调拨与未明下游利益，不是单纯迫害母女；他仍提供公开路况。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+            "quote": "你是设备维修员，不是调拨员。"
+          }
+        ]
+      },
+      "dialogue": {
+        "status": "reviewed",
+        "conclusion": "知禾的问题体现九岁孩子对名字和危险的直觉，唐识坚持职责，母亲承认害怕且未为行为开脱。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+            "quote": "“妈妈，原来你也会害怕。”"
+          }
+        ]
+      },
+      "aftermath": {
+        "status": "reviewed",
+        "conclusion": "封签被撕后立即上报并停权，孩子出现具体怀疑，设备仍处受控区且暂停调拨，不以胜利抹除损失。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+            "quote": "维护权限暂停的通知正式到达"
+          }
+        ]
+      }
+    },
+    "history": {
+      "index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "queries": [],
+      "comparisons": [],
+      "no_match_reason": "本书第1章，正式已采用历史为0章；检查本章两类求援办法并非同桥段重复，无法凭空声称回查了旧章节。"
+    },
+    "reader_updates": [
+      {
+        "kind": "observed",
+        "statement": "林知禾被A区风险评分暂缓接收。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+            "quote": "状态：暂缓接收。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "林砚秋破坏封存实名留痕且维护许可暂停。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+            "quote": "系统提示：封存异常已登记。操作人，林砚秋。原设备授权状态不可自行恢复。"
+          }
+        ]
+      },
+      {
+        "kind": "uncertain",
+        "statement": "未知谁原本会使用U-07；可能存在因暂停调拨受损的其他人。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+            "quote": "一张没有最终去向的记录，不等于没有人正等着它。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "章末U-07尚未从A区移出，旧线路运输路径未证明可用。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+            "quote": "那台近两百公斤的设备仍锁在受控区域"
+          }
+        ]
+      }
+    ],
+    "reader_update_note": "只登记读者从第一章正文能确认的拒收、封存、停权、医护观察和设备位置；A区下游具体因果及河湾能否安全均保留为未知。",
+    "surface_findings": []
+  }
+}
