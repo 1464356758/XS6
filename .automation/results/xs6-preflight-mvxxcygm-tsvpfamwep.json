@@ -1,0 +1,21 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs6-preflight-mvxxcygm-tsvpfamwep",
+  "request_sha256": "cdb99fd583113f756c792006ffff17420e576b29cd6208c484ca9a99bee10712",
+  "source_sha": "0645d8c22359620e9c8eb3250cb2f1aa0500bf90",
+  "base_sha": "2484dc6be3a32b500a4907449bca2457e06fc4e5",
+  "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+  "controller": {
+    "kind": "maintenance",
+    "session_id": "xs6-maintenance-mvxxcygm-tsvpfamwep"
+  },
+  "phase": "preflight",
+  "executed_at": "2026-11-01T14:28:16+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41316343400",
+  "business_status": "preflight_passed",
+  "active_status": null,
+  "changed_paths": [
+    "online/index.json"
+  ]
+}
