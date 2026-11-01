@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs6-ch002-briefcheck-20261102-e5f6g7h8",
-  "base_sha": "18afa82d833d8cfcbcfed3e7d10a5d379f4719cf",
+  "request_id": "xs6-ch002-candidate-reader-20261102-f6g7h8i9",
+  "base_sha": "646033349839f7bc0e88aaad17a222b41d1bcf72",
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
   "controller": {
     "kind": "automation",
@@ -17,11 +17,11 @@
       "args": [
         "--root",
         "book",
-        "history-search",
-        "--query",
-        "U-07 封签 唐识 维修权限",
-        "--limit",
-        "5"
+        "candidate",
+        "--chapter",
+        "2",
+        "--text",
+        "drafts/CH002.txt"
       ]
     },
     {
@@ -29,9 +29,11 @@
       "args": [
         "--root",
         "book",
-        "brief-check",
-        "--file",
-        "drafts/CH002_brief.json"
+        "check-record",
+        "--text",
+        "drafts/CH002.txt",
+        "--record",
+        "drafts/CH002_record.json"
       ]
     },
     {
@@ -41,9 +43,25 @@
         "book",
         "context",
         "--profile",
-        "writer",
+        "reader",
+        "--text",
+        "drafts/CH002.txt",
         "--out",
-        "drafts/CH002_writer.md"
+        "drafts/CH002_reader.md"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "release-request",
+        "--text",
+        "drafts/CH002.txt",
+        "--record",
+        "drafts/CH002_record.json",
+        "--out",
+        "drafts/CH002_report.json"
       ]
     }
   ]

@@ -1,0 +1,105 @@
+{
+  "chapter": 2,
+  "title": "偷来的风不是免费的",
+  "stage": "S01",
+  "base_revision": 6,
+  "canon_sha256": "e8c66f51f161667048f484710694f4e9e2e31b467c39961eb4063cb35f2976cb",
+  "text_sha256": "2b28714b37efed60105e62705270b8d47a9ba3214d49a38e93d4f5fa5e5a7062",
+  "complete": true,
+  "story_time_end": 617,
+  "summary": "2041年9月18日08:19—16:17，林砚秋在女儿仍被A区拒收且U-07暂停调拨的情况下，找到地铁调度员周闻笙，获得河湾地面候验空间但不获得住人许可。护士陶向宁限定观察职责，女儿主动质疑机器原受益者。贺为川出车及搬运工具，因而错过当日去白土坡寻找父亲的窗口。A区唐识明确未批准转移，女主继续未经授权搬出近190kg机组，借助坡板、车辆、多人和绕行，于16:17抵达河湾地面货场。设备未通电，排风路径未知且发现封堵，尚不能提供安全空气。A区登记未经授权运离，原备用保障点的需求信息仍不完整。",
+  "review": {
+    "read_full_text": true,
+    "decision": "adopt",
+    "blocking_issues": [],
+    "sources_checked": [
+      {
+        "chapter": 1,
+        "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+        "quote": "那台近两百公斤的设备仍锁在受控区域"
+      }
+    ],
+    "conclusion": "已实际核对上一章的受控设备、权限暂停与母女拒收结尾。本文主要动作从CH001的破封和寻找方向，推进到多人有成本的实体转运；没有把暂存点写成合格避难所。周闻笙、唐识、陶向宁和贺为川各自拒绝或提出独立条件，女儿的质疑推动母亲记录责任。对不完整下游信息保持未知，结尾以未验收的进排风进入CH003。限信息审读为same_context_approximation。"
+  },
+  "facts": [
+    {
+      "kind": "fact",
+      "key": "U07:location:end",
+      "value": "U-07于2041-09-18 16:17运抵河湾地面候验棚，未经授权转出，未启动。",
+      "holder": "",
+      "valid_from": 617,
+      "valid_until": null,
+      "quote": "车到了河湾货场已是下午四点十七分。"
+    },
+    {
+      "kind": "state",
+      "key": "U07:authorization",
+      "value": "A区只批准库内清点，不批准转移；运离被登记为未经授权。",
+      "holder": "",
+      "valid_from": 357,
+      "valid_until": null,
+      "quote": "上面同意对U-07现场清点，但不同意转移。"
+    },
+    {
+      "kind": "state",
+      "key": "B:habitable",
+      "value": "河湾地面棚只接受候验设备，未验证进排风与空气，不准收容人。",
+      "holder": "",
+      "valid_from": 617,
+      "valid_until": null,
+      "quote": "不允许启动，不允许把人安置到下面。"
+    },
+    {
+      "kind": "state",
+      "key": "P05:father_search",
+      "value": "贺为川为搬运U-07错过当天白土坡寻父行程，父亲下落未知。",
+      "holder": "P05",
+      "valid_from": 617,
+      "valid_until": null,
+      "quote": "今天去不了白土坡了。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "P02:U07:ethics",
+      "value": "林知禾知道设备是母亲冒险搬来的，并担忧A区原需求者能否得到设备。",
+      "holder": "P02",
+      "valid_from": 617,
+      "valid_until": null,
+      "quote": "如果那边有人正等着它，我们还能把它还回去吗？"
+    },
+    {
+      "kind": "fact",
+      "key": "B:exhaust:obstruction",
+      "value": "河湾地面候验区域附近的一处旧排风格栅后有砖墙，未能确认有效排风路径。",
+      "holder": "",
+      "valid_from": 617,
+      "valid_until": null,
+      "quote": "而是一堵后来砌上的砖墙。"
+    }
+  ],
+  "progression": {
+    "goal": "将U-07从A区搬到可检查的河湾地面候验位置，为女儿寻找可能的安全空气。",
+    "obstacle": "A区明令暂缓、近190kg重量、坡板与人手不足、车辆油量有限、河湾进排风未知、女儿医疗观察有限。",
+    "method": "寻找周闻笙候验见证、与贺为川谈明寻父机会成本、筹备合格牵引坡板及人员、在拒绝放行后选择越界转运并保留记录。",
+    "choice": "明知只有库内清点许可仍实际运走公共U-07，承担追责且记录潜在受损方。",
+    "result": "U-07抵达河湾地面候验棚，未通电、未验收、不准住人。",
+    "consequence": "A区登记未经授权运离，贺为川失去当天寻父窗口，女儿质疑归还能力，河湾排风封堵待核。",
+    "next_options": "先调查排风堵塞与真实进排风，分别测量CO₂、CO、颗粒物、氧浓度与电池状态，才决定能否启动机组或收容人员。",
+    "scene_function": "实体运输兑现、母女伦理升级、独立配角行动与真实资源代价、CH003空气系统悬念。"
+  },
+  "thread_events": [
+    {
+      "id": "K02",
+      "action": "develop",
+      "description": "A区原备用保障点发来不完整需求信息，受影响者身份与因果仍未核实。",
+      "quote": "原备用保障点要求说明，接收区域内另有……"
+    },
+    {
+      "id": "K03",
+      "action": "develop",
+      "description": "河湾发现排风格栅后被砌墙封堵，空气安全尚未验收。",
+      "quote": "而是一堵后来砌上的砖墙。"
+    }
+  ],
+  "stage_closing": false
+}
