@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "system_version": "4.3-quality",
+  "initialized": true,
+  "book": {
+    "id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+    "title": "新小说（待选题）",
+    "platform": "zongheng_girls",
+    "selected_topic_id": null
+  },
+  "source": {
+    "repository_url": "https://github.com/1464356758/XS6",
+    "branch": "main",
+    "generated_at": "2026-11-01T09:23:06+00:00",
+    "state_revision": 0,
+    "workflow_revision": 3,
+    "state_sha256": "1f9486d6344ebafd4f2981f091bcfb43d263a415321a257a44ac94940ba0bc14",
+    "workflow_sha256": "dad9a3ee9b86222ceffabcad5073336fe974678fa6f7f6a89abe428b03ae4af1",
+    "manuscript_storage": "plain_files_v1",
+    "requires_reader_key": false
+  },
+  "progress": {
+    "target_chapters": 100,
+    "adopted_chapters": 0,
+    "target_han": 900000,
+    "actual_han": 0,
+    "completed": false,
+    "needs_revalidation": [],
+    "reviewed_until": 0,
+    "window_review_due": false,
+    "unresolved_reviews": [],
+    "serial_mode": true,
+    "frozen_chapters": 0,
+    "published_chapters": 0,
+    "publication_status": "只统计真实回执；无回执不等于未发布",
+    "open_incidents": 0,
+    "narrative_review_required": true,
+    "release_check_required": true
+  },
+  "task": {
+    "phase": "WAITING_TOPIC",
+    "label": "等待选择题材",
+    "chapter": 1,
+    "detail": "已准备8个原创选题，等待作者选择。",
+    "next_action": "作者选择候选编号后，进行长篇规划；当前不写正文。",
+    "updated_at": "2026-11-01T09:23:06+00:00"
+  },
+  "chapters": [],
+  "topics": [
+    {
+      "id": "T01",
+      "title": "《县志不记她的名字》",
+      "genre": "古言女频悬疑/律政",
+      "pitch": "县衙誊写员发现三十七位亡妇被统一抹去姓名，查下去会暴露养父旧罪。",
+      "protagonist_conflict": "活下来的失踪妇人与养父恩情之间只能救一个",
+      "reader_promise": "一案归还一个名字，案案改变主角处境。",
+      "long_form_engine": "县、府、盐运、战争、朝堂升级，调查身份、土地、家产与权力，证据成本递增。",
+      "stage_variation": "小案救人→户籍黑市→朝廷档案争夺→建设女性证言体系。",
+      "ending_direction": "不以万能改制收尾，以代价换来有限有效的身份保障。",
+      "risk": "案件易程序化，须用人物选择和真实后果推进。",
+      "source_ids": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "id": "T02",
+      "title": "《离婚后，我替全城找回失物》",
+      "genre": "现实情感/城市群像",
+      "pitch": "失去女儿监护权的女主接手将关闭的失物招领站，从一件物品开始找回城市记忆。",
+      "protagonist_conflict": "女儿不信她会准时来接自己",
+      "reader_promise": "每件遗失物带来有人物选择和现实后果的情感故事。",
+      "long_form_engine": "从街区扩展到城市更新、旧港拆迁和公共服务，主角要付出经营代价。",
+      "stage_variation": "找人→保站→公益运营与商业冲突→重新建立母女信任。",
+      "ending_direction": "找回公共空间，却接受一些人和物无法重来。",
+      "risk": "单元故事可能重复或鸡汤化，需连贯主线。",
+      "source_ids": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "id": "T03",
+      "title": "《末日避难所不收我的女儿》",
+      "genre": "女性末世/硬核基建",
+      "pitch": "避难所拒收基因风险儿童，母亲带走净化机在废弃地铁建立第二个生存圈。",
+      "protagonist_conflict": "女儿质疑母亲偷设备是否害死他人",
+      "reader_promise": "每次生存提升都要真实资源、代价和艰难选择。",
+      "long_form_engine": "空气、热量、粮食、医疗、教育、贸易、自治、外交八阶段。",
+      "stage_variation": "母女求生→冲突社区→交易秩序→平等生存制度。",
+      "ending_direction": "重建有条件的共同生存，不用主角一人拯救全人类。",
+      "risk": "电力、资源与人力账需严格，不可无限造物。",
+      "source_ids": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "id": "T04",
+      "title": "《冷宫女医不接圣旨》",
+      "genre": "古言医案/权谋",
+      "pitch": "冷宫罪臣之女救活宫婢，却被皇帝要求隐瞒一场慢性中毒。",
+      "protagonist_conflict": "医者救人准则与父亲旧案互相牵制",
+      "reader_promise": "每例救治都有治疗选择、失败风险与权力代价。",
+      "long_form_engine": "宫廷、坊市、边军、疫病、女医传习逐级变化。",
+      "stage_variation": "私下救治→独立医馆→医疗资格之争→女医学院。",
+      "ending_direction": "以自我维持的女医传承代替赐婚平反。",
+      "risk": "需考据医学与古代制度，防神医万能。",
+      "source_ids": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "id": "T05",
+      "title": "《一九九八年，我盘下了整条夜市》",
+      "genre": "年代创业/市井女性",
+      "pitch": "下岗女工盘下待拆夜市，却在招标名单中看到亡夫姓名。",
+      "protagonist_conflict": "第一笔资金与丈夫死亡疑团直接相连",
+      "reader_promise": "摊主群像、市井商业得失、妇女互助与背叛。",
+      "long_form_engine": "摊位、供货、冷链、商会、城市更新与品牌升级。",
+      "stage_variation": "保夜市→做供应链→改造制度→分配胜利成果。",
+      "ending_direction": "活下来的是夜市共同体而非主角独富。",
+      "risk": "年代商业规则与成本真实性要严守。",
+      "source_ids": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "id": "T06",
+      "title": "《被逐出仙门后，我废了天命考核》",
+      "genre": "女频仙侠/制度冒险",
+      "pitch": "被判命格不合的修士发现宗门将失败弟子的寿元记入功德簿。",
+      "protagonist_conflict": "师尊为救她丧失半数寿元",
+      "reader_promise": "每次破局伴随战斗、牺牲、队伍关系变化。",
+      "long_form_engine": "外门、仙盟、灵田、寿元市场、飞升与天地秩序。",
+      "stage_variation": "查考核→护同门→建替代修行→挑战天命。",
+      "ending_direction": "打破偷命规则，承认不可回收的伤损和代价。",
+      "risk": "若只谈制度会失去冒险感，必须具体化。",
+      "source_ids": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "id": "T07",
+      "title": "《相亲那天，我听见十年后的证词》",
+      "genre": "现代女性悬疑/婚恋",
+      "pitch": "每次握住相亲对象的手，女记者都听到十年后的一段法庭证词，但总缺关键上下文。",
+      "protagonist_conflict": "未来证词说她会害死最信任的人",
+      "reader_promise": "法庭证词与现在证据相冲突，感情选择也是调查。",
+      "long_form_engine": "财产、婚姻、失踪、遗产、家族证据与预言造假相互牵引。",
+      "stage_variation": "验证→误判→被操纵→主动舍弃预言。",
+      "ending_direction": "她用可核验的当下证据救人，不凭未来给人定罪。",
+      "risk": "预知能力边界必须固定，避免万能作弊。",
+      "source_ids": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "id": "T08",
+      "title": "《海城最后一位潮汐修复师》",
+      "genre": "近未来女性科幻/灾变",
+      "pitch": "防潮算法将淹没风险优先分给没有投票权的贫困社区，女工程师找到旧手绘潮汐图。",
+      "protagonist_conflict": "她母亲参与设计受保护的富人区",
+      "reader_promise": "灾难工程实战与亲人价值冲突并重。",
+      "long_form_engine": "堤闸、能源、疏散、保险、城市治理、迁城和生态修复。",
+      "stage_variation": "抢修→揭黑箱→重新分配救援→公共重建。",
+      "ending_direction": "城市部分失地，但灾害决策终于可被公众监督。",
+      "risk": "技术可行性与气候资料需长期验证。",
+      "source_ids": [
+        "S01",
+        "S02"
+      ]
+    }
+  ],
+  "research": {
+    "platform": "zongheng_girls",
+    "checked_at": "2026-11-01T17:23:03+08:00",
+    "coverage_status": "partial",
+    "sources": [
+      {
+        "id": "S01",
+        "title": "纵横女生网2026新版签约政策、福利及投稿指南",
+        "url": "https://doc.zongheng.com/welfare/girls",
+        "accessed_at": "2026-11-01T17:23:03+08:00"
+      },
+      {
+        "id": "S02",
+        "title": "纵横女生网公开榜单：新书、24小时畅销、点击与推荐",
+        "url": "https://huayu.zongheng.com/rank.html",
+        "accessed_at": "2026-11-01T17:23:03+08:00"
+      },
+      {
+        "id": "S03",
+        "title": "纵横女生网现代言情分类作品列表",
+        "url": "https://huayu.zongheng.com/category/31.html",
+        "accessed_at": "2026-11-01T17:23:03+08:00"
+      },
+      {
+        "id": "S04",
+        "title": "纵横官方作者帮助中心：签约说明（与女生专页审稿门槛存在差别）",
+        "url": "https://doc.zongheng.com/help/2/SIGN_UP.html",
+        "accessed_at": "2026-11-01T17:23:03+08:00"
+      }
+    ],
+    "rules": [
+      {
+        "topic": "投稿渠道与题材",
+        "status": "verified",
+        "source_id": "S01",
+        "conclusion": "官方接受多类女频题材，编辑邮箱投稿或作者专区创建作品"
+      },
+      {
+        "topic": "签约审稿",
+        "status": "verified",
+        "source_id": "S01",
+        "conclusion": "女生2026专页称网站发书满1万字进入签约审核，通常1-5工作日反馈；邮箱投稿通常1-3工作日回邮，审核不等于签约。"
+      },
+      {
+        "topic": "官方口径差异",
+        "status": "verified",
+        "source_id": "S04",
+        "conclusion": "通用帮助页仍称3万字才自动审核，与女生网2026专页不一致；发书前以编辑最新答复核实。"
+      },
+      {
+        "topic": "版权与分成",
+        "status": "verified",
+        "source_id": "S01",
+        "conclusion": "2026女生专页介绍全渠道50%分成及保底合同；保底须审核与合同，绝非自动低保。"
+      },
+      {
+        "topic": "福利资格",
+        "status": "verified",
+        "source_id": "S01",
+        "conclusion": "2026奖励依签约、每日/月度更新、入V、实际分成收益等具体条件；日更8000-10000汉字不自动获得奖励。"
+      },
+      {
+        "topic": "反抄袭和反灌水",
+        "status": "verified",
+        "source_id": "S01",
+        "conclusion": "抄袭、虚假数据、大量重复或无意义填充属福利违规风险。"
+      },
+      {
+        "topic": "一稿多投",
+        "status": "verified",
+        "source_id": "S01",
+        "conclusion": "女生官方说明审稿回复前不要将同稿投给其他网站。"
+      },
+      {
+        "topic": "AI辅助创作政策",
+        "status": "unknown",
+        "source_id": null,
+        "conclusion": "本次检索未找到明确允许范围、披露要求、是否接受大幅AI生成正文的正式公开细则；发书前向编辑确认。"
+      },
+      {
+        "topic": "无条件签约收益",
+        "status": "unknown",
+        "source_id": null,
+        "conclusion": "未查到所有新作者无条件领取最低收入的官方保证。"
+      }
+    ],
+    "rank_samples": [
+      {
+        "title": "八零媳妇太勾人，裴教授每天都在破防",
+        "author": "小白蛇",
+        "list_name": "新书榜",
+        "observed_at": "2026-11-01T17:23:03+08:00",
+        "rank_observed": 1,
+        "category": "年代/现言",
+        "book_url": "https://huayu.zongheng.com/book/1628214.html",
+        "source_id": "S02",
+        "snapshot_warning": "排名为查询时快照，可能已变化"
+      },
+      {
+        "title": "昼夜旖旎",
+        "author": "苏不迟",
+        "list_name": "新书榜",
+        "observed_at": "2026-11-01T17:23:03+08:00",
+        "rank_observed": 2,
+        "category": "现言",
+        "book_url": "https://huayu.zongheng.com/book/1626290.html",
+        "source_id": "S02",
+        "snapshot_warning": "排名为查询时快照，可能已变化"
+      },
+      {
+        "title": "凰宫梦",
+        "author": "蓝九九",
+        "list_name": "24小时畅销榜",
+        "observed_at": "2026-11-01T17:23:03+08:00",
+        "rank_observed": 1,
+        "category": "古代宫斗",
+        "book_url": "https://huayu.zongheng.com/book/1336851.html",
+        "source_id": "S02",
+        "snapshot_warning": "排名为查询时快照，可能已变化"
+      },
+      {
+        "title": "离婚后她惊艳了世界",
+        "author": "明婳",
+        "list_name": "24小时畅销榜",
+        "observed_at": "2026-11-01T17:23:03+08:00",
+        "rank_observed": 2,
+        "category": "现代言情",
+        "book_url": "https://huayu.zongheng.com/book/1235804.html",
+        "source_id": "S02",
+        "snapshot_warning": "排名为查询时快照，可能已变化"
+      },
+      {
+        "title": "皇叔借点功德，王妃把符画猛了",
+        "author": "安卿心",
+        "list_name": "24小时畅销榜",
+        "observed_at": "2026-11-01T17:23:03+08:00",
+        "rank_observed": 3,
+        "category": "古言玄学",
+        "book_url": "https://huayu.zongheng.com/book/1325755.html",
+        "source_id": "S02",
+        "snapshot_warning": "排名为查询时快照，可能已变化"
+      },
+      {
+        "title": "朱门春闺",
+        "author": "琼玉",
+        "list_name": "24小时畅销榜",
+        "observed_at": "2026-11-01T17:23:03+08:00",
+        "rank_observed": 4,
+        "category": "古代言情",
+        "book_url": "https://huayu.zongheng.com/book/1472851.html",
+        "source_id": "S02",
+        "snapshot_warning": "排名为查询时快照，可能已变化"
+      },
+      {
+        "title": "她玩火",
+        "author": "如鱼",
+        "list_name": "24小时畅销榜",
+        "observed_at": "2026-11-01T17:23:03+08:00",
+        "rank_observed": 5,
+        "category": "现代言情",
+        "book_url": "https://huayu.zongheng.com/book/1554119.html",
+        "source_id": "S02",
+        "snapshot_warning": "排名为查询时快照，可能已变化"
+      },
+      {
+        "title": "错嫁随军：新婚夜冷面军少沦陷了",
+        "author": "桃三月",
+        "list_name": "24小时畅销榜",
+        "observed_at": "2026-11-01T17:23:03+08:00",
+        "rank_observed": 7,
+        "category": "年代军婚",
+        "book_url": "https://huayu.zongheng.com/book/1570001.html",
+        "source_id": "S02",
+        "snapshot_warning": "排名为查询时快照，可能已变化"
+      }
+    ],
+    "gaps": [
+      "AI辅助创作细则未能从已查官方页确认",
+      "女生2026政策与通用帮助的审核起点字数不一致",
+      "快照榜单不证明持续热度、签约率或收入"
+    ],
+    "market_observation": "新书有年代、现代婚恋，畅销兼顾古代宅斗与现代情感。不同榜单计量口径不可混算。"
+  },
+  "history": [
+    {
+      "at": "2026-11-01T09:20:05+00:00",
+      "phase": "WAITING_PLATFORM",
+      "label": "等待选择平台",
+      "detail": "系统已准备好，请先选择创作平台。"
+    },
+    {
+      "at": "2026-11-01T09:23:04+00:00",
+      "phase": "RESEARCH_PLATFORM",
+      "label": "核查平台规则",
+      "detail": "已选择纵横女生网（原花语），正在等待核查现行规则。"
+    },
+    {
+      "at": "2026-11-01T09:23:05+00:00",
+      "phase": "SCANNING_RANKINGS",
+      "label": "研究榜单",
+      "detail": "规则和榜单资料已保存；存在待核实项。"
+    },
+    {
+      "at": "2026-11-01T09:23:06+00:00",
+      "phase": "WAITING_TOPIC",
+      "label": "等待选择题材",
+      "detail": "已准备8个原创选题，等待作者选择。"
+    }
+  ]
+}
