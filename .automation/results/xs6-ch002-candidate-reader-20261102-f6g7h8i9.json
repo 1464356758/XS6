@@ -1,0 +1,83 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs6-ch002-candidate-reader-20261102-f6g7h8i9",
+  "request_sha256": "591fb96232cc76a8a76915e1f4bb2314c0b5db8aefef45c75e62740f2b2b41aa",
+  "source_sha": "c83f7e0c55efd2380ae9de7e8f40edc35dd8cb95",
+  "base_sha": "646033349839f7bc0e88aaad17a222b41d1bcf72",
+  "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae75ada42d48191bba7f5aca047f929",
+    "session_id": "xs6-session-20261102-0334-a1b2c3d4",
+    "platform_run_id": null
+  },
+  "phase": "command",
+  "executed_at": "2026-11-01T19:40:26+00:00",
+  "executor_status": "error",
+  "github_run_id": "41342906703",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "candidate",
+        "--chapter",
+        "2",
+        "--text",
+        "drafts/CH002.txt"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs6-ch002-candidate-reader-20261102-f6g7h8i9/tool-01.stdout.txt",
+          "sha256": "806924e535afc413427e5d6a5ac92c8a8696c3d79cfd3f27f81471a131593b60",
+          "bytes": 491
+        },
+        "stderr": {
+          "path": ".automation/work/xs6-ch002-candidate-reader-20261102-f6g7h8i9/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "check-record",
+        "--text",
+        "drafts/CH002.txt",
+        "--record",
+        "drafts/CH002_record.json"
+      ],
+      "exit_code": 2,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs6-ch002-candidate-reader-20261102-f6g7h8i9/tool-02.stdout.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "stderr": {
+          "path": ".automation/work/xs6-ch002-candidate-reader-20261102-f6g7h8i9/tool-02.stderr.txt",
+          "sha256": "d082f77164696a250ad5cde27111beff99adec4fd44377e5e3b95dab3e08fa31",
+          "bytes": 55
+        }
+      }
+    }
+  ],
+  "business_status": "blocked",
+  "error": "工具第2步失败；完整输出保存在本轮work目录。",
+  "run_id": "533afa9640da4a649a0232d7cd1ed37a",
+  "changed_paths": [
+    ".automation/work/xs6-ch002-candidate-reader-20261102-f6g7h8i9/tool-01.stderr.txt",
+    ".automation/work/xs6-ch002-candidate-reader-20261102-f6g7h8i9/tool-01.stdout.txt",
+    ".automation/work/xs6-ch002-candidate-reader-20261102-f6g7h8i9/tool-02.stderr.txt",
+    ".automation/work/xs6-ch002-candidate-reader-20261102-f6g7h8i9/tool-02.stdout.txt",
+    "book/candidates/CH002_4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950.txt",
+    "book/daily/active.json",
+    "book/state.json",
+    "online/index.json"
+  ]
+}
