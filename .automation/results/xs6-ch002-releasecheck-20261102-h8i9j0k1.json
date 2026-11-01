@@ -1,0 +1,57 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs6-ch002-releasecheck-20261102-h8i9j0k1",
+  "request_sha256": "b43f6d09f8eb0685656fd03c5a43a03b98f95ae43f1e6d12d8fcaab2ff029a21",
+  "source_sha": "d182d25ecda5df60054ef2fc792a574de0c1b89b",
+  "base_sha": "ae842f023d47840b48f4da8b225dc2c86099abf3",
+  "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae75ada42d48191bba7f5aca047f929",
+    "session_id": "xs6-session-20261102-0334-a1b2c3d4",
+    "platform_run_id": null
+  },
+  "phase": "command",
+  "executed_at": "2026-11-01T19:42:29+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41343077210",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "release-check",
+        "--text",
+        "drafts/CH002.txt",
+        "--record",
+        "drafts/CH002_record.json",
+        "--report",
+        "drafts/CH002_report.json"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs6-ch002-releasecheck-20261102-h8i9j0k1/tool-01.stdout.txt",
+          "sha256": "aa19bb89b24274e8ffbda133771bee60509ed98567c3f97349853ae4451d5ea6",
+          "bytes": 223
+        },
+        "stderr": {
+          "path": ".automation/work/xs6-ch002-releasecheck-20261102-h8i9j0k1/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "533afa9640da4a649a0232d7cd1ed37a",
+  "changed_paths": [
+    ".automation/work/xs6-ch002-releasecheck-20261102-h8i9j0k1/tool-01.stderr.txt",
+    ".automation/work/xs6-ch002-releasecheck-20261102-h8i9j0k1/tool-01.stdout.txt",
+    "book/daily/active.json",
+    "book/releases/CH002_8a088049964c83102b654d6bf7d7c3d9cb280ee969c9a8d293ffd809d6a9e18c.json",
+    "book/state.json",
+    "online/index.json"
+  ]
+}

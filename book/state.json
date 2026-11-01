@@ -125,6 +125,11 @@
         "path": "releases/CH001_5a650eb570eda8aa392914d60a23a1c09c27ac28cb0a4977ad0901337f570898.json",
         "sha256": "5a650eb570eda8aa392914d60a23a1c09c27ac28cb0a4977ad0901337f570898",
         "used": true
+      },
+      "2": {
+        "path": "releases/CH002_8a088049964c83102b654d6bf7d7c3d9cb280ee969c9a8d293ffd809d6a9e18c.json",
+        "sha256": "8a088049964c83102b654d6bf7d7c3d9cb280ee969c9a8d293ffd809d6a9e18c",
+        "used": false
       }
     },
     "promises": {
