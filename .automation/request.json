@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs6-begin-bound-20261102-0338-c3d4e5f6",
-  "base_sha": "23cde86481c10221c291496a434a10c72c726603",
+  "request_id": "xs6-ch002-briefrequest-20261102-d4e5f6g7",
+  "base_sha": "bf071033a3a6e31aeecd27e591969b4d2132cac6",
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
   "controller": {
     "kind": "automation",
@@ -9,5 +9,18 @@
     "session_id": "xs6-session-20261102-0334-a1b2c3d4",
     "platform_run_id": null
   },
-  "phase": "begin"
+  "phase": "command",
+  "run_id": "533afa9640da4a649a0232d7cd1ed37a",
+  "commands": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-request",
+        "--out",
+        "drafts/CH002_brief.json"
+      ]
+    }
+  ]
 }
