@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS6",
     "branch": "main",
-    "generated_at": "2026-11-01T10:56:26+00:00",
+    "generated_at": "2026-11-01T13:56:04.681Z",
     "state_revision": 5,
-    "workflow_revision": 6,
+    "workflow_revision": 7,
     "state_sha256": "f4a6ea38edc5c19569b3959c90758d1303582c89106e9a156dccfba5e2a93979",
-    "workflow_sha256": "2c0726d89ed221275ba716826ff2af59997c69483c21edf9e10b010749eb131e",
+    "workflow_sha256": "651dbcebf2d490c7d6eedf6152d914dcd461e8b5cb88aedba427dc4d96c51579",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "PLANNING",
-    "label": "长篇规划",
+    "phase": "REVIEWING",
+    "label": "第一章完整候选待审",
     "chapter": 1,
-    "detail": "T03二次规划已补：CH001前2600字实际行动、11人知情账、18类资源账、12条承诺、CH031-080共50章深化场景、地下进水伏笔及同上下文文学结构复核。",
-    "next_action": "等待作者明确“开始写”授权；届时先按最新版canon/roadmap构建第一章任务书，实测黄金3000字与八项发布前审查，未通过不得冻结。",
-    "updated_at": "2026-11-01T10:56:26+00:00"
+    "detail": "CH001完整候选稿已保存于drafts/CH001.txt，实测9072汉字；仍未执行正式brief-check/candidate/release-check/adopt，已冻结正文仍为0章。",
+    "next_action": "在最新XS6上执行原工具写前登记、候选、正文事实审读和release-check；通过后仅采用CH001，绝不直接写CH002。",
+    "updated_at": "2026-11-01T13:56:04.681Z"
   },
   "chapters": [],
   "topics": [
@@ -401,6 +401,12 @@
       "phase": "PLANNING",
       "label": "长篇规划",
       "detail": "T03二次规划已补：CH001前2600字实际行动、11人知情账、18类资源账、12条承诺、CH031-080共50章深化场景、地下进水伏笔及同上下文文学结构复核。"
+    },
+    {
+      "at": "2026-11-01T13:56:04.681Z",
+      "phase": "REVIEWING",
+      "label": "第一章完整候选待审",
+      "detail": "CH001完整候选稿已保存于drafts/CH001.txt，实测9072汉字；仍未执行正式brief-check/candidate/release-check/adopt，已冻结正文仍为0章。"
     }
   ]
 }

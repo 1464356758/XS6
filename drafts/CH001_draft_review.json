@@ -1,0 +1,31 @@
+{
+  "schema": "XS6_ch001_draft_v1",
+  "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+  "chapter": 1,
+  "title": "门外还有一个孩子",
+  "stage": "S01",
+  "status": "COMPLETE_DRAFT_UNADOPTED",
+  "candidate_registered": false,
+  "release_check_passed": false,
+  "adopted": false,
+  "platform_published": false,
+  "completed_han": 9072,
+  "text_sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+  "actual_early_action_han": 2152,
+  "opening_first_hook": "状态：暂缓接收。",
+  "opening_real_action": "系统提示：封存异常已登记。操作人，林砚秋。原设备授权状态不可自行恢复。",
+  "prerequisites": [
+    "须在实际仓库执行brief-request与brief-check登记任务书",
+    "使用novel_state.py candidate登记初稿",
+    "填写事实章后记录和限信息审读的真实原文引文",
+    "实际通过release-check才可adopt并正式冻结",
+    "GitHub回读后才报告章节完成"
+  ],
+  "editorial_notes": [
+    "U-07封存破坏已经造成调拨暂停，但设备尚未离开A区，完整运输留待下一章。",
+    "角色只知道设备可能涉及其他救援点，没有提前知道受害者具体身份或后果。",
+    "九岁女孩按既有医嘱使用随身药，未虚构剂量、治疗效果或病情消失。"
+  ],
+  "review_mode": "same_context_approximation",
+  "remote_source_head": "310b1e9af4975ebd18c1920cd9255b3195bf6583"
+}
