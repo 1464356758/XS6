@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
   "title": "《末日避难所不收我的女儿》",
-  "revision": 6,
+  "revision": 7,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -31,6 +31,16 @@
       "record_sha256": "211bcd5779318b3811afa9a2c54a01e249cbdf99d14487949e4155b6de00ec6c",
       "han_count": 9072,
       "adopted_at": "2026-11-01T14:02:16+00:00"
+    },
+    "2": {
+      "title": "偷来的风不是免费的",
+      "stage": "S01",
+      "text_path": "chapters/CH002_4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950.txt",
+      "text_sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+      "record_path": "records/CH002_85006f1f59d383a3818f409de2aaa51268554c4e91132ccdb1014f0cb754937d.json",
+      "record_sha256": "85006f1f59d383a3818f409de2aaa51268554c4e91132ccdb1014f0cb754937d",
+      "han_count": 9957,
+      "adopted_at": "2026-11-01T19:43:03+00:00"
     }
   },
   "checkpoints": [],
@@ -96,7 +106,7 @@
       "task_id": "5ab0878c-cf2f-4b04-84a9-2724c3ce1b3f",
       "chapter": 2,
       "mode": "write",
-      "phase": "candidate",
+      "phase": "adopted",
       "repairs": 0,
       "history": [
         {
@@ -117,6 +127,10 @@
       "1": {
         "text_sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
         "record_sha256": "211bcd5779318b3811afa9a2c54a01e249cbdf99d14487949e4155b6de00ec6c"
+      },
+      "2": {
+        "text_sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+        "record_sha256": "85006f1f59d383a3818f409de2aaa51268554c4e91132ccdb1014f0cb754937d"
       }
     },
     "published": {},
@@ -129,7 +143,7 @@
       "2": {
         "path": "releases/CH002_8a088049964c83102b654d6bf7d7c3d9cb280ee969c9a8d293ffd809d6a9e18c.json",
         "sha256": "8a088049964c83102b654d6bf7d7c3d9cb280ee969c9a8d293ffd809d6a9e18c",
-        "used": false
+        "used": true
       }
     },
     "promises": {
@@ -150,7 +164,7 @@
         ],
         "deadline_chapter": 10,
         "status": "open",
-        "last_reviewed_chapter": 1
+        "last_reviewed_chapter": 2
       },
       "K02": {
         "history": [
@@ -169,7 +183,7 @@
         ],
         "deadline_chapter": 16,
         "status": "open",
-        "last_reviewed_chapter": 1
+        "last_reviewed_chapter": 2
       },
       "K03": {
         "history": [
@@ -188,7 +202,7 @@
         ],
         "deadline_chapter": 10,
         "status": "open",
-        "last_reviewed_chapter": 1
+        "last_reviewed_chapter": 2
       }
     },
     "incidents": {}

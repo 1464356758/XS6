@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 8,
+  "revision": 9,
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
   "phase": "WAITING_NEXT",
   "platform": "zongheng_girls",
@@ -23,7 +23,7 @@
   },
   "research_path": "research/platform_670e090ace6bda109d42e9e37cd6783b7aee1d8339e475476c5e422b5ba243a3.json",
   "topics_path": "research/topics_abaaea43fda039b01e8560ef7703d41a251b6a43d4a872924ed917707aaf7a6e.json",
-  "chapter": 2,
+  "chapter": 3,
   "history": [
     {
       "at": "2026-11-01T09:20:05+00:00",
@@ -78,10 +78,16 @@
       "phase": "WAITING_NEXT",
       "label": "等待下一章",
       "detail": "第001章《门外还有一个孩子》经实际文件工具release-check后采用并冻结；平台未登记发布。"
+    },
+    {
+      "at": "2026-11-01T19:43:03+00:00",
+      "phase": "WAITING_NEXT",
+      "label": "等待下一章",
+      "detail": "第2章已采用并冻结；平台发布另凭真实回执登记。"
     }
   ],
-  "detail": "第001章《门外还有一个孩子》经实际文件工具release-check后采用并冻结；平台未登记发布。",
-  "next_action": "等作者授权续写下一章；前面冻结章绝不可更改。",
-  "updated_at": "2026-11-01T14:02:16+00:00",
+  "detail": "第2章已采用并冻结；平台发布另凭真实回执登记。",
+  "next_action": "读取正式状态后，由下一次日更处理下一章。",
+  "updated_at": "2026-11-01T19:43:03+00:00",
   "draft_path": "drafts/CH001.txt"
 }
