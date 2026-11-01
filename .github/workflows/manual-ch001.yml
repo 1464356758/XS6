@@ -25,7 +25,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          git add -- book/state.json book/workflow.json online/index.json book/briefs book/candidates book/releases book/chapters book/records drafts/CH001_*.json drafts/CH001_*_packet.md
+          git add -- book/state.json book/workflow.json online/index.json book/briefs book/candidates book/releases book/chapters book/records
           git fetch -q origin "${GITHUB_REF_NAME}"
           test "$(git rev-parse FETCH_HEAD)" = "${GITHUB_SHA}"
           git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "ch001: V4.3 release-check adopted and frozen"
