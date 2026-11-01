@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+  "chapter": 2,
+  "base_revision": 6,
+  "canon_sha256": "e8c66f51f161667048f484710694f4e9e2e31b467c39961eb4063cb35f2976cb",
+  "roadmap_sha256": "1df104aa779568f718148ef412466517eed33effddedac39119984fb38b25b07",
+  "decision": "pending",
+  "writer_brief": "",
+  "hard_boundaries": [
+    ""
+  ],
+  "reader_promise": "",
+  "history_queries": [
+    ""
+  ],
+  "scene_plan": [
+    {
+      "purpose": "",
+      "target_han": 8000
+    }
+  ]
+}

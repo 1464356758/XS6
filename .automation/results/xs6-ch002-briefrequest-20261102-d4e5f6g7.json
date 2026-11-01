@@ -1,0 +1,52 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs6-ch002-briefrequest-20261102-d4e5f6g7",
+  "request_sha256": "1194b8eca89fac65cd0a46a26223ca5a7eff2cf8da7cd52ee7390c2637e0469d",
+  "source_sha": "69a1f9414cc4dcb9ac2234566ea7265780e61955",
+  "base_sha": "bf071033a3a6e31aeecd27e591969b4d2132cac6",
+  "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae75ada42d48191bba7f5aca047f929",
+    "session_id": "xs6-session-20261102-0334-a1b2c3d4",
+    "platform_run_id": null
+  },
+  "phase": "command",
+  "executed_at": "2026-11-01T19:38:39+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41342759453",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-request",
+        "--out",
+        "drafts/CH002_brief.json"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs6-ch002-briefrequest-20261102-d4e5f6g7/tool-01.stdout.txt",
+          "sha256": "b8de8410cf2470f500ce8d8001b29fb2c14f7c7ff0ddd5b2b2db8f456658cef4",
+          "bytes": 169
+        },
+        "stderr": {
+          "path": ".automation/work/xs6-ch002-briefrequest-20261102-d4e5f6g7/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "533afa9640da4a649a0232d7cd1ed37a",
+  "changed_paths": [
+    ".automation/work/xs6-ch002-briefrequest-20261102-d4e5f6g7/tool-01.stderr.txt",
+    ".automation/work/xs6-ch002-briefrequest-20261102-d4e5f6g7/tool-01.stdout.txt",
+    "book/daily/active.json",
+    "drafts/CH002_brief.json",
+    "online/index.json"
+  ]
+}
