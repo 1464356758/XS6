@@ -11,104 +11,102 @@
   "roadmap_sha256": "1df104aa779568f718148ef412466517eed33effddedac39119984fb38b25b07",
   "narrative_review_version": 1,
   "writing_brief_sha256": "aeb256cdba91dc0f7909f33a1e2ce0ced7fc38087797a16728ce38972b488531",
-  "decision": "pending",
-  "read_full_text": false,
-  "blocking_issues": [
-    "尚未实际阅读检查"
-  ],
+  "decision": "release",
+  "read_full_text": true,
+  "blocking_issues": [],
   "read_coverage": {
     "1": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
     "2": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950"
   },
-  "reader_reason_to_continue": "",
-  "consequence": "",
-  "ending_runway": "",
+  "reader_reason_to_continue": "实体运输终于兑现，但风机还不能运行；母女必须面对排风格栅后的砖墙与A区原备用保障点不完整的追责消息，读者自然追问机器究竟救谁。",
+  "consequence": "U-07从A区受控库转到河湾地面候验棚，仍未净化空气；贺为川失去寻父出车窗口，林砚秋面临未经授权运离调查，母女信任被新的道德债务考验。",
+  "ending_runway": "第三章从被封堵的排风格栅、实际气体检测与电池上电前检查切入，不能用过滤器替代氧气与CO₂管理。",
   "checks": {
     "timeline": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "第一章结束08:02，第二章从08:19延至16:17，时间单向前进且同日完成实物运输。",
       "evidence": [
         {
           "chapter": 2,
           "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
-          "quote": ""
+          "quote": "车到了河湾货场已是下午四点十七分。"
         }
       ]
     },
     "knowledge": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "女主未替短信残缺内容补出下游受害者姓名，严格保留不确定性。",
       "evidence": [
         {
           "chapter": 2,
           "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
-          "quote": ""
+          "quote": "后面的字没传过来。"
         }
       ]
     },
     "props_resources": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "近190kg机组需要合格坡板、牵引和车厢系固，电池未连接且燃油受限。",
       "evidence": [
         {
           "chapter": 2,
           "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
-          "quote": ""
+          "quote": "拆开的电池仍保持隔离封装，未连接电源。"
         }
       ]
     },
     "causality": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "贺为川的车辆不是免费援助，他明确要求记下寻父行程损失。",
       "evidence": [
         {
           "chapter": 2,
           "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
-          "quote": ""
+          "quote": "今天去不了白土坡了。"
         }
       ]
     },
     "power_rules": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "没有异能或无限电力，U-07尚未上电、排风未确定，不能承诺安全。",
       "evidence": [
         {
           "chapter": 2,
           "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
-          "quote": ""
+          "quote": "“进风路径没建好。”"
         }
       ]
     },
     "promises": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "本章只推进未知备用保障点与河湾空气条件，不提前揭秘K01评分或K02受损者。",
       "evidence": [
         {
           "chapter": 2,
           "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
-          "quote": ""
+          "quote": "原备用保障点要求说明，接收区域内另有……"
         }
       ]
     },
     "anti_repeat": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "首章破封与寻路，第二章是实体装卸、绕行、道德债务；冲突机制与结果不同。",
       "evidence": [
         {
           "chapter": 2,
           "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
-          "quote": ""
+          "quote": "U-07已登记为未经授权运离，相关人员与车辆待调查。"
         }
       ]
     },
     "character_agency": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "周闻笙拒绝将地面候验等同于居住许可，知禾追问原受益者，唐识坚持暂缓。",
       "evidence": [
         {
           "chapter": 2,
           "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
-          "quote": ""
+          "quote": "不允许启动，不允许把人安置到下面。"
         }
       ]
     }
@@ -117,28 +115,28 @@
     {
       "chapter": 1,
       "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
-      "quote": "",
-      "difference": ""
+      "quote": "那台近两百公斤的设备仍锁在受控区域",
+      "difference": "第一章为拒收后破封和寻找候选地点，第二章以车、坡板、牵引、燃油与多人协调完成实际运离，付出贺为川寻父窗口及公共设备追责代价；没有重复第一章窗口申诉作为主要解决办法。"
     }
   ],
   "future_window": [
     {
       "chapter": 3,
-      "goal": "",
-      "change": "",
-      "ending_question": ""
+      "goal": "检测河湾候验区域的真实进排风与气体安全",
+      "change": "发现过滤并不能消除CO₂与气体风险，修正排风通路或隔离不安全月台",
+      "ending_question": "风机启动后人是否真的能安全呼吸？"
     },
     {
       "chapter": 4,
-      "goal": "",
-      "change": "",
-      "ending_question": ""
+      "goal": "实测电池余量与负载、确立有限供电策略",
+      "change": "明确十余小时的实际电力边界，新增一人就引发配给冲突",
+      "ending_question": "救助陌生人是否让知禾失去最后的电量？"
     },
     {
       "chapter": 5,
-      "goal": "",
-      "change": "",
-      "ending_question": ""
+      "goal": "公开U-07来源、人数和用电代价",
+      "change": "女儿拒绝替母亲保密，站内形成有限共同决策",
+      "ending_question": "共同生活的规则能否约束最先带来机器的人？"
     }
   ],
   "promise_reviews": [
@@ -146,33 +144,33 @@
       "id": "K01",
       "action": "keep",
       "deadline_chapter": 10,
-      "reason": "",
+      "reason": "第二章没有得到风险评分的审计数据，仍须CH010核实。",
       "evidence": {
         "chapter": 2,
         "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
-        "quote": ""
+        "quote": "那台机器真的没有坏吗？"
       }
     },
     {
       "id": "K02",
       "action": "keep",
       "deadline_chapter": 16,
-      "reason": "",
+      "reason": "收到备用保障点不完整的短信，但无法确认受影响者或具体伤亡因果，CH016仍需核查。",
       "evidence": {
         "chapter": 2,
         "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
-        "quote": ""
+        "quote": "原备用保障点要求说明，接收区域内另有……"
       }
     },
     {
       "id": "K03",
       "action": "keep",
       "deadline_chapter": 10,
-      "reason": "",
+      "reason": "河湾只允许设备暂存，排风格栅被砖墙封堵，仍需第三章实测并在CH010阶段复核。",
       "evidence": {
         "chapter": 2,
         "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
-        "quote": ""
+        "quote": "而是一堵后来砌上的砖墙。"
       }
     }
   ],
@@ -181,22 +179,70 @@
     "schema_version": 1,
     "actual_scenes": [
       {
-        "event": "",
-        "choice": "",
-        "change": "",
+        "event": "观察棚收到U-07停拨告示，陶向宁给出照护边界",
+        "choice": "林砚秋承认没有许可，仍去找可核接收位置",
+        "change": "女儿暂获有限观察，不再假设护士能无限期代看",
         "evidence": [
           {
             "chapter": 2,
             "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
-            "quote": ""
+            "quote": "我九点半以前回来，或者让人带可靠口信。"
+          }
+        ]
+      },
+      {
+        "event": "周闻笙核对河湾旧线风险",
+        "choice": "只同意地面候验而非地下收人",
+        "change": "明确可用的是候验空间不是避难所",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+            "quote": "周闻笙没让他们直接往地下推。"
+          }
+        ]
+      },
+      {
+        "event": "贺为川提供货车和牵引工具",
+        "choice": "要求女主记录失去的寻父出行机会",
+        "change": "运输有实际燃油、人力与家庭成本",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+            "quote": "今天去不了白土坡了。"
+          }
+        ]
+      },
+      {
+        "event": "A区仅批准库内清点却拒绝转移",
+        "choice": "女主选择承担未经授权运离责任",
+        "change": "机组位置发生实质变化并引发追责",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+            "quote": "上面同意对U-07现场清点，但不同意转移。"
+          }
+        ]
+      },
+      {
+        "event": "设备16:17抵达河湾候验棚",
+        "choice": "不启动、不收人，保留来源与残缺短信",
+        "change": "机器已到但安全空气仍未实现",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+            "quote": "设备已到，空气未验，归还能力未知。"
           }
         ]
       }
     ],
-    "plan_comparison": "",
+    "plan_comparison": "7段叙事从照护、接收条件、车辆与寻父成本、A区反对、运输到河湾未验收；实际达成了机组运离，但没有实现安全空气。运输阻碍没有被单一英雄动作解决，河湾排风堵塞成为下一章的工程问题。",
     "reader": {
-      "mode": "pending",
-      "limitation": "",
+      "mode": "same_context_approximation",
+      "limitation": "同一GPT已阅读设定与路线，限信息读者包无法真正消除前置知识，不声称独立读者测试。",
       "coverage": {
         "1": {
           "text_sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
@@ -207,49 +253,49 @@
           "mode": "full_text"
         }
       },
-      "understanding": "",
-      "information_load": "",
-      "promise_delivery": "",
+      "understanding": "母亲先求接收条件再越界搬运公共设备，女儿担心其他人可能因而受损，主要因果可读。",
+      "information_load": "U-07、河湾、A区、牵引与气体安全的技术信息较密，但围绕同一实体运输目标；保留后续对空气测量的解释空间。",
+      "promise_delivery": "本章兑现从A区到河湾的实体搬运，故意不兑现合格空气，真实代价包括寻父窗口与法律责任。",
       "evidence": [
         {
           "chapter": 2,
           "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
-          "quote": ""
+          "quote": "它确实从A区到了河湾，却没有替任何人净化一口空气。"
         }
       ],
       "issues": []
     },
     "character_causality": {
       "opposition": {
-        "status": "pending",
-        "conclusion": "",
+        "status": "reviewed",
+        "conclusion": "唐识按行政暂缓和公共调拨责任拒绝放行，周闻笙只接收候验设备；不是被主角口号说服。",
         "evidence": [
           {
             "chapter": 2,
             "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
-            "quote": ""
+            "quote": "那就没有接收许可。"
           }
         ]
       },
       "dialogue": {
-        "status": "pending",
-        "conclusion": "",
+        "status": "reviewed",
+        "conclusion": "贺为川要求记录寻父损失，知禾问是否能归还机器，话语有不同诉求而非重复说明。",
         "evidence": [
           {
             "chapter": 2,
             "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
-            "quote": ""
+            "quote": "你在你的账上写出来，别到时候说大家都是为了救孩子。"
           }
         ]
       },
       "aftermath": {
-        "status": "pending",
-        "conclusion": "",
+        "status": "reviewed",
+        "conclusion": "越界后有调查短信、燃油亏空、排风堵塞及母亲无法立即答复女儿的余波。",
         "evidence": [
           {
             "chapter": 2,
             "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
-            "quote": ""
+            "quote": "第一次没有办法马上说出“能”。"
           }
         ]
       }
@@ -261,11 +307,60 @@
         "林知禾 拒收 母亲 空气 受影响保障",
         "河湾 七号线 搬运 车辆 进风 排风"
       ],
-      "comparisons": [],
+      "comparisons": [
+        {
+          "similarity": "两章都涉及U-07公共资产与母亲越界行为。",
+          "difference": "CH001仅破封并留下实名痕迹，CH002借车、坡板、人工与油料真正运离，贺为川寻父受损，法律追责升级，重复主题但行动机制和结果不同。",
+          "source": {
+            "chapter": 1,
+            "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+            "quote": "系统提示：封存异常已登记。操作人，林砚秋。原设备授权状态不可自行恢复。"
+          },
+          "current_evidence": {
+            "chapter": 2,
+            "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+            "quote": "U-07已登记为未经授权运离，相关人员与车辆待调查。"
+          }
+        }
+      ],
       "no_match_reason": ""
     },
-    "reader_updates": [],
-    "reader_update_note": "",
+    "reader_updates": [
+      {
+        "kind": "observed",
+        "statement": "U-07已从A区运抵河湾地面棚，但未通电且不准收人。",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+            "quote": "拆开的电池仍保持隔离封装，未连接电源。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "贺为川当天无法前往白土坡寻找失联父亲。",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+            "quote": "今天去不了白土坡了。"
+          }
+        ]
+      },
+      {
+        "kind": "uncertain",
+        "statement": "原备用保障点可能存在受影响的人，但短信截断，身份与因果未证实。",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+            "quote": "原备用保障点要求说明，接收区域内另有……"
+          }
+        ]
+      }
+    ],
+    "reader_update_note": "正文揭示运输成功、寻父窗口损失与河湾排风风险；A区受损者身份、评分模型和设备实际净化能力仍保持未知。",
     "surface_findings": []
   }
 }
