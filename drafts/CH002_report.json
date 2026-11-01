@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+  "chapter": 2,
+  "base_revision": 6,
+  "task_id": "5ab0878c-cf2f-4b04-84a9-2724c3ce1b3f",
+  "repairs": 0,
+  "text_sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+  "record_sha256": "85006f1f59d383a3818f409de2aaa51268554c4e91132ccdb1014f0cb754937d",
+  "canon_sha256": "e8c66f51f161667048f484710694f4e9e2e31b467c39961eb4063cb35f2976cb",
+  "roadmap_sha256": "1df104aa779568f718148ef412466517eed33effddedac39119984fb38b25b07",
+  "narrative_review_version": 1,
+  "writing_brief_sha256": "aeb256cdba91dc0f7909f33a1e2ce0ced7fc38087797a16728ce38972b488531",
+  "decision": "pending",
+  "read_full_text": false,
+  "blocking_issues": [
+    "尚未实际阅读检查"
+  ],
+  "read_coverage": {
+    "1": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+    "2": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950"
+  },
+  "reader_reason_to_continue": "",
+  "consequence": "",
+  "ending_runway": "",
+  "checks": {
+    "timeline": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+          "quote": ""
+        }
+      ]
+    },
+    "knowledge": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+          "quote": ""
+        }
+      ]
+    },
+    "props_resources": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+          "quote": ""
+        }
+      ]
+    },
+    "causality": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+          "quote": ""
+        }
+      ]
+    },
+    "power_rules": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+          "quote": ""
+        }
+      ]
+    },
+    "promises": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+          "quote": ""
+        }
+      ]
+    },
+    "anti_repeat": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+          "quote": ""
+        }
+      ]
+    },
+    "character_agency": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+          "quote": ""
+        }
+      ]
+    }
+  },
+  "comparison": [
+    {
+      "chapter": 1,
+      "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+      "quote": "",
+      "difference": ""
+    }
+  ],
+  "future_window": [
+    {
+      "chapter": 3,
+      "goal": "",
+      "change": "",
+      "ending_question": ""
+    },
+    {
+      "chapter": 4,
+      "goal": "",
+      "change": "",
+      "ending_question": ""
+    },
+    {
+      "chapter": 5,
+      "goal": "",
+      "change": "",
+      "ending_question": ""
+    }
+  ],
+  "promise_reviews": [
+    {
+      "id": "K01",
+      "action": "keep",
+      "deadline_chapter": 10,
+      "reason": "",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+        "quote": ""
+      }
+    },
+    {
+      "id": "K02",
+      "action": "keep",
+      "deadline_chapter": 16,
+      "reason": "",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+        "quote": ""
+      }
+    },
+    {
+      "id": "K03",
+      "action": "keep",
+      "deadline_chapter": 10,
+      "reason": "",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+        "quote": ""
+      }
+    }
+  ],
+  "incident_actions": [],
+  "narrative_review": {
+    "schema_version": 1,
+    "actual_scenes": [
+      {
+        "event": "",
+        "choice": "",
+        "change": "",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+            "quote": ""
+          }
+        ]
+      }
+    ],
+    "plan_comparison": "",
+    "reader": {
+      "mode": "pending",
+      "limitation": "",
+      "coverage": {
+        "1": {
+          "text_sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+          "mode": "full_text"
+        },
+        "2": {
+          "text_sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+          "mode": "full_text"
+        }
+      },
+      "understanding": "",
+      "information_load": "",
+      "promise_delivery": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+          "quote": ""
+        }
+      ],
+      "issues": []
+    },
+    "character_causality": {
+      "opposition": {
+        "status": "pending",
+        "conclusion": "",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+            "quote": ""
+          }
+        ]
+      },
+      "dialogue": {
+        "status": "pending",
+        "conclusion": "",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+            "quote": ""
+          }
+        ]
+      },
+      "aftermath": {
+        "status": "pending",
+        "conclusion": "",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+            "quote": ""
+          }
+        ]
+      }
+    },
+    "history": {
+      "index_sha256": "21ddce60af6d38f609477e9009ac75751671f0e33c335dc067e5ef60d9c3b42f",
+      "queries": [
+        "U-07 封签 唐识 维修权限 暂停",
+        "林知禾 拒收 母亲 空气 受影响保障",
+        "河湾 七号线 搬运 车辆 进风 排风"
+      ],
+      "comparisons": [],
+      "no_match_reason": ""
+    },
+    "reader_updates": [],
+    "reader_update_note": "",
+    "surface_findings": []
+  }
+}

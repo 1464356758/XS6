@@ -18,10 +18,10 @@
     "platform_run_id": null
   },
   "executor_checkpoint": {
-    "request_id": "xs6-ch002-briefcheck-20261102-e5f6g7h8",
+    "request_id": "xs6-ch002-record-reader-20261102-g7h8i9j0",
     "phase": "command",
-    "at": "2026-11-01T19:39:32+00:00",
-    "github_run_id": "41342828806"
+    "at": "2026-11-01T19:41:15+00:00",
+    "github_run_id": "41342974896"
   },
   "reason": "工具第2步失败；完整输出保存在本轮work目录。",
   "blocked_at": "2026-11-01T19:40:26+00:00"
