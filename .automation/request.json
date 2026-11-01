@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "request_id": "xs6-preflight-mvxxcygm-tsvpfamwep",
+  "base_sha": "2484dc6be3a32b500a4907449bca2457e06fc4e5",
+  "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+  "controller": {
+    "kind": "maintenance",
+    "session_id": "xs6-maintenance-mvxxcygm-tsvpfamwep"
+  },
+  "phase": "preflight"
+}
