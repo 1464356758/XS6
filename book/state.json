@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
-  "title": "新小说（待选题）",
-  "revision": 0,
+  "title": "《末日避难所不收我的女儿》",
+  "revision": 3,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -24,8 +24,34 @@
   "chapters": {},
   "checkpoints": [],
   "needs_revalidation": [],
-  "inputs": {},
-  "input_history": [],
+  "inputs": {
+    "canon": {
+      "kind": "canon",
+      "path": "inputs/canon_91ebfb9029a9e74d787564cf8863c78193668e998699a200db38d4d457898449.md",
+      "sha256": "91ebfb9029a9e74d787564cf8863c78193668e998699a200db38d4d457898449",
+      "reason": "T03选题确定：建立开篇硬设定、人物知情与资源守恒基线"
+    },
+    "roadmap": {
+      "kind": "roadmap",
+      "path": "inputs/roadmap_2ebe2201cd6957278f938c44477c31fe604fd3b4d381490e492c4f13b5d56af6.md",
+      "sha256": "2ebe2201cd6957278f938c44477c31fe604fd3b4d381490e492c4f13b5d56af6",
+      "reason": "T03选题确定：建立10阶段100章路线、近期5章场景安排及承诺"
+    }
+  },
+  "input_history": [
+    {
+      "kind": "canon",
+      "path": "inputs/canon_91ebfb9029a9e74d787564cf8863c78193668e998699a200db38d4d457898449.md",
+      "sha256": "91ebfb9029a9e74d787564cf8863c78193668e998699a200db38d4d457898449",
+      "reason": "T03选题确定：建立开篇硬设定、人物知情与资源守恒基线"
+    },
+    {
+      "kind": "roadmap",
+      "path": "inputs/roadmap_2ebe2201cd6957278f938c44477c31fe604fd3b4d381490e492c4f13b5d56af6.md",
+      "sha256": "2ebe2201cd6957278f938c44477c31fe604fd3b4d381490e492c4f13b5d56af6",
+      "reason": "T03选题确定：建立10阶段100章路线、近期5章场景安排及承诺"
+    }
+  ],
   "tasks": {},
   "completion": null,
   "serialization": {

@@ -4,18 +4,18 @@
   "initialized": true,
   "book": {
     "id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
-    "title": "新小说（待选题）",
+    "title": "《末日避难所不收我的女儿》",
     "platform": "zongheng_girls",
-    "selected_topic_id": null
+    "selected_topic_id": "T03"
   },
   "source": {
     "repository_url": "https://github.com/1464356758/XS6",
     "branch": "main",
-    "generated_at": "2026-11-01T09:23:06+00:00",
-    "state_revision": 0,
-    "workflow_revision": 3,
-    "state_sha256": "1f9486d6344ebafd4f2981f091bcfb43d263a415321a257a44ac94940ba0bc14",
-    "workflow_sha256": "dad9a3ee9b86222ceffabcad5073336fe974678fa6f7f6a89abe428b03ae4af1",
+    "generated_at": "2026-11-01T10:04:15.572Z",
+    "state_revision": 3,
+    "workflow_revision": 5,
+    "state_sha256": "b7f151d5dc60313a4490dc0254ad543bf6905f21eac209dcb930c09a0f5f3540",
+    "workflow_sha256": "35f319e8a1fdaa9b8bf8a2812ff221cfc13c5bed67f4b70aece103b8ca6ce43c",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WAITING_TOPIC",
-    "label": "等待选择题材",
+    "phase": "PLANNING",
+    "label": "长篇规划",
     "chapter": 1,
-    "detail": "已准备8个原创选题，等待作者选择。",
-    "next_action": "作者选择候选编号后，进行长篇规划；当前不写正文。",
-    "updated_at": "2026-11-01T09:23:06+00:00"
+    "detail": "T03设定、人物知情及资源事实账、100章10阶段路线、近期5章安排已建立，等待作者明确授权开始写第一章。",
+    "next_action": "作者回复“开始写”后才进入CH001写前任务书、场景预算和正文；目前无已完成章节，也不安排自动日更。",
+    "updated_at": "2026-11-01T10:04:15.572Z"
   },
   "chapters": [],
   "topics": [
@@ -383,6 +383,18 @@
       "phase": "WAITING_TOPIC",
       "label": "等待选择题材",
       "detail": "已准备8个原创选题，等待作者选择。"
+    },
+    {
+      "at": "2026-11-01T10:04:15.572Z",
+      "phase": "PLANNING",
+      "label": "长篇规划",
+      "detail": "已选定《末日避难所不收我的女儿》，准备长篇规划。"
+    },
+    {
+      "at": "2026-11-01T10:04:15.572Z",
+      "phase": "PLANNING",
+      "label": "长篇规划",
+      "detail": "T03设定、人物知情及资源事实账、100章10阶段路线、近期5章安排已建立，等待作者明确授权开始写第一章。"
     }
   ]
 }

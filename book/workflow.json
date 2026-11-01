@@ -1,10 +1,26 @@
 {
   "schema_version": 1,
-  "revision": 3,
+  "revision": 5,
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
-  "phase": "WAITING_TOPIC",
+  "phase": "PLANNING",
   "platform": "zongheng_girls",
-  "selected_topic": null,
+  "selected_topic": {
+    "id": "T03",
+    "title": "《末日避难所不收我的女儿》",
+    "genre": "女性末世/硬核基建",
+    "pitch": "避难所拒收基因风险儿童，母亲带走净化机在废弃地铁建立第二个生存圈。",
+    "protagonist_conflict": "女儿质疑母亲偷设备是否害死他人",
+    "reader_promise": "每次生存提升都要真实资源、代价和艰难选择。",
+    "long_form_engine": "空气、热量、粮食、医疗、教育、贸易、自治、外交八阶段。",
+    "stage_variation": "母女求生→冲突社区→交易秩序→平等生存制度。",
+    "ending_direction": "重建有条件的共同生存，不用主角一人拯救全人类。",
+    "risk": "电力、资源与人力账需严格，不可无限造物。",
+    "source_ids": [
+      "S01",
+      "S02"
+    ],
+    "author_request": "T03"
+  },
   "research_path": "research/platform_670e090ace6bda109d42e9e37cd6783b7aee1d8339e475476c5e422b5ba243a3.json",
   "topics_path": "research/topics_abaaea43fda039b01e8560ef7703d41a251b6a43d4a872924ed917707aaf7a6e.json",
   "chapter": 1,
@@ -32,9 +48,21 @@
       "phase": "WAITING_TOPIC",
       "label": "等待选择题材",
       "detail": "已准备8个原创选题，等待作者选择。"
+    },
+    {
+      "at": "2026-11-01T10:04:15.572Z",
+      "phase": "PLANNING",
+      "label": "长篇规划",
+      "detail": "已选定《末日避难所不收我的女儿》，准备长篇规划。"
+    },
+    {
+      "at": "2026-11-01T10:04:15.572Z",
+      "phase": "PLANNING",
+      "label": "长篇规划",
+      "detail": "T03设定、人物知情及资源事实账、100章10阶段路线、近期5章安排已建立，等待作者明确授权开始写第一章。"
     }
   ],
-  "detail": "已准备8个原创选题，等待作者选择。",
-  "next_action": "作者选择候选编号后，进行长篇规划；当前不写正文。",
-  "updated_at": "2026-11-01T09:23:06+00:00"
+  "detail": "T03设定、人物知情及资源事实账、100章10阶段路线、近期5章安排已建立，等待作者明确授权开始写第一章。",
+  "next_action": "作者回复“开始写”后才进入CH001写前任务书、场景预算和正文；目前无已完成章节，也不安排自动日更。",
+  "updated_at": "2026-11-01T10:04:15.572Z"
 }
