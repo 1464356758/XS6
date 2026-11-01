@@ -1,0 +1,43 @@
+name: One-shot XS6 CH001 manual file-tool validation
+on:
+  push:
+    paths:
+      - 'drafts/CH001.txt'
+      - 'tools/manual_finalize_ch001.py'
+      - '.github/workflows/manual-ch001.yml'
+permissions:
+  contents: write
+jobs:
+  finalize-once:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Execute V4.3 chapter file tools
+        run: python3 tools/manual_finalize_ch001.py
+      - name: Save and verify only if checks succeeded
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- book/state.json book/workflow.json online/index.json book/briefs book/candidates book/releases book/chapters book/records drafts/CH001_*.json drafts/CH001_*_packet.md
+          git fetch -q origin "${GITHUB_REF_NAME}"
+          test "$(git rev-parse FETCH_HEAD)" = "${GITHUB_SHA}"
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "ch001: V4.3 release-check adopted and frozen"
+          git push origin HEAD:refs/heads/"${GITHUB_REF_NAME}"
+          git fetch -q origin "${GITHUB_REF_NAME}"
+          test "$(git rev-parse HEAD)" = "$(git rev-parse FETCH_HEAD)"
+          python3 tools/online_state.py --project . validate-index
+          python3 - <<'PY'
+          import json
+          s=json.load(open('book/state.json'))
+          assert len(s['chapters'])==1
+          assert s['serialization']['frozen']['1']['text_sha256']==s['chapters']['1']['text_sha256']
+          assert not s['serialization']['published']
+          print('CH001_FROZEN_REMOTE_COMMIT_CONFIRMED')
+          PY
