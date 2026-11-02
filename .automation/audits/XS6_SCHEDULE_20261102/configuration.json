@@ -25,11 +25,46 @@
     "changed": false,
     "reason": "existing book_id and automation_id already exactly match verified task; all existing fields preserved"
   },
-  "preflight_request_id": "xs6-config-preflight-mvysubp5-7sfztdva",
+  "preflight_request_id": "xs6-config-preflight-fix-mvysw143-ek8j4lko",
   "preflight_phase_only": true,
   "chapter_writing_started": false,
   "new_daily_run_id_issued": false,
   "daily_e2e_status": "One earlier scheduled run completed CH002 by reusing a manuscript; new 04:00 scheduled run and from-zero writing remain untested",
   "model": "unverified",
-  "thinking_setting": "unverified"
+  "thinking_setting": "unverified",
+  "verified_at": "2026-11-02T05:12:30.173Z",
+  "tool_preflight": {
+    "status": "passed",
+    "source_sha": "cb02c787f5dc93dbc728d927ce2e0378d5dccdef",
+    "request_id": "xs6-config-preflight-fix-mvysw143-ek8j4lko",
+    "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+    "controller": {
+      "kind": "maintenance",
+      "session_id": "xs6-config-mvysubp5-7sfztdva"
+    },
+    "github_run_id": "41392479908",
+    "github_job_id": 125106672625,
+    "executor_status": "ok",
+    "business_status": "preflight_passed",
+    "result_commit": "223fa2cf008620544a1215d9dc862ff2b410831a",
+    "result_path": ".automation/results/xs6-config-preflight-fix-mvysw143-ek8j4lko.json",
+    "changed_paths": [
+      "online/index.json"
+    ],
+    "chapter_state_unchanged": true,
+    "workflow_unchanged": true,
+    "daily_active_unchanged": true,
+    "config_fields_unchanged": true
+  },
+  "first_request_rejection": {
+    "source_sha": "40212538f9387cfb205e2b9c1181052dd8698d0d",
+    "request_id": "xs6-config-preflight-mvysubp5-7sfztdva",
+    "github_run_id": 41392352445,
+    "github_job_id": 125106292370,
+    "conclusion": "failure",
+    "reason": "请求提交只能包含请求和待审资料，不能直接改正式状态、正文或系统代码。",
+    "stage": "check_source before apply_request",
+    "result_file": "not created; GitHub contents API returned 404 after terminal job",
+    "fix": "Follow existing allowlist; corrected source commit changed only .automation/request.json; no source code or safety checks modified"
+  }
 }

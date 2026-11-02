@@ -1,0 +1,159 @@
+﻿2026-11-02T05:09:25.1872955Z Current runner version: '2.338.2'
+2026-11-02T05:09:25.1898389Z ##[group]Runner Image Provisioner
+2026-11-02T05:09:25.1899335Z Hosted Compute Agent
+2026-11-02T05:09:25.1899961Z Version: 20261021.618
+2026-11-02T05:09:25.1900633Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+2026-11-02T05:09:25.1901421Z Build Date: 2026-10-21T00:45:21Z
+2026-11-02T05:09:25.1902595Z Worker ID: {93cb5565-be96-41c7-bc62-61ddb8920111}
+2026-11-02T05:09:25.1903396Z Region: centralus
+2026-11-02T05:09:25.1903947Z Cloud: Azure
+2026-11-02T05:09:25.1904553Z ##[endgroup]
+2026-11-02T05:09:25.1906461Z ##[group]Operating System
+2026-11-02T05:09:25.1907155Z Ubuntu
+2026-11-02T05:09:25.1907762Z 26.04.1
+2026-11-02T05:09:25.1908274Z LTS
+2026-11-02T05:09:25.1908767Z ##[endgroup]
+2026-11-02T05:09:25.1909393Z ##[group]Runner Image
+2026-11-02T05:09:25.1910033Z Image: ubuntu-26.04
+2026-11-02T05:09:25.1910638Z Version: 20261025.179.1
+2026-11-02T05:09:25.1912355Z Included Software: https://github.com/actions/runner-images/blob/ubuntu26/20261025.179/images/ubuntu/Ubuntu2604-Readme.md
+2026-11-02T05:09:25.1914449Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu26%2F20261025.179
+2026-11-02T05:09:25.1915492Z ##[endgroup]
+2026-11-02T05:09:25.1916711Z ##[group]GITHUB_TOKEN Permissions
+2026-11-02T05:09:25.1918966Z Actions: read
+2026-11-02T05:09:25.1919652Z Contents: write
+2026-11-02T05:09:25.1920255Z Metadata: read
+2026-11-02T05:09:25.1920781Z ##[endgroup]
+2026-11-02T05:09:25.1923326Z Secret source: Actions
+2026-11-02T05:09:25.1924493Z Cache mode: write
+2026-11-02T05:09:25.1925512Z Prepare workflow directory
+2026-11-02T05:09:25.2457135Z Prepare all required actions
+2026-11-02T05:09:25.2505386Z Getting action download info
+2026-11-02T05:09:25.4855053Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-11-02T05:09:25.6237122Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+2026-11-02T05:09:25.7725553Z Complete job name: execute
+2026-11-02T05:09:25.8538307Z ##[group]Run actions/checkout@v4
+2026-11-02T05:09:25.8539190Z with:
+2026-11-02T05:09:25.8539624Z   fetch-depth: 2
+2026-11-02T05:09:25.8540087Z   repository: 1464356758/XS6
+2026-11-02T05:09:25.8544114Z   token: ***
+2026-11-02T05:09:25.8544563Z   ssh-strict: true
+2026-11-02T05:09:25.8545012Z   ssh-user: git
+2026-11-02T05:09:25.8545469Z   persist-credentials: true
+2026-11-02T05:09:25.8545964Z   clean: true
+2026-11-02T05:09:25.8546417Z   sparse-checkout-cone-mode: true
+2026-11-02T05:09:25.8546971Z   fetch-tags: false
+2026-11-02T05:09:25.8547431Z   show-progress: true
+2026-11-02T05:09:25.8547884Z   lfs: false
+2026-11-02T05:09:25.8548319Z   submodules: false
+2026-11-02T05:09:25.8548773Z   set-safe-directory: true
+2026-11-02T05:09:25.8549282Z   allow-unsafe-pr-checkout: false
+2026-11-02T05:09:25.8550058Z env:
+2026-11-02T05:09:25.8550476Z   TASK_BRANCH: main
+2026-11-02T05:09:25.8551034Z   TASK_SOURCE_SHA: 40212538f9387cfb205e2b9c1181052dd8698d0d
+2026-11-02T05:09:25.8551855Z ##[endgroup]
+2026-11-02T05:09:26.1212302Z Syncing repository: 1464356758/XS6
+2026-11-02T05:09:26.1214727Z ##[group]Getting Git version info
+2026-11-02T05:09:26.1215955Z Working directory is '/home/runner/work/XS6/XS6'
+2026-11-02T05:09:26.1217221Z [command]/usr/bin/git version
+2026-11-02T05:09:26.1217965Z git version 2.56.0
+2026-11-02T05:09:26.1230903Z ##[endgroup]
+2026-11-02T05:09:26.1245962Z Temporarily overriding HOME='/home/runner/work/_temp/73e9d245-1a95-4590-95b2-99f202e0d86b' before making global git config changes
+2026-11-02T05:09:26.1248632Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-02T05:09:26.1252947Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/XS6/XS6
+2026-11-02T05:09:26.1328895Z Deleting the contents of '/home/runner/work/XS6/XS6'
+2026-11-02T05:09:26.1340446Z ##[group]Initializing the repository
+2026-11-02T05:09:26.1342566Z [command]/usr/bin/git init /home/runner/work/XS6/XS6
+2026-11-02T05:09:26.1429438Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-11-02T05:09:26.1432536Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-11-02T05:09:26.1436200Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-11-02T05:09:26.1438216Z hint: call:
+2026-11-02T05:09:26.1439432Z hint:
+2026-11-02T05:09:26.1440831Z hint: 	git config --global init.defaultBranch <name>
+2026-11-02T05:09:26.1442739Z hint:
+2026-11-02T05:09:26.1444440Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-11-02T05:09:26.1446360Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-11-02T05:09:26.1448075Z hint:
+2026-11-02T05:09:26.1449017Z hint: 	git branch -m <name>
+2026-11-02T05:09:26.1450109Z hint:
+2026-11-02T05:09:26.1451767Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-11-02T05:09:26.1453885Z Initialized empty Git repository in /home/runner/work/XS6/XS6/.git/
+2026-11-02T05:09:26.1460747Z [command]/usr/bin/git remote add origin https://github.com/1464356758/XS6
+2026-11-02T05:09:26.1512615Z ##[endgroup]
+2026-11-02T05:09:26.1514008Z ##[group]Disabling automatic garbage collection
+2026-11-02T05:09:26.1515454Z [command]/usr/bin/git config --local gc.auto 0
+2026-11-02T05:09:26.1554460Z ##[endgroup]
+2026-11-02T05:09:26.1557098Z ##[group]Setting up auth
+2026-11-02T05:09:26.1563948Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-02T05:09:26.1614155Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-02T05:09:26.2085817Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-02T05:09:26.2122118Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-02T05:09:26.2423206Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-02T05:09:26.2465859Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-02T05:09:26.2762344Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-11-02T05:09:26.2813869Z ##[endgroup]
+2026-11-02T05:09:26.2815836Z ##[group]Fetching the repository
+2026-11-02T05:09:26.2827410Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=2 origin +40212538f9387cfb205e2b9c1181052dd8698d0d:refs/remotes/origin/main
+2026-11-02T05:09:26.7662539Z From https://github.com/1464356758/XS6
+2026-11-02T05:09:26.7664283Z  * [new ref]         40212538f9387cfb205e2b9c1181052dd8698d0d -> origin/main
+2026-11-02T05:09:26.7669512Z ##[endgroup]
+2026-11-02T05:09:26.7670877Z ##[group]Determining the checkout info
+2026-11-02T05:09:26.7672905Z ##[endgroup]
+2026-11-02T05:09:26.7675137Z [command]/usr/bin/git sparse-checkout disable
+2026-11-02T05:09:26.7727545Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-11-02T05:09:26.7757340Z ##[group]Checking out the ref
+2026-11-02T05:09:26.7768177Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-11-02T05:09:26.7972738Z Switched to a new branch 'main'
+2026-11-02T05:09:26.7978455Z branch 'main' set up to track 'origin/main'.
+2026-11-02T05:09:26.7987329Z ##[endgroup]
+2026-11-02T05:09:26.8030132Z [command]/usr/bin/git log -1 --format=%H
+2026-11-02T05:09:26.8055799Z 40212538f9387cfb205e2b9c1181052dd8698d0d
+2026-11-02T05:09:26.8441996Z ##[group]Run actions/setup-python@v5
+2026-11-02T05:09:26.8443344Z with:
+2026-11-02T05:09:26.8444251Z   python-version: 3.12
+2026-11-02T05:09:26.8445322Z   check-latest: false
+2026-11-02T05:09:26.8456197Z   token: ***
+2026-11-02T05:09:26.8457199Z   update-environment: true
+2026-11-02T05:09:26.8458589Z   allow-prereleases: false
+2026-11-02T05:09:26.8459728Z   freethreaded: false
+2026-11-02T05:09:26.8460720Z env:
+2026-11-02T05:09:26.8461717Z   TASK_BRANCH: main
+2026-11-02T05:09:26.8462932Z   TASK_SOURCE_SHA: 40212538f9387cfb205e2b9c1181052dd8698d0d
+2026-11-02T05:09:26.8464397Z ##[endgroup]
+2026-11-02T05:09:26.9877500Z ##[group]Installed versions
+2026-11-02T05:09:26.9978860Z (node:2354) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-02T05:09:26.9984020Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-02T05:09:26.9987074Z Successfully set up CPython (3.12.15)
+2026-11-02T05:09:26.9990261Z ##[endgroup]
+2026-11-02T05:09:27.0297045Z ##[group]Run python3 tools/task_executor.py --event-sha "$TASK_SOURCE_SHA" --branch "$TASK_BRANCH"
+2026-11-02T05:09:27.0301076Z [36;1mpython3 tools/task_executor.py --event-sha "$TASK_SOURCE_SHA" --branch "$TASK_BRANCH"[0m
+2026-11-02T05:09:27.0388629Z shell: /usr/bin/bash -e {0}
+2026-11-02T05:09:27.0390433Z env:
+2026-11-02T05:09:27.0392119Z   TASK_BRANCH: main
+2026-11-02T05:09:27.0394119Z   TASK_SOURCE_SHA: 40212538f9387cfb205e2b9c1181052dd8698d0d
+2026-11-02T05:09:27.0397196Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-02T05:09:27.0400606Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-02T05:09:27.0403930Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-02T05:09:27.0406834Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-02T05:09:27.0409808Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-02T05:09:27.0412863Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-02T05:09:27.0424189Z   GITHUB_TOKEN: ***
+2026-11-02T05:09:27.0425182Z ##[endgroup]
+2026-11-02T05:09:27.2130155Z 执行器未发布：请求提交只能包含请求和待审资料，不能直接改正式状态、正文或系统代码。
+2026-11-02T05:09:27.2241401Z ##[error]Process completed with exit code 2.
+2026-11-02T05:09:27.2623001Z Post job cleanup.
+2026-11-02T05:09:27.3547671Z [command]/usr/bin/git version
+2026-11-02T05:09:27.3594667Z git version 2.56.0
+2026-11-02T05:09:27.3641105Z Temporarily overriding HOME='/home/runner/work/_temp/8adf9dca-eb7a-4d9b-be22-d0b5c5cc35c7' before making global git config changes
+2026-11-02T05:09:27.3646771Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-02T05:09:27.3649758Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/XS6/XS6
+2026-11-02T05:09:27.3693324Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-02T05:09:27.3772941Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-02T05:09:27.4070887Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-02T05:09:27.4098427Z http.https://github.com/.extraheader
+2026-11-02T05:09:27.4111925Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-11-02T05:09:27.4152195Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-02T05:09:27.4482202Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-02T05:09:27.4540620Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-02T05:09:27.4982752Z Cleaning up orphan processes
+2026-11-02T05:09:27.5527018Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
