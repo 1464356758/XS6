@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+  "chapter": 3,
+  "mode": "manual",
+  "manual_session_id": "ed58ef8c-3634-43c8-9647-922303206b9e",
+  "started_at": "2026-11-02T01:17:53+00:00",
+  "authorization": "开始第三章",
+  "baseline_head": "a153882ea245190c650df6b0367300a5165bc433",
+  "baseline_revision": 7,
+  "stage": "source_reading",
+  "text_path": null,
+  "measured_han": 0,
+  "daily_run_id": null,
+  "note": "客户端手动会话编号，非平台运行号；未计入定时完成回执。"
+}
