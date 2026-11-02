@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
   "title": "《末日避难所不收我的女儿》",
-  "revision": 7,
+  "revision": 8,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -41,6 +41,16 @@
       "record_sha256": "85006f1f59d383a3818f409de2aaa51268554c4e91132ccdb1014f0cb754937d",
       "han_count": 9957,
       "adopted_at": "2026-11-01T19:43:03+00:00"
+    },
+    "3": {
+      "title": "风机开了，人却喘不过气",
+      "stage": "S01",
+      "text_path": "chapters/CH003_994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f.txt",
+      "text_sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+      "record_path": "records/CH003_e153617f2665597de6cb3b9df2dfd007172ff16142eaaa9ac964eddf35827c62.json",
+      "record_sha256": "e153617f2665597de6cb3b9df2dfd007172ff16142eaaa9ac964eddf35827c62",
+      "han_count": 8576,
+      "adopted_at": "2026-11-02T01:42:29+00:00"
     }
   },
   "checkpoints": [],
@@ -122,17 +132,22 @@
       "task_id": "ba4f482f-ad4a-4158-bff5-096897480ab8",
       "chapter": 3,
       "mode": "write",
-      "phase": "candidate",
-      "repairs": 0,
+      "phase": "adopted",
+      "repairs": 1,
       "history": [
         {
           "sha256": "de064dbd2054b48a8c6698b7ca20007f8b9d88af3ece366359f090d659e9bc5a",
           "reason": "初稿",
           "repairs": 0
+        },
+        {
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "reason": "修正结尾重复遗忘已知电池故障、废管台词矛盾，补清房间位置与实际防雨检查。",
+          "repairs": 1
         }
       ],
-      "candidate_sha256": "de064dbd2054b48a8c6698b7ca20007f8b9d88af3ece366359f090d659e9bc5a",
-      "candidate_path": "candidates/CH003_de064dbd2054b48a8c6698b7ca20007f8b9d88af3ece366359f090d659e9bc5a.txt"
+      "candidate_sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+      "candidate_path": "candidates/CH003_994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f.txt"
     }
   },
   "completion": null,
@@ -147,6 +162,10 @@
       "2": {
         "text_sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
         "record_sha256": "85006f1f59d383a3818f409de2aaa51268554c4e91132ccdb1014f0cb754937d"
+      },
+      "3": {
+        "text_sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+        "record_sha256": "e153617f2665597de6cb3b9df2dfd007172ff16142eaaa9ac964eddf35827c62"
       }
     },
     "published": {},
@@ -159,6 +178,11 @@
       "2": {
         "path": "releases/CH002_8a088049964c83102b654d6bf7d7c3d9cb280ee969c9a8d293ffd809d6a9e18c.json",
         "sha256": "8a088049964c83102b654d6bf7d7c3d9cb280ee969c9a8d293ffd809d6a9e18c",
+        "used": true
+      },
+      "3": {
+        "path": "releases/CH003_d331a0e2a57c4c11344b8ca91f7de7ec3c8149eefd76e982378862499d2ac98f.json",
+        "sha256": "d331a0e2a57c4c11344b8ca91f7de7ec3c8149eefd76e982378862499d2ac98f",
         "used": true
       }
     },
@@ -180,7 +204,7 @@
         ],
         "deadline_chapter": 10,
         "status": "open",
-        "last_reviewed_chapter": 2
+        "last_reviewed_chapter": 3
       },
       "K02": {
         "history": [
@@ -199,7 +223,7 @@
         ],
         "deadline_chapter": 16,
         "status": "open",
-        "last_reviewed_chapter": 2
+        "last_reviewed_chapter": 3
       },
       "K03": {
         "history": [
@@ -218,7 +242,26 @@
         ],
         "deadline_chapter": 10,
         "status": "open",
-        "last_reviewed_chapter": 2
+        "last_reviewed_chapter": 3
+      },
+      "K03a": {
+        "history": [
+          {
+            "id": "K03a",
+            "action": "set",
+            "deadline_chapter": 4,
+            "reason": "借用器材明晨06:00到期，CH004应给出真实可执行的续借/归还与替代监测或撤离安排，不能把当班抢修仪器自动变成本区库存。",
+            "evidence": {
+              "chapter": 3,
+              "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+              "quote": "明早六点。人家要带去查供电间。续借得当面谈，不能留个字条就不还。"
+            },
+            "chapter": 3
+          }
+        ],
+        "deadline_chapter": 4,
+        "status": "open",
+        "last_reviewed_chapter": 3
       }
     },
     "incidents": {}

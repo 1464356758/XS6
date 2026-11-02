@@ -1,0 +1,270 @@
+{
+  "chapter": 3,
+  "title": "风机开了，人却喘不过气",
+  "stage": "S01",
+  "base_revision": 7,
+  "canon_sha256": "e8c66f51f161667048f484710694f4e9e2e31b467c39961eb4063cb35f2976cb",
+  "text_sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+  "complete": true,
+  "story_time_end": 1006,
+  "summary": "2041年9月18日16:20—22:46，林砚秋在河湾为女儿寻找过夜空气。周闻笙与贺为川从地面抢修点借来三类检测器、附件和两节风管，须次日06:00归还；一块电池接头护套有裂纹，继续隔离。18:02首次试机虽降颗粒，CO₂却持续上升，发现缓冲间补气不足及短路回流，主角主动停机，孩子未入试验室。查到旧风路临时回接、下层入口一氧化碳读数异常后，她放弃大站台预想，仅改造地面不到十平方米可落脚小室。铺板改窗挡、密封带耗尽，风向变化迫使停工，贺的旧伤与寻父未回讯持续。20:37重启并修折弯，按两人占用复测后母女21:26进入，女儿症状有所缓和但未被宣判痊愈。旧站台关闭，路人被告知可核地面联络方向。22:46剩余供电成为新压力，第二块电池仍不可用，实际余量待下一章核算。",
+  "review": {
+    "read_full_text": true,
+    "decision": "adopt",
+    "blocking_issues": [],
+    "sources_checked": [
+      {
+        "chapter": 1,
+        "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+        "quote": "她们有两瓶完整的水，知禾背包里还有一包没拆的饼干。"
+      },
+      {
+        "chapter": 1,
+        "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+        "quote": "有名字的地方，不等于可以活命的地方。"
+      },
+      {
+        "chapter": 2,
+        "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+        "quote": "拆开的电池仍保持隔离封装，未连接电源。"
+      },
+      {
+        "chapter": 2,
+        "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+        "quote": "不允许启动，不允许把人安置到下面。"
+      },
+      {
+        "chapter": 2,
+        "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+        "quote": "今天去不了白土坡了。"
+      }
+    ],
+    "conclusion": "实际读取CH001—CH002全文及本章reader资料；同上下文近似审读。完成一轮局部修订，修正结尾让母亲重复忘记电池故障的问话与坏管台词矛盾，补清前间/小室和临时防雨检查。正文真实兑现首次有限改善，代价为两块铺板、耗尽的一卷密封带、试机耗电、停工时间及有限轮值；未把“放弃原计划的十人空间”冒充十个既成床位损失。技术工作与母女具体处境相连，女儿不承担危险试验或工程判断；未用CO₂一项为哮喘诊断。A区权限暂停、盗机责任、贺寻父损失均没有被取消。"
+  },
+  "facts": [
+    {
+      "kind": "fact",
+      "key": "U07:location:end",
+      "value": "U-07留在河湾地面棚，接往后侧小室，未被搬入地下站台。",
+      "holder": "",
+      "valid_from": 1006,
+      "valid_until": null,
+      "quote": "临时排气路接到了能看见、能到达的外墙末端。"
+    },
+    {
+      "kind": "state",
+      "key": "B:habitable",
+      "value": "河湾只在当前风向、监测和两人占用条件下建立了临时小室；不代表地下站台或全站可住。",
+      "holder": "",
+      "valid_from": 1006,
+      "valid_until": null,
+      "quote": "只试出了这一小间的临时条件，没测出更多人的地方。"
+    },
+    {
+      "kind": "fact",
+      "key": "AIR:monitors:loan",
+      "value": "周闻笙、贺为川借回气体仪、CO₂表、颗粒物计及附件，有编号和维护记录。",
+      "holder": "",
+      "valid_from": 668,
+      "valid_until": null,
+      "quote": "一台带取样泵的气体仪、一只独立的二氧化碳表和一只颗粒物计。"
+    },
+    {
+      "kind": "state",
+      "key": "AIR:monitors:return",
+      "value": "本批借用仪器须2041年9月19日06:00归还，续借须另谈，未获无限借用。",
+      "holder": "",
+      "valid_from": 668,
+      "valid_until": null,
+      "quote": "明早六点。人家要带去查供电间。续借得当面谈，不能留个字条就不还。"
+    },
+    {
+      "kind": "state",
+      "key": "U07:battery:availability",
+      "value": "两块电池只允许其中一块试用，另一块因接头护套裂纹隔离，尚未换件修好。",
+      "holder": "",
+      "valid_from": 668,
+      "valid_until": null,
+      "quote": "另一块换好合适的连接件再说。"
+    },
+    {
+      "kind": "fact",
+      "key": "U07:first_start",
+      "value": "U-07本次首次于18:02试机，随后因CO₂上升与回流停机；知禾留在前间。",
+      "holder": "",
+      "valid_from": 722,
+      "valid_until": null,
+      "quote": "六点零二分，风机转了起来。"
+    },
+    {
+      "kind": "fact",
+      "key": "B:trial:CO2",
+      "value": "第一轮试验CO₂从九百多ppm上升至18:21超过一千三百，不能据此诊断知禾胸闷病因。",
+      "holder": "",
+      "valid_from": 741,
+      "valid_until": null,
+      "quote": "六点二十一分，表上已经过了一千三百。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "P01:ventilation:failure",
+      "value": "林砚秋通过试机和追查认识到缓冲间补气不足、旧路回流，决定弃用该进气方案。",
+      "holder": "P01",
+      "valid_from": 1006,
+      "valid_until": null,
+      "quote": "缓冲间不作进气源了，另找真正接向外面的路。"
+    },
+    {
+      "kind": "fact",
+      "key": "B:exhaust:obstruction",
+      "value": "原砖墙未拆，旧支路封堵原因和墙后状况仍未查清；本轮独立接至外墙，不靠该支路。",
+      "holder": "",
+      "valid_from": 1006,
+      "valid_until": null,
+      "quote": "那个出口不穿砖墙，不借地下站台，也不拿一条没人走过的旧井作保证。"
+    },
+    {
+      "kind": "fact",
+      "key": "B:lower:CO",
+      "value": "下层门外远程取样出现不同于地面的一氧化碳读数；污染来源未核实。",
+      "holder": "",
+      "valid_from": 1006,
+      "valid_until": null,
+      "quote": "取样处出现了与地面不同的一氧化碳读数。"
+    },
+    {
+      "kind": "state",
+      "key": "B:platform:closed",
+      "value": "通向旧站台的第二道门关闭，告知地下未查暂停进入，未承诺接收路人。",
+      "holder": "",
+      "valid_from": 1006,
+      "valid_until": null,
+      "quote": "男孩趴在桌上，一笔一画写了“地下未查，暂停进入”，写完挂回去。"
+    },
+    {
+      "kind": "state",
+      "key": "MATERIAL:bedboards",
+      "value": "原折叠床两块铺板改成挡板及余料挡雨边，不再作床面。",
+      "holder": "",
+      "valid_from": 1006,
+      "valid_until": null,
+      "quote": "两块铺板已变成窗上的挡板"
+    },
+    {
+      "kind": "state",
+      "key": "MATERIAL:seal_tape",
+      "value": "器材柜取出的这一卷密封带全部用完；其他地点库存未知。",
+      "holder": "",
+      "valid_from": 1006,
+      "valid_until": null,
+      "quote": "周闻笙把最后一段没沾灰的密封带递过去，盒里彻底空了。"
+    },
+    {
+      "kind": "state",
+      "key": "MATERIAL:duct",
+      "value": "所借两节临时风管有坏段被剪去，可用长度减少，机位受限。",
+      "holder": "",
+      "valid_from": 1006,
+      "valid_until": null,
+      "quote": "贺为川剪去坏段，剩下的长度紧得很"
+    },
+    {
+      "kind": "state",
+      "key": "FOOD:carried_biscuit",
+      "value": "母女原有这包饼干本章分食至最后一小块；不代表全队还有其他食品。",
+      "holder": "",
+      "valid_from": 1006,
+      "valid_until": null,
+      "quote": "知禾把最后一小块饼干分成两半"
+    },
+    {
+      "kind": "state",
+      "key": "P01:hand:abrasion",
+      "value": "林砚秋接住滑板时手背浅擦伤，清洗后仍有伤，不指明正文未给的左右手。",
+      "holder": "",
+      "valid_from": 1006,
+      "valid_until": null,
+      "quote": "手背上蹭掉了一小块皮。"
+    },
+    {
+      "kind": "state",
+      "key": "P05:left_wrist",
+      "value": "贺为川左手旧伤仍影响承力，改做内侧核查，未痊愈。",
+      "holder": "",
+      "valid_from": 1006,
+      "valid_until": null,
+      "quote": "贺为川用右手压住板，左腕突然一软。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "P05:father:message",
+      "value": "贺为川知道寻人短信送达但没有回复；不知父亲下落，白土坡失去的窗口未恢复。",
+      "holder": "P05",
+      "valid_from": 1006,
+      "valid_until": null,
+      "quote": "屏幕上是他下午发出的那条寻人消息，终于显示送达，没有回复。"
+    },
+    {
+      "kind": "state",
+      "key": "P02:medical_observation",
+      "value": "知禾通过地面医护电话联络持续观察，进入小室后肩膀松下来并睡下；未确认治愈、未推出症状单一病因。",
+      "holder": "",
+      "valid_from": 1006,
+      "valid_until": null,
+      "quote": "她说，孩子现在能说完整的话，仍需看护，所处地方只是临时改善过的小室。"
+    },
+    {
+      "kind": "fact",
+      "key": "B:second_start",
+      "value": "20:37第二次启动，调整管路折弯后复测，当前两人条件下CO₂在七百多ppm附近变化，颗粒低于前间。",
+      "holder": "",
+      "valid_from": 877,
+      "valid_until": null,
+      "quote": "八点三十七分，U-07第二次启动。"
+    },
+    {
+      "kind": "state",
+      "key": "P02:location:end",
+      "value": "21:26知禾进入后侧临时小室，22:46仍睡在垫子上；林砚秋在门外机组旁处理供电。",
+      "holder": "",
+      "valid_from": 1006,
+      "valid_until": null,
+      "quote": "门里的知禾翻了个身，手掌还覆在那只猫上，没有醒。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "P01:power:remaining",
+      "value": "林砚秋与贺为川看到已累计运行两个多小时、荷电显示低于预期；剩余可用能量和时长未实测。",
+      "holder": "P01",
+      "valid_from": 1006,
+      "valid_until": null,
+      "quote": "今晚能用的就这一块，余量得重新算。"
+    }
+  ],
+  "progression": {
+    "goal": "在入夜前为知禾建立一间实际能够暂时休息的空间，而非继续守着到站的机器。",
+    "obstacle": "旧路封堵、补气不足和回流、下层一氧化碳异常、仅一块可用电池、有限借用仪器及耗材、孩子反复胸闷和成人疲劳。",
+    "method": "按器材维护资料取样与试机，遇实测不成立主动停机，查两端、不钻未知风道；仅用现有风管和铺板建立独立进排风，修折弯、换测点、走退路后再允许有限入住。",
+    "choice": "放弃大站台扩容预想和以机器已转来证明成功的冲动，接受周闻笙与贺为川叫停，优先做可核的小室，并接受轮值而非许诺所有人不睡。",
+    "result": "母女获得地面小室的有限监测休息条件；知禾睡下，旧站台仍关，A区设备转移责任未解决。",
+    "consequence": "两块铺板改作挡板，密封带耗尽、风管缩短，一块电池隔离，另一块已耗去两个多小时运行；仪器明晨到期，供电与接纳更多人的余量成为下一目标。",
+    "next_options": "CH004实测现用电池和负载，核对隔离电池修复条件、借用仪器到期安排，制定停电撤离与新增伤者转诊或接纳方案。",
+    "scene_function": "首次开机失败及有限成功兑现生存基建；母亲不再靠越权动作解决每一个阻力，女儿的饼干、症状陈述和小猫绣片保留个体体验。"
+  },
+  "thread_events": [
+    {
+      "id": "K03",
+      "action": "partial",
+      "description": "首次改出一间独立进排风且有观测改善的小室，兑现有限空气成果；全站安全与持续供电未完成。",
+      "quote": "这一次，数在新的水平附近缓了下来。"
+    },
+    {
+      "id": "K03a",
+      "action": "plant",
+      "description": "借用检测器须次日06:00归还，继续监测与对抢修点履约不能同时靠口头推迟；下一章需安排合法续借或归还后的替代/撤离。",
+      "quote": "明早六点。人家要带去查供电间。续借得当面谈，不能留个字条就不还。"
+    }
+  ],
+  "stage_closing": false,
+  "measured_han": 8576
+}

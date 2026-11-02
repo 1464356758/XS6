@@ -1,0 +1,636 @@
+{
+  "schema_version": 1,
+  "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+  "chapter": 3,
+  "base_revision": 7,
+  "task_id": "ba4f482f-ad4a-4158-bff5-096897480ab8",
+  "repairs": 1,
+  "text_sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+  "record_sha256": "e153617f2665597de6cb3b9df2dfd007172ff16142eaaa9ac964eddf35827c62",
+  "canon_sha256": "e8c66f51f161667048f484710694f4e9e2e31b467c39961eb4063cb35f2976cb",
+  "roadmap_sha256": "1df104aa779568f718148ef412466517eed33effddedac39119984fb38b25b07",
+  "narrative_review_version": 1,
+  "writing_brief_sha256": "fc3fe8ceb96ba8dad5f92c37e6d30de05e5647538b77f936c19db31f154e1f76",
+  "decision": "release",
+  "read_full_text": true,
+  "blocking_issues": [],
+  "read_coverage": {
+    "1": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+    "2": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+    "3": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f"
+  },
+  "reader_reason_to_continue": "知禾终于睡下，是前三章真实争取到的第一项生存成果；一块电池故障、另一块已耗电及借用仪器明晨到期，使这间小室能维持多久成为必须当场回答的问题。",
+  "consequence": "主动放弃未经验证的旧站台，消耗床板、密封带、风管有效长度与试机能量，只获两人条件下的临时小室。贺的手伤、寻父无回讯和公产争议没有被一个工程胜利抵消。",
+  "ending_runway": "CH004紧接22:46核算实际功率与单块可用能量，处理隔离电池修复边界、仪器到期和新增伤者；不能重新跑一遍同款试机，也不能把两块电池额定总容量当成当前可用余量。",
+  "checks": {
+    "timeline": {
+      "decision": "pass",
+      "conclusion": "从上一章16:17接至本章16:20—22:46；首次18:02、再次20:37、21:26入住依次推进。把原未来路线的D2试机前移至D1晚间是对未写计划的顺接，未改冻结历史；数小时施工、停工、复测与耗电均实际呈现。",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "六点零二分，风机转了起来。"
+        },
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "八点三十七分，U-07第二次启动。"
+        },
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "十点四十六。"
+        }
+      ]
+    },
+    "knowledge": {
+      "decision": "pass",
+      "conclusion": "仅从可到达位置取样、查缺页维修簿得知回接，拒绝将下层CO推断成有人烧东西；孩子只陈述症状和恐惧。电池故障在发现后持续有效，修订已去除让母亲在结尾忘记故障的问话。",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "“不能这么定。”周闻笙收回取样管，“也可能从别处串进来。”"
+        },
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "今晚能用的就这一块，余量得重新算。"
+        }
+      ]
+    },
+    "props_resources": {
+      "decision": "pass",
+      "conclusion": "检测器、两节风管和管夹来自抢修点，维护记录与归还时限有明示；现有铺板变挡板，一卷密封带耗尽、坏管段剔除、饮水用于清理擦伤。没有新增燃油、药物或无限耗材；只记录定性耗损，不伪造尚未计量的kWh或库存。",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "肩上搭着两节从抢修点借来的临时风管"
+        },
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "两块铺板已变成窗上的挡板"
+        },
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "周闻笙把最后一段没沾灰的密封带递过去，盒里彻底空了。"
+        }
+      ]
+    },
+    "causality": {
+      "decision": "pass",
+      "conclusion": "颗粒下降而CO₂持续上升促使试验退出，随后风向/旧图/两端检查支持回流判断；限长风管和下层异常令主角只改小室，修折弯再复测后入住。成功来自方案改变，不是旁人被劝服或单凭纸条宣布安全。",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "空气绕了一小圈，又回到了机器嘴边。"
+        },
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "“只做这间。”她在不到十平方米的方框里落了一点。"
+        },
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "箱子挪开，折弯重新整理，再看纸条，方向才变了。"
+        }
+      ]
+    },
+    "power_rules": {
+      "decision": "pass",
+      "conclusion": "机组仅过滤并送入外气，没有制造氧气或去除所有气体；CO₂、CO/O₂和颗粒测量区分。知禾未作危险试验，胸闷未被CO₂数字诊断。隔离电池不接入，余量仍未实测，不能将额定值套成可用时长。",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "有些灰被拦住了。但我们呼出去的气，不能总回来。"
+        },
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "那台表不能告诉她孩子为什么胸闷"
+        },
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "另一块换好合适的连接件再说。"
+        }
+      ]
+    },
+    "promises": {
+      "decision": "pass",
+      "conclusion": "本章让K03首次部分兑现：实测失败和改变方案之后，母女真正进入有限改善的小室，未只把问题推给下一章。K01评分、K02原受益者仍待核；K03a新增借用仪器到期，CH004须提出实际续借/归还与替代监测或撤离。",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "这一次，数在新的水平附近缓了下来。"
+        },
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "九点二十六分，周闻笙把知禾领到门前。"
+        },
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "明早六点。人家要带去查供电间。续借得当面谈，不能留个字条就不还。"
+        }
+      ]
+    },
+    "anti_repeat": {
+      "decision": "pass",
+      "conclusion": "CH001为拒收与破封、CH002为实体运输和追责，本章主要办法改为用失败数据约束自己、独立改风路并削减空间。人物仍谈边界，但每场跟着实际停机、耗损、封门或入住，不再以重复签字构成主线。",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "缓冲间不作进气源了，另找真正接向外面的路。"
+        },
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "原本看起来足够铺许多张床的地方，被他们自己留在黑处。"
+        }
+      ]
+    },
+    "character_agency": {
+      "decision": "pass",
+      "conclusion": "母亲主动说停、承担外侧重活并放弃扩大空间；周闻笙借器材、阻拦沈朝并亲自守边界；贺因旧伤改工种且只承诺一小时守班；知禾自行表达症状、分饼干和决定跨门槛，没有变成人质或工程天才。",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "我和她去。你叫停就停。"
+        },
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "他只答应一个小时，之后周闻笙接替"
+        },
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "你们都在看墙。"
+        }
+      ]
+    }
+  },
+  "comparison": [
+    {
+      "chapter": 1,
+      "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+      "quote": "有名字的地方，不等于可以活命的地方。",
+      "difference": "首章只能得出候选方向且机组仍在A区，本章对河湾物理边界实际试验、改造和有条件入住。相同生存问题得到一个可观察的局部答案，未再演一次行政申诉。"
+    },
+    {
+      "chapter": 2,
+      "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+      "quote": "它确实从A区到了河湾，却没有替任何人净化一口空气。",
+      "difference": "第二章完成带多人和燃油成本的运输，本章不搬运重来、不靠记录取得合法性，而以停机、改风路、耗尽材料和减少预期空间获得第一处暂时可休息位置。"
+    }
+  ],
+  "future_window": [
+    {
+      "chapter": 4,
+      "goal": "从22:46起实测单块现用电池、负载和剩余可用时长，同时处理借用仪器明晨到期。",
+      "change": "把额定总容量改为可核的单块电力时限；对隔离电池的修复提出实物条件；新增伤者只能经实际分诊和能耗约束决定接纳或转诊，须有续借/归还或替代监测与撤离安排。",
+      "ending_question": "要保护刚得到的两人休息条件，是否必须拒绝另一个求助者或让出自己的电量？"
+    },
+    {
+      "chapter": 5,
+      "goal": "在已公开盗机来源基础上，由女儿和真实新成员推动公开人数、用电和信息知情权。",
+      "change": "不重复“第一次承认偷机”；改成母亲是否允许核看失败记录和稀缺配给的具体决定，形成有约束的共同决策。",
+      "ending_question": "第一批共同规则能否约束带来机器的母亲，而非只约束后来者？"
+    },
+    {
+      "chapter": 6,
+      "goal": "以已留存的工单与当前缺件问题查电源和原调度信息，保持未知下游。",
+      "change": "沈朝的冒进要造成实际分工变化；每件备电和修复材料须有来源，不能靠新设备无代价恢复全部余量。",
+      "ending_question": "谁肯承担下一次外勤风险，设备缺页与公共责任会不会改变互助条件？"
+    }
+  ],
+  "promise_reviews": [
+    {
+      "id": "K01",
+      "action": "keep",
+      "deadline_chapter": 10,
+      "reason": "本章没有新获得A区评分数据，继续保留第一章行政标签疑点，不借工程成功回答医学和算法问题。",
+      "evidence": {
+        "chapter": 1,
+        "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+        "quote": "原因：高医疗需求风险。"
+      }
+    },
+    {
+      "id": "K02",
+      "action": "keep",
+      "deadline_chapter": 16,
+      "reason": "未获得原保障点完整信息，本章成功不抵消公产责任，CH016仍须核对具体下游因果。",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+        "quote": "原备用保障点要求说明，接收区域内另有……"
+      }
+    },
+    {
+      "id": "K03",
+      "action": "keep",
+      "deadline_chapter": 10,
+      "reason": "已部分兑现局部空气改善，但持续供能、更多人数和整站条件仍未建立；CH010阶段核查不延期。",
+      "evidence": {
+        "chapter": 3,
+        "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+        "quote": "两个人在这一时段的观察，也不能替十个人或明天的风向作保。"
+      }
+    },
+    {
+      "id": "K03a",
+      "action": "set",
+      "deadline_chapter": 4,
+      "reason": "借用器材明晨06:00到期，CH004应给出真实可执行的续借/归还与替代监测或撤离安排，不能把当班抢修仪器自动变成本区库存。",
+      "evidence": {
+        "chapter": 3,
+        "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+        "quote": "明早六点。人家要带去查供电间。续借得当面谈，不能留个字条就不还。"
+      }
+    }
+  ],
+  "incident_actions": [],
+  "narrative_review": {
+    "schema_version": 1,
+    "actual_scenes": [
+      {
+        "event": "借检测器前先停在砖墙和孩子过夜需求上，周闻笙亲自寻借，母女分食原有饼干。",
+        "choice": "林砚秋留在女儿身边，不趁空档上电；贺/周自作借物与返回决定。",
+        "change": "取得有维护记录且到期须归还的测量手段，同时发现一块电池接头损伤。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "另一块换好合适的连接件再说。"
+          }
+        ]
+      },
+      {
+        "event": "18:02试机颗粒下降，CO₂却持续升，泄气与进气发生回流。",
+        "choice": "母亲主动停机，先看孩子并联络地面医疗，而不靠好看的颗粒值宣告成功。",
+        "change": "原缓冲间补气方案被否决，知禾未进入失败试验室。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "缓冲间不作进气源了，另找真正接向外面的路。"
+          }
+        ]
+      },
+      {
+        "event": "旧风路回接和下层CO异常暴露，材料不足，外侧施工遭烟尘迫停。",
+        "choice": "封住站台，只用床板和现有风管做小室；母亲接受别人叫停并承担重活。",
+        "change": "大空间预想被放弃，铺板、软管长度和密封带发生不可自动恢复的耗损，手背擦伤与贺旧伤留到后文。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "“只做这间。”她在不到十平方米的方框里落了一点。"
+          },
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "一段已经撕开的密封带落了灰，不能再贴回去"
+          }
+        ]
+      },
+      {
+        "event": "20:37重启、排除折弯并进行多测点与两人占用复测。",
+        "choice": "不封死逃生门，实查临时防雨和退路，不以开门前的好数代替后面的读数。",
+        "change": "获得局部、限时、限人数的可观察改善，首次允许知禾进入。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "她们重新等它稳定，没有把开门前的那组数字接着往后写。"
+          }
+        ]
+      },
+      {
+        "event": "母女在垫子上休息，以小猫绣片与鞋尖呈现暂时安顿；路人被告知有限容量，守夜者限时轮班，电池余量浮现。",
+        "choice": "母亲不承诺未知去处、全站接收或全天守夜，接受自己也要休息。",
+        "change": "知禾实际睡下，生存处境改变；下一目标从找空气转为维持供能和到期履约。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "可知禾终于闭上了眼睛，没有立刻再睁开问她还会去哪里。"
+          },
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "今晚能用的就这一块，余量得重新算。"
+          }
+        ]
+      }
+    ],
+    "plan_comparison": "五项任务均在正文落地，实际施工分成旧路追查、停工与重启数段；未让女儿参与清理危险风道，改由成人作业、女儿做症状陈述和普通生活选择。计划的首次有限成果在地面后侧小室兑现，没有提前变成地下完整社区。原计划D2前移D1晚间，并以连续时刻和耗材、耗电接住。",
+    "reader": {
+      "mode": "same_context_approximation",
+      "limitation": "同一GPT见过设定和任务书，不能真的遗忘大纲，也不是独立模型或真实读者测试。已读取reader包前两章全文与本章，修订后复查新候选及全部改动；旧章版本未变。",
+      "coverage": {
+        "1": {
+          "text_sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+          "mode": "full_text"
+        },
+        "2": {
+          "text_sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+          "mode": "full_text"
+        },
+        "3": {
+          "text_sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "mode": "full_text"
+        }
+      },
+      "understanding": "能从检测器借用、第一次反常、回路追查和两人复测理解为什么风机运行不等于可居住；前间与后侧小室已在修订中区分。女儿未被拿来试未知空气，第一次反常读数也未被当作她的病因。",
+      "information_load": "器材与气流细节密集，但每项直接改变下一步动作，且以孩子吃饼干、鞋子和猫绣片穿插。保留首轮失败和有代价修复的必要链条；后文不宜再逐项重复本章检测流程。",
+      "promise_delivery": "前三章的“找到第一口空气”在本章第一次有具体结果：母女进入受限小室并睡下；没有用全站开放或痊愈换取虚假爽点。",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "知禾的肩渐渐松下来。"
+        },
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "她终于替女儿挣到了一块能放平身体的地方，却没有挣到这间屋子停电以后的空气。"
+        }
+      ],
+      "issues": [
+        {
+          "severity": "must_fix",
+          "status": "resolved",
+          "reason": "原候选结尾的反问让主角重复忘记已知电池隔离事实；同一任务第一轮改为确认单块余量，悬念由实际耗电产生。",
+          "evidence": {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "今晚能用的就这一块，余量得重新算。"
+          },
+          "source_candidate_sha256": "de064dbd2054b48a8c6698b7ca20007f8b9d88af3ece366359f090d659e9bc5a",
+          "source_quote": "你还按两块电池算今晚吗？"
+        },
+        {
+          "severity": "must_fix",
+          "status": "resolved",
+          "reason": "坏取样管已带回废弃，旧台词“没带回来”与动作冲突；现改为不算可用品，不添资源。",
+          "evidence": {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "这段裂了，不能算在可用的里面。"
+          }
+        },
+        {
+          "severity": "verify",
+          "status": "resolved",
+          "reason": "前间为原落脚点、后侧小室为试改空间，现已明确区分，孩子第一次并未进入失败试验室。",
+          "evidence": {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "周闻笙让母女临时落脚的是朝货场的前间，后侧小室另有门通向棚内"
+          }
+        },
+        {
+          "severity": "verify",
+          "status": "resolved",
+          "reason": "提出防雨问题后补实际查看和挡雨边，耗尽已有密封带，保留进水停用条件，不追认永久防雨。",
+          "evidence": {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "她们用铺板余料补了外口上方的临时挡雨边"
+          }
+        }
+      ]
+    },
+    "character_causality": {
+      "opposition": {
+        "status": "reviewed",
+        "conclusion": "本章主要阻力来自通风物理缺陷与不同职责：周闻笙阻止沈朝探风道、拒开未经验证站台，贺为川因伤改变分工并有自己的寻父目标。A区对立力量本章在场外，未凭空让其知道新房间或突然宽恕公产转移。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "周闻笙抓住他后领，把他从踏凳上带了下来。"
+          },
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "他只答应一个小时，之后周闻笙接替"
+          }
+        ]
+      },
+      "dialogue": {
+        "status": "reviewed",
+        "conclusion": "知禾的“你们都在看墙”要求被看见，贺问“你算谁”关心可持续看护而非道德说教；周的守门立场从一句拒绝变为自己承担检查，不与母亲同声复读。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "你们都在看墙。"
+          },
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "要是只能让两个人睡，你算谁？"
+          },
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "你们没走，我就得守着，不能只把门关上算完。"
+          }
+        ]
+      },
+      "aftermath": {
+        "status": "reviewed",
+        "conclusion": "试验失败后母亲停机而非转场掩盖；外部停工导致真实耗材损失和擦伤；知禾睡下以后仍有守夜、余电和仪器到期，不靠一次和好重置后果。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "一段已经撕开的密封带落了灰，不能再贴回去"
+          },
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "被风吹干的灰、折腾过的接缝、等人检查时转着的每一分钟，都从同一块电池里拿走了东西。"
+          }
+        ]
+      }
+    },
+    "history": {
+      "index_sha256": "8764ca5210aa418b064c23d3f33b91b0be5abf815ed1a8f47ca8e0308021e51b",
+      "queries": [
+        "U-07 封签 放行 公产 签字 运输",
+        "排风 回流 河湾 砖墙 安全 空气",
+        "知禾 护理 贺为川 寻父 电池 燃油"
+      ],
+      "comparisons": [
+        {
+          "similarity": "两章都写母女被门和空气条件困住，主角想为孩子取得位置。",
+          "difference": "首章在制度拒收下破封、仍无接收点；本章母亲接受自身技术判断失败，主动收缩方案并允许别人叫停，以实测取得局部结果。",
+          "source": {
+            "chapter": 1,
+            "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+            "quote": "她只是把自己从一个申请帮助的母亲，变成了第一责任栏上有名字的人。"
+          },
+          "current_evidence": {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "我和她去。你叫停就停。"
+          }
+        },
+        {
+          "similarity": "两章均有他人协作、资源代价和到场以后仍未完成的困难。",
+          "difference": "第二章用车、坡板和多人解决实体运输，本章用检测失败→弃路→独立进排风和复测解决换气；母女由门外候验变成有限入住，主要解决方式与状态均改变。",
+          "source": {
+            "chapter": 2,
+            "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+            "quote": "它确实从A区到了河湾，却没有替任何人净化一口空气。"
+          },
+          "current_evidence": {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "可知禾终于闭上了眼睛，没有立刻再睁开问她还会去哪里。"
+          }
+        }
+      ],
+      "no_match_reason": ""
+    },
+    "reader_updates": [
+      {
+        "kind": "observed",
+        "statement": "地面后侧小室经改独立进排风和复测，母女以两人占用暂时休息，不能推论全站安全。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "九点二十六分，周闻笙把知禾领到门前。"
+          },
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "两个人在这一时段的观察，也不能替十个人或明天的风向作保。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "一块电池因接头损坏隔离，另一块已运行两个多小时，精确余量仍未知。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "今晚能用的就这一块，余量得重新算。"
+          }
+        ]
+      },
+      {
+        "kind": "claim",
+        "statement": "借物时周闻笙说明仪器明晨06:00需归还，尚未有续借许可。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "明早六点。人家要带去查供电间。续借得当面谈，不能留个字条就不还。"
+          }
+        ]
+      },
+      {
+        "kind": "uncertain",
+        "statement": "旧站台一氧化碳的具体来源、砖墙封堵完整原因和贺父下落仍无确证。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "“不能这么定。”周闻笙收回取样管，“也可能从别处串进来。”"
+          },
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "终于显示送达，没有回复。"
+          }
+        ]
+      }
+    ],
+    "reader_update_note": "仅记录本章已呈现的房间改善、故障、资源耗损与未解信息。未来阶段模型真因、受损者姓名和更多居民不得进入当前事实。",
+    "surface_findings": [],
+    "pacing_review": {
+      "main_line": {
+        "conclusion": "从孩子没有地方过夜到能在小室睡下，借物、失败、施工和复测均服务同一目标。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "这里晚上也有灯吗？"
+          }
+        ]
+      },
+      "protagonist_choice": {
+        "conclusion": "主动说停、弃大空间、承担外侧施工并接受他人叫停，超过只被配角训导。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "“只做这间。”她在不到十平方米的方框里落了一点。"
+          }
+        ]
+      },
+      "scene_necessity": {
+        "conclusion": "删借物会让仪器无来源，删首败会让改路无因，删停工会丢真实耗损，删复测就无入住依据，删入睡则三章承诺没有实际交付；猫绣片承载孩子的日常归属。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "那今天它也被关在外面了？"
+          }
+        ]
+      },
+      "actual_change": {
+        "conclusion": "由未通电候验机器转为两人条件下可暂休的小室，床板、带子和能量实际转耗。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "可知禾终于闭上了眼睛，没有立刻再睁开问她还会去哪里。"
+          }
+        ]
+      },
+      "payoff": {
+        "conclusion": "兑现第一处空气改善，保留长期供电与收人上限；没有把整章成果仅写成又一张记录。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "这一次，数在新的水平附近缓了下来。"
+          }
+        ]
+      },
+      "next_reading": {
+        "conclusion": "下一章需实测单块电力并履行到期仪器责任，来自本章已消耗资源，不依赖突然出现万能设备或新反派。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "把负载表拿来。"
+          }
+        ]
+      }
+    },
+    "delete_test": "逐场删除测试见pacing_review.scene_necessity；保留必要的物流、失败因果、施工代价、复测和母女安顿。",
+    "meaningful_state_delta": "未采用前的处境为机器到站但不能提供空气；本章结束已提供有限休息条件，同时进一步耗掉真实资源，无法下章免费复原。",
+    "anti_loop": "从拒收申诉与越权搬运，转为接受失败数据并收缩规模；下一章主轴转能源和准入，不重复本章逐口测试。"
+  }
+}

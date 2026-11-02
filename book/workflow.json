@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 11,
+  "revision": 12,
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
-  "phase": "REVIEWING",
+  "phase": "WAITING_NEXT",
   "platform": "zongheng_girls",
   "selected_topic": {
     "id": "T03",
@@ -23,7 +23,7 @@
   },
   "research_path": "research/platform_670e090ace6bda109d42e9e37cd6783b7aee1d8339e475476c5e422b5ba243a3.json",
   "topics_path": "research/topics_abaaea43fda039b01e8560ef7703d41a251b6a43d4a872924ed917707aaf7a6e.json",
-  "chapter": 3,
+  "chapter": 4,
   "history": [
     {
       "at": "2026-11-01T09:20:05+00:00",
@@ -96,10 +96,16 @@
       "phase": "REVIEWING",
       "label": "检查本章",
       "detail": "CH003完整候选已写成并登记，开始限信息审读、反向提纲、八项证据核查。"
+    },
+    {
+      "at": "2026-11-02T01:42:29+00:00",
+      "phase": "WAITING_NEXT",
+      "label": "等待下一章",
+      "detail": "第003章《风机开了，人却喘不过气》经一次局部修订、八项证据审核和release-check后采用冻结；本次为作者明确要求的手动续写，未改变今日CH002定时回执。"
     }
   ],
-  "detail": "CH003完整候选已写成并登记，开始限信息审读、反向提纲、八项证据核查。",
-  "next_action": "完成章后事实记录与真实审读；必要时在同一任务最多三轮局部修订；release-check通过后采用冻结。",
-  "updated_at": "2026-11-02T01:32:02+00:00",
+  "detail": "第003章《风机开了，人却喘不过气》经一次局部修订、八项证据审核和release-check后采用冻结；本次为作者明确要求的手动续写，未改变今日CH002定时回执。",
+  "next_action": "读取CH003及最近三章全文，开始CH004《电池只够到天亮前》；实测单块供电余量，并落实K03a检测器次日06:00归还或实际续借/替代与撤离安排。",
+  "updated_at": "2026-11-02T01:42:29+00:00",
   "draft_path": "drafts/CH001.txt"
 }

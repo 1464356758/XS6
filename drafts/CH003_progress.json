@@ -8,15 +8,16 @@
   "authorization": "开始第三章",
   "baseline_head": "a153882ea245190c650df6b0367300a5165bc433",
   "baseline_revision": 7,
-  "stage": "candidate_registered_reader_generated",
+  "stage": "adopted",
   "text_path": "drafts/CH003.txt",
-  "measured_han": 8471,
+  "measured_han": 8576,
   "daily_run_id": null,
   "note": "客户端手动会话编号，非平台运行号；未计入定时完成回执。",
-  "text_sha256": "de064dbd2054b48a8c6698b7ca20007f8b9d88af3ece366359f090d659e9bc5a",
+  "text_sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
   "task_id": "ba4f482f-ad4a-4158-bff5-096897480ab8",
-  "repairs": 0,
+  "repairs": 1,
   "completed_scenes": 5,
-  "next_action": "实际读取reader资料，生成章后事实记录和八项带引文审查，release-check后采用冻结",
-  "reader_path": "drafts/CH003_reader.md"
+  "next_action": "读取最新远端state和CH003正文后，仅续写CH004；本次为手动创作，保留今日CH002定时回执。",
+  "reader_path": "drafts/CH003_reader.md",
+  "record_sha256": "e153617f2665597de6cb3b9df2dfd007172ff16142eaaa9ac964eddf35827c62"
 }

@@ -11,26 +11,26 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS6",
     "branch": "main",
-    "generated_at": "2026-11-02T01:32:02+00:00",
-    "state_revision": 7,
-    "workflow_revision": 11,
-    "state_sha256": "ac8aac01b32e69841abcbdc3649863c8dd9fbc76e624b79be6cc6a4af897a8c5",
-    "workflow_sha256": "7db6567529b6beaba810f60edbaadcbc1d153806595b71e84a9648a38a53b1ab",
+    "generated_at": "2026-11-02T01:44:33+00:00",
+    "state_revision": 8,
+    "workflow_revision": 12,
+    "state_sha256": "6b29702c22eac5659c28dedc4820db4c60266dc566d53d78781c862fa95b8804",
+    "workflow_sha256": "62c3000bff8ea93a518f58bc51d3d1518887ca7be3abb6eaaeca1192430598aa",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
   "progress": {
     "target_chapters": 100,
-    "adopted_chapters": 2,
+    "adopted_chapters": 3,
     "target_han": 900000,
-    "actual_han": 19029,
+    "actual_han": 27605,
     "completed": false,
     "needs_revalidation": [],
     "reviewed_until": 0,
     "window_review_due": false,
     "unresolved_reviews": [],
     "serial_mode": true,
-    "frozen_chapters": 2,
+    "frozen_chapters": 3,
     "published_chapters": 0,
     "publication_status": "只统计真实回执；无回执不等于未发布",
     "open_incidents": 0,
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "REVIEWING",
-    "label": "检查本章",
-    "chapter": 3,
-    "detail": "CH003完整候选已写成并登记，开始限信息审读、反向提纲、八项证据核查。",
-    "next_action": "完成章后事实记录与真实审读；必要时在同一任务最多三轮局部修订；release-check通过后采用冻结。",
-    "updated_at": "2026-11-02T01:32:02+00:00"
+    "phase": "WAITING_NEXT",
+    "label": "等待下一章",
+    "chapter": 4,
+    "detail": "第003章《风机开了，人却喘不过气》经一次局部修订、八项证据审核和release-check后采用冻结；本次为作者明确要求的手动续写，未改变今日CH002定时回执。",
+    "next_action": "读取CH003及最近三章全文，开始CH004《电池只够到天亮前》；实测单块供电余量，并落实K03a检测器次日06:00归还或实际续借/替代与撤离安排。",
+    "updated_at": "2026-11-02T01:42:29+00:00"
   },
   "chapters": [
     {
@@ -65,6 +65,18 @@
       "han_count": 9957,
       "text_path": "book/chapters/CH002_4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950.txt",
       "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+      "needs_revalidation": false,
+      "frozen": true,
+      "publication_status": "unreported",
+      "published_at": null
+    },
+    {
+      "number": 3,
+      "title": "风机开了，人却喘不过气",
+      "stage": "S01",
+      "han_count": 8576,
+      "text_path": "book/chapters/CH003_994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f.txt",
+      "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
       "needs_revalidation": false,
       "frozen": true,
       "publication_status": "unreported",
@@ -456,6 +468,12 @@
       "phase": "REVIEWING",
       "label": "检查本章",
       "detail": "CH003完整候选已写成并登记，开始限信息审读、反向提纲、八项证据核查。"
+    },
+    {
+      "at": "2026-11-02T01:42:29+00:00",
+      "phase": "WAITING_NEXT",
+      "label": "等待下一章",
+      "detail": "第003章《风机开了，人却喘不过气》经一次局部修订、八项证据审核和release-check后采用冻结；本次为作者明确要求的手动续写，未改变今日CH002定时回执。"
     }
   ]
 }
