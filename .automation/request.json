@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs6-20261103-brief-4f9c7a21",
-  "base_sha": "0029b5c82e6228c1014dd7161d2579e23318721a",
+  "request_id": "xs6-20261103-block-4f9c7a21",
+  "base_sha": "6a6fbda024c1797efa0c90200f563fc99bf4e197",
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
   "controller": {
     "kind": "automation",
@@ -9,48 +9,7 @@
     "session_id": "xs6-20261103-run-4f9c7a21",
     "platform_run_id": null
   },
-  "phase": "command",
+  "phase": "block",
   "run_id": "37e170bfaa12466794b21454c0bf10c0",
-  "commands": [
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "brief-request",
-        "--out",
-        "drafts/CH004_brief.json"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "电池 风机 供电 时间 选择",
-        "--before",
-        "4",
-        "--limit",
-        "5"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "context",
-        "--profile",
-        "author",
-        "--query",
-        "电池 仪器 供电 退出 伤者",
-        "--budget",
-        "80000",
-        "--out",
-        "drafts/CH004_author_context.md"
-      ]
-    }
-  ]
+  "reason": "CH004正文工作稿本轮已本地写成并实测8110汉字，SHA256=27f5cd302ed8388a8e4abe49f5761c1a174e763bd692a1d5d79262ff5d59c777；GitHub连接器无法直接读取本地工作稿文件用于提交，未能远端登记候选或完成brief-check、reader审读、八项审核、release-check和finalize。完整本地工作稿及接续检查点已交付附件；保留第004章同一目标及现有修订次数，不跳章、不冒充冻结。"
 }
