@@ -1,11 +1,13 @@
 {
   "schema_version": 1,
-  "request_id": "xs6-config-preflight-fix-mvysw143-ek8j4lko",
-  "base_sha": "40212538f9387cfb205e2b9c1181052dd8698d0d",
+  "request_id": "xs6-20261103-preflight-4f9c7a21",
+  "base_sha": "9dedb3db90326d652804b6eeb3b66c724da2067e",
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
   "controller": {
-    "kind": "maintenance",
-    "session_id": "xs6-config-mvysubp5-7sfztdva"
+    "kind": "automation",
+    "automation_id": "6ae75ada42d48191bba7f5aca047f929",
+    "session_id": "xs6-20261103-run-4f9c7a21",
+    "platform_run_id": null
   },
   "phase": "preflight"
 }
