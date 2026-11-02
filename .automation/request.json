@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "request_id": "xs6-work-preflight-mvyjvc2d-9nycbzd",
-  "base_sha": "7cd13f8600888c5c03758df76c868dd4c8c23290",
+  "request_id": "xs6-config-preflight-mvysubp5-7sfztdva",
+  "base_sha": "6028cbe7d98f0a622f695d1525f7c3f61b5cf626",
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
   "controller": {
     "kind": "maintenance",
-    "session_id": "xs6-work-20261102-mvyjvc2d-ppt60uc"
+    "session_id": "xs6-config-mvysubp5-7sfztdva"
   },
   "phase": "preflight"
 }
