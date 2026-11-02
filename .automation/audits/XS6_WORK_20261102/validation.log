@@ -1,0 +1,1362 @@
+﻿2026-11-02T00:58:20.8045772Z Current runner version: '2.338.2'
+2026-11-02T00:58:20.8072028Z ##[group]Runner Image Provisioner
+2026-11-02T00:58:20.8072892Z Hosted Compute Agent
+2026-11-02T00:58:20.8073623Z Version: 20261021.618
+2026-11-02T00:58:20.8074263Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+2026-11-02T00:58:20.8075130Z Build Date: 2026-10-21T00:45:21Z
+2026-11-02T00:58:20.8075898Z Worker ID: {78dc2a33-16fc-4d4c-8aaa-c0fba95fea65}
+2026-11-02T00:58:20.8077045Z Region: westus
+2026-11-02T00:58:20.8077654Z Cloud: Azure
+2026-11-02T00:58:20.8078216Z ##[endgroup]
+2026-11-02T00:58:20.8079824Z ##[group]Operating System
+2026-11-02T00:58:20.8080558Z Ubuntu
+2026-11-02T00:58:20.8081073Z 26.04.1
+2026-11-02T00:58:20.8081644Z LTS
+2026-11-02T00:58:20.8082172Z ##[endgroup]
+2026-11-02T00:58:20.8082756Z ##[group]Runner Image
+2026-11-02T00:58:20.8083411Z Image: ubuntu-26.04
+2026-11-02T00:58:20.8083984Z Version: 20261025.179.1
+2026-11-02T00:58:20.8085296Z Included Software: https://github.com/actions/runner-images/blob/ubuntu26/20261025.179/images/ubuntu/Ubuntu2604-Readme.md
+2026-11-02T00:58:20.8087287Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu26%2F20261025.179
+2026-11-02T00:58:20.8088337Z ##[endgroup]
+2026-11-02T00:58:20.8089802Z ##[group]GITHUB_TOKEN Permissions
+2026-11-02T00:58:20.8092097Z Contents: read
+2026-11-02T00:58:20.8092750Z Metadata: read
+2026-11-02T00:58:20.8093419Z ##[endgroup]
+2026-11-02T00:58:20.8095460Z Secret source: Actions
+2026-11-02T00:58:20.8096712Z Cache mode: write
+2026-11-02T00:58:20.8097491Z Prepare workflow directory
+2026-11-02T00:58:20.8437611Z Prepare all required actions
+2026-11-02T00:58:20.8487452Z Getting action download info
+2026-11-02T00:58:21.1937457Z Download action repository 'actions/checkout@v7' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+2026-11-02T00:58:21.3180735Z Download action repository 'actions/setup-python@v7' (SHA:6d4fd22b20465ccc0f7354476588e8df7c9ca0e0)
+2026-11-02T00:58:21.6821640Z Download action repository 'actions/setup-node@v7' (SHA:949feb2413d6458794dcd2491c4babbbce0c15c1)
+2026-11-02T00:58:21.8595485Z Complete job name: validate
+2026-11-02T00:58:21.9492786Z ##[group]Run actions/checkout@v7
+2026-11-02T00:58:21.9493694Z with:
+2026-11-02T00:58:21.9494135Z   repository: 1464356758/XS6
+2026-11-02T00:58:21.9498171Z   token: ***
+2026-11-02T00:58:21.9498629Z   ssh-strict: true
+2026-11-02T00:58:21.9499074Z   ssh-user: git
+2026-11-02T00:58:21.9499516Z   persist-credentials: true
+2026-11-02T00:58:21.9500006Z   clean: true
+2026-11-02T00:58:21.9500463Z   sparse-checkout-cone-mode: true
+2026-11-02T00:58:21.9500999Z   fetch-depth: 1
+2026-11-02T00:58:21.9501437Z   fetch-tags: false
+2026-11-02T00:58:21.9501878Z   show-progress: true
+2026-11-02T00:58:21.9502320Z   lfs: false
+2026-11-02T00:58:21.9502732Z   submodules: false
+2026-11-02T00:58:21.9503187Z   set-safe-directory: true
+2026-11-02T00:58:21.9503707Z   allow-unsafe-pr-checkout: false
+2026-11-02T00:58:21.9504495Z ##[endgroup]
+2026-11-02T00:58:22.2162027Z Syncing repository: 1464356758/XS6
+2026-11-02T00:58:22.2164231Z ##[group]Getting Git version info
+2026-11-02T00:58:22.2165145Z Working directory is '/home/runner/work/XS6/XS6'
+2026-11-02T00:58:22.2166633Z [command]/usr/bin/git version
+2026-11-02T00:58:22.2188877Z git version 2.56.0
+2026-11-02T00:58:22.2214870Z ##[endgroup]
+2026-11-02T00:58:22.2234623Z Temporarily overriding HOME='/home/runner/work/_temp/19ea5dbd-579b-4990-bffc-7475023a2935' before making global git config changes
+2026-11-02T00:58:22.2237267Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-02T00:58:22.2242007Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/XS6/XS6
+2026-11-02T00:58:22.2319785Z Deleting the contents of '/home/runner/work/XS6/XS6'
+2026-11-02T00:58:22.2340652Z ##[group]Determining repository object format
+2026-11-02T00:58:22.2342687Z ##[endgroup]
+2026-11-02T00:58:22.2344622Z ##[group]Initializing the repository
+2026-11-02T00:58:22.2346565Z [command]/usr/bin/git init /home/runner/work/XS6/XS6
+2026-11-02T00:58:22.2462292Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-11-02T00:58:22.2464634Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-11-02T00:58:22.2466418Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-11-02T00:58:22.2468068Z hint: call:
+2026-11-02T00:58:22.2469220Z hint:
+2026-11-02T00:58:22.2470267Z hint: 	git config --global init.defaultBranch <name>
+2026-11-02T00:58:22.2471509Z hint:
+2026-11-02T00:58:22.2472939Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-11-02T00:58:22.2474950Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-11-02T00:58:22.2477135Z hint:
+2026-11-02T00:58:22.2478378Z hint: 	git branch -m <name>
+2026-11-02T00:58:22.2479297Z hint:
+2026-11-02T00:58:22.2480352Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-11-02T00:58:22.2481890Z Initialized empty Git repository in /home/runner/work/XS6/XS6/.git/
+2026-11-02T00:58:22.2491419Z [command]/usr/bin/git remote add origin https://github.com/1464356758/XS6
+2026-11-02T00:58:22.2550460Z ##[endgroup]
+2026-11-02T00:58:22.2552220Z ##[group]Disabling automatic garbage collection
+2026-11-02T00:58:22.2554204Z [command]/usr/bin/git config --local gc.auto 0
+2026-11-02T00:58:22.2595584Z ##[endgroup]
+2026-11-02T00:58:22.2598013Z ##[group]Setting up auth
+2026-11-02T00:58:22.2599350Z Removing SSH command configuration
+2026-11-02T00:58:22.2602610Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-02T00:58:22.2658388Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-02T00:58:22.3101310Z Removing HTTP extra header
+2026-11-02T00:58:22.3107592Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-02T00:58:22.3145314Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-02T00:58:22.3421161Z Removing includeIf entries pointing to credentials config files
+2026-11-02T00:58:22.3426816Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-02T00:58:22.3464010Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-02T00:58:22.3750806Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-ac41cdb3-9cb4-4a41-a507-17e595da72ab.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-11-02T00:58:22.3792313Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/XS6/XS6/.git.path /home/runner/work/_temp/git-credentials-ac41cdb3-9cb4-4a41-a507-17e595da72ab.config
+2026-11-02T00:58:22.3827016Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/XS6/XS6/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-ac41cdb3-9cb4-4a41-a507-17e595da72ab.config
+2026-11-02T00:58:22.3865785Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-ac41cdb3-9cb4-4a41-a507-17e595da72ab.config
+2026-11-02T00:58:22.3898783Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-ac41cdb3-9cb4-4a41-a507-17e595da72ab.config
+2026-11-02T00:58:22.3930100Z ##[endgroup]
+2026-11-02T00:58:22.3930901Z ##[group]Fetching the repository
+2026-11-02T00:58:22.3937399Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +c01ce11a426f438ca45a49969fb2f9004635f80a:refs/remotes/origin/main
+2026-11-02T00:58:22.9476751Z From https://github.com/1464356758/XS6
+2026-11-02T00:58:22.9487848Z  * [new ref]         c01ce11a426f438ca45a49969fb2f9004635f80a -> origin/main
+2026-11-02T00:58:22.9493197Z [command]/usr/bin/git branch --list --remote origin/main
+2026-11-02T00:58:22.9518486Z   origin/main
+2026-11-02T00:58:22.9527830Z [command]/usr/bin/git rev-parse refs/remotes/origin/main
+2026-11-02T00:58:22.9553543Z c01ce11a426f438ca45a49969fb2f9004635f80a
+2026-11-02T00:58:22.9558869Z ##[endgroup]
+2026-11-02T00:58:22.9560479Z ##[group]Determining the checkout info
+2026-11-02T00:58:22.9562127Z ##[endgroup]
+2026-11-02T00:58:22.9563427Z [command]/usr/bin/git sparse-checkout disable
+2026-11-02T00:58:22.9617188Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-11-02T00:58:22.9651264Z ##[group]Checking out the ref
+2026-11-02T00:58:22.9655369Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-11-02T00:58:22.9836677Z Switched to a new branch 'main'
+2026-11-02T00:58:22.9842637Z branch 'main' set up to track 'origin/main'.
+2026-11-02T00:58:22.9850394Z ##[endgroup]
+2026-11-02T00:58:22.9896997Z [command]/usr/bin/git log -1 --format=%H
+2026-11-02T00:58:22.9924583Z c01ce11a426f438ca45a49969fb2f9004635f80a
+2026-11-02T00:58:23.0423327Z ##[group]Run actions/setup-python@v7
+2026-11-02T00:58:23.0424534Z with:
+2026-11-02T00:58:23.0425330Z   python-version: 3.12
+2026-11-02T00:58:23.0426518Z   check-latest: false
+2026-11-02T00:58:23.0436551Z   token: ***
+2026-11-02T00:58:23.0437888Z   mirror: https://raw.githubusercontent.com/actions/python-versions/main
+2026-11-02T00:58:23.0439552Z   update-environment: true
+2026-11-02T00:58:23.0440575Z   allow-prereleases: false
+2026-11-02T00:58:23.0441567Z   freethreaded: false
+2026-11-02T00:58:23.0442464Z ##[endgroup]
+2026-11-02T00:58:23.1667057Z ##[group]Installed versions
+2026-11-02T00:58:23.1774373Z Successfully set up CPython (3.12.15)
+2026-11-02T00:58:23.1777285Z ##[endgroup]
+2026-11-02T00:58:23.1973963Z ##[group]Run python3 -m pip install -r requirements-private.txt
+2026-11-02T00:58:23.1977201Z [36;1mpython3 -m pip install -r requirements-private.txt[0m
+2026-11-02T00:58:23.2047941Z shell: /usr/bin/bash -e {0}
+2026-11-02T00:58:23.2049624Z env:
+2026-11-02T00:58:23.2051371Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-02T00:58:23.2054307Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-02T00:58:23.2057461Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-02T00:58:23.2060187Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-02T00:58:23.2062946Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-02T00:58:23.2065773Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-02T00:58:23.2068379Z ##[endgroup]
+2026-11-02T00:58:24.2728649Z Collecting cryptography>=42 (from -r requirements-private.txt (line 1))
+2026-11-02T00:58:24.3203955Z   Downloading cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl.metadata (4.4 kB)
+2026-11-02T00:58:24.4287697Z Collecting cffi>=2.0.0 (from cryptography>=42->-r requirements-private.txt (line 1))
+2026-11-02T00:58:24.4432548Z   Downloading cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.5 kB)
+2026-11-02T00:58:24.4629188Z Collecting pycparser (from cffi>=2.0.0->cryptography>=42->-r requirements-private.txt (line 1))
+2026-11-02T00:58:24.4744312Z   Downloading pycparser-3.12-py3-none-any.whl.metadata (9.7 kB)
+2026-11-02T00:58:24.4916670Z Downloading cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl (4.8 MB)
+2026-11-02T00:58:24.5612817Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 111.9 MB/s  0:00:00
+2026-11-02T00:58:24.5730941Z Downloading cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (221 kB)
+2026-11-02T00:58:24.5880650Z Downloading pycparser-3.12-py3-none-any.whl (62 kB)
+2026-11-02T00:58:24.6408076Z Installing collected packages: pycparser, cffi, cryptography
+2026-11-02T00:58:24.9440739Z 
+2026-11-02T00:58:24.9453521Z Successfully installed cffi-2.1.1 cryptography-50.0.2 pycparser-3.12
+2026-11-02T00:58:25.0115127Z ##[group]Run actions/setup-node@v7
+2026-11-02T00:58:25.0115685Z with:
+2026-11-02T00:58:25.0115899Z   node-version: 22
+2026-11-02T00:58:25.0116323Z   check-latest: false
+2026-11-02T00:58:25.0118792Z   token: ***
+2026-11-02T00:58:25.0119015Z   package-manager-cache: true
+2026-11-02T00:58:25.0119269Z env:
+2026-11-02T00:58:25.0119533Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-02T00:58:25.0119966Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-02T00:58:25.0120390Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-02T00:58:25.0120767Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-02T00:58:25.0121146Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-02T00:58:25.0121530Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-02T00:58:25.0121859Z ##[endgroup]
+2026-11-02T00:58:25.1520987Z Found in cache @ /opt/hostedtoolcache/node/22.23.4/x64
+2026-11-02T00:58:25.2449910Z ##[group]Environment details
+2026-11-02T00:58:25.5930861Z node: v22.23.4
+2026-11-02T00:58:25.5931403Z npm: 10.9.9
+2026-11-02T00:58:25.5931741Z yarn: 1.22.22
+2026-11-02T00:58:25.5932373Z ##[endgroup]
+2026-11-02T00:58:25.6052782Z ##[group]Run python3 -m unittest discover -s tests -v
+2026-11-02T00:58:25.6053228Z [36;1mpython3 -m unittest discover -s tests -v[0m
+2026-11-02T00:58:25.6091635Z shell: /usr/bin/bash -e {0}
+2026-11-02T00:58:25.6091889Z env:
+2026-11-02T00:58:25.6092160Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-02T00:58:25.6092602Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-02T00:58:25.6093045Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-02T00:58:25.6093430Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-02T00:58:25.6093811Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-02T00:58:25.6094197Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-02T00:58:25.6094516Z ##[endgroup]
+2026-11-02T00:58:25.9689254Z test_begin_does_not_change_official_state_or_repair_count (test_daily_update.DailyTests.test_begin_does_not_change_official_state_or_repair_count) ... ok
+2026-11-02T00:58:26.0016829Z test_completed_active_with_lost_receipt_recovers_instead_of_starting_next (test_daily_update.DailyTests.test_completed_active_with_lost_receipt_recovers_instead_of_starting_next) ... ok
+2026-11-02T00:58:26.0290833Z test_completed_day_is_idempotent_and_does_not_start_next_chapter (test_daily_update.DailyTests.test_completed_day_is_idempotent_and_does_not_start_next_chapter) ... ok
+2026-11-02T00:58:26.0541364Z test_completed_receipt_path_cannot_escape_its_actual_day (test_daily_update.DailyTests.test_completed_receipt_path_cannot_escape_its_actual_day) ... ok
+2026-11-02T00:58:26.0660696Z test_credentials_in_block_reason_are_redacted (test_daily_update.DailyTests.test_credentials_in_block_reason_are_redacted) ... ok
+2026-11-02T00:58:26.0783852Z test_explicit_resume_keeps_target_baseline_and_old_attempt (test_daily_update.DailyTests.test_explicit_resume_keeps_target_baseline_and_old_attempt) ... ok
+2026-11-02T00:58:26.0991914Z test_invalid_active_identity_and_status_cannot_resume_or_block (test_daily_update.DailyTests.test_invalid_active_identity_and_status_cannot_resume_or_block) ... ok
+2026-11-02T00:58:26.1218454Z test_legacy_adopted_chapter_without_time_is_not_claimed_today (test_daily_update.DailyTests.test_legacy_adopted_chapter_without_time_is_not_claimed_today) ... ok
+2026-11-02T00:58:26.1492102Z test_lost_yesterday_receipt_does_not_open_a_second_target_during_recovery (test_daily_update.DailyTests.test_lost_yesterday_receipt_does_not_open_a_second_target_during_recovery) ... ok
+2026-11-02T00:58:26.1717093Z test_missing_receipt_is_recovered_from_adoption_time (test_daily_update.DailyTests.test_missing_receipt_is_recovered_from_adoption_time) ... ok
+2026-11-02T00:58:26.1787222Z test_no_initialization_when_only_empty_master_exists (test_daily_update.DailyTests.test_no_initialization_when_only_empty_master_exists) ... ok
+2026-11-02T00:58:26.1894280Z test_no_receipt_before_real_adoption (test_daily_update.DailyTests.test_no_receipt_before_real_adoption) ... ok
+2026-11-02T00:58:26.2570340Z test_python_receipt_passes_the_same_javascript_verifier (test_daily_update.DailyTests.test_python_receipt_passes_the_same_javascript_verifier) ... ok
+2026-11-02T00:58:26.2955365Z test_receipt_saved_before_active_update_recovers_and_allows_the_next_day (test_daily_update.DailyTests.test_receipt_saved_before_active_update_recovers_and_allows_the_next_day) ... ok
+2026-11-02T00:58:26.3241289Z test_resume_stops_when_old_chapter_freeze_state_is_disabled (test_daily_update.DailyTests.test_resume_stops_when_old_chapter_freeze_state_is_disabled) ... ok
+2026-11-02T00:58:26.3343779Z test_running_target_is_not_automatically_stolen (test_daily_update.DailyTests.test_running_target_is_not_automatically_stolen) ... ok
+2026-11-02T00:58:26.3474218Z test_stale_run_cannot_finish_or_block_after_resume (test_daily_update.DailyTests.test_stale_run_cannot_finish_or_block_after_resume) ... ok
+2026-11-02T00:58:26.3752392Z test_yesterday_adoption_cannot_be_reclassified_as_today (test_daily_update.DailyTests.test_yesterday_adoption_cannot_be_reclassified_as_today) ... ok
+2026-11-02T00:58:26.6784124Z test_downloaded_package_matches_static_and_worker_delivery_bytes (test_delivery_recheck.DeliveryRecheck.test_downloaded_package_matches_static_and_worker_delivery_bytes) ... ok
+2026-11-02T00:58:26.7957315Z test_initial_package_rebuilds_itself_without_old_enrollment_or_identity (test_delivery_recheck.DeliveryRecheck.test_initial_package_rebuilds_itself_without_old_enrollment_or_identity) ... ok
+2026-11-02T00:58:58.1837363Z test_100_chapter_new_profile_stage_and_reader_state_flow (test_narrative_quality.NarrativeQualityTests.test_100_chapter_new_profile_stage_and_reader_state_flow) ... ok
+2026-11-02T00:58:58.2124209Z test_budget_overflow_and_partial_reader_do_not_claim_full_history (test_narrative_quality.NarrativeQualityTests.test_budget_overflow_and_partial_reader_do_not_claim_full_history) ... ok
+2026-11-02T00:58:58.2397045Z test_changed_brief_invalidates_gate_without_resetting_repairs (test_narrative_quality.NarrativeQualityTests.test_changed_brief_invalidates_gate_without_resetting_repairs) ... ok
+2026-11-02T00:58:58.2451474Z test_chinese_adjacent_control_fields_are_detected_without_english_word_boundaries (test_narrative_quality.NarrativeQualityTests.test_chinese_adjacent_control_fields_are_detected_without_english_word_boundaries) ... ok
+2026-11-02T00:58:58.3349658Z test_context_output_cannot_overwrite_frozen_prose (test_narrative_quality.NarrativeQualityTests.test_context_output_cannot_overwrite_frozen_prose) ... ok
+2026-11-02T00:58:58.3696922Z test_context_rejects_changes_during_initial_file_verification (test_narrative_quality.NarrativeQualityTests.test_context_rejects_changes_during_initial_file_verification) ... ok
+2026-11-02T00:58:58.4718254Z test_empty_older_reader_recap_falls_back_to_actual_prose (test_narrative_quality.NarrativeQualityTests.test_empty_older_reader_recap_falls_back_to_actual_prose) ... ok
+2026-11-02T00:58:58.6544430Z test_history_search_reaches_beyond_recent_three (test_narrative_quality.NarrativeQualityTests.test_history_search_reaches_beyond_recent_three) ... ok
+2026-11-02T00:58:58.6704336Z test_legitimate_ids_are_not_blanket_banned_and_story_context_is_explicit (test_narrative_quality.NarrativeQualityTests.test_legitimate_ids_are_not_blanket_banned_and_story_context_is_explicit) ... ok
+2026-11-02T00:58:58.6869925Z test_new_brief_does_not_reset_a_repair_task (test_narrative_quality.NarrativeQualityTests.test_new_brief_does_not_reset_a_repair_task) ... ok
+2026-11-02T00:58:58.7028740Z test_new_release_cannot_skip_brief_or_pending_review (test_narrative_quality.NarrativeQualityTests.test_new_release_cannot_skip_brief_or_pending_review) ... ok
+2026-11-02T00:58:58.7349598Z test_optional_dialogue_and_style_suggestion_do_not_force_rewrite (test_narrative_quality.NarrativeQualityTests.test_optional_dialogue_and_style_suggestion_do_not_force_rewrite) ... ok
+2026-11-02T00:58:58.7500579Z test_pending_cross_book_and_wrong_budget_briefs_rejected (test_narrative_quality.NarrativeQualityTests.test_pending_cross_book_and_wrong_budget_briefs_rejected) ... ok
+2026-11-02T00:58:58.7688709Z test_production_phrases_and_annotations_cannot_be_silently_deleted (test_narrative_quality.NarrativeQualityTests.test_production_phrases_and_annotations_cannot_be_silently_deleted) ... ok
+2026-11-02T00:58:58.7741187Z test_profile_configuration_rejects_silent_nonserial_or_string_flags (test_narrative_quality.NarrativeQualityTests.test_profile_configuration_rejects_silent_nonserial_or_string_flags) ... ok
+2026-11-02T00:58:58.8138345Z test_punctuation_only_queries_do_not_count_as_history_search (test_narrative_quality.NarrativeQualityTests.test_punctuation_only_queries_do_not_count_as_history_search) ... ok
+2026-11-02T00:58:58.9239590Z test_reader_claim_stays_a_claim_in_older_recap (test_narrative_quality.NarrativeQualityTests.test_reader_claim_stays_a_claim_in_older_recap) ... ok
+2026-11-02T00:58:58.9306529Z test_reader_context_rejects_draft_change_while_building_packet (test_narrative_quality.NarrativeQualityTests.test_reader_context_rejects_draft_change_while_building_packet) ... ok
+2026-11-02T00:58:58.9510924Z test_reader_modes_and_unresolved_understanding_fail_closed (test_narrative_quality.NarrativeQualityTests.test_reader_modes_and_unresolved_understanding_fail_closed) ... ok
+2026-11-02T00:58:59.0294347Z test_reader_output_cannot_overwrite_its_draft_input (test_narrative_quality.NarrativeQualityTests.test_reader_output_cannot_overwrite_its_draft_input) ... ok
+2026-11-02T00:58:59.0514279Z test_reader_packet_never_reads_raw_summary_or_author_inputs (test_narrative_quality.NarrativeQualityTests.test_reader_packet_never_reads_raw_summary_or_author_inputs) ... ok
+2026-11-02T00:58:59.0665065Z test_reader_recap_rejects_invented_or_future_evidence (test_narrative_quality.NarrativeQualityTests.test_reader_recap_rejects_invented_or_future_evidence) ... ok
+2026-11-02T00:58:59.0816919Z test_reverse_outline_requires_actual_current_prose_evidence (test_narrative_quality.NarrativeQualityTests.test_reverse_outline_requires_actual_current_prose_evidence) ... ok
+2026-11-02T00:58:59.0926344Z test_route_change_invalidates_brief_before_writing (test_narrative_quality.NarrativeQualityTests.test_route_change_invalidates_brief_before_writing) ... ok
+2026-11-02T00:58:59.2412790Z test_snapshot_contains_new_runtime_and_retains_freeze (test_narrative_quality.NarrativeQualityTests.test_snapshot_contains_new_runtime_and_retains_freeze) ... ok
+2026-11-02T00:58:59.2913220Z test_stale_history_and_fabricated_comparison_rejected (test_narrative_quality.NarrativeQualityTests.test_stale_history_and_fabricated_comparison_rejected) ... ok
+2026-11-02T00:58:59.3092512Z test_writer_packet_uses_clean_brief_without_control_or_future (test_narrative_quality.NarrativeQualityTests.test_writer_packet_uses_clean_brief_without_control_or_future) ... ok
+2026-11-02T00:58:59.3350028Z test_blocking_stage_review_stops_new_prose (test_novel_state.WorkspaceTests.test_blocking_stage_review_stops_new_prose) ... ok
+2026-11-02T00:58:59.3429677Z test_body_hash_mismatch_is_rejected (test_novel_state.WorkspaceTests.test_body_hash_mismatch_is_rejected) ... ok
+2026-11-02T00:58:59.3564708Z test_budget_overflow_is_explicit (test_novel_state.WorkspaceTests.test_budget_overflow_is_explicit) ... ok
+2026-11-02T00:58:59.3761625Z test_changed_record_invalidates_old_review (test_novel_state.WorkspaceTests.test_changed_record_invalidates_old_review) ... ok
+2026-11-02T00:58:59.3928144Z test_checked_source_requires_current_text_and_real_quote (test_novel_state.WorkspaceTests.test_checked_source_requires_current_text_and_real_quote) ... ok
+2026-11-02T00:58:59.4071605Z test_complete_adoption_and_source_packet (test_novel_state.WorkspaceTests.test_complete_adoption_and_source_packet) ... ok
+2026-11-02T00:58:59.4213418Z test_empty_summary_is_rejected_without_destroying_old_record (test_novel_state.WorkspaceTests.test_empty_summary_is_rejected_without_destroying_old_record) ... ok
+2026-11-02T00:58:59.4305141Z test_fabricated_quote_is_rejected (test_novel_state.WorkspaceTests.test_fabricated_quote_is_rejected) ... ok
+2026-11-02T00:58:59.4840096Z test_fifth_chapter_requires_review_before_sixth (test_novel_state.WorkspaceTests.test_fifth_chapter_requires_review_before_sixth) ... ok
+2026-11-02T00:58:59.4888053Z test_han_count_excludes_latin_and_punctuation (test_novel_state.WorkspaceTests.test_han_count_excludes_latin_and_punctuation) ... ok
+2026-11-02T00:58:59.4999774Z test_init_never_overwrites_progress (test_novel_state.WorkspaceTests.test_init_never_overwrites_progress) ... ok
+2026-11-02T00:58:59.5422144Z test_partial_review_cannot_clear_due_review (test_novel_state.WorkspaceTests.test_partial_review_cannot_clear_due_review) ... ok
+2026-11-02T00:58:59.5501796Z test_plan_is_not_allowed_as_fact_kind (test_novel_state.WorkspaceTests.test_plan_is_not_allowed_as_fact_kind) ... ok
+2026-11-02T00:58:59.5898164Z test_prior_change_marks_later_chapters_and_excludes_them_from_continuation (test_novel_state.WorkspaceTests.test_prior_change_marks_later_chapters_and_excludes_them_from_continuation) ... ok
+2026-11-02T00:58:59.6072531Z test_review_coverage_is_exact (test_novel_state.WorkspaceTests.test_review_coverage_is_exact) ... ok
+2026-11-02T00:58:59.6127527Z test_skipping_a_chapter_is_rejected (test_novel_state.WorkspaceTests.test_skipping_a_chapter_is_rejected) ... ok
+2026-11-02T00:58:59.6338680Z test_stage_transition_needs_stage_review (test_novel_state.WorkspaceTests.test_stage_transition_needs_stage_review) ... ok
+2026-11-02T00:58:59.6500774Z test_stale_record_cannot_be_adopted (test_novel_state.WorkspaceTests.test_stale_record_cannot_be_adopted) ... ok
+2026-11-02T00:58:59.6594915Z test_strict_length_is_measured (test_novel_state.WorkspaceTests.test_strict_length_is_measured) ... ok
+2026-11-02T00:58:59.6708951Z test_summary_only_cannot_count_as_full_review (test_novel_state.WorkspaceTests.test_summary_only_cannot_count_as_full_review) ... ok
+2026-11-02T00:58:59.6832403Z test_tampered_adopted_file_is_detected (test_novel_state.WorkspaceTests.test_tampered_adopted_file_is_detected) ... ok
+2026-11-02T00:58:59.6913844Z test_unfinished_prose_is_not_adopted (test_novel_state.WorkspaceTests.test_unfinished_prose_is_not_adopted) ... ok
+2026-11-02T00:58:59.6973872Z test_bad_repository_url_is_rejected (test_online_state.OnlineTests.test_bad_repository_url_is_rejected) ... ok
+2026-11-02T00:58:59.7049040Z test_bootstrap_is_idempotent (test_online_state.OnlineTests.test_bootstrap_is_idempotent) ... ok
+2026-11-02T00:58:59.7104723Z test_cannot_fabricate_completion (test_online_state.OnlineTests.test_cannot_fabricate_completion) ... ok
+2026-11-02T00:58:59.7160241Z test_cannot_start_writing_without_topic_and_planning (test_online_state.OnlineTests.test_cannot_start_writing_without_topic_and_planning) ... ok
+2026-11-02T00:58:59.7273332Z test_complete_ranking_requires_at_least_five_samples (test_online_state.OnlineTests.test_complete_ranking_requires_at_least_five_samples) ... ok
+2026-11-02T00:58:59.7326486Z test_different_repository_cannot_reuse_book_identity (test_online_state.OnlineTests.test_different_repository_cannot_reuse_book_identity) ... ok
+2026-11-02T00:58:59.7436842Z test_duplicate_topic_ids_are_rejected (test_online_state.OnlineTests.test_duplicate_topic_ids_are_rejected) ... ok
+2026-11-02T00:58:59.7922662Z test_empty_template_excludes_live_identity_and_research (test_online_state.OnlineTests.test_empty_template_excludes_live_identity_and_research) ... ok
+2026-11-02T00:58:59.7994775Z test_first_state_waits_for_platform (test_online_state.OnlineTests.test_first_state_waits_for_platform) ... ok
+2026-11-02T00:58:59.9988776Z test_init_archive_can_bootstrap_as_an_independent_new_book (test_online_state.OnlineTests.test_init_archive_can_bootstrap_as_an_independent_new_book) ... ok
+2026-11-02T00:59:00.0102491Z test_new_workspaces_have_different_identities (test_online_state.OnlineTests.test_new_workspaces_have_different_identities) ... ok
+2026-11-02T00:59:00.0226494Z test_partial_research_remains_explicit (test_online_state.OnlineTests.test_partial_research_remains_explicit) ... ok
+2026-11-02T00:59:00.0303988Z test_reader_manifest_matches_source_state_hash (test_online_state.OnlineTests.test_reader_manifest_matches_source_state_hash) ... ok
+2026-11-02T00:59:00.0434969Z test_research_rejects_nonofficial_sources (test_online_state.OnlineTests.test_research_rejects_nonofficial_sources) ... ok
+2026-11-02T00:59:00.0631721Z test_selection_requires_an_actual_candidate (test_online_state.OnlineTests.test_selection_requires_an_actual_candidate) ... ok
+2026-11-02T00:59:00.0715921Z test_stale_reader_index_is_detected (test_online_state.OnlineTests.test_stale_reader_index_is_detected) ... ok
+2026-11-02T00:59:00.0831217Z test_topic_count_is_five_to_ten (test_online_state.OnlineTests.test_topic_count_is_five_to_ten) ... ok
+2026-11-02T00:59:00.0991503Z test_topics_wait_for_author_and_do_not_start_prose (test_online_state.OnlineTests.test_topics_wait_for_author_and_do_not_start_prose) ... ok
+2026-11-02T00:59:00.3433962Z test_v43_template_bootstraps_two_independent_serial_books (test_online_state.OnlineTests.test_v43_template_bootstraps_two_independent_serial_books) ... ok
+2026-11-02T00:59:00.3945513Z test_authorized_plain_migration_preserves_files_history_and_live_workflow (test_private_book.PrivateBookTests.test_authorized_plain_migration_preserves_files_history_and_live_workflow) ... ok
+2026-11-02T00:59:00.4210356Z test_cipher_tampering_is_detected (test_private_book.PrivateBookTests.test_cipher_tampering_is_detected) ... ok
+2026-11-02T00:59:00.4455283Z test_header_tampering_fails_authentication_even_after_public_hash_recomputed (test_private_book.PrivateBookTests.test_header_tampering_fails_authentication_even_after_public_hash_recomputed) ... ok
+2026-11-02T00:59:00.4724599Z test_index_uses_private_progress_without_reading_plaintext (test_private_book.PrivateBookTests.test_index_uses_private_progress_without_reading_plaintext) ... ok
+2026-11-02T00:59:00.4901419Z test_paths_and_key_replacement_are_rejected (test_private_book.PrivateBookTests.test_paths_and_key_replacement_are_rejected) ... ok
+2026-11-02T00:59:00.5202887Z test_plain_migration_rejects_immutable_conflict_without_changing_state (test_private_book.PrivateBookTests.test_plain_migration_rejects_immutable_conflict_without_changing_state) ... ok
+2026-11-02T00:59:00.5447806Z test_plain_migration_wrong_key_leaves_official_pointer_in_place (test_private_book.PrivateBookTests.test_plain_migration_wrong_key_leaves_official_pointer_in_place) ... ok
+2026-11-02T00:59:00.5673064Z test_public_baseline_cannot_be_mistaken_for_current_state (test_private_book.PrivateBookTests.test_public_baseline_cannot_be_mistaken_for_current_state) ... ok
+2026-11-02T00:59:00.5953114Z test_roundtrip_preserves_actual_adopted_files_and_history (test_private_book.PrivateBookTests.test_roundtrip_preserves_actual_adopted_files_and_history) ... ok
+2026-11-02T00:59:00.6259028Z test_serial_freeze_survives_legacy_storage_roundtrip (test_private_book.PrivateBookTests.test_serial_freeze_survives_legacy_storage_roundtrip) ... ok
+2026-11-02T00:59:00.6668673Z test_stale_working_copy_cannot_replace_newer_vault (test_private_book.PrivateBookTests.test_stale_working_copy_cannot_replace_newer_vault) ... ok
+2026-11-02T00:59:00.6902271Z test_wrong_key_and_overwrite_restore_are_rejected (test_private_book.PrivateBookTests.test_wrong_key_and_overwrite_restore_are_rejected) ... ok
+2026-11-02T00:59:21.7610450Z test_100_chapter_900k_serial_release_finish_and_export (test_serial_release.SerialTests.test_100_chapter_900k_serial_release_finish_and_export) ... ok
+2026-11-02T00:59:21.7729459Z test_adoption_requires_actual_completed_preflight (test_serial_release.SerialTests.test_adoption_requires_actual_completed_preflight) ... ok
+2026-11-02T00:59:21.7882961Z test_context_projection_does_not_expand_with_closed_history (test_serial_release.SerialTests.test_context_projection_does_not_expand_with_closed_history) ... ok
+2026-11-02T00:59:21.8078888Z test_disabled_freeze_flag_cannot_enable_old_chapter_editing (test_serial_release.SerialTests.test_disabled_freeze_flag_cannot_enable_old_chapter_editing) ... ok
+2026-11-02T00:59:21.9113413Z test_fifth_chapter_needs_full_review_before_adoption (test_serial_release.SerialTests.test_fifth_chapter_needs_full_review_before_adoption) ... ok
+2026-11-02T00:59:21.9242309Z test_first_chapter_delayed_hook_rejected_by_measured_position (test_serial_release.SerialTests.test_first_chapter_delayed_hook_rejected_by_measured_position) ... ok
+2026-11-02T00:59:21.9444768Z test_frozen_edit_revalidate_and_canon_change_rejected (test_serial_release.SerialTests.test_frozen_edit_revalidate_and_canon_change_rejected) ... ok
+2026-11-02T00:59:21.9656268Z test_frozen_file_tampering_blocks_continuation_without_rewriting_it (test_serial_release.SerialTests.test_frozen_file_tampering_blocks_continuation_without_rewriting_it) ... ok
+2026-11-02T00:59:21.9825270Z test_gate_stale_after_roadmap_change (test_serial_release.SerialTests.test_gate_stale_after_roadmap_change) ... ok
+2026-11-02T00:59:21.9969267Z test_gate_stale_after_semantic_record_changed (test_serial_release.SerialTests.test_gate_stale_after_semantic_record_changed) ... ok
+2026-11-02T00:59:22.0181788Z test_missing_freeze_state_or_manifest_cannot_be_recreated_silently (test_serial_release.SerialTests.test_missing_freeze_state_or_manifest_cannot_be_recreated_silently) ... ok
+2026-11-02T00:59:22.0413130Z test_next_chapter_repairs_leave_every_old_frozen_file_unchanged (test_serial_release.SerialTests.test_next_chapter_repairs_leave_every_old_frozen_file_unchanged) ... ok
+2026-11-02T00:59:22.0674181Z test_old_body_and_record_are_unchanged_after_all_revision_attempts (test_serial_release.SerialTests.test_old_body_and_record_are_unchanged_after_all_revision_attempts) ... ok
+2026-11-02T00:59:22.1047264Z test_old_error_remains_open_until_future_prose_supports_resolution (test_serial_release.SerialTests.test_old_error_remains_open_until_future_prose_supports_resolution) ... ok
+2026-11-02T00:59:22.1215122Z test_pin_rejects_state_repoint_even_if_new_file_itself_matches (test_serial_release.SerialTests.test_pin_rejects_state_repoint_even_if_new_file_itself_matches) ... ok
+2026-11-02T00:59:22.1392121Z test_plan_cannot_reset_existing_deadline (test_serial_release.SerialTests.test_plan_cannot_reset_existing_deadline) ... ok
+2026-11-02T00:59:22.1729824Z test_promise_partial_progress_cannot_reset_deadline (test_serial_release.SerialTests.test_promise_partial_progress_cannot_reset_deadline) ... ok
+2026-11-02T00:59:22.1929681Z test_publication_needs_exact_frozen_version_and_real_past_time (test_serial_release.SerialTests.test_publication_needs_exact_frozen_version_and_real_past_time) ... ok
+2026-11-02T00:59:22.2110062Z test_reopen_does_not_unlock_frozen_chapters (test_serial_release.SerialTests.test_reopen_does_not_unlock_frozen_chapters) ... ok
+2026-11-02T00:59:22.2288144Z test_repair_round_trip_does_not_reuse_old_gate (test_serial_release.SerialTests.test_repair_round_trip_does_not_reuse_old_gate) ... ok
+2026-11-02T00:59:22.3448058Z test_snapshot_restores_serial_module_and_freeze_boundary (test_serial_release.SerialTests.test_snapshot_restores_serial_module_and_freeze_boundary) ... ok
+2026-11-02T00:59:22.5702197Z test_tenth_stage_review_also_happens_before_freeze (test_serial_release.SerialTests.test_tenth_stage_review_also_happens_before_freeze) ... ok
+2026-11-02T00:59:22.5892112Z test_valid_release_freezes_both_versions_without_claiming_publication (test_serial_release.SerialTests.test_valid_release_freezes_both_versions_without_claiming_publication) ... ok
+2026-11-02T00:59:22.6009087Z test_arbitrary_scripts_path_escape_and_publication_are_rejected (test_task_executor.ExecutorTests.test_arbitrary_scripts_path_escape_and_publication_are_rejected) ... ok
+2026-11-02T00:59:22.7235650Z test_author_repair_archives_old_run_and_next_task_claims_same_chapter (test_task_executor.ExecutorTests.test_author_repair_archives_old_run_and_next_task_claims_same_chapter) ... ok
+2026-11-02T00:59:22.7847045Z test_begin_records_controller_and_repeated_same_owner_keeps_the_target (test_task_executor.ExecutorTests.test_begin_records_controller_and_repeated_same_owner_keeps_the_target) ... ok
+2026-11-02T00:59:22.8343452Z test_bound_terminal_owner_can_resume_without_resetting_candidate_repairs (test_task_executor.ExecutorTests.test_bound_terminal_owner_can_resume_without_resetting_candidate_repairs) ... ok
+2026-11-02T00:59:22.8547433Z test_duplicate_request_id_is_not_replayed (test_task_executor.ExecutorTests.test_duplicate_request_id_is_not_replayed) ... ok
+2026-11-02T00:59:22.8673573Z test_empty_template_preflight_does_not_initialize_a_book (test_task_executor.ExecutorTests.test_empty_template_preflight_does_not_initialize_a_book) ... ok
+2026-11-02T00:59:22.9572392Z test_failed_finish_rolls_back_new_adoption_and_keeps_owned_run_blocked (test_task_executor.ExecutorTests.test_failed_finish_rolls_back_new_adoption_and_keeps_owned_run_blocked) ... ok
+2026-11-02T00:59:23.0407231Z test_finalize_adopts_exactly_one_chapter_with_receipt_and_keeps_old_prose (test_task_executor.ExecutorTests.test_finalize_adopts_exactly_one_chapter_with_receipt_and_keeps_old_prose) ... ok
+2026-11-02T00:59:23.0771074Z test_foreign_session_cannot_run_commands_or_block_the_owner (test_task_executor.ExecutorTests.test_foreign_session_cannot_run_commands_or_block_the_owner) ... ok
+2026-11-02T00:59:23.1019611Z test_legacy_running_record_requires_evidence_even_if_very_old (test_task_executor.ExecutorTests.test_legacy_running_record_requires_evidence_even_if_very_old) ... ok
+2026-11-02T00:59:23.1321134Z test_operator_recovery_needs_author_instruction_and_exact_lock (test_task_executor.ExecutorTests.test_operator_recovery_needs_author_instruction_and_exact_lock) ... ok
+2026-11-02T00:59:23.1636627Z test_operator_recovery_rejects_changed_state_and_wrong_book_binding (test_task_executor.ExecutorTests.test_operator_recovery_rejects_changed_state_and_wrong_book_binding) ... ok
+2026-11-02T00:59:23.2277900Z test_preflight_repairs_derived_index_without_touching_state_or_lock (test_task_executor.ExecutorTests.test_preflight_repairs_derived_index_without_touching_state_or_lock) ... ok
+2026-11-02T00:59:23.2742736Z test_recovery_ready_cannot_be_claimed_with_a_changed_target (test_task_executor.ExecutorTests.test_recovery_ready_cannot_be_claimed_with_a_changed_target) ... ok
+2026-11-02T00:59:23.3023296Z test_remote_recovery_refuses_another_live_writer (test_task_executor.ExecutorTests.test_remote_recovery_refuses_another_live_writer) ... ok
+2026-11-02T00:59:23.3674302Z test_revoked_owner_cannot_write_and_changed_audit_cannot_be_claimed (test_task_executor.ExecutorTests.test_revoked_owner_cannot_write_and_changed_audit_cannot_be_claimed) ... ok
+2026-11-02T00:59:23.4059627Z test_terminal_proof_for_a_different_platform_run_cannot_resume (test_task_executor.ExecutorTests.test_terminal_proof_for_a_different_platform_run_cannot_resume) ... ok
+2026-11-02T00:59:23.6017393Z test_tool_failure_preserves_repair_budget_and_records_block_with_valid_index (test_task_executor.ExecutorTests.test_tool_failure_preserves_repair_budget_and_records_block_with_valid_index) ... ok
+2026-11-02T00:59:23.7927520Z test_remote_advance_blocks_old_request_and_exact_recorded_result_can_be_reused (test_task_executor.GitLeaseTests.test_remote_advance_blocks_old_request_and_exact_recorded_result_can_be_reused) ... ok
+2026-11-02T00:59:23.8010173Z test_candidate_cannot_reset_open_task_counter (test_v4_reliability.ReliabilityTests.test_candidate_cannot_reset_open_task_counter) ... ok
+2026-11-02T00:59:23.8259911Z test_canon_change_invalidates_existing_chapters_and_checkpoint (test_v4_reliability.ReliabilityTests.test_canon_change_invalidates_existing_chapters_and_checkpoint) ... ok
+2026-11-02T00:59:24.4091318Z test_changes_invalidate_beyond_thirty_chapters (test_v4_reliability.ReliabilityTests.test_changes_invalidate_beyond_thirty_chapters) ... ok
+2026-11-02T00:59:24.4262348Z test_character_knowledge_is_separate_from_belief_and_other_people (test_v4_reliability.ReliabilityTests.test_character_knowledge_is_separate_from_belief_and_other_people) ... ok
+2026-11-02T00:59:24.4373142Z test_completion_rejects_insufficient_chapters (test_v4_reliability.ReliabilityTests.test_completion_rejects_insufficient_chapters) ... ok
+2026-11-02T00:59:24.4564209Z test_conflicting_values_are_reported_not_silently_selected (test_v4_reliability.ReliabilityTests.test_conflicting_values_are_reported_not_silently_selected) ... ok
+2026-11-02T00:59:24.4696340Z test_context_budget_is_respected (test_v4_reliability.ReliabilityTests.test_context_budget_is_respected) ... ok
+2026-11-02T00:59:24.4747496Z test_empty_input_does_not_overwrite_valid_input (test_v4_reliability.ReliabilityTests.test_empty_input_does_not_overwrite_valid_input) ... ok
+2026-11-02T00:59:24.4870601Z test_export_uses_adopted_versions_and_excludes_candidate (test_v4_reliability.ReliabilityTests.test_export_uses_adopted_versions_and_excludes_candidate) ... ok
+2026-11-02T00:59:24.5027405Z test_failure_before_manifest_commit_leaves_old_adoption_valid (test_v4_reliability.ReliabilityTests.test_failure_before_manifest_commit_leaves_old_adoption_valid) ... ok
+2026-11-02T00:59:24.5103251Z test_future_plan_cannot_become_current_fact (test_v4_reliability.ReliabilityTests.test_future_plan_cannot_become_current_fact) ... ok
+2026-11-02T00:59:24.5265057Z test_future_published_revelation_is_not_visible_when_querying_earlier_prefix (test_v4_reliability.ReliabilityTests.test_future_published_revelation_is_not_visible_when_querying_earlier_prefix) ... ok
+2026-11-02T00:59:24.5396594Z test_future_roadmap_update_keeps_adopted_facts (test_v4_reliability.ReliabilityTests.test_future_roadmap_update_keeps_adopted_facts) ... ok
+2026-11-02T00:59:24.5449741Z test_immutable_source_replacement_is_detected (test_v4_reliability.ReliabilityTests.test_immutable_source_replacement_is_detected) ... ok
+2026-11-02T00:59:24.5527715Z test_invalid_time_interval_is_rejected (test_v4_reliability.ReliabilityTests.test_invalid_time_interval_is_rejected) ... ok
+2026-11-02T00:59:24.5639541Z test_missing_holder_is_rejected (test_v4_reliability.ReliabilityTests.test_missing_holder_is_rejected) ... ok
+2026-11-02T00:59:24.5801966Z test_new_state_expiration_does_not_resurrect_old_state (test_v4_reliability.ReliabilityTests.test_new_state_expiration_does_not_resurrect_old_state) ... ok
+2026-11-02T00:59:24.5917458Z test_partial_payoff_stays_open (test_v4_reliability.ReliabilityTests.test_partial_payoff_stays_open) ... ok
+2026-11-02T00:59:24.6053437Z test_repair_count_persists_and_fourth_repair_is_rejected (test_v4_reliability.ReliabilityTests.test_repair_count_persists_and_fourth_repair_is_rejected) ... ok
+2026-11-02T00:59:24.6162722Z test_repeated_adoption_does_not_duplicate_chapter_or_revision (test_v4_reliability.ReliabilityTests.test_repeated_adoption_does_not_duplicate_chapter_or_revision) ... ok
+2026-11-02T00:59:24.6259194Z test_repeated_candidate_is_idempotent (test_v4_reliability.ReliabilityTests.test_repeated_candidate_is_idempotent) ... ok
+2026-11-02T00:59:24.6576531Z test_snapshot_corruption_is_detected (test_v4_reliability.ReliabilityTests.test_snapshot_corruption_is_detected) ... ok
+2026-11-02T00:59:24.6890541Z test_snapshot_preserves_pending_work_and_can_be_verified (test_v4_reliability.ReliabilityTests.test_snapshot_preserves_pending_work_and_can_be_verified) ... ok
+2026-11-02T00:59:24.6941111Z test_snapshot_rejects_output_inside_book (test_v4_reliability.ReliabilityTests.test_snapshot_rejects_output_inside_book) ... ok
+2026-11-02T00:59:24.7055642Z test_stale_input_update_is_rejected (test_v4_reliability.ReliabilityTests.test_stale_input_update_is_rejected) ... ok
+2026-11-02T00:59:24.7240256Z test_time_query_uses_story_time_not_publication_order (test_v4_reliability.ReliabilityTests.test_time_query_uses_story_time_not_publication_order) ... ok
+2026-11-02T00:59:24.7291397Z test_writer_lock_rejects_concurrent_mutation (test_v4_reliability.ReliabilityTests.test_writer_lock_rejects_concurrent_mutation) ... ok
+2026-11-02T00:59:24.8606297Z test_initialization_archive_contains_executable_checker_dependencies (test_web_package.PackageTests.test_initialization_archive_contains_executable_checker_dependencies) ... ok
+2026-11-02T00:59:24.9331767Z test_management_package_is_empty_and_contains_no_novel_identity (test_web_package.PackageTests.test_management_package_is_empty_and_contains_no_novel_identity) ... ok
+2026-11-02T00:59:25.0052237Z test_owner_and_partner_packages_have_independent_correct_entries (test_web_package.PackageTests.test_owner_and_partner_packages_have_independent_correct_entries) ... ok
+2026-11-02T00:59:25.1223313Z test_site_worker_serves_both_real_entries_and_the_relay_health (test_web_package.PackageTests.test_site_worker_serves_both_real_entries_and_the_relay_health) ... ok
+2026-11-02T00:59:25.2014194Z test_standalone_packages_contain_every_relative_module_dependency (test_web_package.PackageTests.test_standalone_packages_contain_every_relative_module_dependency) ... ok
+2026-11-02T00:59:25.2015881Z 
+2026-11-02T00:59:25.2016766Z ----------------------------------------------------------------------
+2026-11-02T00:59:25.2017409Z Ran 174 tests in 59.259s
+2026-11-02T00:59:25.2017646Z 
+2026-11-02T00:59:25.2017768Z OK
+2026-11-02T00:59:25.2258691Z ##[group]Run python3 - <<'PY'
+2026-11-02T00:59:25.2259051Z [36;1mpython3 - <<'PY'[0m
+2026-11-02T00:59:25.2259303Z [36;1mfrom pathlib import Path[0m
+2026-11-02T00:59:25.2259560Z [36;1mimport sys[0m
+2026-11-02T00:59:25.2259784Z [36;1msys.path.insert(0, 'tools')[0m
+2026-11-02T00:59:25.2260043Z [36;1mimport online_state[0m
+2026-11-02T00:59:25.2260309Z [36;1mif Path('book/state.json').exists():[0m
+2026-11-02T00:59:25.2260637Z [36;1m    print(online_state.validate_index('.'))[0m
+2026-11-02T00:59:25.2260925Z [36;1melse:[0m
+2026-11-02T00:59:25.2261207Z [36;1m    print('Empty initialization template; no book data yet.')[0m
+2026-11-02T00:59:25.2261554Z [36;1mPY[0m
+2026-11-02T00:59:25.2292093Z shell: /usr/bin/bash -e {0}
+2026-11-02T00:59:25.2292344Z env:
+2026-11-02T00:59:25.2292614Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-02T00:59:25.2293061Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-02T00:59:25.2293524Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-02T00:59:25.2293923Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-02T00:59:25.2294304Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-02T00:59:25.2294711Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-02T00:59:25.2295042Z ##[endgroup]
+2026-11-02T00:59:25.2779827Z {'valid': True, 'chapters': 2, 'phase': 'WAITING_NEXT'}
+2026-11-02T00:59:25.2884993Z ##[group]Run node -e "const fs=require('fs');if(fs.existsSync('web/tests'))require('child_process').execFileSync(process.execPath,['--test',...fs.readdirSync('web/tests').filter(x=>x.endsWith('.test.mjs')).map(x=>'web/tests/'+x)],{stdio:'inherit'})"
+2026-11-02T00:59:25.2887020Z [36;1mnode -e "const fs=require('fs');if(fs.existsSync('web/tests'))require('child_process').execFileSync(process.execPath,['--test',...fs.readdirSync('web/tests').filter(x=>x.endsWith('.test.mjs')).map(x=>'web/tests/'+x)],{stdio:'inherit'})"[0m
+2026-11-02T00:59:25.2918086Z shell: /usr/bin/bash -e {0}
+2026-11-02T00:59:25.2918333Z env:
+2026-11-02T00:59:25.2918618Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-02T00:59:25.2919054Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-02T00:59:25.2919472Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-02T00:59:25.2919851Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-02T00:59:25.2920248Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-02T00:59:25.2920629Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-02T00:59:25.2920943Z ##[endgroup]
+2026-11-02T00:59:25.3792284Z TAP version 13
+2026-11-02T00:59:25.4427789Z # Subtest: repository URL and owner/repo normalize to same identity
+2026-11-02T00:59:25.4456864Z ok 1 - repository URL and owner/repo normalize to same identity
+2026-11-02T00:59:25.4474448Z   ---
+2026-11-02T00:59:25.4475268Z   duration_ms: 1.305986
+2026-11-02T00:59:25.4476245Z   type: 'test'
+2026-11-02T00:59:25.4476863Z   ...
+2026-11-02T00:59:25.4477919Z # Subtest: reject credentials, lookalike hosts, file URLs, query and traversal
+2026-11-02T00:59:25.4479988Z ok 2 - reject credentials, lookalike hosts, file URLs, query and traversal
+2026-11-02T00:59:25.4480951Z   ---
+2026-11-02T00:59:25.4481499Z   duration_ms: 0.443948
+2026-11-02T00:59:25.4482100Z   type: 'test'
+2026-11-02T00:59:25.4482726Z   ...
+2026-11-02T00:59:25.4483539Z # Subtest: raw file reads use GitHub default branch HEAD
+2026-11-02T00:59:25.4484595Z ok 3 - raw file reads use GitHub default branch HEAD
+2026-11-02T00:59:25.4485377Z   ---
+2026-11-02T00:59:25.4486222Z   duration_ms: 0.28952
+2026-11-02T00:59:25.4486851Z   type: 'test'
+2026-11-02T00:59:25.4487347Z   ...
+2026-11-02T00:59:25.4487986Z # Subtest: reject unsafe content paths
+2026-11-02T00:59:25.4488899Z ok 4 - reject unsafe content paths
+2026-11-02T00:59:25.4489661Z   ---
+2026-11-02T00:59:25.4490211Z   duration_ms: 0.312714
+2026-11-02T00:59:25.4490777Z   type: 'test'
+2026-11-02T00:59:25.4491366Z   ...
+2026-11-02T00:59:25.4492177Z # Subtest: manifest must match the selected repository
+2026-11-02T00:59:25.4493159Z ok 5 - manifest must match the selected repository
+2026-11-02T00:59:25.4494007Z   ---
+2026-11-02T00:59:25.4494561Z   duration_ms: 23.527832
+2026-11-02T00:59:25.4495203Z   type: 'test'
+2026-11-02T00:59:25.4495828Z   ...
+2026-11-02T00:59:25.4496940Z # Subtest: manifest requires contiguous adopted chapters
+2026-11-02T00:59:25.4498049Z ok 6 - manifest requires contiguous adopted chapters
+2026-11-02T00:59:25.4498799Z   ---
+2026-11-02T00:59:25.4499394Z   duration_ms: 1.943996
+2026-11-02T00:59:25.4500047Z   type: 'test'
+2026-11-02T00:59:25.4500667Z   ...
+2026-11-02T00:59:25.4501633Z # Subtest: manifest refuses arbitrary URLs and unsafe chapter locations
+2026-11-02T00:59:25.4502977Z ok 7 - manifest refuses arbitrary URLs and unsafe chapter locations
+2026-11-02T00:59:25.4503920Z   ---
+2026-11-02T00:59:25.4504541Z   duration_ms: 1.253648
+2026-11-02T00:59:25.4505210Z   type: 'test'
+2026-11-02T00:59:25.4505805Z   ...
+2026-11-02T00:59:25.4506929Z # Subtest: empty initialization manifest is a valid empty state
+2026-11-02T00:59:25.4508201Z ok 8 - empty initialization manifest is a valid empty state
+2026-11-02T00:59:25.4508985Z   ---
+2026-11-02T00:59:25.4509520Z   duration_ms: 0.982953
+2026-11-02T00:59:25.4510095Z   type: 'test'
+2026-11-02T00:59:25.4510624Z   ...
+2026-11-02T00:59:25.4748160Z # Subtest: manifest fetch requests live raw data with no-store and omits credentials
+2026-11-02T00:59:25.4756905Z ok 9 - manifest fetch requests live raw data with no-store and omits credentials
+2026-11-02T00:59:25.4764806Z   ---
+2026-11-02T00:59:25.4765444Z   duration_ms: 25.365711
+2026-11-02T00:59:25.4766344Z   type: 'test'
+2026-11-02T00:59:25.4766930Z   ...
+2026-11-02T00:59:25.4816228Z # Subtest: manual fresh read decodes the current Contents response without credentials
+2026-11-02T00:59:25.4857351Z ok 10 - manual fresh read decodes the current Contents response without credentials
+2026-11-02T00:59:25.4870713Z   ---
+2026-11-02T00:59:25.4872054Z   duration_ms: 3.955137
+2026-11-02T00:59:25.4873173Z   type: 'test'
+2026-11-02T00:59:25.4873777Z   ...
+2026-11-02T00:59:25.4875230Z # Subtest: 404 is an explicit initialization or access error
+2026-11-02T00:59:25.4877149Z ok 11 - 404 is an explicit initialization or access error
+2026-11-02T00:59:25.4878339Z   ---
+2026-11-02T00:59:25.4878976Z   duration_ms: 0.880622
+2026-11-02T00:59:25.4880382Z   type: 'test'
+2026-11-02T00:59:25.4893536Z   ...
+2026-11-02T00:59:25.4895332Z # Subtest: rate limits are explicit and never appear as empty success
+2026-11-02T00:59:25.4897271Z ok 12 - rate limits are explicit and never appear as empty success
+2026-11-02T00:59:25.4898686Z   ---
+2026-11-02T00:59:25.4899642Z   duration_ms: 0.4774
+2026-11-02T00:59:25.4900410Z   type: 'test'
+2026-11-02T00:59:25.4901103Z   ...
+2026-11-02T00:59:25.4902019Z # Subtest: malformed JSON is rejected
+2026-11-02T00:59:25.4903077Z ok 13 - malformed JSON is rejected
+2026-11-02T00:59:25.4904144Z   ---
+2026-11-02T00:59:25.4904677Z   duration_ms: 0.722588
+2026-11-02T00:59:25.4906343Z   type: 'test'
+2026-11-02T00:59:25.4914224Z   ...
+2026-11-02T00:59:25.4915276Z # Subtest: oversized response is rejected
+2026-11-02T00:59:25.4916566Z ok 14 - oversized response is rejected
+2026-11-02T00:59:25.4917499Z   ---
+2026-11-02T00:59:25.4918269Z   duration_ms: 0.672985
+2026-11-02T00:59:25.4919044Z   type: 'test'
+2026-11-02T00:59:25.4919423Z   ...
+2026-11-02T00:59:25.5474777Z # Subtest: chapter text must match adopted SHA-256
+2026-11-02T00:59:25.5487267Z ok 15 - chapter text must match adopted SHA-256
+2026-11-02T00:59:25.5494178Z   ---
+2026-11-02T00:59:25.5494734Z   duration_ms: 5.902389
+2026-11-02T00:59:25.5495315Z   type: 'test'
+2026-11-02T00:59:25.5495816Z   ...
+2026-11-02T00:59:25.5497207Z # Subtest: portable SHA-256 matches native SHA on Unicode, padding boundaries and chapter-sized content
+2026-11-02T00:59:25.5498853Z ok 16 - portable SHA-256 matches native SHA on Unicode, padding boundaries and chapter-sized content
+2026-11-02T00:59:25.5499855Z   ---
+2026-11-02T00:59:25.5500353Z   duration_ms: 56.888129
+2026-11-02T00:59:25.5500944Z   type: 'test'
+2026-11-02T00:59:25.5501455Z   ...
+2026-11-02T00:59:25.5538284Z # Subtest: chapter tampering stops reading and export
+2026-11-02T00:59:25.5542555Z ok 17 - chapter tampering stops reading and export
+2026-11-02T00:59:25.5544427Z   ---
+2026-11-02T00:59:25.5546504Z   duration_ms: 10.601303
+2026-11-02T00:59:25.5558490Z   type: 'test'
+2026-11-02T00:59:25.5559153Z   ...
+2026-11-02T00:59:25.5678134Z # Subtest: CRLF normalizes the same way as the Python state tool
+2026-11-02T00:59:25.5724661Z ok 18 - CRLF normalizes the same way as the Python state tool
+2026-11-02T00:59:25.5754314Z   ---
+2026-11-02T00:59:25.5766843Z   duration_ms: 11.162467
+2026-11-02T00:59:25.5767497Z   type: 'test'
+2026-11-02T00:59:25.5768080Z   ...
+2026-11-02T00:59:25.5907843Z # Subtest: full export preserves chapter order while loading at most three at once
+2026-11-02T00:59:25.5952881Z ok 19 - full export preserves chapter order while loading at most three at once
+2026-11-02T00:59:25.5958828Z   ---
+2026-11-02T00:59:25.5987316Z   duration_ms: 23.606002
+2026-11-02T00:59:25.5987961Z   type: 'test'
+2026-11-02T00:59:25.5988544Z   ...
+2026-11-02T00:59:25.5989300Z # Subtest: empty book does not export a fake chapter
+2026-11-02T00:59:25.5990231Z ok 20 - empty book does not export a fake chapter
+2026-11-02T00:59:25.5990970Z   ---
+2026-11-02T00:59:25.5991944Z   duration_ms: 0.822044
+2026-11-02T00:59:25.5992602Z   type: 'test'
+2026-11-02T00:59:25.5993121Z   ...
+2026-11-02T00:59:25.5993898Z # Subtest: pending revalidation blocks whole-book export
+2026-11-02T00:59:25.5994919Z ok 21 - pending revalidation blocks whole-book export
+2026-11-02T00:59:25.5995698Z   ---
+2026-11-02T00:59:25.5996483Z   duration_ms: 2.681813
+2026-11-02T00:59:25.5997035Z   type: 'test'
+2026-11-02T00:59:25.5997548Z   ...
+2026-11-02T00:59:25.5998378Z # Subtest: one failed chapter prevents a partial successful export
+2026-11-02T00:59:25.5999481Z ok 22 - one failed chapter prevents a partial successful export
+2026-11-02T00:59:25.6000263Z   ---
+2026-11-02T00:59:25.6000771Z   duration_ms: 4.049303
+2026-11-02T00:59:25.6001315Z   type: 'test'
+2026-11-02T00:59:25.6001811Z   ...
+2026-11-02T00:59:25.6026864Z # Subtest: cancelling an export does not produce a download result
+2026-11-02T00:59:25.6095496Z ok 23 - cancelling an export does not produce a download result
+2026-11-02T00:59:25.6108615Z   ---
+2026-11-02T00:59:25.6109358Z   duration_ms: 1.443854
+2026-11-02T00:59:25.6110035Z   type: 'test'
+2026-11-02T00:59:25.6110633Z   ...
+2026-11-02T00:59:25.6111627Z # Subtest: request gate makes previous novel responses stale and aborts them
+2026-11-02T00:59:25.6112969Z ok 24 - request gate makes previous novel responses stale and aborts them
+2026-11-02T00:59:25.6113902Z   ---
+2026-11-02T00:59:25.6114417Z   duration_ms: 0.334824
+2026-11-02T00:59:25.6114964Z   type: 'test'
+2026-11-02T00:59:25.6115464Z   ...
+2026-11-02T00:59:25.6116621Z # Subtest: shelf deduplicates repositories and ignores unsafe saved URLs
+2026-11-02T00:59:25.6117836Z ok 25 - shelf deduplicates repositories and ignores unsafe saved URLs
+2026-11-02T00:59:25.6119062Z   ---
+2026-11-02T00:59:25.6119566Z   duration_ms: 0.531631
+2026-11-02T00:59:25.6120141Z   type: 'test'
+2026-11-02T00:59:25.6120626Z   ...
+2026-11-02T00:59:25.6121453Z # Subtest: corrupt or unavailable storage returns a safe empty shelf
+2026-11-02T00:59:25.6122592Z ok 26 - corrupt or unavailable storage returns a safe empty shelf
+2026-11-02T00:59:25.6123444Z   ---
+2026-11-02T00:59:25.6123922Z   duration_ms: 1.658313
+2026-11-02T00:59:25.6124451Z   type: 'test'
+2026-11-02T00:59:25.6124960Z   ...
+2026-11-02T00:59:25.6125875Z # Subtest: prompts carry selected novel and stop before automatic topic selection
+2026-11-02T00:59:25.6127447Z ok 27 - prompts carry selected novel and stop before automatic topic selection
+2026-11-02T00:59:25.6128311Z   ---
+2026-11-02T00:59:25.6128813Z   duration_ms: 0.168665
+2026-11-02T00:59:25.6129368Z   type: 'test'
+2026-11-02T00:59:25.6129857Z   ...
+2026-11-02T00:59:25.6130829Z # Subtest: continuation instructions read current files and preserve the current task
+2026-11-02T00:59:25.6132282Z ok 28 - continuation instructions read current files and preserve the current task
+2026-11-02T00:59:25.6133295Z   ---
+2026-11-02T00:59:25.6133894Z   duration_ms: 5.870901
+2026-11-02T00:59:25.6138930Z   type: 'test'
+2026-11-02T00:59:25.6139493Z   ...
+2026-11-02T00:59:25.6140371Z # Subtest: export filename excludes path and reserved characters
+2026-11-02T00:59:25.6141634Z ok 29 - export filename excludes path and reserved characters
+2026-11-02T00:59:25.6142534Z   ---
+2026-11-02T00:59:25.6143071Z   duration_ms: 4.417968
+2026-11-02T00:59:25.6143666Z   type: 'test'
+2026-11-02T00:59:25.6144223Z   ...
+2026-11-02T00:59:25.7903383Z # Subtest: 100 chapters can be assembled from a consistent 900000-character fixture
+2026-11-02T00:59:25.7998451Z ok 30 - 100 chapters can be assembled from a consistent 900000-character fixture
+2026-11-02T00:59:25.8001048Z   ---
+2026-11-02T00:59:25.8002272Z   duration_ms: 179.041702
+2026-11-02T00:59:25.8005354Z   type: 'test'
+2026-11-02T00:59:25.8006337Z   ...
+2026-11-02T00:59:25.8007403Z # Subtest: locked chapters never request ciphertext or plaintext
+2026-11-02T00:59:25.8010337Z ok 31 - locked chapters never request ciphertext or plaintext
+2026-11-02T00:59:25.8011298Z   ---
+2026-11-02T00:59:25.8011910Z   duration_ms: 6.038233
+2026-11-02T00:59:25.8013940Z   type: 'test'
+2026-11-02T00:59:25.8014913Z   ...
+2026-11-02T00:59:25.8112892Z # Subtest: private chapter decrypts locally and fetch options never contain key
+2026-11-02T00:59:25.8137268Z ok 32 - private chapter decrypts locally and fetch options never contain key
+2026-11-02T00:59:25.8138265Z   ---
+2026-11-02T00:59:25.8138773Z   duration_ms: 14.94228
+2026-11-02T00:59:25.8139340Z   type: 'test'
+2026-11-02T00:59:25.8176955Z   ...
+2026-11-02T00:59:25.8178472Z # Subtest: a key from another novel is rejected
+2026-11-02T00:59:25.8180065Z ok 33 - a key from another novel is rejected
+2026-11-02T00:59:25.8181450Z   ---
+2026-11-02T00:59:25.8182457Z   duration_ms: 1.760514
+2026-11-02T00:59:25.8183167Z   type: 'test'
+2026-11-02T00:59:25.8184361Z   ...
+2026-11-02T00:59:25.8185305Z # Subtest: private ciphertext tampering is rejected before display
+2026-11-02T00:59:25.8187706Z ok 34 - private ciphertext tampering is rejected before display
+2026-11-02T00:59:25.8191601Z   ---
+2026-11-02T00:59:25.8192237Z   duration_ms: 2.824628
+2026-11-02T00:59:25.8192956Z   type: 'test'
+2026-11-02T00:59:25.8193561Z   ...
+2026-11-02T00:59:25.8209418Z # Subtest: authenticated header cannot be edited by recomputing public SHA
+2026-11-02T00:59:25.8211967Z ok 35 - authenticated header cannot be edited by recomputing public SHA
+2026-11-02T00:59:25.8213083Z   ---
+2026-11-02T00:59:25.8213733Z   duration_ms: 5.337586
+2026-11-02T00:59:25.8215284Z   type: 'test'
+2026-11-02T00:59:25.8215927Z   ...
+2026-11-02T00:59:25.8257081Z # Subtest: private whole-book export decrypts each vault once and preserves order
+2026-11-02T00:59:25.8259281Z ok 36 - private whole-book export decrypts each vault once and preserves order
+2026-11-02T00:59:25.8262011Z   ---
+2026-11-02T00:59:25.8262729Z   duration_ms: 4.497197
+2026-11-02T00:59:25.8263545Z   type: 'test'
+2026-11-02T00:59:25.8267838Z   ...
+2026-11-02T00:59:25.8297108Z # Subtest: private manifest refuses arbitrary vault URLs
+2026-11-02T00:59:25.8298409Z ok 37 - private manifest refuses arbitrary vault URLs
+2026-11-02T00:59:25.8328574Z   ---
+2026-11-02T00:59:25.8347844Z   duration_ms: 2.179445
+2026-11-02T00:59:25.8348358Z   type: 'test'
+2026-11-02T00:59:25.8348734Z   ...
+2026-11-02T00:59:25.8518268Z # Subtest: Shanghai boundaries use local day instead of UTC day
+2026-11-02T00:59:25.8544849Z ok 38 - Shanghai boundaries use local day instead of UTC day
+2026-11-02T00:59:25.8576861Z   ---
+2026-11-02T00:59:25.8607034Z   duration_ms: 2.418792
+2026-11-02T00:59:25.8656919Z   type: 'test'
+2026-11-02T00:59:25.8680635Z   ...
+2026-11-02T00:59:25.8697224Z # Subtest: branch and chat URL reject unsafe values
+2026-11-02T00:59:25.8698529Z ok 39 - branch and chat URL reject unsafe values
+2026-11-02T00:59:25.8699503Z   ---
+2026-11-02T00:59:25.8700110Z   duration_ms: 1.072982
+2026-11-02T00:59:25.8700828Z   type: 'test'
+2026-11-02T00:59:25.8701489Z   ...
+2026-11-02T00:59:25.8702516Z # Subtest: registry whitelist excludes tokens and retains validated cloud chat URLs
+2026-11-02T00:59:25.8704024Z ok 40 - registry whitelist excludes tokens and retains validated cloud chat URLs
+2026-11-02T00:59:25.8705017Z   ---
+2026-11-02T00:59:25.8705604Z   duration_ms: 1.495089
+2026-11-02T00:59:25.8706526Z   type: 'test'
+2026-11-02T00:59:25.8707122Z   ...
+2026-11-02T00:59:25.8707985Z # Subtest: registry rejects duplicate repo and duplicated book identity
+2026-11-02T00:59:25.8709242Z ok 41 - registry rejects duplicate repo and duplicated book identity
+2026-11-02T00:59:25.8710042Z   ---
+2026-11-02T00:59:25.8710528Z   duration_ms: 3.707355
+2026-11-02T00:59:25.8711089Z   type: 'test'
+2026-11-02T00:59:25.8711648Z   ...
+2026-11-02T00:59:25.8712544Z # Subtest: registry rejects invalid dates, timing and false booleans
+2026-11-02T00:59:25.8713719Z ok 42 - registry rejects invalid dates, timing and false booleans
+2026-11-02T00:59:25.8714512Z   ---
+2026-11-02T00:59:25.8715098Z   duration_ms: 0.819589
+2026-11-02T00:59:25.8715755Z   type: 'test'
+2026-11-02T00:59:25.8716548Z   ...
+2026-11-02T00:59:25.8717490Z # Subtest: locator round trip preserves repo branch and identity without credentials
+2026-11-02T00:59:25.8719331Z ok 43 - locator round trip preserves repo branch and identity without credentials
+2026-11-02T00:59:25.8720316Z   ---
+2026-11-02T00:59:25.8720838Z   duration_ms: 32.899591
+2026-11-02T00:59:25.8721404Z   type: 'test'
+2026-11-02T00:59:25.8721911Z   ...
+2026-11-02T00:59:25.8722640Z # Subtest: locator rejects corruption and invalid version
+2026-11-02T00:59:25.8723597Z ok 44 - locator rejects corruption and invalid version
+2026-11-02T00:59:25.8724361Z   ---
+2026-11-02T00:59:25.8724872Z   duration_ms: 2.474967
+2026-11-02T00:59:25.8725419Z   type: 'test'
+2026-11-02T00:59:25.8725945Z   ...
+2026-11-02T00:59:25.8727288Z # Subtest: valid daily update verifies actual body record release and frozen pins
+2026-11-02T00:59:25.8728719Z ok 45 - valid daily update verifies actual body record release and frozen pins
+2026-11-02T00:59:25.8729655Z   ---
+2026-11-02T00:59:25.8730187Z   duration_ms: 15.325064
+2026-11-02T00:59:25.8730776Z   type: 'test'
+2026-11-02T00:59:25.8731280Z   ...
+2026-11-02T00:59:25.8732207Z # Subtest: paused and not yet enrolled novels cause no network requests
+2026-11-02T00:59:25.8733480Z ok 46 - paused and not yet enrolled novels cause no network requests
+2026-11-02T00:59:25.8734346Z   ---
+2026-11-02T00:59:25.8734895Z   duration_ms: 0.829036
+2026-11-02T00:59:25.8735512Z   type: 'test'
+2026-11-02T00:59:25.8736394Z   ...
+2026-11-02T00:59:25.8737354Z # Subtest: absent receipt after deadline is missing, even if the commit is new
+2026-11-02T00:59:25.8738694Z ok 47 - absent receipt after deadline is missing, even if the commit is new
+2026-11-02T00:59:25.8739627Z   ---
+2026-11-02T00:59:25.8740141Z   duration_ms: 8.975112
+2026-11-02T00:59:25.8741129Z   type: 'test'
+2026-11-02T00:59:25.8741685Z   ...
+2026-11-02T00:59:25.8742418Z # Subtest: before due time is not a missing update
+2026-11-02T00:59:25.8743332Z ok 48 - before due time is not a missing update
+2026-11-02T00:59:25.8744071Z   ---
+2026-11-02T00:59:25.8744615Z   duration_ms: 4.430561
+2026-11-02T00:59:25.8745258Z   type: 'test'
+2026-11-02T00:59:25.8745798Z   ...
+2026-11-02T00:59:25.8746921Z # Subtest: yesterday completion cannot be relabeled as today
+2026-11-02T00:59:25.8748011Z ok 49 - yesterday completion cannot be relabeled as today
+2026-11-02T00:59:25.8748817Z   ---
+2026-11-02T00:59:25.8749400Z   duration_ms: 15.556095
+2026-11-02T00:59:25.8750017Z   type: 'test'
+2026-11-02T00:59:25.8750552Z   ...
+2026-11-02T00:59:25.8751324Z # Subtest: completion timestamp must match adoption timestamp
+2026-11-02T00:59:25.8752408Z ok 50 - completion timestamp must match adoption timestamp
+2026-11-02T00:59:25.8753200Z   ---
+2026-11-02T00:59:25.8753769Z   duration_ms: 5.131942
+2026-11-02T00:59:25.8754390Z   type: 'test'
+2026-11-02T00:59:25.8754917Z   ...
+2026-11-02T00:59:25.8755588Z # Subtest: a wrong run binding is rejected
+2026-11-02T00:59:25.8756761Z ok 51 - a wrong run binding is rejected
+2026-11-02T00:59:25.8757493Z   ---
+2026-11-02T00:59:25.8758039Z   duration_ms: 2.984337
+2026-11-02T00:59:25.8758696Z   type: 'test'
+2026-11-02T00:59:25.8759265Z   ...
+2026-11-02T00:59:25.8759997Z # Subtest: body tampering stops verified status
+2026-11-02T00:59:25.8760941Z ok 52 - body tampering stops verified status
+2026-11-02T00:59:25.8761691Z   ---
+2026-11-02T00:59:25.8762260Z   duration_ms: 7.851434
+2026-11-02T00:59:25.8762899Z   type: 'test'
+2026-11-02T00:59:25.8763478Z   ...
+2026-11-02T00:59:25.8764304Z # Subtest: release report tampering stops verified status
+2026-11-02T00:59:25.8765321Z ok 53 - release report tampering stops verified status
+2026-11-02T00:59:25.8766350Z   ---
+2026-11-02T00:59:25.8767050Z   duration_ms: 9.554742
+2026-11-02T00:59:25.8767689Z   type: 'test'
+2026-11-02T00:59:25.8768321Z   ...
+2026-11-02T00:59:25.8769140Z # Subtest: receipt cannot reference a different evidence path
+2026-11-02T00:59:25.8770179Z ok 54 - receipt cannot reference a different evidence path
+2026-11-02T00:59:25.8770920Z   ---
+2026-11-02T00:59:25.8771410Z   duration_ms: 3.009065
+2026-11-02T00:59:25.8772010Z   type: 'test'
+2026-11-02T00:59:25.8772569Z   ...
+2026-11-02T00:59:25.8773636Z # Subtest: stale index is not treated as missing or success
+2026-11-02T00:59:25.8774689Z ok 55 - stale index is not treated as missing or success
+2026-11-02T00:59:25.8775477Z   ---
+2026-11-02T00:59:25.8776280Z   duration_ms: 1.922045
+2026-11-02T00:59:25.8776908Z   type: 'test'
+2026-11-02T00:59:25.8777434Z   ...
+2026-11-02T00:59:25.8778246Z # Subtest: missing network evidence differs from a collected 404
+2026-11-02T00:59:25.8779395Z ok 56 - missing network evidence differs from a collected 404
+2026-11-02T00:59:25.8780269Z   ---
+2026-11-02T00:59:25.8780816Z   duration_ms: 2.664276
+2026-11-02T00:59:25.8781408Z   type: 'test'
+2026-11-02T00:59:25.8781985Z   ...
+2026-11-02T00:59:25.8782867Z # Subtest: active draft is unfinished rather than counted as adopted
+2026-11-02T00:59:25.8784058Z ok 57 - active draft is unfinished rather than counted as adopted
+2026-11-02T00:59:25.8784936Z   ---
+2026-11-02T00:59:25.8785453Z   duration_ms: 2.239757
+2026-11-02T00:59:25.8786241Z   type: 'test'
+2026-11-02T00:59:25.8786781Z   ...
+2026-11-02T00:59:25.8787538Z # Subtest: identity mismatch does not reuse another novel
+2026-11-02T00:59:25.8788534Z ok 58 - identity mismatch does not reuse another novel
+2026-11-02T00:59:25.8789246Z   ---
+2026-11-02T00:59:25.8790029Z   duration_ms: 1.916204
+2026-11-02T00:59:25.8790633Z   type: 'test'
+2026-11-02T00:59:25.8791222Z   ...
+2026-11-02T00:59:25.8792086Z # Subtest: report freshness binds day and exact registry content
+2026-11-02T00:59:25.8793234Z ok 59 - report freshness binds day and exact registry content
+2026-11-02T00:59:25.8794089Z   ---
+2026-11-02T00:59:25.8794681Z   duration_ms: 11.305547
+2026-11-02T00:59:25.8795245Z   type: 'test'
+2026-11-02T00:59:25.8796362Z   ...
+2026-11-02T00:59:25.8797247Z # Subtest: forged report counts and future timestamps are not green
+2026-11-02T00:59:25.8798444Z ok 60 - forged report counts and future timestamps are not green
+2026-11-02T00:59:25.8799318Z   ---
+2026-11-02T00:59:25.8799848Z   duration_ms: 3.926303
+2026-11-02T00:59:25.8800471Z   type: 'test'
+2026-11-02T00:59:25.8801003Z   ...
+2026-11-02T00:59:25.8801786Z # Subtest: reports must cover every novel in the matching registry
+2026-11-02T00:59:25.8802881Z ok 61 - reports must cover every novel in the matching registry
+2026-11-02T00:59:25.8803737Z   ---
+2026-11-02T00:59:25.8804299Z   duration_ms: 7.197334
+2026-11-02T00:59:25.8804891Z   type: 'test'
+2026-11-02T00:59:25.8805392Z   ...
+2026-11-02T00:59:25.8806548Z # Subtest: failed read retains prior observed chapter count as historical only
+2026-11-02T00:59:25.8807753Z ok 62 - failed read retains prior observed chapter count as historical only
+2026-11-02T00:59:25.8808560Z   ---
+2026-11-02T00:59:25.8809083Z   duration_ms: 0.543664
+2026-11-02T00:59:25.8809659Z   type: 'test'
+2026-11-02T00:59:25.8810160Z   ...
+2026-11-02T00:59:25.8810930Z # Subtest: report bundles preserve history with separate run IDs
+2026-11-02T00:59:25.8812035Z ok 63 - report bundles preserve history with separate run IDs
+2026-11-02T00:59:25.8812829Z   ---
+2026-11-02T00:59:25.8813409Z   duration_ms: 8.620789
+2026-11-02T00:59:25.8813993Z   type: 'test'
+2026-11-02T00:59:25.8814554Z   ...
+2026-11-02T00:59:25.8815470Z # Subtest: API token stays scoped to management API and never raw downloads
+2026-11-02T00:59:25.8817030Z ok 64 - API token stays scoped to management API and never raw downloads
+2026-11-02T00:59:25.8817932Z   ---
+2026-11-02T00:59:25.8818537Z   duration_ms: 48.931558
+2026-11-02T00:59:25.8819164Z   type: 'test'
+2026-11-02T00:59:25.8819704Z   ...
+2026-11-02T00:59:25.8820538Z # Subtest: request error does not echo a token or server response body
+2026-11-02T00:59:25.8821798Z ok 65 - request error does not echo a token or server response body
+2026-11-02T00:59:25.8822691Z   ---
+2026-11-02T00:59:25.8823278Z   duration_ms: 1.133304
+2026-11-02T00:59:25.8823870Z   type: 'test'
+2026-11-02T00:59:25.8824419Z   ...
+2026-11-02T00:59:25.8825173Z # Subtest: changed remote list prevents any write
+2026-11-02T00:59:25.8826368Z ok 66 - changed remote list prevents any write
+2026-11-02T00:59:25.8827181Z   ---
+2026-11-02T00:59:25.8828070Z   duration_ms: 10.220573
+2026-11-02T00:59:25.8828752Z   type: 'test'
+2026-11-02T00:59:25.8829288Z   ...
+2026-11-02T00:59:25.8830175Z # Subtest: write protects base tree, non-force update and verifies returned files
+2026-11-02T00:59:25.8831432Z ok 67 - write protects base tree, non-force update and verifies returned files
+2026-11-02T00:59:25.8832398Z   ---
+2026-11-02T00:59:25.8832930Z   duration_ms: 10.639494
+2026-11-02T00:59:25.8833531Z   type: 'test'
+2026-11-02T00:59:25.8834072Z   ...
+2026-11-02T00:59:25.8834959Z # Subtest: a race at branch update is surfaced instead of force overwritten
+2026-11-02T00:59:25.8836436Z ok 68 - a race at branch update is surfaced instead of force overwritten
+2026-11-02T00:59:25.8837323Z   ---
+2026-11-02T00:59:25.8837855Z   duration_ms: 1.540293
+2026-11-02T00:59:25.8838421Z   type: 'test'
+2026-11-02T00:59:25.8838937Z   ...
+2026-11-02T00:59:25.8839903Z # Subtest: local backup restore strips credential fields and validates chat and money
+2026-11-02T00:59:25.8841321Z ok 69 - local backup restore strips credential fields and validates chat and money
+2026-11-02T00:59:25.8842223Z   ---
+2026-11-02T00:59:25.8842758Z   duration_ms: 0.638772
+2026-11-02T00:59:25.8843418Z   type: 'test'
+2026-11-02T00:59:25.8843999Z   ...
+2026-11-02T00:59:25.8844952Z # Subtest: reader URL does not allow credentials, queries or non-http schemes
+2026-11-02T00:59:25.8846551Z ok 70 - reader URL does not allow credentials, queries or non-http schemes
+2026-11-02T00:59:25.8847452Z   ---
+2026-11-02T00:59:25.8848028Z   duration_ms: 0.638221
+2026-11-02T00:59:25.8848672Z   type: 'test'
+2026-11-02T00:59:25.8849209Z   ...
+2026-11-02T00:59:25.8850499Z # Subtest: copy progress at the last chapter does not jump back to chapter one
+2026-11-02T00:59:25.8851868Z ok 71 - copy progress at the last chapter does not jump back to chapter one
+2026-11-02T00:59:25.8853082Z   ---
+2026-11-02T00:59:25.8853778Z   duration_ms: 0.252731
+2026-11-02T00:59:25.8854395Z   type: 'test'
+2026-11-02T00:59:25.8854933Z   ...
+2026-11-02T00:59:25.8856200Z # Subtest: fixed feedback links survive validation while unsafe targets are rejected
+2026-11-02T00:59:25.8857698Z ok 72 - fixed feedback links survive validation while unsafe targets are rejected
+2026-11-02T00:59:25.8858720Z   ---
+2026-11-02T00:59:25.8859287Z   duration_ms: 0.431996
+2026-11-02T00:59:25.8860280Z   type: 'test'
+2026-11-02T00:59:25.8861166Z   ...
+2026-11-02T00:59:25.8862590Z # Subtest: writing instructions reuse one task and never claim to set the model or original thread
+2026-11-02T00:59:25.8864367Z ok 73 - writing instructions reuse one task and never claim to set the model or original thread
+2026-11-02T00:59:25.8865532Z   ---
+2026-11-02T00:59:25.8866671Z   duration_ms: 0.252311
+2026-11-02T00:59:25.8867491Z   type: 'test'
+2026-11-02T00:59:25.8868372Z   ...
+2026-11-02T00:59:25.8869824Z # Subtest: execution verification is optional and proves real completion independent of query plan settings
+2026-11-02T00:59:25.8871840Z ok 74 - execution verification is optional and proves real completion independent of query plan settings
+2026-11-02T00:59:25.8873357Z   ---
+2026-11-02T00:59:25.8874155Z   duration_ms: 14.938192
+2026-11-02T00:59:25.8875171Z   type: 'test'
+2026-11-02T00:59:25.8875869Z   ...
+2026-11-02T00:59:25.8892823Z # Subtest: execution verification rejects tampered body instead of claiming the task wrote a chapter
+2026-11-02T00:59:25.8894591Z ok 75 - execution verification rejects tampered body instead of claiming the task wrote a chapter
+2026-11-02T00:59:25.8895728Z   ---
+2026-11-02T00:59:25.8896597Z   duration_ms: 2.119102
+2026-11-02T00:59:25.8897193Z   type: 'test'
+2026-11-02T00:59:25.8897800Z   ...
+2026-11-02T00:59:25.8898773Z # Subtest: running execution is explicitly a record, not proof of a live worker
+2026-11-02T00:59:25.8900203Z ok 76 - running execution is explicitly a record, not proof of a live worker
+2026-11-02T00:59:25.8901232Z   ---
+2026-11-02T00:59:25.8901814Z   duration_ms: 5.405803
+2026-11-02T00:59:25.8902441Z   type: 'test'
+2026-11-02T00:59:25.8902978Z   ...
+2026-11-02T00:59:25.8904377Z # Subtest: completed active without its receipt requests recovery rather than a new chapter
+2026-11-02T00:59:25.8906362Z ok 77 - completed active without its receipt requests recovery rather than a new chapter
+2026-11-02T00:59:25.8907438Z   ---
+2026-11-02T00:59:25.8908019Z   duration_ms: 5.612639
+2026-11-02T00:59:25.8908645Z   type: 'test'
+2026-11-02T00:59:25.8909268Z   ...
+2026-11-02T00:59:25.8910341Z # Subtest: both readers reject a changed frozen state even when the index hash was rebuilt
+2026-11-02T00:59:25.8911874Z ok 78 - both readers reject a changed frozen state even when the index hash was rebuilt
+2026-11-02T00:59:25.8912937Z   ---
+2026-11-02T00:59:25.8913500Z   duration_ms: 20.354816
+2026-11-02T00:59:25.8914128Z   type: 'test'
+2026-11-02T00:59:25.8914684Z   ...
+2026-11-02T00:59:25.8915782Z # Subtest: legacy nonserial reading remains available without claiming frozen protection
+2026-11-02T00:59:25.8917674Z ok 79 - legacy nonserial reading remains available without claiming frozen protection
+2026-11-02T00:59:25.8918733Z   ---
+2026-11-02T00:59:25.8919322Z   duration_ms: 1.337054
+2026-11-02T00:59:25.8919984Z   type: 'test'
+2026-11-02T00:59:25.8920591Z   ...
+2026-11-02T00:59:25.8921592Z # Subtest: a maintenance checkpoint is distinguishable from an ordinary blocked job
+2026-11-02T00:59:25.8923049Z ok 80 - a maintenance checkpoint is distinguishable from an ordinary blocked job
+2026-11-02T00:59:25.8924056Z   ---
+2026-11-02T00:59:25.8924657Z   duration_ms: 9.223721
+2026-11-02T00:59:25.8925319Z   type: 'test'
+2026-11-02T00:59:25.8925898Z   ...
+2026-11-02T00:59:25.8927418Z # Subtest: generated daily and repair instructions can consume an authorized maintenance checkpoint
+2026-11-02T00:59:25.8929450Z ok 81 - generated daily and repair instructions can consume an authorized maintenance checkpoint
+2026-11-02T00:59:25.8930535Z   ---
+2026-11-02T00:59:25.8931067Z   duration_ms: 0.304458
+2026-11-02T00:59:25.8931672Z   type: 'test'
+2026-11-02T00:59:25.8932252Z   ...
+2026-11-02T00:59:25.8933322Z # Subtest: raw connection failure falls back to Contents at the same immutable commit
+2026-11-02T00:59:25.8934843Z ok 82 - raw connection failure falls back to Contents at the same immutable commit
+2026-11-02T00:59:25.8935874Z   ---
+2026-11-02T00:59:25.8936760Z   duration_ms: 64.806348
+2026-11-02T00:59:25.8937403Z   type: 'test'
+2026-11-02T00:59:25.8937975Z   ...
+2026-11-02T00:59:25.8939062Z # Subtest: a confirmed file absence remains not_found after checking the alternate source
+2026-11-02T00:59:25.8940612Z ok 83 - a confirmed file absence remains not_found after checking the alternate source
+2026-11-02T00:59:25.8941569Z   ---
+2026-11-02T00:59:25.8942108Z   duration_ms: 1.213553
+2026-11-02T00:59:25.8942723Z   type: 'test'
+2026-11-02T00:59:25.8943316Z   ...
+2026-11-02T00:59:25.8944235Z # Subtest: invalid file encoding is never replaced by a different source
+2026-11-02T00:59:25.8945555Z ok 84 - invalid file encoding is never replaced by a different source
+2026-11-02T00:59:25.8946970Z   ---
+2026-11-02T00:59:25.8947578Z   duration_ms: 1.267525
+2026-11-02T00:59:25.8948275Z   type: 'test'
+2026-11-02T00:59:25.8948840Z   ...
+2026-11-02T00:59:25.8949865Z # Subtest: required relay keeps browser traffic at the site origin
+2026-11-02T00:59:25.8951247Z ok 85 - required relay keeps browser traffic at the site origin
+2026-11-02T00:59:25.8952109Z   ---
+2026-11-02T00:59:25.8952662Z   duration_ms: 1.522269
+2026-11-02T00:59:25.8953434Z   type: 'test'
+2026-11-02T00:59:25.8954190Z   ...
+2026-11-02T00:59:25.8954848Z # Subtest: static hosting uses direct requests if it has no relay
+2026-11-02T00:59:25.8955720Z ok 86 - static hosting uses direct requests if it has no relay
+2026-11-02T00:59:25.8956638Z   ---
+2026-11-02T00:59:25.8956977Z   duration_ms: 4.335256
+2026-11-02T00:59:25.8957372Z   type: 'test'
+2026-11-02T00:59:25.8957707Z   ...
+2026-11-02T00:59:25.8958270Z # Subtest: Netlify-style health detection selects the relay once
+2026-11-02T00:59:25.8959109Z ok 87 - Netlify-style health detection selects the relay once
+2026-11-02T00:59:25.8959945Z   ---
+2026-11-02T00:59:25.8960280Z   duration_ms: 2.930245
+2026-11-02T00:59:25.8960642Z   type: 'test'
+2026-11-02T00:59:25.8960960Z   ...
+2026-11-02T00:59:25.8961592Z # Subtest: an ambiguous write failure is not retried or sent directly
+2026-11-02T00:59:25.8962496Z ok 88 - an ambiguous write failure is not retried or sent directly
+2026-11-02T00:59:25.8963077Z   ---
+2026-11-02T00:59:25.8963402Z   duration_ms: 0.420565
+2026-11-02T00:59:25.8963775Z   type: 'test'
+2026-11-02T00:59:25.8964092Z   ...
+2026-11-02T00:59:25.8964744Z # Subtest: relay health discloses capabilities without contacting GitHub
+2026-11-02T00:59:25.8965712Z ok 89 - relay health discloses capabilities without contacting GitHub
+2026-11-02T00:59:25.8966575Z   ---
+2026-11-02T00:59:25.8966899Z   duration_ms: 2.178793
+2026-11-02T00:59:25.8967272Z   type: 'test'
+2026-11-02T00:59:25.8967597Z   ...
+2026-11-02T00:59:25.8968329Z # Subtest: relay rejects arbitrary hosts traversal and non-repository endpoints
+2026-11-02T00:59:25.8969435Z ok 90 - relay rejects arbitrary hosts traversal and non-repository endpoints
+2026-11-02T00:59:25.8970165Z   ---
+2026-11-02T00:59:25.8970518Z   duration_ms: 6.56779
+2026-11-02T00:59:25.8970918Z   type: 'test'
+2026-11-02T00:59:25.8971258Z   ...
+2026-11-02T00:59:25.8971976Z # Subtest: anonymous public reads do not gain credential or cookie headers
+2026-11-02T00:59:25.8973047Z ok 91 - anonymous public reads do not gain credential or cookie headers
+2026-11-02T00:59:25.8973722Z   ---
+2026-11-02T00:59:25.8974035Z   duration_ms: 1.804205
+2026-11-02T00:59:25.8974436Z   type: 'test'
+2026-11-02T00:59:25.8974884Z   ...
+2026-11-02T00:59:25.8975633Z # Subtest: management API reads can use their explicitly provided scoped token
+2026-11-02T00:59:25.8977477Z ok 92 - management API reads can use their explicitly provided scoped token
+2026-11-02T00:59:25.8978218Z   ---
+2026-11-02T00:59:25.8978570Z   duration_ms: 2.253803
+2026-11-02T00:59:25.8978973Z   type: 'test'
+2026-11-02T00:59:25.8979323Z   ...
+2026-11-02T00:59:25.8980097Z # Subtest: raw relay response is plain text and does not gain credential headers
+2026-11-02T00:59:25.8981243Z ok 93 - raw relay response is plain text and does not gain credential headers
+2026-11-02T00:59:25.8981975Z   ---
+2026-11-02T00:59:25.8982331Z   duration_ms: 1.170874
+2026-11-02T00:59:25.8982723Z   type: 'test'
+2026-11-02T00:59:25.8983045Z   ...
+2026-11-02T00:59:25.8983695Z # Subtest: relay does not follow redirects or echo upstream bodies
+2026-11-02T00:59:25.8984653Z ok 94 - relay does not follow redirects or echo upstream bodies
+2026-11-02T00:59:25.8985338Z   ---
+2026-11-02T00:59:25.8985701Z   duration_ms: 3.853658
+2026-11-02T00:59:25.8986488Z   type: 'test'
+2026-11-02T00:59:25.8986853Z   ...
+2026-11-02T00:59:25.8987633Z # Subtest: relay distinguishes upstream network errors from a missing repository
+2026-11-02T00:59:25.8988767Z ok 95 - relay distinguishes upstream network errors from a missing repository
+2026-11-02T00:59:25.8989496Z   ---
+2026-11-02T00:59:25.8989852Z   duration_ms: 0.528716
+2026-11-02T00:59:25.8990278Z   type: 'test'
+2026-11-02T00:59:25.8990639Z   ...
+2026-11-02T00:59:25.8991500Z # Subtest: writes require the same origin and a user credential; partner relay is read only
+2026-11-02T00:59:25.8992832Z ok 96 - writes require the same origin and a user credential; partner relay is read only
+2026-11-02T00:59:25.8993619Z   ---
+2026-11-02T00:59:25.8993985Z   duration_ms: 1.813472
+2026-11-02T00:59:25.8994405Z   type: 'test'
+2026-11-02T00:59:25.8994757Z   ...
+2026-11-02T00:59:25.8995626Z # Subtest: only non-force reference updates are forwarded and their token stays in a header
+2026-11-02T00:59:25.8997321Z ok 97 - only non-force reference updates are forwarded and their token stays in a header
+2026-11-02T00:59:25.8998159Z   ---
+2026-11-02T00:59:25.8998518Z   duration_ms: 1.812441
+2026-11-02T00:59:25.8998953Z   type: 'test'
+2026-11-02T00:59:25.8999308Z   ...
+2026-11-02T00:59:25.9000147Z # Subtest: relay tree mutation is restricted to books.json with a preserved base tree
+2026-11-02T00:59:25.9001726Z ok 98 - relay tree mutation is restricted to books.json with a preserved base tree
+2026-11-02T00:59:25.9002538Z   ---
+2026-11-02T00:59:25.9002893Z   duration_ms: 2.248353
+2026-11-02T00:59:25.9003314Z   type: 'test'
+2026-11-02T00:59:25.9003674Z   ...
+2026-11-02T00:59:25.9004307Z # Subtest: upstream payloads exceeding the cap are stopped
+2026-11-02T00:59:25.9005165Z ok 99 - upstream payloads exceeding the cap are stopped
+2026-11-02T00:59:25.9005769Z   ---
+2026-11-02T00:59:25.9006414Z   duration_ms: 0.526542
+2026-11-02T00:59:25.9006839Z   type: 'test'
+2026-11-02T00:59:25.9007205Z   ...
+2026-11-02T00:59:25.9007976Z # Subtest: public Git discovery yields the real HEAD default branch and named branches
+2026-11-02T00:59:25.9009231Z ok 100 - public Git discovery yields the real HEAD default branch and named branches
+2026-11-02T00:59:25.9010019Z   ---
+2026-11-02T00:59:25.9010377Z   duration_ms: 1.092618
+2026-11-02T00:59:25.9010777Z   type: 'test'
+2026-11-02T00:59:25.9011117Z   ...
+2026-11-02T00:59:25.9011937Z # Subtest: anonymous API rate limit does not prevent resolving a pinned public snapshot
+2026-11-02T00:59:25.9013234Z ok 101 - anonymous API rate limit does not prevent resolving a pinned public snapshot
+2026-11-02T00:59:25.9014024Z   ---
+2026-11-02T00:59:25.9014403Z   duration_ms: 2.721426
+2026-11-02T00:59:25.9014827Z   type: 'test'
+2026-11-02T00:59:25.9015197Z   ...
+2026-11-02T00:59:25.9015924Z # Subtest: relay permits only anonymous read-only Git reference discovery
+2026-11-02T00:59:25.9017272Z ok 102 - relay permits only anonymous read-only Git reference discovery
+2026-11-02T00:59:25.9017978Z   ---
+2026-11-02T00:59:25.9018345Z   duration_ms: 3.512201
+2026-11-02T00:59:25.9019116Z   type: 'test'
+2026-11-02T00:59:25.9019508Z   ...
+2026-11-02T00:59:25.9020474Z # Subtest: default and HEAD snapshots carry the real branch so progress follows a default branch switch
+2026-11-02T00:59:25.9021957Z ok 103 - default and HEAD snapshots carry the real branch so progress follows a default branch switch
+2026-11-02T00:59:25.9022808Z   ---
+2026-11-02T00:59:25.9023176Z   duration_ms: 1.973551
+2026-11-02T00:59:25.9023577Z   type: 'test'
+2026-11-02T00:59:25.9023923Z   ...
+2026-11-02T00:59:25.9024777Z # Subtest: new book prompt binds one new repository and waits for platform and topic choices
+2026-11-02T00:59:25.9026447Z ok 104 - new book prompt binds one new repository and waits for platform and topic choices
+2026-11-02T00:59:25.9027275Z   ---
+2026-11-02T00:59:25.9027636Z   duration_ms: 2.392061
+2026-11-02T00:59:25.9028057Z   type: 'test'
+2026-11-02T00:59:25.9028423Z   ...
+2026-11-02T00:59:25.9029334Z # Subtest: new book prompt preserves selected platform and quotes optional preferences as data
+2026-11-02T00:59:25.9030759Z ok 105 - new book prompt preserves selected platform and quotes optional preferences as data
+2026-11-02T00:59:25.9031607Z   ---
+2026-11-02T00:59:25.9031972Z   duration_ms: 0.421195
+2026-11-02T00:59:25.9032373Z   type: 'test'
+2026-11-02T00:59:25.9032727Z   ...
+2026-11-02T00:59:25.9033634Z # Subtest: new book prompt refuses template, management repository, invalid URL and oversized input
+2026-11-02T00:59:25.9035093Z ok 106 - new book prompt refuses template, management repository, invalid URL and oversized input
+2026-11-02T00:59:25.9036486Z   ---
+2026-11-02T00:59:25.9036862Z   duration_ms: 0.8847
+2026-11-02T00:59:25.9037224Z   type: 'test'
+2026-11-02T00:59:25.9037578Z   ...
+2026-11-02T00:59:25.9038384Z # Subtest: reading resumes its last verified chapter and falls back safely when removed
+2026-11-02T00:59:25.9039673Z ok 107 - reading resumes its last verified chapter and falls back safely when removed
+2026-11-02T00:59:25.9040456Z   ---
+2026-11-02T00:59:25.9040841Z   duration_ms: 1.237348
+2026-11-02T00:59:25.9041273Z   type: 'test'
+2026-11-02T00:59:25.9041648Z   ...
+2026-11-02T00:59:25.9042538Z # Subtest: copy progress advances only if its exact copied version is still current
+2026-11-02T00:59:25.9043746Z ok 108 - copy progress advances only if its exact copied version is still current
+2026-11-02T00:59:25.9044528Z   ---
+2026-11-02T00:59:25.9045238Z   duration_ms: 0.356986
+2026-11-02T00:59:25.9045700Z   type: 'test'
+2026-11-02T00:59:25.9046331Z   ...
+2026-11-02T00:59:25.9047214Z # Subtest: local convenience progress is isolated by repository branch and novel identity
+2026-11-02T00:59:25.9048566Z ok 109 - local convenience progress is isolated by repository branch and novel identity
+2026-11-02T00:59:25.9049389Z   ---
+2026-11-02T00:59:25.9049859Z   duration_ms: 0.29487
+2026-11-02T00:59:25.9050275Z   type: 'test'
+2026-11-02T00:59:25.9050641Z   ...
+2026-11-02T00:59:25.9051608Z # Subtest: clipboard completion records the captured chapter even if selection changes while awaiting
+2026-11-02T00:59:25.9053127Z ok 110 - clipboard completion records the captured chapter even if selection changes while awaiting
+2026-11-02T00:59:25.9054026Z   ---
+2026-11-02T00:59:25.9054394Z   duration_ms: 2.24661
+2026-11-02T00:59:25.9054813Z   type: 'test'
+2026-11-02T00:59:25.9055181Z   ...
+2026-11-02T00:59:25.9094434Z # Subtest: whole book export rejects duplicate start and an old job cannot finish a new job
+2026-11-02T00:59:25.9095930Z ok 111 - whole book export rejects duplicate start and an old job cannot finish a new job
+2026-11-02T00:59:25.9097021Z   ---
+2026-11-02T00:59:25.9097392Z   duration_ms: 0.631587
+2026-11-02T00:59:25.9097830Z   type: 'test'
+2026-11-02T00:59:25.9098172Z   ...
+2026-11-02T00:59:25.9099214Z # Subtest: platform publication is read from an exact matching receipt and absence is not called unpublished
+2026-11-02T00:59:25.9100922Z ok 112 - platform publication is read from an exact matching receipt and absence is not called unpublished
+2026-11-02T00:59:25.9101874Z   ---
+2026-11-02T00:59:25.9102775Z   duration_ms: 57.931412
+2026-11-02T00:59:25.9103192Z   type: 'test'
+2026-11-02T00:59:25.9103529Z   ...
+2026-11-02T00:59:25.9104437Z # Subtest: book search normalizes full width text case and whitespace across title and repository
+2026-11-02T00:59:25.9105865Z ok 113 - book search normalizes full width text case and whitespace across title and repository
+2026-11-02T00:59:25.9107032Z   ---
+2026-11-02T00:59:25.9107419Z   duration_ms: 2.759326
+2026-11-02T00:59:25.9107849Z   type: 'test'
+2026-11-02T00:59:25.9108222Z   ...
+2026-11-02T00:59:25.9109192Z # Subtest: search treats symbols as literal text and keeps original books order and enabled selection
+2026-11-02T00:59:25.9110694Z ok 114 - search treats symbols as literal text and keeps original books order and enabled selection
+2026-11-02T00:59:25.9111571Z   ---
+2026-11-02T00:59:25.9111960Z   duration_ms: 0.457433
+2026-11-02T00:59:25.9112382Z   type: 'test'
+2026-11-02T00:59:25.9112742Z   ...
+2026-11-02T00:59:25.9113756Z # Subtest: a filtered picker never silently selects another novel and clearing restores the retained selection
+2026-11-02T00:59:25.9115431Z ok 115 - a filtered picker never silently selects another novel and clearing restores the retained selection
+2026-11-02T00:59:25.9116709Z   ---
+2026-11-02T00:59:25.9117091Z   duration_ms: 2.32676
+2026-11-02T00:59:25.9117522Z   type: 'test'
+2026-11-02T00:59:25.9117907Z   ...
+2026-11-02T00:59:25.9118842Z # Subtest: one hundred synthetic books can be found by repository without changing the query scope
+2026-11-02T00:59:25.9120327Z ok 116 - one hundred synthetic books can be found by repository without changing the query scope
+2026-11-02T00:59:25.9121193Z   ---
+2026-11-02T00:59:25.9121587Z   duration_ms: 1.650338
+2026-11-02T00:59:25.9122019Z   type: 'test'
+2026-11-02T00:59:25.9122400Z   ...
+2026-11-02T00:59:25.9123718Z # Subtest: chapter numbers match exactly including leading zeroes full width digits and 第章 notation
+2026-11-02T00:59:25.9125345Z ok 117 - chapter numbers match exactly including leading zeroes full width digits and 第章 notation
+2026-11-02T00:59:25.9126546Z   ---
+2026-11-02T00:59:25.9126917Z   duration_ms: 0.806445
+2026-11-02T00:59:25.9127346Z   type: 'test'
+2026-11-02T00:59:25.9127705Z   ...
+2026-11-02T00:59:25.9128490Z # Subtest: chapter titles and multiple keywords filter without changing the directory
+2026-11-02T00:59:25.9129945Z ok 118 - chapter titles and multiple keywords filter without changing the directory
+2026-11-02T00:59:25.9130774Z   ---
+2026-11-02T00:59:25.9131133Z   duration_ms: 0.426846
+2026-11-02T00:59:25.9131550Z   type: 'test'
+2026-11-02T00:59:25.9131904Z   ...
+2026-11-02T00:59:25.9132869Z # Subtest: Chinese composition waits for the completed input and Escape or clear resets the same view
+2026-11-02T00:59:25.9134326Z ok 119 - Chinese composition waits for the completed input and Escape or clear resets the same view
+2026-11-02T00:59:25.9135186Z   ---
+2026-11-02T00:59:25.9135549Z   duration_ms: 1.188697
+2026-11-02T00:59:25.9136230Z   type: 'test'
+2026-11-02T00:59:25.9136616Z   ...
+2026-11-02T00:59:25.9137391Z # Subtest: rapid changes coalesce into one save containing the newest snapshot
+2026-11-02T00:59:25.9138515Z ok 120 - rapid changes coalesce into one save containing the newest snapshot
+2026-11-02T00:59:25.9139261Z   ---
+2026-11-02T00:59:25.9139628Z   duration_ms: 2.05884
+2026-11-02T00:59:25.9140033Z   type: 'test'
+2026-11-02T00:59:25.9140379Z   ...
+2026-11-02T00:59:25.9404582Z # Subtest: changes made while saving run afterwards without losing the newer state
+2026-11-02T00:59:25.9406405Z ok 121 - changes made while saving run afterwards without losing the newer state
+2026-11-02T00:59:25.9407520Z   ---
+2026-11-02T00:59:25.9408234Z   duration_ms: 6.967295
+2026-11-02T00:59:25.9408935Z   type: 'test'
+2026-11-02T00:59:25.9409547Z   ...
+2026-11-02T00:59:25.9410573Z # Subtest: an uncertain save stops retries while preserving further edits
+2026-11-02T00:59:25.9411983Z ok 122 - an uncertain save stops retries while preserving further edits
+2026-11-02T00:59:25.9413101Z   ---
+2026-11-02T00:59:25.9414354Z   duration_ms: 0.477961
+2026-11-02T00:59:25.9415066Z   type: 'test'
+2026-11-02T00:59:25.9415806Z   ...
+2026-11-02T00:59:25.9417432Z # Subtest: missing authorization leaves the draft intact until explicitly enabled
+2026-11-02T00:59:25.9418942Z ok 123 - missing authorization leaves the draft intact until explicitly enabled
+2026-11-02T00:59:25.9420009Z   ---
+2026-11-02T00:59:25.9420638Z   duration_ms: 0.403363
+2026-11-02T00:59:25.9421326Z   type: 'test'
+2026-11-02T00:59:25.9421970Z   ...
+2026-11-02T00:59:25.9422975Z # Subtest: adopting a verified remote version clears obsolete pending work
+2026-11-02T00:59:25.9424299Z ok 124 - adopting a verified remote version clears obsolete pending work
+2026-11-02T00:59:25.9425227Z   ---
+2026-11-02T00:59:25.9425763Z   duration_ms: 0.226713
+2026-11-02T00:59:25.9426612Z   type: 'test'
+2026-11-02T00:59:25.9427154Z   ...
+2026-11-02T00:59:25.9437972Z # Subtest: three-way merge preserves independent edits and unrelated remote additions
+2026-11-02T00:59:25.9439568Z ok 125 - three-way merge preserves independent edits and unrelated remote additions
+2026-11-02T00:59:25.9440684Z   ---
+2026-11-02T00:59:25.9441348Z   duration_ms: 0.657186
+2026-11-02T00:59:25.9442047Z   type: 'test'
+2026-11-02T00:59:25.9442662Z   ...
+2026-11-02T00:59:25.9444773Z # Subtest: three-way merge preserves deliberate deletion while detecting conflicting edits
+2026-11-02T00:59:25.9446723Z ok 126 - three-way merge preserves deliberate deletion while detecting conflicting edits
+2026-11-02T00:59:25.9447837Z   ---
+2026-11-02T00:59:25.9448464Z   duration_ms: 0.222565
+2026-11-02T00:59:25.9449158Z   type: 'test'
+2026-11-02T00:59:25.9449787Z   ...
+2026-11-02T00:59:25.9450902Z # Subtest: legacy enrollment deduplicates the same novel despite different entry IDs
+2026-11-02T00:59:25.9452446Z ok 127 - legacy enrollment deduplicates the same novel despite different entry IDs
+2026-11-02T00:59:25.9453466Z   ---
+2026-11-02T00:59:25.9454075Z   duration_ms: 0.36996
+2026-11-02T00:59:25.9454733Z   type: 'test'
+2026-11-02T00:59:25.9455331Z   ...
+2026-11-02T00:59:25.9456751Z # Subtest: cloud whitelist syncs chat and reader settings without credentials or old money data
+2026-11-02T00:59:25.9458393Z ok 128 - cloud whitelist syncs chat and reader settings without credentials or old money data
+2026-11-02T00:59:25.9459452Z   ---
+2026-11-02T00:59:25.9460019Z   duration_ms: 2.465098
+2026-11-02T00:59:25.9460970Z   type: 'test'
+2026-11-02T00:59:25.9461629Z   ...
+2026-11-02T00:59:25.9549493Z # Subtest: one-file cloud save uses one SHA-guarded PUT and verifies that exact commit
+2026-11-02T00:59:25.9551083Z ok 129 - one-file cloud save uses one SHA-guarded PUT and verifies that exact commit
+2026-11-02T00:59:25.9552197Z   ---
+2026-11-02T00:59:25.9552989Z   duration_ms: 34.003813
+2026-11-02T00:59:25.9553703Z   type: 'test'
+2026-11-02T00:59:25.9554326Z   ...
+2026-11-02T00:59:25.9555205Z # Subtest: a conflicting cloud PUT is surfaced without retry
+2026-11-02T00:59:25.9556634Z ok 130 - a conflicting cloud PUT is surfaced without retry
+2026-11-02T00:59:25.9557591Z   ---
+2026-11-02T00:59:25.9558179Z   duration_ms: 1.559739
+2026-11-02T00:59:25.9558782Z   type: 'test'
+2026-11-02T00:59:25.9559306Z   ...
+2026-11-02T00:59:25.9560384Z # Subtest: the relay permits Contents writes only for books.json and remains read-only for partners
+2026-11-02T00:59:25.9561975Z ok 131 - the relay permits Contents writes only for books.json and remains read-only for partners
+2026-11-02T00:59:25.9562976Z   ---
+2026-11-02T00:59:25.9563487Z   duration_ms: 4.608536
+2026-11-02T00:59:25.9564095Z   type: 'test'
+2026-11-02T00:59:25.9564723Z   ...
+2026-11-02T00:59:25.9587632Z # Subtest: an expired saved token does not prevent reading public repository metadata
+2026-11-02T00:59:25.9589196Z ok 132 - an expired saved token does not prevent reading public repository metadata
+2026-11-02T00:59:25.9590254Z   ---
+2026-11-02T00:59:25.9590866Z   duration_ms: 1.059315
+2026-11-02T00:59:25.9591514Z   type: 'test'
+2026-11-02T00:59:25.9592115Z   ...
+2026-11-02T00:59:26.0117813Z # Subtest: today is determined by chapter date with no plan deadline or receipt dependency
+2026-11-02T00:59:26.0141392Z ok 133 - today is determined by chapter date with no plan deadline or receipt dependency
+2026-11-02T00:59:26.0148162Z   ---
+2026-11-02T00:59:26.0148888Z   duration_ms: 3.589345
+2026-11-02T00:59:26.0149564Z   type: 'test'
+2026-11-02T00:59:26.0150151Z   ...
+2026-11-02T00:59:26.0151173Z # Subtest: a repository configuration commit today does not update an old chapter
+2026-11-02T00:59:26.0152588Z ok 134 - a repository configuration commit today does not update an old chapter
+2026-11-02T00:59:26.0153494Z   ---
+2026-11-02T00:59:26.0154048Z   duration_ms: 0.63815
+2026-11-02T00:59:26.0154647Z   type: 'test'
+2026-11-02T00:59:26.0155184Z   ...
+2026-11-02T00:59:26.0156251Z # Subtest: Shanghai midnight is used rather than UTC midnight
+2026-11-02T00:59:26.0157368Z ok 135 - Shanghai midnight is used rather than UTC midnight
+2026-11-02T00:59:26.0158147Z   ---
+2026-11-02T00:59:26.0158687Z   duration_ms: 2.118191
+2026-11-02T00:59:26.0159309Z   type: 'test'
+2026-11-02T00:59:26.0159864Z   ...
+2026-11-02T00:59:26.0160747Z # Subtest: failure to read a chapter date is unknown, never not_updated
+2026-11-02T00:59:26.0161934Z ok 136 - failure to read a chapter date is unknown, never not_updated
+2026-11-02T00:59:26.0162759Z   ---
+2026-11-02T00:59:26.0163278Z   duration_ms: 0.507075
+2026-11-02T00:59:26.0163865Z   type: 'test'
+2026-11-02T00:59:26.0164387Z   ...
+2026-11-02T00:59:26.0165296Z # Subtest: future or missing chapter dates are not accepted as a completed query
+2026-11-02T00:59:26.0166845Z ok 137 - future or missing chapter dates are not accepted as a completed query
+2026-11-02T00:59:26.0167813Z   ---
+2026-11-02T00:59:26.0168361Z   duration_ms: 0.725764
+2026-11-02T00:59:26.0168955Z   type: 'test'
+2026-11-02T00:59:26.0169527Z   ...
+2026-11-02T00:59:26.0170424Z # Subtest: a novel with no adopted chapters is reported separately
+2026-11-02T00:59:26.0171605Z ok 138 - a novel with no adopted chapters is reported separately
+2026-11-02T00:59:26.0172502Z   ---
+2026-11-02T00:59:26.0173117Z   duration_ms: 0.401259
+2026-11-02T00:59:26.0173775Z   type: 'test'
+2026-11-02T00:59:26.0174363Z   ...
+2026-11-02T00:59:26.0182384Z # Subtest: only checked novels are queried and every checked novel gets a result
+2026-11-02T00:59:26.0185683Z ok 139 - only checked novels are queried and every checked novel gets a result
+2026-11-02T00:59:26.0187246Z   ---
+2026-11-02T00:59:26.0187695Z   duration_ms: 17.361883
+2026-11-02T00:59:26.0188077Z   type: 'test'
+2026-11-02T00:59:26.0188470Z   ...
+2026-11-02T00:59:26.0188992Z # Subtest: identity mismatch is not mistaken for a successful update
+2026-11-02T00:59:26.0189660Z ok 140 - identity mismatch is not mistaken for a successful update
+2026-11-02T00:59:26.0190136Z   ---
+2026-11-02T00:59:26.0190469Z   duration_ms: 0.472491
+2026-11-02T00:59:26.0190840Z   type: 'test'
+2026-11-02T00:59:26.0191168Z   ...
+2026-11-02T00:59:26.0191723Z # Subtest: new chapters and revisions can be compared with the previous observation
+2026-11-02T00:59:26.0192503Z ok 141 - new chapters and revisions can be compared with the previous observation
+2026-11-02T00:59:26.0193024Z   ---
+2026-11-02T00:59:26.0193364Z   duration_ms: 0.694596
+2026-11-02T00:59:26.0193724Z   type: 'test'
+2026-11-02T00:59:26.0194051Z   ...
+2026-11-02T00:59:26.0194626Z # Subtest: query fingerprint ignores save timestamps, plans and stored observations
+2026-11-02T00:59:26.0195401Z ok 142 - query fingerprint ignores save timestamps, plans and stored observations
+2026-11-02T00:59:26.0195926Z   ---
+2026-11-02T00:59:26.0196856Z   duration_ms: 3.304193
+2026-11-02T00:59:26.0197447Z   type: 'test'
+2026-11-02T00:59:26.0198025Z   ...
+2026-11-02T00:59:26.0198810Z # Subtest: query records retain seven days and replace the last query for the same day
+2026-11-02T00:59:26.0199972Z ok 143 - query records retain seven days and replace the last query for the same day
+2026-11-02T00:59:26.0200671Z   ---
+2026-11-02T00:59:26.0201000Z   duration_ms: 22.826265
+2026-11-02T00:59:26.0201382Z   type: 'test'
+2026-11-02T00:59:26.0201994Z   ...
+2026-11-02T00:59:26.0202415Z # Subtest: a failed second query retains the prior evidence with a failure status
+2026-11-02T00:59:26.0203014Z ok 144 - a failed second query retains the prior evidence with a failure status
+2026-11-02T00:59:26.0203386Z   ---
+2026-11-02T00:59:26.0203571Z   duration_ms: 1.303732
+2026-11-02T00:59:26.0203793Z   type: 'test'
+2026-11-02T00:59:26.0203995Z   ...
+2026-11-02T00:59:26.0204364Z # Subtest: stored query data strips secrets and rejects invalid records
+2026-11-02T00:59:26.0204891Z ok 145 - stored query data strips secrets and rejects invalid records
+2026-11-02T00:59:26.0205226Z   ---
+2026-11-02T00:59:26.0205410Z   duration_ms: 1.613509
+2026-11-02T00:59:26.0205622Z   type: 'test'
+2026-11-02T00:59:26.0205820Z   ...
+2026-11-02T00:59:26.0206630Z # Subtest: file history reads the entry date and validates the exact file source
+2026-11-02T00:59:26.0207245Z ok 146 - file history reads the entry date and validates the exact file source
+2026-11-02T00:59:26.0207631Z   ---
+2026-11-02T00:59:26.0207822Z   duration_ms: 27.735121
+2026-11-02T00:59:26.0208044Z   type: 'test'
+2026-11-02T00:59:26.0208250Z   ...
+2026-11-02T00:59:26.0208676Z # Subtest: normal public reads do not call the REST API, including missing optional files
+2026-11-02T00:59:26.0209344Z ok 147 - normal public reads do not call the REST API, including missing optional files
+2026-11-02T00:59:26.0209753Z   ---
+2026-11-02T00:59:26.0209944Z   duration_ms: 2.579812
+2026-11-02T00:59:26.0210173Z   type: 'test'
+2026-11-02T00:59:26.0210359Z   ...
+2026-11-02T00:59:26.0210796Z # Subtest: the server only permits pinned chapter history feeds and sends no user token
+2026-11-02T00:59:26.0211427Z ok 148 - the server only permits pinned chapter history feeds and sends no user token
+2026-11-02T00:59:26.0211857Z   ---
+2026-11-02T00:59:26.0212042Z   duration_ms: 4.241361
+2026-11-02T00:59:26.0212252Z   type: 'test'
+2026-11-02T00:59:26.0212434Z   ...
+2026-11-02T00:59:26.0212826Z # Subtest: a confirmed raw 404 is not overwritten by a limited optional fallback
+2026-11-02T00:59:26.0213410Z ok 149 - a confirmed raw 404 is not overwritten by a limited optional fallback
+2026-11-02T00:59:26.0213773Z   ---
+2026-11-02T00:59:26.0213963Z   duration_ms: 1.287371
+2026-11-02T00:59:26.0214176Z   type: 'test'
+2026-11-02T00:59:26.0214356Z   ...
+2026-11-02T00:59:26.0214855Z # Subtest: network failures are not recorded as missing files
+2026-11-02T00:59:26.0215315Z ok 150 - network failures are not recorded as missing files
+2026-11-02T00:59:26.0215623Z   ---
+2026-11-02T00:59:26.0215813Z   duration_ms: 0.798029
+2026-11-02T00:59:26.0216322Z   type: 'test'
+2026-11-02T00:59:26.0216515Z   ...
+2026-11-02T00:59:26.0216908Z # Subtest: saved results become stale across days or after changing checked scope
+2026-11-02T00:59:26.0217498Z ok 151 - saved results become stale across days or after changing checked scope
+2026-11-02T00:59:26.0217873Z   ---
+2026-11-02T00:59:26.0218063Z   duration_ms: 7.354227
+2026-11-02T00:59:26.0218269Z   type: 'test'
+2026-11-02T00:59:26.0218457Z   ...
+2026-11-02T00:59:26.0218848Z # Subtest: a query-record-only save persists history with one guarded write
+2026-11-02T00:59:26.0219407Z ok 152 - a query-record-only save persists history with one guarded write
+2026-11-02T00:59:26.0219920Z   ---
+2026-11-02T00:59:26.0220177Z   duration_ms: 9.421813
+2026-11-02T00:59:26.0220391Z   type: 'test'
+2026-11-02T00:59:26.0220580Z   ...
+2026-11-02T00:59:26.0220937Z # Subtest: partial query progress cannot become a finished fresh result
+2026-11-02T00:59:26.0221460Z ok 153 - partial query progress cannot become a finished fresh result
+2026-11-02T00:59:26.0221800Z   ---
+2026-11-02T00:59:26.0221986Z   duration_ms: 0.272578
+2026-11-02T00:59:26.0222192Z   type: 'test'
+2026-11-02T00:59:26.0222374Z   ...
+2026-11-02T00:59:26.0369747Z 1..153
+2026-11-02T00:59:26.0378665Z # tests 153
+2026-11-02T00:59:26.0397133Z # suites 0
+2026-11-02T00:59:26.0406778Z # pass 153
+2026-11-02T00:59:26.0414479Z # fail 0
+2026-11-02T00:59:26.0427463Z # cancelled 0
+2026-11-02T00:59:26.0428510Z # skipped 0
+2026-11-02T00:59:26.0428898Z # todo 0
+2026-11-02T00:59:26.0429295Z # duration_ms 682.395462
+2026-11-02T00:59:26.0583080Z Post job cleanup.
+2026-11-02T00:59:26.1951373Z Post job cleanup.
+2026-11-02T00:59:26.3558852Z Post job cleanup.
+2026-11-02T00:59:26.4526955Z [command]/usr/bin/git version
+2026-11-02T00:59:26.4576969Z git version 2.56.0
+2026-11-02T00:59:26.4618285Z Temporarily overriding HOME='/home/runner/work/_temp/80852a93-4d05-41a7-9cac-0038aec9ee82' before making global git config changes
+2026-11-02T00:59:26.4620101Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-02T00:59:26.4627106Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/XS6/XS6
+2026-11-02T00:59:26.4666354Z Removing SSH command configuration
+2026-11-02T00:59:26.4673131Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-02T00:59:26.4737188Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-02T00:59:26.5084358Z Removing HTTP extra header
+2026-11-02T00:59:26.5086418Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-02T00:59:26.5118521Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-02T00:59:26.5451071Z Removing includeIf entries pointing to credentials config files
+2026-11-02T00:59:26.5461127Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-02T00:59:26.5493291Z includeif.gitdir:/home/runner/work/XS6/XS6/.git.path
+2026-11-02T00:59:26.5494165Z includeif.gitdir:/home/runner/work/XS6/XS6/.git/worktrees/*.path
+2026-11-02T00:59:26.5494650Z includeif.gitdir:/github/workspace/.git.path
+2026-11-02T00:59:26.5495121Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+2026-11-02T00:59:26.5502190Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/XS6/XS6/.git.path
+2026-11-02T00:59:26.5529507Z /home/runner/work/_temp/git-credentials-ac41cdb3-9cb4-4a41-a507-17e595da72ab.config
+2026-11-02T00:59:26.5540861Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/XS6/XS6/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-ac41cdb3\-9cb4\-4a41\-a507\-17e595da72ab\.config
+2026-11-02T00:59:26.5581118Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/XS6/XS6/.git/worktrees/*.path
+2026-11-02T00:59:26.5608523Z /home/runner/work/_temp/git-credentials-ac41cdb3-9cb4-4a41-a507-17e595da72ab.config
+2026-11-02T00:59:26.5617245Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/XS6/XS6/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-ac41cdb3\-9cb4\-4a41\-a507\-17e595da72ab\.config
+2026-11-02T00:59:26.5652501Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+2026-11-02T00:59:26.5677818Z /github/runner_temp/git-credentials-ac41cdb3-9cb4-4a41-a507-17e595da72ab.config
+2026-11-02T00:59:26.5685268Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-ac41cdb3\-9cb4\-4a41\-a507\-17e595da72ab\.config
+2026-11-02T00:59:26.5722428Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+2026-11-02T00:59:26.5747484Z /github/runner_temp/git-credentials-ac41cdb3-9cb4-4a41-a507-17e595da72ab.config
+2026-11-02T00:59:26.5757436Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-ac41cdb3\-9cb4\-4a41\-a507\-17e595da72ab\.config
+2026-11-02T00:59:26.5793303Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-02T00:59:26.6075770Z Removing credentials config '/home/runner/work/_temp/git-credentials-ac41cdb3-9cb4-4a41-a507-17e595da72ab.config'
+2026-11-02T00:59:26.6228469Z Cleaning up orphan processes
