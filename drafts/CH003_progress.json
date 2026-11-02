@@ -8,9 +8,15 @@
   "authorization": "开始第三章",
   "baseline_head": "a153882ea245190c650df6b0367300a5165bc433",
   "baseline_revision": 7,
-  "stage": "source_reading",
-  "text_path": null,
-  "measured_han": 0,
+  "stage": "candidate_registered_reader_generated",
+  "text_path": "drafts/CH003.txt",
+  "measured_han": 8471,
   "daily_run_id": null,
-  "note": "客户端手动会话编号，非平台运行号；未计入定时完成回执。"
+  "note": "客户端手动会话编号，非平台运行号；未计入定时完成回执。",
+  "text_sha256": "de064dbd2054b48a8c6698b7ca20007f8b9d88af3ece366359f090d659e9bc5a",
+  "task_id": "ba4f482f-ad4a-4158-bff5-096897480ab8",
+  "repairs": 0,
+  "completed_scenes": 5,
+  "next_action": "实际读取reader资料，生成章后事实记录和八项带引文审查，release-check后采用冻结",
+  "reader_path": "drafts/CH003_reader.md"
 }

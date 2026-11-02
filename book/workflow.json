@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 10,
+  "revision": 11,
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
-  "phase": "WRITING",
+  "phase": "REVIEWING",
   "platform": "zongheng_girls",
   "selected_topic": {
     "id": "T03",
@@ -90,10 +90,16 @@
       "phase": "WRITING",
       "label": "撰写正文",
       "detail": "作者明确要求开始第三章；本次按手动V4.3流程续写，不占用或改写今日CH002定时回执。"
+    },
+    {
+      "at": "2026-11-02T01:32:02+00:00",
+      "phase": "REVIEWING",
+      "label": "检查本章",
+      "detail": "CH003完整候选已写成并登记，开始限信息审读、反向提纲、八项证据核查。"
     }
   ],
-  "detail": "作者明确要求开始第三章；本次按手动V4.3流程续写，不占用或改写今日CH002定时回执。",
-  "next_action": "完成CH003任务书和约9000汉字正文，实读reader资料、八项审核、release-check后采用冻结。",
-  "updated_at": "2026-11-02T01:18:18+00:00",
+  "detail": "CH003完整候选已写成并登记，开始限信息审读、反向提纲、八项证据核查。",
+  "next_action": "完成章后事实记录与真实审读；必要时在同一任务最多三轮局部修订；release-check通过后采用冻结。",
+  "updated_at": "2026-11-02T01:32:02+00:00",
   "draft_path": "drafts/CH001.txt"
 }

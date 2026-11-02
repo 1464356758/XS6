@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS6",
     "branch": "main",
-    "generated_at": "2026-11-02T01:18:18+00:00",
+    "generated_at": "2026-11-02T01:32:02+00:00",
     "state_revision": 7,
-    "workflow_revision": 10,
-    "state_sha256": "91fc28a6a9994109b712f4763b02c38519f50ba5da85d913db3968e4873deac9",
-    "workflow_sha256": "7dc6176744a35d7a273cfae265ce0937b0f4e1aec0c2321db8630b31183b4c55",
+    "workflow_revision": 11,
+    "state_sha256": "ac8aac01b32e69841abcbdc3649863c8dd9fbc76e624b79be6cc6a4af897a8c5",
+    "workflow_sha256": "7db6567529b6beaba810f60edbaadcbc1d153806595b71e84a9648a38a53b1ab",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WRITING",
-    "label": "撰写正文",
+    "phase": "REVIEWING",
+    "label": "检查本章",
     "chapter": 3,
-    "detail": "作者明确要求开始第三章；本次按手动V4.3流程续写，不占用或改写今日CH002定时回执。",
-    "next_action": "完成CH003任务书和约9000汉字正文，实读reader资料、八项审核、release-check后采用冻结。",
-    "updated_at": "2026-11-02T01:18:18+00:00"
+    "detail": "CH003完整候选已写成并登记，开始限信息审读、反向提纲、八项证据核查。",
+    "next_action": "完成章后事实记录与真实审读；必要时在同一任务最多三轮局部修订；release-check通过后采用冻结。",
+    "updated_at": "2026-11-02T01:32:02+00:00"
   },
   "chapters": [
     {
@@ -450,6 +450,12 @@
       "phase": "WRITING",
       "label": "撰写正文",
       "detail": "作者明确要求开始第三章；本次按手动V4.3流程续写，不占用或改写今日CH002定时回执。"
+    },
+    {
+      "at": "2026-11-02T01:32:02+00:00",
+      "phase": "REVIEWING",
+      "label": "检查本章",
+      "detail": "CH003完整候选已写成并登记，开始限信息审读、反向提纲、八项证据核查。"
     }
   ]
 }
