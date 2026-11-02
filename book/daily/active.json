@@ -7,7 +7,7 @@
   "start_date": "2026-11-03",
   "started_at": "2026-11-02T20:03:49+00:00",
   "chapter": 4,
-  "status": "running",
+  "status": "blocked",
   "baseline_count": 3,
   "baseline_fingerprint": "b731a54111e4a6496f397c1aa16d20f0f8e1f6363a27b5608e13dd6ad79728dc",
   "attempts": [],
@@ -18,9 +18,11 @@
     "platform_run_id": null
   },
   "executor_checkpoint": {
-    "request_id": "xs6-20261103-brief-4f9c7a21",
-    "phase": "command",
-    "at": "2026-11-02T20:07:02+00:00",
-    "github_run_id": "41516180956"
-  }
+    "request_id": "xs6-20261103-block-4f9c7a21",
+    "phase": "block",
+    "at": "2026-11-02T20:07:37+00:00",
+    "github_run_id": "41516283659"
+  },
+  "reason": "CH004正文工作稿本轮已本地写成并实测8110汉字，SHA256=27f5cd302ed8388a8e4abe49f5761c1a174e763bd692a1d5d79262ff5d59c777；GitHub连接器无法直接读取本地工作稿文件用于提交，未能远端登记候选或完成brief-check、reader审读、八项审核、release-check和finalize。完整本地工作稿及接续检查点已交付附件；保留第004章同一目标及现有修订次数，不跳章、不冒充冻结。",
+  "blocked_at": "2026-11-02T20:07:37+00:00"
 }
