@@ -1,0 +1,21 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs6-config-preflight-fix-mvysw143-ek8j4lko",
+  "request_sha256": "ad2a37ac108ad339af5b9ddaaaf6cc30584848bd9ba26b8190a503687620f9f9",
+  "source_sha": "cb02c787f5dc93dbc728d927ce2e0378d5dccdef",
+  "base_sha": "40212538f9387cfb205e2b9c1181052dd8698d0d",
+  "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+  "controller": {
+    "kind": "maintenance",
+    "session_id": "xs6-config-mvysubp5-7sfztdva"
+  },
+  "phase": "preflight",
+  "executed_at": "2026-11-02T05:10:46+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41392479908",
+  "business_status": "preflight_passed",
+  "active_status": "completed",
+  "changed_paths": [
+    "online/index.json"
+  ]
+}
