@@ -1,0 +1,21 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs6-work-preflight-mvyjvc2d-9nycbzd",
+  "request_sha256": "d174ba4f05949cba3030325409a320f671179f0849d94f1d55e4a142d6c7dbf5",
+  "source_sha": "c01ce11a426f438ca45a49969fb2f9004635f80a",
+  "base_sha": "7cd13f8600888c5c03758df76c868dd4c8c23290",
+  "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+  "controller": {
+    "kind": "maintenance",
+    "session_id": "xs6-work-20261102-mvyjvc2d-ppt60uc"
+  },
+  "phase": "preflight",
+  "executed_at": "2026-11-02T00:58:22+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41369979275",
+  "business_status": "preflight_passed",
+  "active_status": "completed",
+  "changed_paths": [
+    "online/index.json"
+  ]
+}
