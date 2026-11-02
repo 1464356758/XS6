@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs6-config-preflight-mvysubp5-7sfztdva",
-  "base_sha": "6028cbe7d98f0a622f695d1525f7c3f61b5cf626",
+  "request_id": "xs6-config-preflight-fix-mvysw143-ek8j4lko",
+  "base_sha": "40212538f9387cfb205e2b9c1181052dd8698d0d",
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
   "controller": {
     "kind": "maintenance",
