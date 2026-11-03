@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs6-ch004-begin-mw05wz31",
-  "base_sha": "143215aee046a57e223dfec1d906687aacaa9156",
+  "request_id": "xs6-ch004-brief-mw065ef3",
+  "base_sha": "ab418cc6168ad9d2b8052c946878dd6f5d1c9872",
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
   "controller": {
     "kind": "automation",
@@ -9,5 +9,90 @@
     "session_id": "xs6-ch004-inline-mw05wb6q-bro8qm94",
     "platform_run_id": null
   },
-  "phase": "begin"
+  "phase": "command",
+  "run_id": "f92d7b30f8e24bf1b7cdd5310338e05d",
+  "commands": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "电池 电量 输入 余量 断供",
+        "--before",
+        "4",
+        "--limit",
+        "6"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "受伤 准入 接收 拒收 交换",
+        "--before",
+        "4",
+        "--limit",
+        "6"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "借用 归还 检测 仪器",
+        "--before",
+        "4",
+        "--limit",
+        "6"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-check",
+        "--file",
+        "drafts/CH004_brief.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "writer",
+        "--budget",
+        "80000",
+        "--out",
+        "drafts/CH004_writer.md"
+      ]
+    },
+    {
+      "script": "online_state.py",
+      "args": [
+        "--project",
+        ".",
+        "task",
+        "--phase",
+        "WRITING",
+        "--chapter",
+        "4",
+        "--detail",
+        "作者要求下一章；既有任务已合法接回第四章，实读前三章与事实边界，完成任务书并续写本章。",
+        "--next",
+        "完成第四章全文、实质审读及采用冻结，不跳章。"
+      ]
+    }
+  ]
 }

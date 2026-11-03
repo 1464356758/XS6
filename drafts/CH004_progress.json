@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+  "chapter": 4,
+  "run_id": "f92d7b30f8e24bf1b7cdd5310338e05d",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae75ada42d48191bba7f5aca047f929",
+    "session_id": "xs6-ch004-inline-mw05wb6q-bro8qm94",
+    "platform_run_id": null
+  },
+  "stage": "brief_filled_full_sources_read",
+  "draft_path": null,
+  "sha256": null,
+  "han_count": 0,
+  "completed_scenes": [],
+  "sources_read": {
+    "chapter_texts": [
+      1,
+      2,
+      3
+    ],
+    "chapter_hashes": {
+      "1": {
+        "text_sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+        "record_sha256": "211bcd5779318b3811afa9a2c54a01e249cbdf99d14487949e4155b6de00ec6c"
+      },
+      "2": {
+        "text_sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+        "record_sha256": "85006f1f59d383a3818f409de2aaa51268554c4e91132ccdb1014f0cb754937d"
+      },
+      "3": {
+        "text_sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+        "record_sha256": "e153617f2665597de6cb3b9df2dfd007172ff16142eaaa9ac964eddf35827c62"
+      }
+    },
+    "canon_sha256": "e8c66f51f161667048f484710694f4e9e2e31b467c39961eb4063cb35f2976cb",
+    "roadmap_sha256": "1df104aa779568f718148ef412466517eed33effddedac39119984fb38b25b07",
+    "range_log": {
+      "author": [
+        [
+          0,
+          22551
+        ],
+        [
+          32931,
+          38477
+        ]
+      ],
+      "chapter1": [
+        [
+          0,
+          5600
+        ],
+        [
+          5600,
+          11119
+        ]
+      ],
+      "chapter2": [
+        [
+          0,
+          6200
+        ],
+        [
+          6200,
+          12363
+        ]
+      ],
+      "chapter3": [
+        [
+          22551,
+          27800
+        ],
+        [
+          27800,
+          32931
+        ]
+      ]
+    }
+  },
+  "previous_missing_draft": {
+    "verified": false,
+    "claimed_han": 8110,
+    "claimed_sha256": "27f5cd302ed8388a8e4abe49f5761c1a174e763bd692a1d5d79262ff5d59c777"
+  },
+  "next_step": "通过brief-check并实际读writer资料后分场写正文",
+  "updated_at": "2026-11-03T04:09:34.527Z",
+  "adopted": false
+}
