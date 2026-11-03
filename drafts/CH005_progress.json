@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+  "chapter": 5,
+  "run_id": "04bc87f36f5a4cb1923d8a4858b374b5",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae75ada42d48191bba7f5aca047f929",
+    "session_id": "xs6-ch005-inline-mw14z8wm",
+    "platform_run_id": null
+  },
+  "phase": "writing",
+  "draft_path": "drafts/CH005.txt",
+  "draft_sha256": "7936ed560f0e60608bf50added5e0c0efbd97d790b22dc4c038daa4647a35670",
+  "measured_han": 2899,
+  "completed_scenes": [
+    "晨班当场撤下河湾错误去向并追抄送链",
+    "母女说清未知受益者、隐私边界与实际照护交接"
+  ],
+  "next_step": "完成河湾停用实物核验、协作说明与转送更正结果；完整8000—10000汉字后登记候选并审读",
+  "adoption_status": "not_adopted",
+  "platform_run_id_verified": false,
+  "reading": {
+    "canon": [
+      [
+        0,
+        3900
+      ],
+      [
+        3900,
+        7422
+      ]
+    ],
+    "roadmap": [
+      [
+        8961,
+        11164
+      ],
+      [
+        0,
+        3614
+      ],
+      [
+        3614,
+        8961
+      ],
+      [
+        11164,
+        13783
+      ]
+    ],
+    "chapters": {
+      "1": [
+        [
+          0,
+          5600
+        ],
+        [
+          5600,
+          11119
+        ]
+      ],
+      "2": [
+        [
+          0,
+          6200
+        ],
+        [
+          6200,
+          12363
+        ]
+      ],
+      "3": [
+        [
+          0,
+          5200
+        ],
+        [
+          5200,
+          10298
+        ]
+      ],
+      "4": [
+        [
+          0,
+          5500
+        ],
+        [
+          5500,
+          10889
+        ]
+      ]
+    }
+  }
+}
