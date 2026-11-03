@@ -1,0 +1,11 @@
+{
+  "chapter": 5,
+  "revision_round": 1,
+  "original_text_sha256": "084dbeab5f45902d48bfcf51700a37279cfc0e38f585c2bc7f0e3e7ba7b328a9",
+  "revised_text_sha256": "0a5c6e8d9c95f79665ff43ba0b02b0e28b91ee9e7565b84dee61ce5a5c82bceb",
+  "changes": [
+    "绣片仍缝在外套内衬，改四处取放和描画动作，避免凭空脱下",
+    "更正说明须母亲返回后才交给知禾，修正先于交付出现在孩子膝上的时序"
+  ],
+  "reason": "全文回看CH003、CH004与本章限信息审读确认的道具和交付连续性问题；仅修改未冻结CH005"
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs6-ch005-candidate-reader-mw15pw4u",
-  "base_sha": "1757fa8071ef2561c328454fe52861e187f07234",
+  "request_id": "xs6-ch005-revision1-mw15rsak",
+  "base_sha": "c4d98c4a0b66c0a7c6f45e41d655c721e86adc58",
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
   "controller": {
     "kind": "automation",
@@ -17,11 +17,13 @@
       "args": [
         "--root",
         "book",
-        "candidate",
+        "repair",
         "--chapter",
         "5",
         "--text",
-        "drafts/CH005.txt"
+        "drafts/CH005.txt",
+        "--reason",
+        "保持小猫绣片缝在外套内衬并修正更正说明先于交付的时序；不改冻结旧章"
       ]
     },
     {
@@ -37,23 +39,7 @@
         "--budget",
         "95000",
         "--out",
-        "drafts/CH005_reader.md"
-      ]
-    },
-    {
-      "script": "online_state.py",
-      "args": [
-        "--project",
-        ".",
-        "task",
-        "--phase",
-        "REVIEWING",
-        "--chapter",
-        "5",
-        "--detail",
-        "第五章完整初稿8426汉字，进入八项审读与第一至五章全文回看",
-        "--next",
-        "实读reader资料，检查反向提纲、相似办法与人物资源，完成五章回看后release-check"
+        "drafts/CH005_reader_final.md"
       ]
     }
   ]
