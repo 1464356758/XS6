@@ -7,7 +7,7 @@
   "start_date": "2026-11-04",
   "started_at": "2026-11-03T20:26:50+00:00",
   "chapter": 5,
-  "status": "running",
+  "status": "completed",
   "baseline_count": 4,
   "baseline_fingerprint": "c61e88c107c62dc2848d80195c84f3a1bee9f40281c5d5d2193d82e2ac7ff3f5",
   "attempts": [],
@@ -18,9 +18,11 @@
     "platform_run_id": null
   },
   "executor_checkpoint": {
-    "request_id": "xs6-ch005-review-release-mw160yam",
-    "phase": "command",
-    "at": "2026-11-03T20:54:04+00:00",
-    "github_run_id": "41716786411"
-  }
+    "request_id": "xs6-ch005-finalize-mw161r0q",
+    "phase": "finalize",
+    "at": "2026-11-03T20:54:49+00:00",
+    "github_run_id": "41716880404"
+  },
+  "completed_at": "2026-11-03T20:54:49+00:00",
+  "receipt_path": "daily/2026-11-04.json"
 }

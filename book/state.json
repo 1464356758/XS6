@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
   "title": "《末日避难所不收我的女儿》",
-  "revision": 9,
+  "revision": 10,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -61,9 +61,62 @@
       "record_sha256": "25d0f2056da5d299afe4d0cd31731138fd2e251a87ae10355da6ca9087c71952",
       "han_count": 8941,
       "adopted_at": "2026-11-03T04:48:47+00:00"
+    },
+    "5": {
+      "title": "她不肯替母亲保密",
+      "stage": "S01",
+      "text_path": "chapters/CH005_ed6f2c17931d294b09a08c4706f78d8810c341e7e3882aaaa6af1f3d14da3f24.txt",
+      "text_sha256": "ed6f2c17931d294b09a08c4706f78d8810c341e7e3882aaaa6af1f3d14da3f24",
+      "record_path": "records/CH005_284edbd972fa27f4682b65702c5937ba62ff2c16998a9f155f8fcee20e4614fd.json",
+      "record_sha256": "284edbd972fa27f4682b65702c5937ba62ff2c16998a9f155f8fcee20e4614fd",
+      "han_count": 8452,
+      "adopted_at": "2026-11-03T20:54:49+00:00"
     }
   },
-  "checkpoints": [],
+  "checkpoints": [
+    {
+      "kind": "window",
+      "from": 1,
+      "to": 5,
+      "base_revision": 9,
+      "canon_sha256": "e8c66f51f161667048f484710694f4e9e2e31b467c39961eb4063cb35f2976cb",
+      "read_mode": "full_text_batches",
+      "decision": "adjust_future",
+      "coverage": {
+        "1": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+        "2": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+        "3": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+        "4": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+        "5": "ed6f2c17931d294b09a08c4706f78d8810c341e7e3882aaaa6af1f3d14da3f24"
+      },
+      "record_coverage": {
+        "1": "211bcd5779318b3811afa9a2c54a01e249cbdf99d14487949e4155b6de00ec6c",
+        "2": "85006f1f59d383a3818f409de2aaa51268554c4e91132ccdb1014f0cb754937d",
+        "3": "e153617f2665597de6cb3b9df2dfd007172ff16142eaaa9ac964eddf35827c62",
+        "4": "25d0f2056da5d299afe4d0cd31731138fd2e251a87ae10355da6ca9087c71952",
+        "5": "284edbd972fa27f4682b65702c5937ba62ff2c16998a9f155f8fcee20e4614fd"
+      },
+      "findings": [
+        {
+          "severity": "resolved",
+          "issue": "小猫被当作脱下的绣片、外套离开孩子后又在母亲身上、折垫与携纸时序不一致",
+          "action": "只修未冻第五章；两轮修订均留候选历史，最终包再读变更段并核其余全文。"
+        },
+        {
+          "severity": "future_adjustment",
+          "issue": "前五章多次出现签纸、核对、解释与不能保证，继续同法会削弱主角的生存推进。",
+          "action": "6章必须落到实物工单、补料和绞车失败后分工，7章批次水实际取舍，8章给一次具体接收/转送后果；不以新表单代替成果。"
+        }
+      ],
+      "conclusion": "CH001—CH005全文及四份已冻结记录按哈希分批实读，本章候选和记录纳入采用前回看；当前因果与资源边界成立，允许采用，后续按实物推进调整。",
+      "causal_progress": "破封失权→190公斤协作搬运→试机失败后获得两人有限小室→电力不足实际停用、医护接力、归还→撤回误传能力并交出单方恢复权。前一章成果未凭空消失，损耗与未知均持续。",
+      "repetition_comparison": "并非五次拿记录就获胜；第三章技术换气有效但第四章必须退出，第五章纠错只避免错误去向。承认后续不能把这类有限纠错扩成长期模板，6—8章改为现场取得或舍弃具体资源。",
+      "character_changes": "林从单独越权争取机会逐步接受专业判断和共同核查；知禾从灰名恐惧、等待与索看失败，变成可对外说真话、拒回河湾且不替母亲偿债；周、陶、贺保留职责与私人目标。",
+      "promise_payoffs": "黄金开篇的越界已实做；CH003有限空气、CH004借物归还均实际兑现。CH005母女公开与有限共同决定已落实；K01/02/03及K03b保留真实原期限，不洗白公产、不抹材料债。",
+      "ending_runway": "5章合计约4.5万汉字，仍在S01；到10章须以带维护代价的临时安全框架交付首阶段，不因90万字预算无限延迟查物、供电与水。原受益者后果16章兑现，避免先写无罪结论。",
+      "next_action": "下一目标CH006。核工单与缺页，先兑现K03b，再让沈朝在真实备电探查/绞车失效中改变分工；原借用仪器未再获前不能恢复住人。"
+    }
+  ],
   "needs_revalidation": [],
   "inputs": {
     "canon": {
@@ -184,7 +237,7 @@
       "task_id": "f7a9ddaa-8f53-4171-b12b-f160405ac0ae",
       "chapter": 5,
       "mode": "write",
-      "phase": "candidate",
+      "phase": "adopted",
       "repairs": 2,
       "history": [
         {
@@ -227,6 +280,10 @@
       "4": {
         "text_sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
         "record_sha256": "25d0f2056da5d299afe4d0cd31731138fd2e251a87ae10355da6ca9087c71952"
+      },
+      "5": {
+        "text_sha256": "ed6f2c17931d294b09a08c4706f78d8810c341e7e3882aaaa6af1f3d14da3f24",
+        "record_sha256": "284edbd972fa27f4682b65702c5937ba62ff2c16998a9f155f8fcee20e4614fd"
       }
     },
     "published": {},
@@ -252,9 +309,9 @@
         "used": true
       },
       "5": {
-        "path": "releases/CH005_127cf2cf917d3025c03a5acda87944e5ca11394556b9ade6fb8d308f968e23dd.json",
-        "sha256": "127cf2cf917d3025c03a5acda87944e5ca11394556b9ade6fb8d308f968e23dd",
-        "used": false
+        "path": "releases/CH005_27eace020f50ffa31cb886e93af29839df05be44005c637333aaef1097f447a7.json",
+        "sha256": "27eace020f50ffa31cb886e93af29839df05be44005c637333aaef1097f447a7",
+        "used": true
       }
     },
     "promises": {
@@ -275,7 +332,7 @@
         ],
         "deadline_chapter": 10,
         "status": "open",
-        "last_reviewed_chapter": 4
+        "last_reviewed_chapter": 5
       },
       "K02": {
         "history": [
@@ -294,7 +351,7 @@
         ],
         "deadline_chapter": 16,
         "status": "open",
-        "last_reviewed_chapter": 4
+        "last_reviewed_chapter": 5
       },
       "K03": {
         "history": [
@@ -313,7 +370,7 @@
         ],
         "deadline_chapter": 10,
         "status": "open",
-        "last_reviewed_chapter": 4
+        "last_reviewed_chapter": 5
       },
       "K03a": {
         "history": [
@@ -363,7 +420,7 @@
         ],
         "deadline_chapter": 6,
         "status": "open",
-        "last_reviewed_chapter": 4
+        "last_reviewed_chapter": 5
       }
     },
     "incidents": {}

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 19,
+  "revision": 20,
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
-  "phase": "REVIEWING",
+  "phase": "WAITING_NEXT",
   "platform": "zongheng_girls",
   "selected_topic": {
     "id": "T03",
@@ -23,7 +23,7 @@
   },
   "research_path": "research/platform_670e090ace6bda109d42e9e37cd6783b7aee1d8339e475476c5e422b5ba243a3.json",
   "topics_path": "research/topics_abaaea43fda039b01e8560ef7703d41a251b6a43d4a872924ed917707aaf7a6e.json",
-  "chapter": 5,
+  "chapter": 6,
   "history": [
     {
       "at": "2026-11-01T09:20:05+00:00",
@@ -144,10 +144,16 @@
       "phase": "REVIEWING",
       "label": "检查本章",
       "detail": "第五章完整初稿8426汉字，进入八项审读与第一至五章全文回看"
+    },
+    {
+      "at": "2026-11-03T20:54:49+00:00",
+      "phase": "WAITING_NEXT",
+      "label": "等待下一章",
+      "detail": "第5章已采用并冻结；平台发布另凭真实回执登记。"
     }
   ],
-  "detail": "第五章完整初稿8426汉字，进入八项审读与第一至五章全文回看",
-  "next_action": "实读reader资料，检查反向提纲、相似办法与人物资源，完成五章回看后release-check",
-  "updated_at": "2026-11-03T20:45:34+00:00",
+  "detail": "第5章已采用并冻结；平台发布另凭真实回执登记。",
+  "next_action": "读取正式状态后，由下一次日更处理下一章。",
+  "updated_at": "2026-11-03T20:54:49+00:00",
   "draft_path": "drafts/CH001.txt"
 }
