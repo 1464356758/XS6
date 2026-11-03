@@ -1,0 +1,21 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs6-repair-preflight-mw05qv8w",
+  "request_sha256": "f5eee8f0aebbf3dea3396a74bbd3aeaebf1cb25f1424b4a842be63f7d4107042",
+  "source_sha": "ef7575dde6a2a2adc7b237ab4bb35d54c7708889",
+  "base_sha": "0f4ae4deec6e99cb2f373acd8785d109a4a60c84",
+  "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+  "controller": {
+    "kind": "maintenance",
+    "session_id": "xs6-repair-mw05quq1-gycrrg8j"
+  },
+  "phase": "preflight",
+  "executed_at": "2026-11-03T03:58:26+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41575321657",
+  "business_status": "preflight_passed",
+  "active_status": "blocked",
+  "changed_paths": [
+    "online/index.json"
+  ]
+}
