@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs6-ch005-prepare-mw1536pm",
-  "base_sha": "0c387f7c0b3b09e138eabee2981a7ffb6105f8cb",
+  "request_id": "xs6-ch005-brief-mw159pvm",
+  "base_sha": "56c43b6e62084ce7bd64eb691d38b313aaf9aeb6",
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
   "controller": {
     "kind": "automation",
@@ -17,8 +17,8 @@
       "args": [
         "--root",
         "book",
-        "brief-request",
-        "--out",
+        "brief-check",
+        "--file",
         "drafts/CH005_brief.json"
       ]
     },
@@ -29,41 +29,27 @@
         "book",
         "context",
         "--profile",
-        "author",
-        "--query",
-        "公开 停用 知情 许照 借物 调度",
+        "writer",
         "--budget",
         "80000",
         "--out",
-        "drafts/CH005_author.md"
+        "drafts/CH005_writer.md"
       ]
     },
     {
-      "script": "novel_state.py",
+      "script": "online_state.py",
       "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "公开 来源 失败 责任 名单",
-        "--before",
+        "--project",
+        ".",
+        "task",
+        "--phase",
+        "WRITING",
+        "--chapter",
         "5",
-        "--limit",
-        "6"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "门外 伤者 转送 拒收",
-        "--before",
-        "5",
-        "--limit",
-        "6"
+        "--detail",
+        "第五章合法begin后任务书、历史比较和来源回读已完成；正在写同章完整正文",
+        "--next",
+        "逐场景保存第五章工作稿，完成八项及五章全文回看后再采用"
       ]
     }
   ]
