@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "type": "xs6-execution-diagnosis-v1",
+  "observed_at": "2026-11-03T03:57:21.702Z",
+  "repository": "1464356758/XS6",
+  "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+  "reviewed_head": "a17ac9e69a0543c887af7270b60f1ff6764ee1e0",
+  "automation_id": "6ae75ada42d48191bba7f5aca047f929",
+  "platform_run": {
+    "id": "33bd31ed-2380-8329-a42b-e088f7dbc0b1",
+    "recorded_status": "completed",
+    "scheduled_for": "2026-11-02T20:00:00Z",
+    "feedback_chat_id": "6ae79668-b258-83ee-b2f9-2631ef796d28",
+    "model": "unverified",
+    "reasoning_effort": "unverified"
+  },
+  "observed_task_before_repair": {
+    "is_enabled": false,
+    "actor_causing_pause": "unverified",
+    "next_run_time": null
+  },
+  "task_reenabled": true,
+  "schedule": {
+    "timezone": "Asia/Shanghai",
+    "hour": 4,
+    "minute": 0
+  },
+  "binding_matches": true,
+  "daily": {
+    "run_id": "37e170bfaa12466794b21454c0bf10c0",
+    "chapter": 4,
+    "status": "blocked",
+    "platform_run_id_in_original_controller": null
+  },
+  "root_cause": {
+    "kind": "execution_strategy_failure",
+    "statement": "写前准备后未把正文作为blob.content提交；将缺少直接本地文件上传入口当作无法写回并停止。现有固定执行器的四批均成功。",
+    "actual_connector_upload_error": "未取得；没有对应失败请求/result或原始错误码，不能确认连接器故障。",
+    "brief_status": "pending_empty_template",
+    "candidate_registered": false
+  },
+  "missing_draft": {
+    "claimed_han_count": 8110,
+    "claimed_sha256": "27f5cd302ed8388a8e4abe49f5761c1a174e763bd692a1d5d79262ff5d59c777",
+    "actual_text_read": false,
+    "status": "not_found_in_accessible_sources",
+    "searched": [
+      "GitHub current recursive tree at reviewed_head",
+      "current accessible workspace and /mnt/data",
+      "Library exact title search XS6_CH004",
+      "Library created_after 2026-11-02T19:50:00Z"
+    ],
+    "temporary_attachment_path": "/mnt/data/XS6_CH004_工作稿及检查点_未冻结.zip"
+  },
+  "executor_results": [
+    {
+      "request_id": "xs6-20261103-preflight-4f9c7a21",
+      "source_sha": "11cd56c4a8771b24f7365f843fdc9dd3423e8ddc",
+      "github_run_id": "41515586872",
+      "executor_status": "ok",
+      "business_status": "preflight_passed"
+    },
+    {
+      "request_id": "xs6-20261103-begin-4f9c7a21",
+      "source_sha": "29092fbadd0e305b3734ce9a0c75626ec74f07eb",
+      "github_run_id": "41515694537",
+      "executor_status": "ok",
+      "business_status": "started"
+    },
+    {
+      "request_id": "xs6-20261103-brief-4f9c7a21",
+      "source_sha": "3a9ac3e6620301c3a769406fef80a23f4626bb5d",
+      "github_run_id": "41516180956",
+      "executor_status": "ok",
+      "business_status": "tools_completed"
+    },
+    {
+      "request_id": "xs6-20261103-block-4f9c7a21",
+      "source_sha": "cee598946f205f947b915a873e0f89bf7aae5215",
+      "github_run_id": "41516283659",
+      "executor_status": "ok",
+      "business_status": "blocked"
+    }
+  ],
+  "frozen_chapters_unchanged": 3,
+  "chapter_completed": false,
+  "authorization_quote": "检查一下，任务到底哪里出问题了！我已经把你切换了工作模式了，为什么定时任务还是没有更新成功？自己修复一下！！！",
+  "planned_repair": [
+    "补齐文本content持久写回规程",
+    "实际提交并回读第四章修复检查点",
+    "按作者明确维护授权撤销旧写入权限并保留同一目标",
+    "固定执行器preflight验证",
+    "不创建任务或重放已完成请求，不把预检称为整章完成"
+  ]
+}
