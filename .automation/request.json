@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs6-ch005-scene2-mw15d4jc",
-  "base_sha": "dce20b83721205d28302cda0e41781628172eb7b",
+  "request_id": "xs6-ch005-scene3-mw15l0b5",
+  "base_sha": "f95ea8f52898b909e09d3fcdafcdbad3ecbde924",
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
   "controller": {
     "kind": "automation",
@@ -23,9 +23,9 @@
         "--chapter",
         "5",
         "--detail",
-        "第五章前两场实测2899汉字，已存同章远端工作稿与真实run_id检查点",
+        "第五章前三场实测4959汉字，沿用原执行编号继续同章",
         "--next",
-        "续写后三场至完整章，之后候选、八项审读、五章全文回看及release-check"
+        "写完联络撤回与母女结果，完成八项审读及五章全文回看"
       ]
     }
   ]

@@ -11,13 +11,14 @@
   },
   "phase": "writing",
   "draft_path": "drafts/CH005.txt",
-  "draft_sha256": "7936ed560f0e60608bf50added5e0c0efbd97d790b22dc4c038daa4647a35670",
-  "measured_han": 2899,
+  "draft_sha256": "5369b1e7a9cc0367c60fc6ae50f7262af449da2e4e986e06fc5c93b685e48d64",
+  "measured_han": 4959,
   "completed_scenes": [
-    "晨班当场撤下河湾错误去向并追抄送链",
-    "母女说清未知受益者、隐私边界与实际照护交接"
+    "晨班撤下错误去向并追抄送链",
+    "母女厘清未知受益者、隐私与照护交接",
+    "河湾实物核验、保管人署名边界与贺为川独立离开"
   ],
-  "next_step": "完成河湾停用实物核验、协作说明与转送更正结果；完整8000—10000汉字后登记候选并审读",
+  "next_step": "完成联络链撤回与母女结果场；完整正文后审读和五章全文回看",
   "adoption_status": "not_adopted",
   "platform_run_id_verified": false,
   "reading": {
