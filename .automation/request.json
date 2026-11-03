@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs6-ch004-checkpoint-mw06dvvw",
-  "base_sha": "d7c88a96c7a15d3ec1951f52f316e16371e38ebf",
+  "request_id": "xs6-ch004-candidate-mw06sf2x",
+  "base_sha": "d43eb40c1249e421e5092c694dab756008507e9b",
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
   "controller": {
     "kind": "automation",
@@ -13,11 +13,47 @@
   "run_id": "f92d7b30f8e24bf1b7cdd5310338e05d",
   "commands": [
     {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "candidate",
+        "--chapter",
+        "4",
+        "--text",
+        "drafts/CH004.txt"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "reader",
+        "--text",
+        "drafts/CH004.txt",
+        "--budget",
+        "80000",
+        "--out",
+        "drafts/CH004_reader.md"
+      ]
+    },
+    {
       "script": "online_state.py",
       "args": [
         "--project",
         ".",
-        "validate-index"
+        "task",
+        "--phase",
+        "REVIEWING",
+        "--chapter",
+        "4",
+        "--detail",
+        "第四章完整初稿实测8988汉字，进入正文反向提纲、限信息审读与八项证据审核。",
+        "--next",
+        "完成实质审核和必要局部修订后release-check/finalize。"
       ]
     }
   ]
