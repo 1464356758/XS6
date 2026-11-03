@@ -11,106 +11,214 @@
   "roadmap_sha256": "1df104aa779568f718148ef412466517eed33effddedac39119984fb38b25b07",
   "narrative_review_version": 1,
   "writing_brief_sha256": "e663ba69c97e376c5dfa8d174321c4e5020c67a298e92c0d9792b2a351e646c1",
-  "decision": "pending",
-  "read_full_text": false,
-  "blocking_issues": [
-    "尚未实际阅读检查"
-  ],
+  "decision": "pass",
+  "read_full_text": true,
+  "blocking_issues": [],
   "read_coverage": {
     "1": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
     "2": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
     "3": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
     "4": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78"
   },
-  "reader_reason_to_continue": "",
-  "consequence": "",
-  "ending_runway": "",
+  "reader_reason_to_continue": "临时小室已经实际停用，借物归还而耗材债仍在；母亲需要在孩子的提前知情、同伴独立时间和公共设备责任之间建立可执行的共同决定，下一章不能再靠首次坦白偷机或凭空来电重置。",
+  "consequence": "01:42主动停机、母女02:14被医疗点接手，河湾当晚失去小室入住与本批检测器；借管缺损有实物核验且尚未赔清。陶向宁让出有限轮休位置、贺明确06:00后不再无限守候；女儿拿到了失败页，而非只接收最终好消息。",
+  "ending_runway": "目前第4章、原定100章。空气、能源、床位均未永久解决，K01仍到10章、K02到16章、K03到10章；K03a本章履约，损耗拆K03b于6章核规格与补偿安排，不以普通推进无限延期。CH005采用前须读1—5全文作五章回看，CH010前做阶段全文回看。保留足够篇幅查公产下游与制度因果，不在开篇洗白。",
   "checks": {
     "timeline": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "从D1 22:46跨午夜至D2 06:23，故事时间T1006→1463；许照00:36转出、00:58回电确认，椅子01:34返来，01:42空室停机、01:49撤人、02:14接手，05:55周返交班。修订将原06:05返站提前，避免违背06:00停止占用贺时间。",
       "evidence": [
         {
           "chapter": 4,
           "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
-          "quote": ""
+          "quote": "一点四十二分，室内已无人。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+          "quote": "两点十四分，地面医疗点的人在通道口接到她们。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+          "quote": "五点五十五分，周闻笙拿着交接联先走，赶回车辆段接贺为川的班。"
         }
       ]
     },
     "knowledge": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "杜良当场自报身份，护士经已有联络链识别母亲并说明调班；只有接诊回电才向女儿报到达，未让工程师知道骨伤结论或全市床位。结尾是问后解释与提前告知的比较，未重释CH003为母亲隐瞒失败。",
       "evidence": [
         {
           "chapter": 4,
           "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
-          "quote": ""
+          "quote": "随后报了自己的名字，杜良"
+        },
+        {
+          "chapter": 4,
+          "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+          "quote": "我夜班调到地面联络点了。先说受伤的人，孩子的情况稍后再问。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+          "quote": "这里是我问了，你才告诉我为什么。"
+        },
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "“有。可那股风有一部分在来回转。”"
         }
       ]
     },
     "props_resources": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "含灯约620W，关灯后约580多至600W；2.4kWh为管理器估计而非实际入库，后续估时偏差没有靠空降电源抹去。36W灯与手机临时充电均走已核辅助负载。借用检测器、附件、风管夹具实际归还，剪短单列损耗，垫子归还、窗板未还原；新软饼/水来自医疗点当班领用，不重置原随身库存。",
       "evidence": [
         {
           "chapter": 4,
           "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
-          "quote": ""
+          "quote": "再看功率，落在五百八十多到六百瓦之间。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+          "quote": "最后一段可用余量究竟多少，仍未被他们验证"
+        },
+        {
+          "chapter": 4,
+          "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+          "quote": "仪器先给当班人。短管得另配，这趟不能按原长度发。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+          "quote": "从当班留观补给里取来一份封装软饼和饮水，领用数在旁边记了。"
         }
       ]
     },
     "causality": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "电源时限促使预先找退出链；伤者有南口封闭和绕行来路，护士通过电话到场，接诊确认后椅子往返才让母女撤离。先收缩目标、实际停机，再拆还监测器材，既没有无监测住人，也没有一张纸就替代真正交接。机构补位来自腾出轮休角的代价。",
       "evidence": [
         {
           "chapter": 4,
           "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
-          "quote": ""
+          "quote": "有人接你们。不保证一直有床，交班还要重排。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+          "quote": "先把许照送进接诊区，椅子清理完，再按对讲里确认的通路折返接孩子。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+          "quote": "两节风管卸下来以后，那间小室便不再有一条完整的临时送排风路。"
         }
       ]
     },
     "power_rules": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "坏接头保持隔离、旧件不匹配，母亲未用胶带续命或燃油无源发电。护士做有限评估、保护和转送，不确诊骨折、不开凭空药量，医疗点观察非A区入站许可；地下未开放。无系统、异能、万能技术或完整安全通风扩建。",
       "evidence": [
         {
           "chapter": 4,
           "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
-          "quote": ""
+          "quote": "不匹配。手边这个不是它的替件。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+          "quote": "不接。明天按型号找，找到也得试。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+          "quote": "这里没有影像检查。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+          "quote": "孩子仍需要看护和后续评估，暂缓接收的行政标签并没有因此被改掉"
         }
       ]
     },
     "promises": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "标题的过夜供电缺口以实际01:42停机、撤人兑现；K03a的06:00借还与停止监测后退出已落地。缺损另列K03b未赔清而非写成一切还清；K01评分、K02原受益者与K03持续安全仍保留原期限。",
       "evidence": [
         {
           "chapter": 4,
           "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
-          "quote": ""
+          "quote": "仪器还了。管子有损耗，留下欠的那一部分。机器没有还，也没修好电。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+          "quote": "工时是工时，耗材是耗材。做过、验过才能扣。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+          "quote": "她将那张纸展开，没有抽走有叉的半面。"
         }
       ]
     },
     "anti_repeat": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "与首章越权、第二章运输和第三章试机改路逐章比较。本章没有再拆一条风路换成功，也没有再首次承认偷机；核心办法转为医疗接力、让出位置、关闭自己的成果和实物归还。停机动作与CH003相似，但CH003服务返工后重启，本章实际退出且没有新电源，后果不同。纸和记录仍多，是题材的承担证据，已删多余医学否定清单与重复穿鞋。",
       "evidence": [
         {
           "chapter": 4,
           "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
-          "quote": ""
+          "quote": "人和药，我带。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+          "quote": "她没有请他顺便去找电池连接件。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+          "quote": "送风停着，检测器已经归还"
+        },
+        {
+          "chapter": 3,
+          "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+          "quote": "缓冲间不作进气源了，另找真正接向外面的路。"
         }
       ]
     },
     "character_agency": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "母亲选择不赌坏电池、让出自己的位置、接受专业转送、空室先停机并履约归还；护士、周、贺及借主均有不能被一句救孩子取消的职责。许照自行报真实伤时、拒替她转告并安排同伴别找，杜良实际陪诊；知禾表达被改承诺的不满、报告不适、要看失败页，没有被迫裁决陌生人的生命。",
       "evidence": [
         {
           "chapter": 4,
           "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
-          "quote": ""
+          "quote": "不是。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+          "quote": "我让给你。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+          "quote": "不是你答应才给她治，护士已经在来了。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+          "quote": "你别因为我来过，就往这里写上医务室。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+          "quote": "这张也给我看。"
         }
       ]
     }
@@ -119,40 +227,40 @@
     {
       "chapter": 1,
       "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
-      "quote": "",
-      "difference": ""
+      "quote": "我说两分钟，实际上比两分钟久，是我不对。",
+      "difference": "第一章孩子被动等候、母亲越权留下公产责任；本章提前告知撤离并真实交给能承接的医护，孩子用“别说两分钟”检验承诺，而非再次争到一张灰转绿的通行证。"
     },
     {
       "chapter": 2,
       "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
-      "quote": "",
-      "difference": ""
+      "quote": "我爸不会因为你写了一行字，就自己回家。",
+      "difference": "第二章将机器实际搬入且欠寻父窗口；本章不再占用贺的后半日找件，接受06:00交班，把人送医而把机器留在原地。新的救助不是再运一台重机器。"
     },
     {
       "chapter": 3,
       "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
-      "quote": "",
-      "difference": ""
+      "quote": "缓冲间不作进气源了，另找真正接向外面的路。",
+      "difference": "第三章停机后改风路、重启获得有限小室；本章停止后不再返工追赶天亮，借物还回、房间实际停用，改用专业接力保护人的连续照护。"
     }
   ],
   "future_window": [
     {
       "chapter": 5,
-      "goal": "",
-      "change": "",
-      "ending_question": ""
+      "goal": "《她不肯替母亲保密》：先核医疗点交班后的母女去向，由已有少数参与者讨论停用事实、资源和失败信息的可见范围。",
+      "change": "女儿要求坏消息提前可见；母亲接受同伴查实际能力与责任，保持病历隐私，未形成的居民大会不虚构为既有制度。",
+      "ending_question": "谁能查到哪些失败与资源资料，知情以后谁一起承担接纳和退出的决定？"
     },
     {
       "chapter": 6,
-      "goal": "",
-      "change": "",
-      "ending_question": ""
+      "goal": "《一张没有签字的工单》：核借管损耗的合格规格与补偿安排，循真实维护/调度工单寻找备电与连接件线索，不拿计划当实物。",
+      "change": "K03b到期处理，有证据核定/安排才推进；寻父时间仍属于贺，备电调查要承担人手与通路成本。",
+      "ending_question": "工单缺页究竟证明什么，谁有权限继续核查，而不是凭旧许可私开？"
     },
     {
       "chapter": 7,
-      "goal": "",
-      "change": "",
-      "ending_question": ""
+      "goal": "《第一桶水有两次账》：以当前真实饮水缺口引出有来源的水与交换。",
+      "change": "区分母女随身余量、诊疗点一次领用和新供给批次，不能把签名当消毒或把借物债一笔抵清。",
+      "ending_question": "第一批可用水的来源、用途与代价能否真正对上？"
     }
   ],
   "promise_reviews": [
@@ -160,55 +268,55 @@
       "id": "K01",
       "action": "keep",
       "deadline_chapter": 10,
-      "reason": "",
+      "reason": "本章只得到实际医疗观察，没有评分因果的新证据，不提前关闭或延期。",
       "evidence": {
         "chapter": 4,
         "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
-        "quote": ""
+        "quote": "暂缓接收的行政标签并没有因此被改掉"
       }
     },
     {
       "id": "K02",
       "action": "keep",
       "deadline_chapter": 16,
-      "reason": "",
+      "reason": "公产仍未归还，未知原受益者没有被编造名字或伤亡，继续原期限核查。",
       "evidence": {
         "chapter": 4,
         "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
-        "quote": ""
+        "quote": "机器没有还，也没修好电。"
       }
     },
     {
       "id": "K03",
       "action": "keep",
       "deadline_chapter": 10,
-      "reason": "",
+      "reason": "承认小室条件依赖供电和监测，退出是安全边界的兑现，持续性和地下污染仍待实证。",
       "evidence": {
         "chapter": 4,
         "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
-        "quote": ""
+        "quote": "两节风管卸下来以后，那间小室便不再有一条完整的临时送排风路。"
       }
     },
     {
       "id": "K03a",
       "action": "complete",
       "deadline_chapter": 4,
-      "reason": "",
+      "reason": "借主实际收器材、05:55交接前完成，缺少续借即撤人停用，期限问题已处理；缺损赔偿另留K03b。",
       "evidence": {
         "chapter": 4,
         "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
-        "quote": ""
+        "quote": "仪器还了。管子有损耗，留下欠的那一部分。机器没有还，也没修好电。"
       }
     },
     {
       "id": "K03b",
       "action": "set",
-      "deadline_chapter": null,
-      "reason": "",
+      "deadline_chapter": 6,
+      "reason": "将未清耗材责任拆成下一次工单/接件核查时必须落实的规格、数量和可执行补偿安排；实际未赔不能写赔清。",
       "evidence": {
         "chapter": 4,
         "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
-        "quote": ""
+        "quote": "工时是工时，耗材是耗材。做过、验过才能扣。"
       }
     }
   ],
@@ -217,22 +325,95 @@
     "schema_version": 1,
     "actual_scenes": [
       {
-        "event": "",
-        "choice": "",
-        "change": "",
+        "event": "22:46单块电池复核、停机时限和转接电话",
+        "choice": "不接坏块，不以管理器估值许诺到天亮；提前告诉女儿",
+        "change": "两点前退出成为执行约束，医学接力开始寻找",
         "evidence": [
           {
             "chapter": 4,
             "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
-            "quote": ""
+            "quote": "她写：两点以前，人离开。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "鞋要穿着睡吗？"
+          }
+        ]
+      },
+      {
+        "event": "23:27许照伤脚来求助",
+        "choice": "母亲让出自己的小室位置，周只开地面门，先打医学电话",
+        "change": "实际伤者取代母亲的临时位置，女儿可以反对承诺被改",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "那也不是空位。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "我刚才答应陪你。"
+          }
+        ]
+      },
+      {
+        "event": "23:58护士到场、00:36转出",
+        "choice": "护士独立分诊、配合有限照明与转运，许照自己打电话并拒被写成不肯走",
+        "change": "救助进入真实专业接力，腾轮休空间与椅子往返都付出成本",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "我现在能做的是先处置、保护，继续看变化"
+          },
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "一走一回要时间。我们不是把她放下就走。"
+          }
+        ]
+      },
+      {
+        "event": "电量估时恶化、01:42空室停机、02:14接住母女",
+        "choice": "母亲放下机组带人走，贺保留自己的06:00以后的安排",
+        "change": "小室当晚停用，孩子获得实际观察，机器留河湾且无新增电源",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "一点四十二分，室内已无人。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "人和药，我带。"
+          }
+        ]
+      },
+      {
+        "event": "晨间归还借物并06:23返回",
+        "choice": "公开剪短并接受未销债，孩子索看有叉的失败页",
+        "change": "到期工具得到归还；剩余责任和提前知情成为新关系条件",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "你今天签了，不算已经赔。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "那只小手很轻。林砚秋这一次，没有再替她换回来。"
           }
         ]
       }
     ],
-    "plan_comparison": "",
+    "plan_comparison": "五个计划场景均有完整行动与后果。实际将抢救药物争电改为有来源的诊疗照明、辅助充电与有限人手，没有为预算硬造药物冷链或重症设备。母女最终离开小室而非再修电成功，借物全部交回而缺损留账。场景汉字约1540/1790/1810/2140/1660，实测总8941，预算是引导而非配额。",
     "reader": {
-      "mode": "pending",
-      "limitation": "",
+      "mode": "same_context_approximation",
+      "limitation": "同一对话曾读canon与路线，不能真正遗忘；本轮初稿reader包与最终reader包均实际取得，近三章全文已逐章读完且与reader字节内容相同。初稿候选全读，局修后再核最终包的全部变更段与未变正文，不冒称隔离输入或真人测试。",
       "coverage": {
         "1": {
           "text_sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
@@ -251,49 +432,152 @@
           "mode": "full_text"
         }
       },
-      "understanding": "",
-      "information_load": "",
-      "promise_delivery": "",
+      "understanding": "读者能从正文知道电够不到天亮、坏块不能直接接、两人条件不等于全站安全；伤者为何来、护士如何到、为何转送以及母女去处都由现场/电话链说明。母亲让位需要向孩子解释而不是逼她懂事，末尾是孩子要求提前知道，不是第一次听说偷机。",
+      "information_load": "电学解释集中在开头，并以620W关灯后的变化和估值失准服务退出。中段用座位、灯、椅子往返推动，不展开骨伤教程或复杂电化学。后段借据较密，但有实物被下一组拿走、少一段管和母女问答的变化。保留题材账目痕迹，删掉不必要的否定清单。",
+      "promise_delivery": "标题供电时限以主动01:42停机兑现；夜间伤者被实接诊，母女也真正进到有人负责的观察处。借用06:00期限被履行，不能将损耗签字冒充赔清。未兑现全站长住、评分申诉或受损者真相，原章并未许诺本章全部解决。",
       "evidence": [
         {
           "chapter": 4,
           "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
-          "quote": ""
+          "quote": "一点四十二分，室内已无人。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+          "quote": "两点十四分，地面医疗点的人在通道口接到她们。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+          "quote": "这张也给我看。"
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "severity": "must_fix",
+          "status": "resolved",
+          "reason": "负载读值与关灯先后原来含糊，现明确两种状态，避免把预算和实际读数混为一谈。",
+          "source_candidate_sha256": "15b069a2b34a44d055264ab0015281082c59139de930f978f39c5145d0d6165a",
+          "evidence": {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "只关掉无人工作的检修灯，再看功率，落在五百八十多到六百瓦之间。"
+          }
+        },
+        {
+          "severity": "must_fix",
+          "status": "resolved",
+          "reason": "原06:05才返站违背06:00交班意图；改成05:55周先携联返回，母亲后去医疗点。",
+          "source_candidate_sha256": "15b069a2b34a44d055264ab0015281082c59139de930f978f39c5145d0d6165a",
+          "evidence": {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "五点五十五分，周闻笙拿着交接联先走，赶回车辆段接贺为川的班。"
+          }
+        },
+        {
+          "severity": "must_fix",
+          "status": "resolved",
+          "reason": "避免“无电”暗示电池放空；本章实际是主动停供，余量没有被验证为零。",
+          "evidence": {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "送风停着，检测器已经归还"
+          }
+        },
+        {
+          "severity": "must_fix",
+          "status": "resolved",
+          "reason": "避免结尾将冻结CH003改写成母亲隐瞒试机失败，现按旧章真实问答比较被问后解释与提前告知。",
+          "evidence": {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "这里是我问了，你才告诉我为什么。"
+          }
+        },
+        {
+          "severity": "verify",
+          "status": "resolved",
+          "reason": "杜良身份改当场报；护士退到前间、女儿先回母亲再退，使人物知情和人数更清楚。",
+          "evidence": {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "林砚秋先让知禾回到垫子旁，自己退出，许照还坐在靠门处。"
+          }
+        },
+        {
+          "severity": "suggestion",
+          "status": "resolved",
+          "reason": "删医疗否定清单和重复穿鞋；保留实际敷料来源、背包扣合与少量进食，减制作感。",
+          "evidence": {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "敷料从封装包里取出，消耗记在陶向宁的处置单上。"
+          }
+        }
+      ]
     },
     "character_causality": {
       "opposition": {
-        "status": "pending",
-        "conclusion": "",
+        "status": "reviewed",
+        "conclusion": "阻力是独立职责与物理边界：贺拒不匹配件且限定守候，周拒开地下门，护士拒把现场当医务室，借主拒延借并单核损耗。A区本章未直接行动，没有借它突然知晓小室或宽恕公产来制造结局。",
         "evidence": [
           {
             "chapter": 4,
             "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
-            "quote": ""
+            "quote": "不匹配。手边这个不是它的替件。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "你别因为我来过，就往这里写上医务室。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "你今天签了，不算已经赔。"
           }
         ]
       },
       "dialogue": {
-        "status": "pending",
-        "conclusion": "",
+        "status": "reviewed",
+        "conclusion": "许照“那也不是空位”戳破母亲将牺牲说轻，杜良由含糊伤时变为实际陪诊，知禾“你不是说陪着”争的是承诺而非反对救人；护士既关怀又守专业边界，人物不只是轮流解释规则。",
         "evidence": [
           {
             "chapter": 4,
             "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
-            "quote": ""
+            "quote": "那也不是空位。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "你不是说陪着吗？"
+          },
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "我报过了。先跟到接诊的人面前。"
           }
         ]
       },
       "aftermath": {
-        "status": "pending",
-        "conclusion": "",
+        "status": "reviewed",
+        "conclusion": "撤出后保留房间真实曾让女儿睡过的价值，垫子还人、风管拆走、护士失去轮休角、母亲实际睡一段，余波改变照护与借物责任；亲子没有拥抱后遗忘原问题，而是失败页留在最上。",
         "evidence": [
           {
             "chapter": 4,
             "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
-            "quote": ""
+            "quote": "这件事没有因为现在得走就变成假的。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "随后坐着睡着了。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "知禾听着，将有叉的那页翻到最上面"
           }
         ]
       }
@@ -305,11 +589,221 @@
         "受伤 准入 接收 拒收 交换",
         "借用 归还 检测 仪器"
       ],
-      "comparisons": [],
-      "no_match_reason": ""
+      "comparisons": [
+        {
+          "similarity": "都是母女受门与空气限制，涉及不该由一人拍板的公用资源。",
+          "difference": "CH001以破封越权争机会；CH004接受在床位未永久落实时交给实际医护，保留他人否决与孩子提前知情。",
+          "source": {
+            "chapter": 1,
+            "sha256": "911ddc4711d3c0fef9ff621031761eeef8b4838ae27cf5981ef7e49c57cc75f3",
+            "quote": "她只是把自己从一个申请帮助的母亲，变成了第一责任栏上有名字的人。"
+          },
+          "current_evidence": {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "现在她能做的却只是把消息说准，等别人决定自己有能力接住多少。"
+          }
+        },
+        {
+          "similarity": "都有运送与贺的独立目标。",
+          "difference": "CH002运机器且占掉寻父窗口，本章运人、机器留下，接受贺06:00以后的时间不属于自己，燃油未凭空增加。",
+          "source": {
+            "chapter": 2,
+            "sha256": "4308f99c74507c019096de96efbd9fab5918212ec30721714f8245610b6a1950",
+            "quote": "我爸不会因为你写了一行字，就自己回家。"
+          },
+          "current_evidence": {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "她没有请他顺便去找电池连接件。"
+          }
+        },
+        {
+          "similarity": "CH003与本章均有实测后停机。",
+          "difference": "CH003的停机通向新风路和重启成功；本章停机通向退出、归还、专业接力，没有新的设备修复，条件性成果保留且当夜无法继续用。",
+          "source": {
+            "chapter": 3,
+            "sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
+            "quote": "缓冲间不作进气源了，另找真正接向外面的路。"
+          },
+          "current_evidence": {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "送风停着，检测器已经归还"
+          }
+        }
+      ],
+      "no_match_reason": "非空比较；三次真实检索均覆盖3条已采用记录，关键词索引只提供候选，已回读三章全文作语义比较。"
     },
-    "reader_updates": [],
-    "reader_update_note": "",
-    "surface_findings": []
+    "reader_updates": [
+      {
+        "kind": "observed",
+        "statement": "坏块未修，母亲主动01:42停机，河湾小室随后撤空停用；不是剩余能量实测为零。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "一点四十二分，室内已无人。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "不接。明天按型号找，找到也得试。"
+          }
+        ]
+      },
+      {
+        "kind": "uncertain",
+        "statement": "管理器报的剩余估值不能证明可放电能量，真实容量与其偏差原因仍待验证。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "最后一段可用余量究竟多少，仍未被他们验证"
+          }
+        ]
+      },
+      {
+        "kind": "claim",
+        "statement": "00:58电话告知许照已被地面点接诊，进一步检查与转诊在安排；没有见到医院影像结论。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "许照已送到地面医疗点，接诊人员接手，进一步检查和转诊仍在安排。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "母女02:14实际被医疗点接住，临时观察不等于A区接收或永久床位。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "两点十四分，地面医疗点的人在通道口接到她们。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "暂缓接收的行政标签并没有因此被改掉"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "借来的器材归还，风管缺损单独记着，签字与少量实做工作不等于赔清。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "你今天签了，不算已经赔。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "做完这一段，由邵岚在单子上记实际工作，没有替她把剩余损耗划掉。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "女儿拿到失败页，区分问后解释与提前告知，表达自己更愿意哪一种；没有变成成人工程师或分配生命的裁判。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "这里是我问了，你才告诉我为什么。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "我比较想要后面这个。"
+          }
+        ]
+      }
+    ],
+    "reader_update_note": "以上只取本章读者实际看见的行为、电话声称和明确未知；保留医疗、容量与行政身份的条件性，不将未来路线作为新事实。",
+    "surface_findings": [],
+    "pacing_review": {
+      "main_line": {
+        "conclusion": "第一句区分六点还物与电池时限，所有救助和归还都围绕人如何度过断供之夜，未支出无关支线。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "那是还仪器的时间，不是电池肯等我们的时间。"
+          }
+        ]
+      },
+      "protagonist_choice": {
+        "conclusion": "主角的主动性从越权取资源转为让位置、接受专业接力、提前撤离并亲手停机，结果由选择而非仅靠配角批评产生。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "我让给你。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "一点四十二分，室内已无人。"
+          }
+        ]
+      },
+      "scene_necessity": {
+        "conclusion": "删测量会使时限无因，删来客则无位置与配给压力，删护士到场会让医学判断和接诊无来源，删撤离则标题只成口号，删归还则K03a违约被遮；结尾失败页使下一章母女知情争议有现场来源。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "这张也给我看。"
+          }
+        ]
+      },
+      "actual_change": {
+        "conclusion": "人物实际位置、设备使用、监测占有和照护主体均变化；不是只增加记录。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "两点十四分，地面医疗点的人在通道口接到她们。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "两节风管卸下来以后，那间小室便不再有一条完整的临时送排风路。"
+          }
+        ]
+      },
+      "payoff": {
+        "conclusion": "有实测负载、执行的停机退出、伤者接诊和借物交回四个交付；不宣称所有人长住或未知公产责任已清。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "仪器还了。管子有损耗，留下欠的那一部分。机器没有还，也没修好电。"
+          }
+        ]
+      },
+      "next_reading": {
+        "conclusion": "女儿要提前看坏消息与借管未清损耗已改变关系和交易条件，足以自然推动5—7章；无需新反派或万能发电机。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "这里要走，是你先告诉我的。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+            "quote": "工时是工时，耗材是耗材。做过、验过才能扣。"
+          }
+        ]
+      }
+    },
+    "delete_test": "逐场删除的因果影响见pacing_review；一轮修订已删重复动作和医疗否定清单。保留鞋、袜子与猫的短物象作为孩子对迁移的不安，不扩写无变化心理。",
+    "meaningful_state_delta": "由只在河湾依赖借仪器和单电池的两人临时休息，变成伤者接诊、母女真实医疗观察、河湾小室停用且借物归还；材料损耗仍债、母亲接受他人专业与女儿提前知情。",
+    "anti_loop": "本章不再以拆封、搬机或改风道获得一次技术胜利；允许机器留下，人靠可核接力离开。下一章公开已失败的能力和实际责任，不再复演首次承认盗机。"
   }
 }

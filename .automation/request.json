@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs6-ch004-review-mw074u9v",
-  "base_sha": "2d022566efd4a61b501c4ee776593c71dfeb96b1",
+  "request_id": "xs6-ch004-releasecheck-mw07dhjv",
+  "base_sha": "cedb235b8980d733cf44f5958831c29a67e649ad",
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
   "controller": {
     "kind": "automation",
@@ -17,55 +17,29 @@
       "args": [
         "--root",
         "book",
-        "repair",
-        "--chapter",
-        "4",
-        "--text",
-        "drafts/CH004.txt",
-        "--reason",
-        "澄清负载测量次序与护理换位、补明杜良知情来源；将周返站提前以兑现06:00换班，修正“无电”及误读旧章的结尾对白，删重复动作。"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "check-record",
-        "--text",
-        "drafts/CH004.txt",
-        "--record",
-        "drafts/CH004_record.json"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "context",
-        "--profile",
-        "reader",
-        "--text",
-        "drafts/CH004.txt",
-        "--budget",
-        "80000",
-        "--out",
-        "drafts/CH004_reader_final.md"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "release-request",
+        "release-check",
         "--text",
         "drafts/CH004.txt",
         "--record",
         "drafts/CH004_record.json",
-        "--out",
+        "--report",
         "drafts/CH004_report.json"
+      ]
+    },
+    {
+      "script": "online_state.py",
+      "args": [
+        "--project",
+        ".",
+        "task",
+        "--phase",
+        "SAVING",
+        "--chapter",
+        "4",
+        "--detail",
+        "第四章8941汉字，一轮局修，八项引文审核及V4.3叙事审读完成，release-check已通过；等待原子finalize采用。",
+        "--next",
+        "执行finalize并回读正式正文、记录、审查门、state/workflow/index和每日回执。"
       ]
     }
   ]

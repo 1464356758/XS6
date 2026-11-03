@@ -9,7 +9,7 @@
     "session_id": "xs6-ch004-inline-mw05wb6q-bro8qm94",
     "platform_run_id": null
   },
-  "stage": "local_revision01_prepared",
+  "stage": "substantive_review_done_release_pending",
   "draft_path": "drafts/CH004.txt",
   "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
   "han_count": 8941,
@@ -90,9 +90,14 @@
     "claimed_han": 8110,
     "claimed_sha256": "27f5cd302ed8388a8e4abe49f5761c1a174e763bd692a1d5d79262ff5d59c777"
   },
-  "next_step": "远端repair/check-record，阅读新reader并填写真实release报告",
-  "updated_at": "2026-11-03T04:37:08.034Z",
+  "next_step": "实际release-check通过后finalize，回读章节完成证据",
+  "updated_at": "2026-11-03T04:43:51.451Z",
   "adopted": false,
   "all_characters": 10889,
-  "repair_round_requested": 1
+  "repair_round_requested": 1,
+  "repair_round_completed": 1,
+  "reader_profile": "drafts/CH004_reader_final.md",
+  "review_mode": "same_context_approximation",
+  "record_path": "drafts/CH004_record.json",
+  "report_path": "drafts/CH004_report.json"
 }
