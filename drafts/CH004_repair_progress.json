@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "type": "novel-repair-checkpoint-v1",
+  "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+  "chapter": 4,
+  "title": "电池只够到天亮前",
+  "original_run_id": "37e170bfaa12466794b21454c0bf10c0",
+  "owner_claimed_by_this_maintenance": false,
+  "stage": "old_execution_blocked_before_brief_check",
+  "observed_at": "2026-11-03T03:58:15.818Z",
+  "draft_path": null,
+  "actual_text_sha256": null,
+  "actual_han_count": null,
+  "prior_worker_claim": {
+    "han_count": 8110,
+    "sha256": "27f5cd302ed8388a8e4abe49f5761c1a174e763bd692a1d5d79262ff5d59c777",
+    "verified_by_reading": false
+  },
+  "accessible_remote_materials": [
+    "drafts/CH004_brief.json",
+    "drafts/CH004_author_context.md"
+  ],
+  "brief_status": "pending_empty_template",
+  "candidate_registered": false,
+  "completed_scenes_verified": [],
+  "next_steps": [
+    "合法恢复原第四章目标；不使用撤销后的旧编号",
+    "先寻找可访问原稿，无法取得时按同章路线完成正文；旧worker自报字数不作实际字数",
+    "实读冻结前三章与当前canon/roadmap、事实/知情/资源；填写并通过brief-check和writer资料",
+    "每个场景以文本content提交drafts并回读，不仅保留临时附件",
+    "完成全文后candidate、reader、八项引文与V4.3审查、release-check、finalize；最多三轮局部修订"
+  ],
+  "completion_claim": false
+}
