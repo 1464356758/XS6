@@ -7,7 +7,7 @@
   "start_date": "2026-11-03",
   "started_at": "2026-11-02T20:03:49+00:00",
   "chapter": 4,
-  "status": "running",
+  "status": "blocked",
   "baseline_count": 3,
   "baseline_fingerprint": "b731a54111e4a6496f397c1aa16d20f0f8e1f6363a27b5608e13dd6ad79728dc",
   "attempts": [
@@ -23,8 +23,8 @@
       "claimed_at": "2026-11-03T04:03:11+00:00"
     }
   ],
-  "reason": "",
-  "blocked_at": "2026-11-02T20:07:37+00:00",
+  "reason": "工具第1步失败；完整输出保存在本轮work目录。",
+  "blocked_at": "2026-11-03T04:44:02+00:00",
   "operator_recovery": {
     "status": "claimed",
     "grant_path": ".automation/recoveries/xs6-repair-20261103-mw05t94i.json",
