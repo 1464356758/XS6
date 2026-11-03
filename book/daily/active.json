@@ -2,60 +2,25 @@
   "schema_version": 1,
   "type": "novel-daily-task-v1",
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
-  "run_id": "f92d7b30f8e24bf1b7cdd5310338e05d",
-  "work_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3:2026-11-03:4",
-  "start_date": "2026-11-03",
-  "started_at": "2026-11-02T20:03:49+00:00",
-  "chapter": 4,
-  "status": "completed",
-  "baseline_count": 3,
-  "baseline_fingerprint": "b731a54111e4a6496f397c1aa16d20f0f8e1f6363a27b5608e13dd6ad79728dc",
-  "attempts": [
-    {
-      "run_id": "37e170bfaa12466794b21454c0bf10c0",
-      "status": "authorization_revoked",
-      "authorization_revoked_at": "2026-11-03T04:00:32+00:00",
-      "audit_path": "daily/recoveries/xs6-repair-20261103-mw05t94i.json"
-    },
-    {
-      "run_id": "928c4eb95518411194e207842128b568",
-      "status": "recovery_ready",
-      "claimed_at": "2026-11-03T04:03:11+00:00"
-    }
-  ],
-  "reason": "",
-  "blocked_at": "2026-11-03T04:44:02+00:00",
-  "operator_recovery": {
-    "status": "claimed",
-    "grant_path": ".automation/recoveries/xs6-repair-20261103-mw05t94i.json",
-    "grant_sha256": "8910adf17fd682c003dc36b4de2020b5d623f2277ef049a60f55060acbabaebe",
-    "audit_path": "daily/recoveries/xs6-repair-20261103-mw05t94i.json",
-    "audit_sha256": "68a570006e609ba8ad063988d63ab30b2ee1150dbccd14c282477b523fc64168",
-    "old_run_id": "37e170bfaa12466794b21454c0bf10c0",
-    "ready_run_id": "928c4eb95518411194e207842128b568",
-    "expected_state_sha256": "6b29702c22eac5659c28dedc4820db4c60266dc566d53d78781c862fa95b8804",
-    "claimed_at": "2026-11-03T04:03:11+00:00",
-    "claimed_by": {
-      "kind": "automation",
-      "automation_id": "6ae75ada42d48191bba7f5aca047f929",
-      "session_id": "xs6-ch004-inline-mw05wb6q-bro8qm94",
-      "platform_run_id": null
-    }
-  },
+  "run_id": "04bc87f36f5a4cb1923d8a4858b374b5",
+  "work_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3:2026-11-04:5",
+  "start_date": "2026-11-04",
+  "started_at": "2026-11-03T20:26:50+00:00",
+  "chapter": 5,
+  "status": "running",
+  "baseline_count": 4,
+  "baseline_fingerprint": "c61e88c107c62dc2848d80195c84f3a1bee9f40281c5d5d2193d82e2ac7ff3f5",
+  "attempts": [],
   "controller": {
     "kind": "automation",
     "automation_id": "6ae75ada42d48191bba7f5aca047f929",
-    "session_id": "xs6-ch004-inline-mw05wb6q-bro8qm94",
+    "session_id": "xs6-ch005-inline-mw14z8wm",
     "platform_run_id": null
   },
-  "resumed_at": "2026-11-03T04:03:11+00:00",
   "executor_checkpoint": {
-    "request_id": "xs6-ch004-finalize-mw07jm02",
-    "phase": "finalize",
-    "at": "2026-11-03T04:48:47+00:00",
-    "github_run_id": "41580258389"
-  },
-  "continued_at": "2026-11-03T04:47:25+00:00",
-  "completed_at": "2026-11-03T04:48:47+00:00",
-  "receipt_path": "daily/2026-11-03.json"
+    "request_id": "xs6-ch005-begin-mw151oyv",
+    "phase": "begin",
+    "at": "2026-11-03T20:26:50+00:00",
+    "github_run_id": "41712596197"
+  }
 }
