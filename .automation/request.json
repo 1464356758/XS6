@@ -1,11 +1,12 @@
 {
   "schema_version": 1,
-  "request_id": "xs6-repair-preflight-mw05qv8w",
-  "base_sha": "0f4ae4deec6e99cb2f373acd8785d109a4a60c84",
+  "request_id": "xs6-repair-recover-mw05tk4e",
+  "base_sha": "181982f71d2bb29d316fe3a4fe074867750114c4",
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
   "controller": {
     "kind": "maintenance",
     "session_id": "xs6-repair-mw05quq1-gycrrg8j"
   },
-  "phase": "preflight"
+  "phase": "recover",
+  "recovery_grant": ".automation/recoveries/xs6-repair-20261103-mw05t94i.json"
 }
