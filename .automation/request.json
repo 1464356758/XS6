@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs6-ch005-scene3-mw15l0b5",
-  "base_sha": "f95ea8f52898b909e09d3fcdafcdbad3ecbde924",
+  "request_id": "xs6-ch005-candidate-reader-mw15pw4u",
+  "base_sha": "1757fa8071ef2561c328454fe52861e187f07234",
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
   "controller": {
     "kind": "automation",
@@ -13,19 +13,47 @@
   "run_id": "04bc87f36f5a4cb1923d8a4858b374b5",
   "commands": [
     {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "candidate",
+        "--chapter",
+        "5",
+        "--text",
+        "drafts/CH005.txt"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "reader",
+        "--text",
+        "drafts/CH005.txt",
+        "--budget",
+        "95000",
+        "--out",
+        "drafts/CH005_reader.md"
+      ]
+    },
+    {
       "script": "online_state.py",
       "args": [
         "--project",
         ".",
         "task",
         "--phase",
-        "WRITING",
+        "REVIEWING",
         "--chapter",
         "5",
         "--detail",
-        "第五章前三场实测4959汉字，沿用原执行编号继续同章",
+        "第五章完整初稿8426汉字，进入八项审读与第一至五章全文回看",
         "--next",
-        "写完联络撤回与母女结果，完成八项审读及五章全文回看"
+        "实读reader资料，检查反向提纲、相似办法与人物资源，完成五章回看后release-check"
       ]
     }
   ]
