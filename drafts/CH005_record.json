@@ -85,7 +85,7 @@
       "key": "TRANSFER:chair:source",
       "value": "转运椅始终由联络点调度，尚无医护转出确认，撤回待排状态；没有运患者到河湾。",
       "holder": "",
-      "valid_from": 1590,
+      "valid_from": 1656,
       "valid_until": null,
       "quote": "轮式转运椅被联络员推回内侧，束带搭回椅背。"
     },
@@ -94,7 +94,7 @@
       "key": "B:habitable",
       "value": "河湾地面小室持续停用，风管未接，地下仍未准进入；本章未试机、未再测空气。",
       "holder": "",
-      "valid_from": 1538,
+      "valid_from": 1656,
       "valid_until": null,
       "quote": "地面小室停用，地下未准进入"
     },
@@ -103,7 +103,7 @@
       "key": "U07:battery:availability",
       "value": "实物两块仍在河湾：故障块隔离；另一块已断输出、停机余量待核，不写零或计算可用小时。",
       "holder": "",
-      "valid_from": 1538,
+      "valid_from": 1656,
       "valid_until": null,
       "quote": "现有两块：一块故障隔离；一块停机后余量未核"
     },
@@ -121,7 +121,7 @@
       "key": "U07:disclosure:limited",
       "value": "母亲将未经批准运离、原保管区、现存位置与暂停维护身份交实际协作和设施联络渠道核验，不公开患者病历；设施岗仅收件转核，既有调查未撤。",
       "holder": "",
-      "valid_from": 1590,
+      "valid_from": 1656,
       "valid_until": null,
       "quote": "常铎将那一页和现场说明一并送进联络岗的收件渠道，屏幕上出现收件确认。"
     },
@@ -130,7 +130,7 @@
       "key": "B:restore:decision",
       "value": "周闻笙与母亲对现场确认、设备核查和复测达成有限条件；母亲一人电话不能恢复河湾可接人说明，未建成熟自治组织。",
       "holder": "",
-      "valid_from": 1590,
+      "valid_from": 1656,
       "valid_until": null,
       "quote": "以后河湾再报恢复，我要问当班保管的人，也要问能查设备的人。你一个电话不算。"
     },
@@ -139,7 +139,7 @@
       "key": "P02:U07:uncertainty",
       "value": "孩子知道母亲未经准许拿设备、未知受益者可能受影响，不能据此知道任何患者名字或伤亡；她无需替母亲解释或承担。",
       "holder": "P02",
-      "valid_from": 1507,
+      "valid_from": 1656,
       "valid_until": null,
       "quote": "我知道你当时很难受，所以先选了你。这个选择是我做的，不是你让我去拿。"
     },
@@ -148,7 +148,7 @@
       "key": "P02:privacy:boundary",
       "value": "医疗登记保留真名与既往资料；设备说明不含病历，孩子不需以乖巧或证明难受换帮助。",
       "holder": "",
-      "valid_from": 1507,
+      "valid_from": 1656,
       "valid_until": null,
       "quote": "讲那台机器的纸，不需要把你的病写上去。"
     },
@@ -157,7 +157,7 @@
       "key": "P02:location:end",
       "value": "知禾持续留在地面医疗点由吴敏当班照护；09点后复看继续观察，今晚住处未知，无A区接收或康复证明。",
       "holder": "",
-      "valid_from": 1625,
+      "valid_from": 1656,
       "valid_until": null,
       "quote": "九点以后，吴敏再次看过知禾，留她继续观察，交代林砚秋别去排离开的手续。"
     },
@@ -166,7 +166,7 @@
       "key": "P02:riverbay:consent",
       "value": "知禾明确现在不想回河湾，母亲承认睡醒仍有效，下次需重新解释；没有以拥抱重置反对。",
       "holder": "",
-      "valid_from": 1640,
+      "valid_from": 1656,
       "valid_until": null,
       "quote": "睡醒也算。要再去，重新跟你讲。"
     },
@@ -184,7 +184,7 @@
       "key": "P04:shift:end:CH005",
       "value": "陶向宁完成向吴敏交班后下班，不因主角请求被无限留用；新当班负责即时医学判断。",
       "holder": "",
-      "valid_from": 1489,
+      "valid_from": 1656,
       "valid_until": null,
       "quote": "我得下班。后面的人已经接了。"
     },
@@ -202,7 +202,7 @@
       "key": "DEBT:loan_duct",
       "value": "邵岚只确认器材归还和短管另记损耗，可供更正；合格补料仍须核原件规格，未赔清。",
       "holder": "",
-      "valid_from": 1558,
+      "valid_from": 1656,
       "valid_until": null,
       "quote": "具体补料仍得拿原件和规格再核。"
     },
@@ -211,7 +211,7 @@
       "key": "XUZHAO:medical",
       "value": "许照留医疗点待进一步评估和联系转诊，不据能否走动确诊。她自己要求后续安排告知本人，并让杜良取证件；没有被送去河湾。",
       "holder": "",
-      "valid_from": 1610,
+      "valid_from": 1656,
       "valid_until": null,
       "quote": "还要看伤情，转去哪里要再联系，不能凭外面那把椅子推出来了就当有了接收。"
     },
@@ -220,7 +220,7 @@
       "key": "PROP:cat:coat",
       "value": "小猫绣片仍缝在母亲外套内衬，通过翻外套、铺衣角和照着画猫使用，未凭空变成可别上的独立物件。",
       "holder": "",
-      "valid_from": 1645,
+      "valid_from": 1656,
       "valid_until": null,
       "quote": "女孩将外套挪好，让内衬的小猫露出来"
     },
@@ -265,5 +265,6 @@
     }
   ],
   "stage_closing": false,
-  "measured_han": 8452
+  "measured_han": 8452,
+  "time_basis": "只有正文明确钟点的事实采用对应分钟；未给精确钟点的状态以章末已成立时间登记，不从对话长度猜分钟。"
 }

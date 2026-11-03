@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs6-ch005-revision2-record-mw15v0d8",
-  "base_sha": "9767d134258148643fc81dc1ef5e075081d71dfa",
+  "request_id": "xs6-ch005-review-release-mw160yam",
+  "base_sha": "91c9f52df65d929403fa93de0cad7461e3c02071",
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
   "controller": {
     "kind": "automation",
@@ -12,36 +12,6 @@
   "phase": "command",
   "run_id": "04bc87f36f5a4cb1923d8a4858b374b5",
   "commands": [
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "repair",
-        "--chapter",
-        "5",
-        "--text",
-        "drafts/CH005.txt",
-        "--reason",
-        "统一留在孩子处的外套与母亲携纸位置，消除折垫重复和重复坐下动作"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "context",
-        "--profile",
-        "reader",
-        "--text",
-        "drafts/CH005.txt",
-        "--budget",
-        "95000",
-        "--out",
-        "drafts/CH005_reader_v3.md"
-      ]
-    },
     {
       "script": "novel_state.py",
       "args": [
@@ -65,7 +35,21 @@
         "--record",
         "drafts/CH005_record.json",
         "--out",
-        "drafts/CH005_release_request.json"
+        "drafts/CH005_release_request_final.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "release-check",
+        "--text",
+        "drafts/CH005.txt",
+        "--record",
+        "drafts/CH005_record.json",
+        "--report",
+        "drafts/CH005_report.json"
       ]
     }
   ]
