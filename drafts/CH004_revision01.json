@@ -1,0 +1,66 @@
+{
+  "chapter": 4,
+  "task_id": "d18d02cc-2418-497c-91cd-63c83c2d2cac",
+  "run_id": "f92d7b30f8e24bf1b7cdd5310338e05d",
+  "review_mode": "same_context_approximation",
+  "reviewed_candidate_sha256": "15b069a2b34a44d055264ab0015281082c59139de930f978f39c5145d0d6165a",
+  "repair_round": 1,
+  "findings": [
+    {
+      "id": "I01",
+      "severity": "must_fix",
+      "issue": "620W测量值与关闭检修灯的先后关系不够清楚，容易把两种负载混为当前基线。",
+      "resolution": "明确先测含灯约620W，再关灯并复测580多至600W；36W灯在诊疗时重新接用，估值不当库存。"
+    },
+    {
+      "id": "I02",
+      "severity": "must_fix",
+      "issue": "原文06:05才让周返站，与此前承诺06:00接替贺的班冲突。",
+      "resolution": "05:55由周先携交接联返站；仪器已交借主，母亲随后去医疗点，06:23仍在承诺06:30前抵达。"
+    },
+    {
+      "id": "I03",
+      "severity": "must_fix",
+      "issue": "结尾“这里不行，你后来才告诉我”易误读成第三章母亲隐瞒失败，实际旧章是女儿问后立即解释。",
+      "resolution": "改为“这里是我问了，你才告诉我为什么”，比较被问后解释与这次提前告知，不改写冻结章。"
+    },
+    {
+      "id": "I04",
+      "severity": "must_fix",
+      "issue": "“没有电”可被误读为电池已经放空，和本章主动停机保留未知余量矛盾。",
+      "resolution": "改成送风停着、检测器归还，避免宣称可用容量为零。"
+    },
+    {
+      "id": "I05",
+      "severity": "clarity",
+      "issue": "杜良身份使用“后来才知道”但未明确传播时点；护士退出后的母女位置略含糊。",
+      "resolution": "用当场自报姓名，明确护士退到前间、知禾先返、母亲再退出，保持限知与人数接替。"
+    },
+    {
+      "id": "I06",
+      "severity": "suggestion",
+      "issue": "医疗处置的否定清单和重复穿鞋、泛称多次拒食增加制作感。",
+      "resolution": "改成敷料实际来源与消耗；将重复穿鞋改背包扣合，删泛称拒食次数。"
+    }
+  ],
+  "remaining_blocking_issues": [],
+  "reader_ranges": [
+    [
+      0,
+      67
+    ],
+    [
+      33886,
+      37886
+    ],
+    [
+      37886,
+      41886
+    ],
+    [
+      41886,
+      44836
+    ]
+  ],
+  "old_chapters_modified": false
+}

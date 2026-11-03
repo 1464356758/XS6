@@ -9,10 +9,10 @@
     "session_id": "xs6-ch004-inline-mw05wb6q-bro8qm94",
     "platform_run_id": null
   },
-  "stage": "full_draft_before_candidate",
+  "stage": "local_revision01_prepared",
   "draft_path": "drafts/CH004.txt",
-  "sha256": "15b069a2b34a44d055264ab0015281082c59139de930f978f39c5145d0d6165a",
-  "han_count": 8988,
+  "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+  "han_count": 8941,
   "completed_scenes": [
     1,
     2,
@@ -90,8 +90,9 @@
     "claimed_han": 8110,
     "claimed_sha256": "27f5cd302ed8388a8e4abe49f5761c1a174e763bd692a1d5d79262ff5d59c777"
   },
-  "next_step": "登记candidate，生成并实际读reader资料，集中审核；完整稿仍未采用",
-  "updated_at": "2026-11-03T04:27:28.473Z",
+  "next_step": "远端repair/check-record，阅读新reader并填写真实release报告",
+  "updated_at": "2026-11-03T04:37:08.034Z",
   "adopted": false,
-  "all_characters": 10940
+  "all_characters": 10889,
+  "repair_round_requested": 1
 }
