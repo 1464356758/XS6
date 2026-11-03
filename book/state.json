@@ -353,6 +353,10 @@
     "4": {
       "path": "briefs/CH004_e663ba69c97e376c5dfa8d174321c4e5020c67a298e92c0d9792b2a351e646c1.json",
       "sha256": "e663ba69c97e376c5dfa8d174321c4e5020c67a298e92c0d9792b2a351e646c1"
+    },
+    "5": {
+      "path": "briefs/CH005_f68ee3cb4a7aa0a60986893d4b98e91ba4aefa307fc1034057710b1c1efc83ca.json",
+      "sha256": "f68ee3cb4a7aa0a60986893d4b98e91ba4aefa307fc1034057710b1c1efc83ca"
     }
   }
 }

@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS6",
     "branch": "main",
-    "generated_at": "2026-11-03T20:27:49+00:00",
+    "generated_at": "2026-11-03T20:33:08+00:00",
     "state_revision": 9,
-    "workflow_revision": 15,
-    "state_sha256": "535b8fd507eff34928c3e12ea20f5bade304d72e422d422824e552a9abddbaae",
-    "workflow_sha256": "d3f9ef190ca1c478d6edccd073a314e7b356d0b62742583474b0d48cf78764d6",
+    "workflow_revision": 16,
+    "state_sha256": "97d144e6dcb76454f510afa2bcae86e303aa0da94dc3d810722a31b82b908ff3",
+    "workflow_sha256": "b266344629b4abf330c5f729822c3530d9541b3e6c4bde828684983c6428a554",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WAITING_NEXT",
-    "label": "等待下一章",
+    "phase": "WRITING",
+    "label": "撰写正文",
     "chapter": 5,
-    "detail": "第4章已采用并冻结；平台发布另凭真实回执登记。",
-    "next_action": "读取正式状态后，由下一次日更处理下一章。",
-    "updated_at": "2026-11-03T04:48:47+00:00"
+    "detail": "第五章合法begin后任务书、历史比较和来源回读已完成；正在写同章完整正文",
+    "next_action": "逐场景保存第五章工作稿，完成八项及五章全文回看后再采用",
+    "updated_at": "2026-11-03T20:33:08+00:00"
   },
   "chapters": [
     {
@@ -410,12 +410,6 @@
   },
   "history": [
     {
-      "at": "2026-11-01T09:23:04+00:00",
-      "phase": "RESEARCH_PLATFORM",
-      "label": "核查平台规则",
-      "detail": "已选择纵横女生网（原花语），正在等待核查现行规则。"
-    },
-    {
       "at": "2026-11-01T09:23:05+00:00",
       "phase": "SCANNING_RANKINGS",
       "label": "研究榜单",
@@ -498,6 +492,12 @@
       "phase": "WAITING_NEXT",
       "label": "等待下一章",
       "detail": "第4章已采用并冻结；平台发布另凭真实回执登记。"
+    },
+    {
+      "at": "2026-11-03T20:33:08+00:00",
+      "phase": "WRITING",
+      "label": "撰写正文",
+      "detail": "第五章合法begin后任务书、历史比较和来源回读已完成；正在写同章完整正文"
     }
   ]
 }
