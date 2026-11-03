@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "type": "xs6-metadata-failure-repair-v1",
+  "observed_at": "2026-11-03T20:22:49.674Z",
+  "repository": "1464356758/XS6",
+  "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+  "reviewed_head": "20fb14c615201a05c7b3822afd628a6df593c04e",
+  "scheduled_run": {
+    "id": "6a7687de-aa28-832f-a266-aa452d7240fb",
+    "recorded_status": "completed",
+    "scheduled_for": "2026-11-03T20:00:00Z",
+    "started_at": "2026-11-03T19:59:25.818104Z",
+    "completed_at": "2026-11-03T19:59:56.503005Z",
+    "chat_ref": {
+      "type": "chatgpt",
+      "id": "6aea3d1d-cea8-83ee-808e-c7507ff352d2"
+    }
+  },
+  "published_result": {
+    "run_id": "6a7687de-aa28-832f-a266-aa452d7240fb",
+    "created_at": "2026-11-03T19:59:55.922902Z",
+    "scheduled_for": "2026-11-03T20:00:00Z",
+    "completed_at": "2026-11-03T19:59:56.503005Z",
+    "content_text": "**《末日避难所不收我的女儿》本轮章节未完成。**\n\n已连接 GitHub 仓库并读取正式状态，确认第4章已经冻结，但本轮尚未取得第5章的合法执行权。\n\n| 核验项目 | 实际结果 |\n|---|---|\n| 仓库 | `1464356758/XS6` |\n| 默认分支 | `main` |\n| 最新查得提交 | `20fb14c615201a05c7b3822afd628a6df593c04e` |\n| 任务 ID | `6ae75ada42d48191bba7f5aca047f929` |\n| 作品身份 | 匹配 |\n| 已冻结章节 | 第1至4章 |\n| 最新冻结章 | 第4章《电池只够到天亮前》 |\n| 第4章实测登记字数 | 8,941汉字 |\n| 本轮目标 | 待 `begin` 正式确认，预计第5章 |\n| 本轮 run_id | 未生成 |\n| 本轮新增正文 | 0字 |\n| 采用状态 | 未采用 |\n\n**本轮阻断原因：** GitHub 连接器成功读取了仓库、章节状态和任务绑定，但当前可用的提交读取接口没有返回最新提交的 `commit.tree.sha`。随后尝试通过 GitHub API 获取该信息，访问失败。因此无法按仓库协议安全构建增量树并提交 `preflight` 请求。\n\n最后完成阶段为远端状态核验，尚未执行 `preflight`、`begin` 或写作。没有伪造请求编号、执行编号或冻结结果，也没有改动已有章节。\n\n[查看仓库最新核验提交](https://github.com/1464356758/XS6/commit/20fb14c615201a05c7b3822afd628a6df593c04e)\n\n下一次执行仍应先读取最新 HEAD，取得真实 tree SHA，提交预检并核验结果，再由 `begin` 确认目标章，完成8000至10000汉字正文、审核和冻结。\n\n长期任务保持启用，未改时间、未创建替代任务。实际模型与思考档位未验证。",
+    "content_truncated": false,
+    "chat_ref": {
+      "type": "chatgpt",
+      "id": "6aea3d1d-cea8-83ee-808e-c7507ff352d2"
+    },
+    "requires_user_action": false,
+    "is_failure_message": false
+  },
+  "verified_state": {
+    "frozen_chapters": 4,
+    "state_revision": 9,
+    "active_status": "completed",
+    "active_run_id": "f92d7b30f8e24bf1b7cdd5310338e05d",
+    "new_request_committed": false,
+    "new_run_id": null,
+    "chapter5_draft_found": false
+  },
+  "reproduced_gap": {
+    "tool": "GitHub fetch_commit",
+    "returned_commit_keys": [
+      "sha",
+      "message",
+      "url",
+      "html_url",
+      "diff",
+      "files",
+      "repository_full_name",
+      "comments",
+      "author",
+      "committer",
+      "created_at",
+      "git_author_email",
+      "display_url",
+      "display_title"
+    ],
+    "tree_present": false,
+    "interpretation": "规范化提交摘要不含tree字段；并非GitHub仓库没有tree。"
+  },
+  "independent_verified_routes": [
+    {
+      "tool": "GitHub fetch",
+      "url": "https://api.github.com/repos/1464356758/XS6/branches/main",
+      "head": "20fb14c615201a05c7b3822afd628a6df593c04e",
+      "tree": "5fd7a0b7f0c9e9c54b41d90582047021f5900355"
+    },
+    {
+      "tool": "GitHub fetch",
+      "url": "https://api.github.com/repos/1464356758/XS6/git/commits/20fb14c615201a05c7b3822afd628a6df593c04e",
+      "head": "20fb14c615201a05c7b3822afd628a6df593c04e",
+      "tree": "5fd7a0b7f0c9e9c54b41d90582047021f5900355"
+    },
+    {
+      "tool": "GitHub fetch",
+      "url": "https://api.github.com/repos/1464356758/XS6/commits/20fb14c615201a05c7b3822afd628a6df593c04e",
+      "head": "20fb14c615201a05c7b3822afd628a6df593c04e",
+      "tree": "5fd7a0b7f0c9e9c54b41d90582047021f5900355"
+    }
+  ],
+  "original_api_error": "未验证；自动化平台仅返回结果摘要，没有原始工具错误码/调用记录，不能编造授权失败。",
+  "environment": {
+    "environment_selection": "inherited",
+    "environments": null,
+    "actual_model": "unverified",
+    "reasoning_effort": "unverified",
+    "can_set_execution_environment_via_current_update_tool": false
+  },
+  "changes": "只补必读规程的已实测接口与解析路径，保持原唯一任务、04:00日程、绑定及长期prompt；不改成熟执行器、不降低冻结/审读门槛。",
+  "full_unattended_success": false
+}
