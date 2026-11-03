@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS6",
     "branch": "main",
-    "generated_at": "2026-11-03T20:41:55+00:00",
+    "generated_at": "2026-11-03T20:45:34+00:00",
     "state_revision": 9,
-    "workflow_revision": 18,
-    "state_sha256": "97d144e6dcb76454f510afa2bcae86e303aa0da94dc3d810722a31b82b908ff3",
-    "workflow_sha256": "585b95fde0ec23b3776595c62eab0258c4047aa068c456ded3f9cf4a0790532e",
+    "workflow_revision": 19,
+    "state_sha256": "5aefda4c04306e9fdbd25ea3dfed19d3593f115cd15f80e96e459d287bbee6ca",
+    "workflow_sha256": "756ec47343e23272bf80cc63521086cc8fdcac3bdfa2a8486992496489b5d81c",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WRITING",
-    "label": "撰写正文",
+    "phase": "REVIEWING",
+    "label": "检查本章",
     "chapter": 5,
-    "detail": "第五章前三场实测4959汉字，沿用原执行编号继续同章",
-    "next_action": "写完联络撤回与母女结果，完成八项审读及五章全文回看",
-    "updated_at": "2026-11-03T20:41:55+00:00"
+    "detail": "第五章完整初稿8426汉字，进入八项审读与第一至五章全文回看",
+    "next_action": "实读reader资料，检查反向提纲、相似办法与人物资源，完成五章回看后release-check",
+    "updated_at": "2026-11-03T20:45:34+00:00"
   },
   "chapters": [
     {
@@ -413,12 +413,6 @@
       "at": "2026-11-01T10:04:15.572Z",
       "phase": "PLANNING",
       "label": "长篇规划",
-      "detail": "已选定《末日避难所不收我的女儿》，准备长篇规划。"
-    },
-    {
-      "at": "2026-11-01T10:04:15.572Z",
-      "phase": "PLANNING",
-      "label": "长篇规划",
       "detail": "T03设定、人物知情及资源事实账、100章10阶段路线、近期5章安排已建立，等待作者明确授权开始写第一章。"
     },
     {
@@ -498,6 +492,12 @@
       "phase": "WRITING",
       "label": "撰写正文",
       "detail": "第五章前三场实测4959汉字，沿用原执行编号继续同章"
+    },
+    {
+      "at": "2026-11-03T20:45:34+00:00",
+      "phase": "REVIEWING",
+      "label": "检查本章",
+      "detail": "第五章完整初稿8426汉字，进入八项审读与第一至五章全文回看"
     }
   ]
 }

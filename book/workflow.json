@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 18,
+  "revision": 19,
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
-  "phase": "WRITING",
+  "phase": "REVIEWING",
   "platform": "zongheng_girls",
   "selected_topic": {
     "id": "T03",
@@ -138,10 +138,16 @@
       "phase": "WRITING",
       "label": "撰写正文",
       "detail": "第五章前三场实测4959汉字，沿用原执行编号继续同章"
+    },
+    {
+      "at": "2026-11-03T20:45:34+00:00",
+      "phase": "REVIEWING",
+      "label": "检查本章",
+      "detail": "第五章完整初稿8426汉字，进入八项审读与第一至五章全文回看"
     }
   ],
-  "detail": "第五章前三场实测4959汉字，沿用原执行编号继续同章",
-  "next_action": "写完联络撤回与母女结果，完成八项审读及五章全文回看",
-  "updated_at": "2026-11-03T20:41:55+00:00",
+  "detail": "第五章完整初稿8426汉字，进入八项审读与第一至五章全文回看",
+  "next_action": "实读reader资料，检查反向提纲、相似办法与人物资源，完成五章回看后release-check",
+  "updated_at": "2026-11-03T20:45:34+00:00",
   "draft_path": "drafts/CH001.txt"
 }
