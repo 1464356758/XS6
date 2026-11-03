@@ -9,10 +9,10 @@
     "session_id": "xs6-ch005-inline-mw14z8wm",
     "platform_run_id": null
   },
-  "phase": "revision1_review",
+  "phase": "revision2_review",
   "draft_path": "drafts/CH005.txt",
-  "draft_sha256": "0a5c6e8d9c95f79665ff43ba0b02b0e28b91ee9e7565b84dee61ce5a5c82bceb",
-  "measured_han": 8445,
+  "draft_sha256": "ed6f2c17931d294b09a08c4706f78d8810c341e7e3882aaaa6af1f3d14da3f24",
+  "measured_han": 8452,
   "completed_scenes": [
     "晨班阻止错误去向",
     "母女问答与照护交接",
@@ -20,7 +20,7 @@
     "实际撤回抄件和待排路线、公开设备来路",
     "持续照护与孩子拒绝保密、画猫"
   ],
-  "next_step": "正式登记一轮局部修订，重生reader资料，填写记录与五章回看/八项审核",
+  "next_step": "完成一轮修订后再次整章复核发现的外套位置与重复垫子；登记第二轮后只核最新版本并做release-check",
   "adoption_status": "not_adopted",
   "platform_run_id_verified": false,
   "reading": {
