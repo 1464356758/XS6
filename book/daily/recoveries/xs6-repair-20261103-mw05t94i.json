@@ -1,0 +1,115 @@
+{
+  "type": "novel-execution-revocation-v1",
+  "grant": {
+    "schema_version": 1,
+    "type": "novel-operator-recovery-v1",
+    "operation": "revoke_and_resume_same_chapter",
+    "authorization_basis": "explicit_author_repair_request",
+    "author_instruction": "检查一下，任务到底哪里出问题了！我已经把你切换了工作模式了，为什么定时任务还是没有更新成功？自己修复一下！！！",
+    "observed_at": "2026-11-03T04:00:07.794Z",
+    "repository": "1464356758/XS6",
+    "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+    "automation_id": "6ae75ada42d48191bba7f5aca047f929",
+    "reviewed_head": "dcc5aa3a8113f09d68c24194aba4a0ba41dadbfb",
+    "old_run_id": "37e170bfaa12466794b21454c0bf10c0",
+    "chapter": 4,
+    "baseline_count": 3,
+    "baseline_fingerprint": "b731a54111e4a6496f397c1aa16d20f0f8e1f6363a27b5608e13dd6ad79728dc",
+    "expected_active_sha256": "c69cd8fac053a22ec3a91cf694cbd7f0d7e9f93f5131410a000c9788c3514a47",
+    "expected_state_sha256": "6b29702c22eac5659c28dedc4820db4c60266dc566d53d78781c862fa95b8804",
+    "old_runtime_status": "unverified",
+    "original_controller_platform_run_id": null,
+    "explanation": "原锁未保存平台运行编号，不以最新任务终态追补或伪造旧锁停止证明。按作者明确修复授权撤销旧写入权限，保留第四章目标与状态、候选及返修预算。",
+    "executor_evidence": {
+      "source": "github_actions_api",
+      "all_jobs_terminal": true,
+      "observed_at": "2026-11-03T04:00:07.794Z",
+      "lookup_url": "https://api.github.com/repos/1464356758/XS6/actions/runs?per_page=20",
+      "runs": [
+        {
+          "id": 41575321657,
+          "status": "completed",
+          "conclusion": "success",
+          "source_sha": "ef7575dde6a2a2adc7b237ab4bb35d54c7708889"
+        },
+        {
+          "id": 41516283659,
+          "status": "completed",
+          "conclusion": "success",
+          "source_sha": "cee598946f205f947b915a873e0f89bf7aae5215"
+        },
+        {
+          "id": 41516180956,
+          "status": "completed",
+          "conclusion": "success",
+          "source_sha": "3a9ac3e6620301c3a769406fef80a23f4626bb5d"
+        },
+        {
+          "id": 41515694537,
+          "status": "completed",
+          "conclusion": "success",
+          "source_sha": "29092fbadd0e305b3734ce9a0c75626ec74f07eb"
+        },
+        {
+          "id": 41515586872,
+          "status": "completed",
+          "conclusion": "success",
+          "source_sha": "11cd56c4a8771b24f7365f843fdc9dd3423e8ddc"
+        },
+        {
+          "id": 41392479908,
+          "status": "completed",
+          "conclusion": "success",
+          "source_sha": "cb02c787f5dc93dbc728d927ce2e0378d5dccdef"
+        },
+        {
+          "id": 41392352445,
+          "status": "completed",
+          "conclusion": "failure",
+          "source_sha": "40212538f9387cfb205e2b9c1181052dd8698d0d"
+        }
+      ],
+      "fresh_pending_queries": [
+        {
+          "status": "in_progress",
+          "total_count": 0,
+          "ignored_readonly": []
+        },
+        {
+          "status": "queued",
+          "total_count": 0,
+          "ignored_readonly": []
+        },
+        {
+          "status": "requested",
+          "total_count": 0,
+          "ignored_readonly": []
+        },
+        {
+          "status": "waiting",
+          "total_count": 0,
+          "ignored_readonly": []
+        },
+        {
+          "status": "pending",
+          "total_count": 0,
+          "ignored_readonly": []
+        }
+      ],
+      "ignored_readonly_workflow": ".github/workflows/validate.yml"
+    }
+  },
+  "grant_path": ".automation/recoveries/xs6-repair-20261103-mw05t94i.json",
+  "grant_sha256": "8910adf17fd682c003dc36b4de2020b5d623f2277ef049a60f55060acbabaebe",
+  "old_active_text": "{\n  \"schema_version\": 1,\n  \"type\": \"novel-daily-task-v1\",\n  \"book_id\": \"d3639881-8d19-4090-9daf-f2ac7a1048f3\",\n  \"run_id\": \"37e170bfaa12466794b21454c0bf10c0\",\n  \"work_id\": \"d3639881-8d19-4090-9daf-f2ac7a1048f3:2026-11-03:4\",\n  \"start_date\": \"2026-11-03\",\n  \"started_at\": \"2026-11-02T20:03:49+00:00\",\n  \"chapter\": 4,\n  \"status\": \"blocked\",\n  \"baseline_count\": 3,\n  \"baseline_fingerprint\": \"b731a54111e4a6496f397c1aa16d20f0f8e1f6363a27b5608e13dd6ad79728dc\",\n  \"attempts\": [],\n  \"controller\": {\n    \"kind\": \"automation\",\n    \"automation_id\": \"6ae75ada42d48191bba7f5aca047f929\",\n    \"session_id\": \"xs6-20261103-run-4f9c7a21\",\n    \"platform_run_id\": null\n  },\n  \"executor_checkpoint\": {\n    \"request_id\": \"xs6-20261103-block-4f9c7a21\",\n    \"phase\": \"block\",\n    \"at\": \"2026-11-02T20:07:37+00:00\",\n    \"github_run_id\": \"41516283659\"\n  },\n  \"reason\": \"CH004正文工作稿本轮已本地写成并实测8110汉字，SHA256=27f5cd302ed8388a8e4abe49f5761c1a174e763bd692a1d5d79262ff5d59c777；GitHub连接器无法直接读取本地工作稿文件用于提交，未能远端登记候选或完成brief-check、reader审读、八项审核、release-check和finalize。完整本地工作稿及接续检查点已交付附件；保留第004章同一目标及现有修订次数，不跳章、不冒充冻结。\",\n  \"blocked_at\": \"2026-11-02T20:07:37+00:00\"\n}\n",
+  "old_runtime_status": "unverified",
+  "revoked_at": "2026-11-03T04:00:32+00:00",
+  "executor_check": {
+    "fresh_github_check": true,
+    "github_run_id": "41575516109",
+    "ignored_readonly_validation": [
+      41575490646
+    ],
+    "at": "2026-11-03T04:00:32+00:00"
+  }
+}

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "type": "novel-daily-task-v1",
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
-  "run_id": "37e170bfaa12466794b21454c0bf10c0",
+  "run_id": "928c4eb95518411194e207842128b568",
   "work_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3:2026-11-03:4",
   "start_date": "2026-11-03",
   "started_at": "2026-11-02T20:03:49+00:00",
@@ -10,19 +10,24 @@
   "status": "blocked",
   "baseline_count": 3,
   "baseline_fingerprint": "b731a54111e4a6496f397c1aa16d20f0f8e1f6363a27b5608e13dd6ad79728dc",
-  "attempts": [],
-  "controller": {
-    "kind": "automation",
-    "automation_id": "6ae75ada42d48191bba7f5aca047f929",
-    "session_id": "xs6-20261103-run-4f9c7a21",
-    "platform_run_id": null
-  },
-  "executor_checkpoint": {
-    "request_id": "xs6-20261103-block-4f9c7a21",
-    "phase": "block",
-    "at": "2026-11-02T20:07:37+00:00",
-    "github_run_id": "41516283659"
-  },
-  "reason": "CH004正文工作稿本轮已本地写成并实测8110汉字，SHA256=27f5cd302ed8388a8e4abe49f5761c1a174e763bd692a1d5d79262ff5d59c777；GitHub连接器无法直接读取本地工作稿文件用于提交，未能远端登记候选或完成brief-check、reader审读、八项审核、release-check和finalize。完整本地工作稿及接续检查点已交付附件；保留第004章同一目标及现有修订次数，不跳章、不冒充冻结。",
-  "blocked_at": "2026-11-02T20:07:37+00:00"
+  "attempts": [
+    {
+      "run_id": "37e170bfaa12466794b21454c0bf10c0",
+      "status": "authorization_revoked",
+      "authorization_revoked_at": "2026-11-03T04:00:32+00:00",
+      "audit_path": "daily/recoveries/xs6-repair-20261103-mw05t94i.json"
+    }
+  ],
+  "reason": "作者授权撤销旧执行；已准备接续同一目标，等待既有每日任务。",
+  "blocked_at": "2026-11-02T20:07:37+00:00",
+  "operator_recovery": {
+    "status": "ready",
+    "grant_path": ".automation/recoveries/xs6-repair-20261103-mw05t94i.json",
+    "grant_sha256": "8910adf17fd682c003dc36b4de2020b5d623f2277ef049a60f55060acbabaebe",
+    "audit_path": "daily/recoveries/xs6-repair-20261103-mw05t94i.json",
+    "audit_sha256": "68a570006e609ba8ad063988d63ab30b2ee1150dbccd14c282477b523fc64168",
+    "old_run_id": "37e170bfaa12466794b21454c0bf10c0",
+    "ready_run_id": "928c4eb95518411194e207842128b568",
+    "expected_state_sha256": "6b29702c22eac5659c28dedc4820db4c60266dc566d53d78781c862fa95b8804"
+  }
 }

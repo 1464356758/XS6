@@ -1,0 +1,34 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs6-repair-recover-mw05tk4e",
+  "request_sha256": "301fa9aa1138b6540461ebf9ebef64d97c5ebadd7efcabe2c42fce3433e3c507",
+  "source_sha": "3ed4072f6a5510a3904e0516589a81e52519b89d",
+  "base_sha": "181982f71d2bb29d316fe3a4fe074867750114c4",
+  "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+  "controller": {
+    "kind": "maintenance",
+    "session_id": "xs6-repair-mw05quq1-gycrrg8j"
+  },
+  "phase": "recover",
+  "executed_at": "2026-11-03T04:00:31+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41575516109",
+  "business_status": "recovery_ready",
+  "chapter": 4,
+  "run_id": "928c4eb95518411194e207842128b568",
+  "revoked_run_id": "37e170bfaa12466794b21454c0bf10c0",
+  "audit_path": "book/daily/recoveries/xs6-repair-20261103-mw05t94i.json",
+  "executor_check": {
+    "fresh_github_check": true,
+    "github_run_id": "41575516109",
+    "ignored_readonly_validation": [
+      41575490646
+    ],
+    "at": "2026-11-03T04:00:32+00:00"
+  },
+  "changed_paths": [
+    "book/daily/active.json",
+    "book/daily/recoveries/xs6-repair-20261103-mw05t94i.json",
+    "online/index.json"
+  ]
+}
