@@ -11,7 +11,7 @@
   "roadmap_sha256": "1df104aa779568f718148ef412466517eed33effddedac39119984fb38b25b07",
   "narrative_review_version": 1,
   "writing_brief_sha256": "e663ba69c97e376c5dfa8d174321c4e5020c67a298e92c0d9792b2a351e646c1",
-  "decision": "pass",
+  "decision": "release",
   "read_full_text": true,
   "blocking_issues": [],
   "read_coverage": {
@@ -410,7 +410,7 @@
         ]
       }
     ],
-    "plan_comparison": "五个计划场景均有完整行动与后果。实际将抢救药物争电改为有来源的诊疗照明、辅助充电与有限人手，没有为预算硬造药物冷链或重症设备。母女最终离开小室而非再修电成功，借物全部交回而缺损留账。场景汉字约1540/1790/1810/2140/1660，实测总8941，预算是引导而非配额。",
+    "plan_comparison": "五个计划场景均有完整行动与后果。实际将抢救药物争电改为有来源的诊疗照明、辅助充电与有限人手，没有为预算硬造药物冷链或重症设备。母女最终离开小室而非再修电成功，借物全部交回而缺损留账。五场实测汉字为1558、1788、1848、2134、1613，合计8941；预算是引导而非配额。",
     "reader": {
       "mode": "same_context_approximation",
       "limitation": "同一对话曾读canon与路线，不能真正遗忘；本轮初稿reader包与最终reader包均实际取得，近三章全文已逐章读完且与reader字节内容相同。初稿候选全读，局修后再核最终包的全部变更段与未变正文，不冒称隔离输入或真人测试。",

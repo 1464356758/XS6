@@ -9,7 +9,7 @@
     "session_id": "xs6-ch004-inline-mw05wb6q-bro8qm94",
     "platform_run_id": null
   },
-  "stage": "substantive_review_done_release_pending",
+  "stage": "release_decision_format_corrected",
   "draft_path": "drafts/CH004.txt",
   "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
   "han_count": 8941,
@@ -90,8 +90,8 @@
     "claimed_han": 8110,
     "claimed_sha256": "27f5cd302ed8388a8e4abe49f5761c1a174e763bd692a1d5d79262ff5d59c777"
   },
-  "next_step": "实际release-check通过后finalize，回读章节完成证据",
-  "updated_at": "2026-11-03T04:43:51.451Z",
+  "next_step": "同一controller begin返回continue_owned后由finalize原子执行release-check/adopt/finish",
+  "updated_at": "2026-11-03T04:47:16.008Z",
   "adopted": false,
   "all_characters": 10889,
   "repair_round_requested": 1,
@@ -99,5 +99,16 @@
   "reader_profile": "drafts/CH004_reader_final.md",
   "review_mode": "same_context_approximation",
   "record_path": "drafts/CH004_record.json",
-  "report_path": "drafts/CH004_report.json"
+  "report_path": "drafts/CH004_report.json",
+  "tool_failures": [
+    {
+      "request_id": "xs6-ch004-releasecheck-mw07dhjv",
+      "source_sha": "fb28896bab59d8cde39ecb6c2aea962b5b45b21c",
+      "script": "novel_state.py release-check",
+      "exit_code": 2,
+      "stderr": "未完成：发布前仍有阻断项或未实际阅读。",
+      "diagnosis": "总决策字段误写pass，现按既有验证器要求改release；八项子检查仍各为实质审读后的pass。",
+      "resolution": "既有validate函数本地只读验证已通过，未修改门槛或正文。"
+    }
+  ]
 }

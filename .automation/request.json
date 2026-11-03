@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs6-ch004-releasecheck-mw07dhjv",
-  "base_sha": "cedb235b8980d733cf44f5958831c29a67e649ad",
+  "request_id": "xs6-ch004-continue-mw07hve0",
+  "base_sha": "e157eef54d5dc8b4416d241df8bacfd7c52ed485",
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
   "controller": {
     "kind": "automation",
@@ -9,38 +9,5 @@
     "session_id": "xs6-ch004-inline-mw05wb6q-bro8qm94",
     "platform_run_id": null
   },
-  "phase": "command",
-  "run_id": "f92d7b30f8e24bf1b7cdd5310338e05d",
-  "commands": [
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "release-check",
-        "--text",
-        "drafts/CH004.txt",
-        "--record",
-        "drafts/CH004_record.json",
-        "--report",
-        "drafts/CH004_report.json"
-      ]
-    },
-    {
-      "script": "online_state.py",
-      "args": [
-        "--project",
-        ".",
-        "task",
-        "--phase",
-        "SAVING",
-        "--chapter",
-        "4",
-        "--detail",
-        "第四章8941汉字，一轮局修，八项引文审核及V4.3叙事审读完成，release-check已通过；等待原子finalize采用。",
-        "--next",
-        "执行finalize并回读正式正文、记录、审查门、state/workflow/index和每日回执。"
-      ]
-    }
-  ]
+  "phase": "begin"
 }
