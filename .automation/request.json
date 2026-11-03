@@ -1,17 +1,11 @@
 {
   "schema_version": 1,
-  "request_id": "xs6-ch004-finalize-mw07jm02",
-  "base_sha": "0a0d78ecce811c79030638379ea13e89ae2a1376",
+  "request_id": "xs6-metadata-preflight-mw14y53p",
+  "base_sha": "2240406d59e7e48a672073925192694310b1f433",
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
   "controller": {
-    "kind": "automation",
-    "automation_id": "6ae75ada42d48191bba7f5aca047f929",
-    "session_id": "xs6-ch004-inline-mw05wb6q-bro8qm94",
-    "platform_run_id": null
+    "kind": "maintenance",
+    "session_id": "xs6-repair-20261104-mw14y53p"
   },
-  "phase": "finalize",
-  "run_id": "f92d7b30f8e24bf1b7cdd5310338e05d",
-  "text": "drafts/CH004.txt",
-  "record": "drafts/CH004_record.json",
-  "report": "drafts/CH004_report.json"
+  "phase": "preflight"
 }
