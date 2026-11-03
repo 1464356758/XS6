@@ -185,16 +185,21 @@
       "chapter": 5,
       "mode": "write",
       "phase": "candidate",
-      "repairs": 0,
+      "repairs": 1,
       "history": [
         {
           "sha256": "084dbeab5f45902d48bfcf51700a37279cfc0e38f585c2bc7f0e3e7ba7b328a9",
           "reason": "初稿",
           "repairs": 0
+        },
+        {
+          "sha256": "0a5c6e8d9c95f79665ff43ba0b02b0e28b91ee9e7565b84dee61ce5a5c82bceb",
+          "reason": "保持小猫绣片缝在外套内衬并修正更正说明先于交付的时序；不改冻结旧章",
+          "repairs": 1
         }
       ],
-      "candidate_sha256": "084dbeab5f45902d48bfcf51700a37279cfc0e38f585c2bc7f0e3e7ba7b328a9",
-      "candidate_path": "candidates/CH005_084dbeab5f45902d48bfcf51700a37279cfc0e38f585c2bc7f0e3e7ba7b328a9.txt"
+      "candidate_sha256": "0a5c6e8d9c95f79665ff43ba0b02b0e28b91ee9e7565b84dee61ce5a5c82bceb",
+      "candidate_path": "candidates/CH005_0a5c6e8d9c95f79665ff43ba0b02b0e28b91ee9e7565b84dee61ce5a5c82bceb.txt"
     }
   },
   "completion": null,

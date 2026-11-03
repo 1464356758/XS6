@@ -18,9 +18,9 @@
     "platform_run_id": null
   },
   "executor_checkpoint": {
-    "request_id": "xs6-ch005-candidate-reader-mw15pw4u",
+    "request_id": "xs6-ch005-revision1-mw15rsak",
     "phase": "command",
-    "at": "2026-11-03T20:45:34+00:00",
-    "github_run_id": "41715476187"
+    "at": "2026-11-03T20:47:08+00:00",
+    "github_run_id": "41715701802"
   }
 }
