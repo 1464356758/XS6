@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS6",
     "branch": "main",
-    "generated_at": "2026-11-03T20:35:37+00:00",
+    "generated_at": "2026-11-03T20:41:55+00:00",
     "state_revision": 9,
-    "workflow_revision": 17,
+    "workflow_revision": 18,
     "state_sha256": "97d144e6dcb76454f510afa2bcae86e303aa0da94dc3d810722a31b82b908ff3",
-    "workflow_sha256": "092d7e745d8c9b1bbe56e4a56caf21151f5792ec3df06d42537f5f4a4dfd2169",
+    "workflow_sha256": "585b95fde0ec23b3776595c62eab0258c4047aa068c456ded3f9cf4a0790532e",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -41,9 +41,9 @@
     "phase": "WRITING",
     "label": "撰写正文",
     "chapter": 5,
-    "detail": "第五章前两场实测2899汉字，已存同章远端工作稿与真实run_id检查点",
-    "next_action": "续写后三场至完整章，之后候选、八项审读、五章全文回看及release-check",
-    "updated_at": "2026-11-03T20:35:37+00:00"
+    "detail": "第五章前三场实测4959汉字，沿用原执行编号继续同章",
+    "next_action": "写完联络撤回与母女结果，完成八项审读及五章全文回看",
+    "updated_at": "2026-11-03T20:41:55+00:00"
   },
   "chapters": [
     {
@@ -410,12 +410,6 @@
   },
   "history": [
     {
-      "at": "2026-11-01T09:23:06+00:00",
-      "phase": "WAITING_TOPIC",
-      "label": "等待选择题材",
-      "detail": "已准备8个原创选题，等待作者选择。"
-    },
-    {
       "at": "2026-11-01T10:04:15.572Z",
       "phase": "PLANNING",
       "label": "长篇规划",
@@ -498,6 +492,12 @@
       "phase": "WRITING",
       "label": "撰写正文",
       "detail": "第五章前两场实测2899汉字，已存同章远端工作稿与真实run_id检查点"
+    },
+    {
+      "at": "2026-11-03T20:41:55+00:00",
+      "phase": "WRITING",
+      "label": "撰写正文",
+      "detail": "第五章前三场实测4959汉字，沿用原执行编号继续同章"
     }
   ]
 }
