@@ -9,11 +9,14 @@
     "session_id": "xs6-ch004-inline-mw05wb6q-bro8qm94",
     "platform_run_id": null
   },
-  "stage": "brief_filled_full_sources_read",
-  "draft_path": null,
-  "sha256": null,
-  "han_count": 0,
-  "completed_scenes": [],
+  "stage": "draft_scenes_1_2",
+  "draft_path": "drafts/CH004.txt",
+  "sha256": "1df02cb2b160a6dbf185c6470bde6d597f2a39970d50af8975ae44d7d37f9d9a",
+  "han_count": 3366,
+  "completed_scenes": [
+    1,
+    2
+  ],
   "sources_read": {
     "chapter_texts": [
       1,
@@ -84,7 +87,8 @@
     "claimed_han": 8110,
     "claimed_sha256": "27f5cd302ed8388a8e4abe49f5761c1a174e763bd692a1d5d79262ff5d59c777"
   },
-  "next_step": "通过brief-check并实际读writer资料后分场写正文",
-  "updated_at": "2026-11-03T04:09:34.527Z",
-  "adopted": false
+  "next_step": "续写护士分诊、转送撤离、归还仪器三场；全文未完成，未登记candidate",
+  "updated_at": "2026-11-03T04:16:10.412Z",
+  "adopted": false,
+  "all_characters": 4112
 }
