@@ -9,7 +9,7 @@
     "session_id": "xs6-ch004-inline-mw05wb6q-bro8qm94",
     "platform_run_id": null
   },
-  "stage": "release_decision_format_corrected",
+  "stage": "chapter_completed_remote_verified",
   "draft_path": "drafts/CH004.txt",
   "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
   "han_count": 8941,
@@ -90,15 +90,15 @@
     "claimed_han": 8110,
     "claimed_sha256": "27f5cd302ed8388a8e4abe49f5761c1a174e763bd692a1d5d79262ff5d59c777"
   },
-  "next_step": "同一controller begin返回continue_owned后由finalize原子执行release-check/adopt/finish",
-  "updated_at": "2026-11-03T04:47:16.008Z",
-  "adopted": false,
+  "next_step": "本章结束；下一轮按最新正式状态和begin处理第5章，采用前做五章全文回看",
+  "updated_at": "2026-11-03T04:55:48.176Z",
+  "adopted": true,
   "all_characters": 10889,
   "repair_round_requested": 1,
   "repair_round_completed": 1,
   "reader_profile": "drafts/CH004_reader_final.md",
   "review_mode": "same_context_approximation",
-  "record_path": "drafts/CH004_record.json",
+  "record_path": "book/records/CH004_25d0f2056da5d299afe4d0cd31731138fd2e251a87ae10355da6ca9087c71952.json",
   "report_path": "drafts/CH004_report.json",
   "tool_failures": [
     {
@@ -110,5 +110,13 @@
       "diagnosis": "总决策字段误写pass，现按既有验证器要求改release；八项子检查仍各为实质审读后的pass。",
       "resolution": "既有validate函数本地只读验证已通过，未修改门槛或正文。"
     }
-  ]
+  ],
+  "status": "completed",
+  "body_path": "book/chapters/CH004_aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78.txt",
+  "release_path": "book/releases/CH004_0f0e5c7b534fb30b7b779945b49ccd5d3bc6d77062c388a8bd63613100505d92.json",
+  "receipt_path": "book/daily/2026-11-03.json",
+  "finalize_request_id": "xs6-ch004-finalize-mw07jm02",
+  "finalize_source_sha": "66836cfe3e5a033f8ca364e4f35d9a263f6f4684",
+  "adopted_commit": "b4ca92d22f24bc07226cfd9bdd69b11e7211d3af",
+  "repairs": 1
 }
