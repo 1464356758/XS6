@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 13,
+  "revision": 14,
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
-  "phase": "WRITING",
+  "phase": "REVIEWING",
   "platform": "zongheng_girls",
   "selected_topic": {
     "id": "T03",
@@ -108,10 +108,16 @@
       "phase": "WRITING",
       "label": "撰写正文",
       "detail": "作者要求下一章；既有任务已合法接回第四章，实读前三章与事实边界，完成任务书并续写本章。"
+    },
+    {
+      "at": "2026-11-03T04:27:37+00:00",
+      "phase": "REVIEWING",
+      "label": "检查本章",
+      "detail": "第四章完整初稿实测8988汉字，进入正文反向提纲、限信息审读与八项证据审核。"
     }
   ],
-  "detail": "作者要求下一章；既有任务已合法接回第四章，实读前三章与事实边界，完成任务书并续写本章。",
-  "next_action": "完成第四章全文、实质审读及采用冻结，不跳章。",
-  "updated_at": "2026-11-03T04:09:52+00:00",
+  "detail": "第四章完整初稿实测8988汉字，进入正文反向提纲、限信息审读与八项证据审核。",
+  "next_action": "完成实质审核和必要局部修订后release-check/finalize。",
+  "updated_at": "2026-11-03T04:27:37+00:00",
   "draft_path": "drafts/CH001.txt"
 }

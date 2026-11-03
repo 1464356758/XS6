@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS6",
     "branch": "main",
-    "generated_at": "2026-11-03T04:16:20+00:00",
+    "generated_at": "2026-11-03T04:27:37+00:00",
     "state_revision": 8,
-    "workflow_revision": 13,
-    "state_sha256": "6ecc86c2aa5b4bceb4887d5bcc1803b28966050292c05c27cf94eebaee4f53f9",
-    "workflow_sha256": "14e7cc8ddcd07d56c5c629497fd53e825e7673014d9c9bd8f479e3c31a06323e",
+    "workflow_revision": 14,
+    "state_sha256": "2de42270be6e2f7bb5f1e7c40a243d83e715824995d01978ca363397d68346cc",
+    "workflow_sha256": "d0643a4f901f93bf151ff6ce36d43bfa11df10c4ee90e6ff1dd5c049b55dc0e9",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WRITING",
-    "label": "撰写正文",
+    "phase": "REVIEWING",
+    "label": "检查本章",
     "chapter": 4,
-    "detail": "作者要求下一章；既有任务已合法接回第四章，实读前三章与事实边界，完成任务书并续写本章。",
-    "next_action": "完成第四章全文、实质审读及采用冻结，不跳章。",
-    "updated_at": "2026-11-03T04:09:52+00:00"
+    "detail": "第四章完整初稿实测8988汉字，进入正文反向提纲、限信息审读与八项证据审核。",
+    "next_action": "完成实质审核和必要局部修订后release-check/finalize。",
+    "updated_at": "2026-11-03T04:27:37+00:00"
   },
   "chapters": [
     {
@@ -480,6 +480,12 @@
       "phase": "WRITING",
       "label": "撰写正文",
       "detail": "作者要求下一章；既有任务已合法接回第四章，实读前三章与事实边界，完成任务书并续写本章。"
+    },
+    {
+      "at": "2026-11-03T04:27:37+00:00",
+      "phase": "REVIEWING",
+      "label": "检查本章",
+      "detail": "第四章完整初稿实测8988汉字，进入正文反向提纲、限信息审读与八项证据审核。"
     }
   ]
 }

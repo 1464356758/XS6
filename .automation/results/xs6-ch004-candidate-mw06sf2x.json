@@ -1,0 +1,119 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs6-ch004-candidate-mw06sf2x",
+  "request_sha256": "bced6e18db5031eb86619bc46a36386d68cd73cd04b0b6ff8856ae2e0a260c42",
+  "source_sha": "32f3bf23faa6dcc2668475ec5ca4288e7d37c71c",
+  "base_sha": "d43eb40c1249e421e5092c694dab756008507e9b",
+  "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae75ada42d48191bba7f5aca047f929",
+    "session_id": "xs6-ch004-inline-mw05wb6q-bro8qm94",
+    "platform_run_id": null
+  },
+  "phase": "command",
+  "executed_at": "2026-11-03T04:27:37+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41578240866",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "candidate",
+        "--chapter",
+        "4",
+        "--text",
+        "drafts/CH004.txt"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs6-ch004-candidate-mw06sf2x/tool-01.stdout.txt",
+          "sha256": "2241e337f93820ebc3dec895912f00e4fb6eaa1dc7b2a16a14be3905f1cc365d",
+          "bytes": 491
+        },
+        "stderr": {
+          "path": ".automation/work/xs6-ch004-candidate-mw06sf2x/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "reader",
+        "--text",
+        "drafts/CH004.txt",
+        "--budget",
+        "80000",
+        "--out",
+        "drafts/CH004_reader.md"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs6-ch004-candidate-mw06sf2x/tool-02.stdout.txt",
+          "sha256": "5a89cdd2b0ad4bc6fd0cd93908259eab87527501c48c3cbcb7d35b62778f9ccc",
+          "bytes": 101
+        },
+        "stderr": {
+          "path": ".automation/work/xs6-ch004-candidate-mw06sf2x/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "online_state.py",
+      "args": [
+        "--project",
+        ".",
+        "task",
+        "--phase",
+        "REVIEWING",
+        "--chapter",
+        "4",
+        "--detail",
+        "第四章完整初稿实测8988汉字，进入正文反向提纲、限信息审读与八项证据审核。",
+        "--next",
+        "完成实质审核和必要局部修订后release-check/finalize。"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs6-ch004-candidate-mw06sf2x/tool-03.stdout.txt",
+          "sha256": "c52d41cccbcffaefd9fe3d380cb5c6a9fff8ccc5f5a3923f37de039d1f13fe52",
+          "bytes": 89
+        },
+        "stderr": {
+          "path": ".automation/work/xs6-ch004-candidate-mw06sf2x/tool-03.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "f92d7b30f8e24bf1b7cdd5310338e05d",
+  "changed_paths": [
+    ".automation/work/xs6-ch004-candidate-mw06sf2x/tool-01.stderr.txt",
+    ".automation/work/xs6-ch004-candidate-mw06sf2x/tool-01.stdout.txt",
+    ".automation/work/xs6-ch004-candidate-mw06sf2x/tool-02.stderr.txt",
+    ".automation/work/xs6-ch004-candidate-mw06sf2x/tool-02.stdout.txt",
+    ".automation/work/xs6-ch004-candidate-mw06sf2x/tool-03.stderr.txt",
+    ".automation/work/xs6-ch004-candidate-mw06sf2x/tool-03.stdout.txt",
+    "book/candidates/CH004_15b069a2b34a44d055264ab0015281082c59139de930f978f39c5145d0d6165a.txt",
+    "book/daily/active.json",
+    "book/state.json",
+    "book/workflow.json",
+    "drafts/CH004_reader.md",
+    "online/index.json"
+  ]
+}
