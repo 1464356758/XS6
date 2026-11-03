@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS6",
     "branch": "main",
-    "generated_at": "2026-11-03T20:33:08+00:00",
+    "generated_at": "2026-11-03T20:35:37+00:00",
     "state_revision": 9,
-    "workflow_revision": 16,
+    "workflow_revision": 17,
     "state_sha256": "97d144e6dcb76454f510afa2bcae86e303aa0da94dc3d810722a31b82b908ff3",
-    "workflow_sha256": "b266344629b4abf330c5f729822c3530d9541b3e6c4bde828684983c6428a554",
+    "workflow_sha256": "092d7e745d8c9b1bbe56e4a56caf21151f5792ec3df06d42537f5f4a4dfd2169",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -41,9 +41,9 @@
     "phase": "WRITING",
     "label": "撰写正文",
     "chapter": 5,
-    "detail": "第五章合法begin后任务书、历史比较和来源回读已完成；正在写同章完整正文",
-    "next_action": "逐场景保存第五章工作稿，完成八项及五章全文回看后再采用",
-    "updated_at": "2026-11-03T20:33:08+00:00"
+    "detail": "第五章前两场实测2899汉字，已存同章远端工作稿与真实run_id检查点",
+    "next_action": "续写后三场至完整章，之后候选、八项审读、五章全文回看及release-check",
+    "updated_at": "2026-11-03T20:35:37+00:00"
   },
   "chapters": [
     {
@@ -410,12 +410,6 @@
   },
   "history": [
     {
-      "at": "2026-11-01T09:23:05+00:00",
-      "phase": "SCANNING_RANKINGS",
-      "label": "研究榜单",
-      "detail": "规则和榜单资料已保存；存在待核实项。"
-    },
-    {
       "at": "2026-11-01T09:23:06+00:00",
       "phase": "WAITING_TOPIC",
       "label": "等待选择题材",
@@ -498,6 +492,12 @@
       "phase": "WRITING",
       "label": "撰写正文",
       "detail": "第五章合法begin后任务书、历史比较和来源回读已完成；正在写同章完整正文"
+    },
+    {
+      "at": "2026-11-03T20:35:37+00:00",
+      "phase": "WRITING",
+      "label": "撰写正文",
+      "detail": "第五章前两场实测2899汉字，已存同章远端工作稿与真实run_id检查点"
     }
   ]
 }

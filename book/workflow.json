@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 16,
+  "revision": 17,
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
   "phase": "WRITING",
   "platform": "zongheng_girls",
@@ -126,10 +126,16 @@
       "phase": "WRITING",
       "label": "撰写正文",
       "detail": "第五章合法begin后任务书、历史比较和来源回读已完成；正在写同章完整正文"
+    },
+    {
+      "at": "2026-11-03T20:35:37+00:00",
+      "phase": "WRITING",
+      "label": "撰写正文",
+      "detail": "第五章前两场实测2899汉字，已存同章远端工作稿与真实run_id检查点"
     }
   ],
-  "detail": "第五章合法begin后任务书、历史比较和来源回读已完成；正在写同章完整正文",
-  "next_action": "逐场景保存第五章工作稿，完成八项及五章全文回看后再采用",
-  "updated_at": "2026-11-03T20:33:08+00:00",
+  "detail": "第五章前两场实测2899汉字，已存同章远端工作稿与真实run_id检查点",
+  "next_action": "续写后三场至完整章，之后候选、八项审读、五章全文回看及release-check",
+  "updated_at": "2026-11-03T20:35:37+00:00",
   "draft_path": "drafts/CH001.txt"
 }
