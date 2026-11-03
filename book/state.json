@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
   "title": "《末日避难所不收我的女儿》",
-  "revision": 8,
+  "revision": 9,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -51,6 +51,16 @@
       "record_sha256": "e153617f2665597de6cb3b9df2dfd007172ff16142eaaa9ac964eddf35827c62",
       "han_count": 8576,
       "adopted_at": "2026-11-02T01:42:29+00:00"
+    },
+    "4": {
+      "title": "电池只够到天亮前",
+      "stage": "S01",
+      "text_path": "chapters/CH004_aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78.txt",
+      "text_sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+      "record_path": "records/CH004_25d0f2056da5d299afe4d0cd31731138fd2e251a87ae10355da6ca9087c71952.json",
+      "record_sha256": "25d0f2056da5d299afe4d0cd31731138fd2e251a87ae10355da6ca9087c71952",
+      "han_count": 8941,
+      "adopted_at": "2026-11-03T04:48:47+00:00"
     }
   },
   "checkpoints": [],
@@ -153,7 +163,7 @@
       "task_id": "d18d02cc-2418-497c-91cd-63c83c2d2cac",
       "chapter": 4,
       "mode": "write",
-      "phase": "candidate",
+      "phase": "adopted",
       "repairs": 1,
       "history": [
         {
@@ -187,6 +197,10 @@
       "3": {
         "text_sha256": "994f5364c007c42c3667d2d10508a34bc9b9c8e12f14ef9b231fe7cebff2a80f",
         "record_sha256": "e153617f2665597de6cb3b9df2dfd007172ff16142eaaa9ac964eddf35827c62"
+      },
+      "4": {
+        "text_sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+        "record_sha256": "25d0f2056da5d299afe4d0cd31731138fd2e251a87ae10355da6ca9087c71952"
       }
     },
     "published": {},
@@ -204,6 +218,11 @@
       "3": {
         "path": "releases/CH003_d331a0e2a57c4c11344b8ca91f7de7ec3c8149eefd76e982378862499d2ac98f.json",
         "sha256": "d331a0e2a57c4c11344b8ca91f7de7ec3c8149eefd76e982378862499d2ac98f",
+        "used": true
+      },
+      "4": {
+        "path": "releases/CH004_0f0e5c7b534fb30b7b779945b49ccd5d3bc6d77062c388a8bd63613100505d92.json",
+        "sha256": "0f0e5c7b534fb30b7b779945b49ccd5d3bc6d77062c388a8bd63613100505d92",
         "used": true
       }
     },
@@ -225,7 +244,7 @@
         ],
         "deadline_chapter": 10,
         "status": "open",
-        "last_reviewed_chapter": 3
+        "last_reviewed_chapter": 4
       },
       "K02": {
         "history": [
@@ -244,7 +263,7 @@
         ],
         "deadline_chapter": 16,
         "status": "open",
-        "last_reviewed_chapter": 3
+        "last_reviewed_chapter": 4
       },
       "K03": {
         "history": [
@@ -263,7 +282,7 @@
         ],
         "deadline_chapter": 10,
         "status": "open",
-        "last_reviewed_chapter": 3
+        "last_reviewed_chapter": 4
       },
       "K03a": {
         "history": [
@@ -278,11 +297,42 @@
               "quote": "明早六点。人家要带去查供电间。续借得当面谈，不能留个字条就不还。"
             },
             "chapter": 3
+          },
+          {
+            "id": "K03a",
+            "action": "complete",
+            "deadline_chapter": 4,
+            "reason": "借主实际收器材、05:55交接前完成，缺少续借即撤人停用，期限问题已处理；缺损赔偿另留K03b。",
+            "evidence": {
+              "chapter": 4,
+              "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+              "quote": "仪器还了。管子有损耗，留下欠的那一部分。机器没有还，也没修好电。"
+            },
+            "chapter": 4
           }
         ],
         "deadline_chapter": 4,
+        "status": "closed",
+        "last_reviewed_chapter": 4
+      },
+      "K03b": {
+        "history": [
+          {
+            "id": "K03b",
+            "action": "set",
+            "deadline_chapter": 6,
+            "reason": "将未清耗材责任拆成下一次工单/接件核查时必须落实的规格、数量和可执行补偿安排；实际未赔不能写赔清。",
+            "evidence": {
+              "chapter": 4,
+              "sha256": "aadfeda09c3b7d179a43afa3f173589f9118e08fc309b8ecf7adb73c492fcc78",
+              "quote": "工时是工时，耗材是耗材。做过、验过才能扣。"
+            },
+            "chapter": 4
+          }
+        ],
+        "deadline_chapter": 6,
         "status": "open",
-        "last_reviewed_chapter": 3
+        "last_reviewed_chapter": 4
       }
     },
     "incidents": {}
