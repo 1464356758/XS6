@@ -9,19 +9,16 @@
     "session_id": "xs6-ch005-inline-mw14z8wm",
     "platform_run_id": null
   },
-  "phase": "reviewed",
+  "phase": "completed",
   "draft_path": "drafts/CH005.txt",
   "draft_sha256": "ed6f2c17931d294b09a08c4706f78d8810c341e7e3882aaaa6af1f3d14da3f24",
   "measured_han": 8452,
   "completed_scenes": [
-    "晨班阻止错误去向",
-    "母女问答与照护交接",
-    "河湾核实与有限共同决定",
-    "实际撤回抄件和待排路线、公开设备来路",
-    "持续照护与孩子拒绝保密、画猫"
+    "晨班当场撤下河湾错误去向并追抄送链",
+    "母女说清未知受益者、隐私边界与实际照护交接"
   ],
-  "next_step": "远端release-check后finalize，回读chapter_completed与正式冻结文件/完成回执",
-  "adoption_status": "not_adopted",
+  "next_step": "第六章须下一次合法begin；已完成本章，不复用旧执行开新章",
+  "adoption_status": "LOCKED",
   "platform_run_id_verified": false,
   "reading": {
     "canon": [
@@ -95,8 +92,9 @@
       ]
     }
   },
-  "review_report": "drafts/CH005_report.json",
-  "record_path": "drafts/CH005_record.json",
   "repair_rounds": 2,
-  "full_text_review": "CH001—CH005，逐章原文与记录哈希已核；reader同上下文近似"
+  "receipt_path": "book/daily/2026-11-04.json",
+  "record_sha256": "284edbd972fa27f4682b65702c5937ba62ff2c16998a9f155f8fcee20e4614fd",
+  "release_sha256": "27eace020f50ffa31cb886e93af29839df05be44005c637333aaef1097f447a7",
+  "adopted_at": "2026-11-03T20:54:49+00:00"
 }

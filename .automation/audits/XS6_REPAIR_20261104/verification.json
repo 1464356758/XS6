@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "type": "xs6-repair-completion-verification-v1",
+  "observed_at": "2026-11-03T20:58:03.885Z",
+  "repository": "1464356758/XS6",
+  "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+  "verified_head": "0438c326f9e38916428a64a944b86de72fd22df4",
+  "scheduled_attempt": {
+    "platform_run_id": "6a7687de-aa28-832f-a266-aa452d7240fb",
+    "status": "completed",
+    "scheduled_for": "2026-11-03T20:00:00Z",
+    "business_outcome": "chapter_not_started",
+    "failure": "normalized fetch_commit omitted tree field; scheduled attempt ended before committing preflight",
+    "raw_error_code": "unverified"
+  },
+  "repair": {
+    "documentation_commit": "2240406d59e7e48a672073925192694310b1f433",
+    "routes": [
+      "GET /repos/1464356758/XS6/branches/main -> commit.sha + commit.commit.tree.sha",
+      "GET /repos/1464356758/XS6/git/commits/{HEAD} -> tree.sha",
+      "GET /repos/1464356758/XS6/commits/{HEAD} -> commit.tree.sha"
+    ],
+    "engine_source_changed": false,
+    "quality_thresholds_lowered": false
+  },
+  "preflight": {
+    "protocol": "novel-task-executor-v1",
+    "request_id": "xs6-ch005-preflight-mw14z9g6",
+    "request_sha256": "2b7954d4bcbd126e230175d67dd68ba7ffcf5d46f109e3c5390246bb32e5e717",
+    "source_sha": "f5052bee3fb04fa03c137aa82b896c8f4011b33c",
+    "base_sha": "f539fd9755995004980c8ff194a69a73d44f829a",
+    "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+    "controller": {
+      "kind": "automation",
+      "automation_id": "6ae75ada42d48191bba7f5aca047f929",
+      "session_id": "xs6-ch005-inline-mw14z8wm",
+      "platform_run_id": null
+    },
+    "phase": "preflight",
+    "executed_at": "2026-11-03T20:25:07+00:00",
+    "executor_status": "ok",
+    "github_run_id": "41712304476",
+    "business_status": "preflight_passed",
+    "active_status": "completed",
+    "changed_paths": [
+      "online/index.json"
+    ]
+  },
+  "begin": {
+    "protocol": "novel-task-executor-v1",
+    "request_id": "xs6-ch005-begin-mw151oyv",
+    "request_sha256": "eb81c7a1f33ee1a9a8b3aadc0ba9cd6e72cdbfb1872eb839bfe158a1822b3301",
+    "source_sha": "7de70d3ead1a701a2c60ccfd2e6938d621056974",
+    "base_sha": "f1dbb88c9e34cc18bedfe42b6d3aa241735124f3",
+    "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+    "controller": {
+      "kind": "automation",
+      "automation_id": "6ae75ada42d48191bba7f5aca047f929",
+      "session_id": "xs6-ch005-inline-mw14z8wm",
+      "platform_run_id": null
+    },
+    "phase": "begin",
+    "executed_at": "2026-11-03T20:26:50+00:00",
+    "executor_status": "ok",
+    "github_run_id": "41712596197",
+    "business_status": "started",
+    "daily_action": "started",
+    "run_id": "04bc87f36f5a4cb1923d8a4858b374b5",
+    "chapter": 5,
+    "changed_paths": [
+      "book/daily/active.json",
+      "online/index.json"
+    ]
+  },
+  "inline_completion": {
+    "protocol": "novel-task-executor-v1",
+    "request_id": "xs6-ch005-finalize-mw161r0q",
+    "request_sha256": "b88eac79b0499b6141694ac3b537dd52ccbf45e04e8ac7f9bdaa11eb5f25382d",
+    "source_sha": "928152e060e6d5b6fa163a4a3c13d6826bb91640",
+    "base_sha": "cb5bf48a10e232e59b0a1c5194aae5d660bd1bc2",
+    "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+    "controller": {
+      "kind": "automation",
+      "automation_id": "6ae75ada42d48191bba7f5aca047f929",
+      "session_id": "xs6-ch005-inline-mw14z8wm",
+      "platform_run_id": null
+    },
+    "phase": "finalize",
+    "executed_at": "2026-11-03T20:54:49+00:00",
+    "executor_status": "ok",
+    "github_run_id": "41716880404",
+    "business_status": "chapter_completed",
+    "run_id": "04bc87f36f5a4cb1923d8a4858b374b5",
+    "chapter": 5,
+    "body_sha256": "ed6f2c17931d294b09a08c4706f78d8810c341e7e3882aaaa6af1f3d14da3f24",
+    "receipt_path": "book/daily/2026-11-04.json",
+    "changed_paths": [
+      "book/chapters/CH005_ed6f2c17931d294b09a08c4706f78d8810c341e7e3882aaaa6af1f3d14da3f24.txt",
+      "book/daily/2026-11-04.json",
+      "book/daily/active.json",
+      "book/records/CH005_284edbd972fa27f4682b65702c5937ba62ff2c16998a9f155f8fcee20e4614fd.json",
+      "book/releases/CH005_27eace020f50ffa31cb886e93af29839df05be44005c637333aaef1097f447a7.json",
+      "book/state.json",
+      "book/workflow.json",
+      "online/index.json"
+    ],
+    "formal_state_revision": 10,
+    "formal_text": {
+      "title": "她不肯替母亲保密",
+      "stage": "S01",
+      "text_path": "chapters/CH005_ed6f2c17931d294b09a08c4706f78d8810c341e7e3882aaaa6af1f3d14da3f24.txt",
+      "text_sha256": "ed6f2c17931d294b09a08c4706f78d8810c341e7e3882aaaa6af1f3d14da3f24",
+      "record_path": "records/CH005_284edbd972fa27f4682b65702c5937ba62ff2c16998a9f155f8fcee20e4614fd.json",
+      "record_sha256": "284edbd972fa27f4682b65702c5937ba62ff2c16998a9f155f8fcee20e4614fd",
+      "han_count": 8452,
+      "adopted_at": "2026-11-03T20:54:49+00:00"
+    },
+    "release": {
+      "path": "releases/CH005_27eace020f50ffa31cb886e93af29839df05be44005c637333aaef1097f447a7.json",
+      "sha256": "27eace020f50ffa31cb886e93af29839df05be44005c637333aaef1097f447a7",
+      "used": true
+    },
+    "receipt": {
+      "schema_version": 1,
+      "type": "novel-daily-completion-v1",
+      "status": "completed",
+      "book_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3",
+      "run_id": "04bc87f36f5a4cb1923d8a4858b374b5",
+      "work_id": "d3639881-8d19-4090-9daf-f2ac7a1048f3:2026-11-04:5",
+      "start_date": "2026-11-04",
+      "date": "2026-11-04",
+      "started_at": "2026-11-03T20:26:50+00:00",
+      "completed_at": "2026-11-03T20:54:49+00:00",
+      "verified_at": "2026-11-03T20:54:49+00:00",
+      "chapter": 5,
+      "baseline_count": 4,
+      "baseline_fingerprint": "c61e88c107c62dc2848d80195c84f3a1bee9f40281c5d5d2193d82e2ac7ff3f5",
+      "body_path": "chapters/CH005_ed6f2c17931d294b09a08c4706f78d8810c341e7e3882aaaa6af1f3d14da3f24.txt",
+      "body_sha256": "ed6f2c17931d294b09a08c4706f78d8810c341e7e3882aaaa6af1f3d14da3f24",
+      "record_path": "records/CH005_284edbd972fa27f4682b65702c5937ba62ff2c16998a9f155f8fcee20e4614fd.json",
+      "record_sha256": "284edbd972fa27f4682b65702c5937ba62ff2c16998a9f155f8fcee20e4614fd",
+      "release_path": "releases/CH005_27eace020f50ffa31cb886e93af29839df05be44005c637333aaef1097f447a7.json",
+      "release_sha256": "27eace020f50ffa31cb886e93af29839df05be44005c637333aaef1097f447a7",
+      "state_revision": 10
+    },
+    "verification": {
+      "body_sha256": true,
+      "record_sha256": true,
+      "release_sha256": true,
+      "frozen_manifest": true,
+      "previous_four_chapters_and_records_unchanged": true,
+      "workflow_phase": "WAITING_NEXT",
+      "workflow_next_chapter": 6,
+      "index_valid": true,
+      "python_tests": 174,
+      "frontend_tests": 153,
+      "frontend_failures": 0,
+      "validation_run_id": 41716880546
+    }
+  },
+  "automation": {
+    "id": "6ae75ada42d48191bba7f5aca047f929",
+    "is_enabled": true,
+    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Shanghai:20261103T040000\nRRULE:FREQ=DAILY;BYHOUR=4;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+    "timezone": "Asia/Shanghai",
+    "conversation_id": "6aea3d1d-cea8-83ee-808e-c7507ff352d2",
+    "next_run_time": null,
+    "next_run_time_verified": false,
+    "prompt_unchanged": true,
+    "duplicate_task_created": false
+  },
+  "limitation": "这是当前对话续做的即时补更，controller沿用本轮session，platform_run_id=null；不冒充04:00原定时运行成功。下次04:00无人值守整章仍待实际运行。模型与思考档位未验证。",
+  "next_target": {
+    "chapter": 6,
+    "title": "一张没有签字的工单",
+    "due_promise": "K03b：核定短管合格补料规格、数量和可执行补偿安排；未赔清不得销账"
+  }
+}
