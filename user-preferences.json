@@ -1,0 +1,32 @@
+{
+  "initialization": {
+    "actualModel": "unverified",
+    "authorPreferenceUserInput": "暂无",
+    "branchObserved": "main",
+    "engine": "cn-novelist-gpt",
+    "maxBodyHan": 6500,
+    "minBodyHan": 5500,
+    "modelApiConfigured": false,
+    "modelSelection": "current-gpt-conversation",
+    "platformResearchDefault": "纵横中文网男频主站",
+    "platformSubmissionAuthorized": false,
+    "platformUserInput": "纵横",
+    "reasoningLevel": "unverified",
+    "repository": "https://github.com/1464356758/XS6",
+    "scheduleAuthorized": false,
+    "selectedTopicId": null,
+    "topicProposalsPath": "onboarding/选题候选_2026-11-16.json"
+  },
+  "preferences": {
+    "creationHistory": [],
+    "dislikes": [],
+    "favoriteGenres": [],
+    "preferredPerspective": "",
+    "preferredProtagonist": "",
+    "preferredTone": "",
+    "styleReferences": [],
+    "typicalChapterCount": 150
+  },
+  "updatedAt": "2026-11-15T16:21:34.644066+00:00",
+  "version": 1
+}
