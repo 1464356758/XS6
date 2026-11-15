@@ -1,5 +1,0 @@
-{
-  "valid": true,
-  "chapters": 3,
-  "phase": "WRITING"
-}
