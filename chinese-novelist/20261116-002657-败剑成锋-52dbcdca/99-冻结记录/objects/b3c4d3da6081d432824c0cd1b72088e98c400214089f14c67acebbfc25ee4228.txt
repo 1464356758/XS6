@@ -1,0 +1,18 @@
+{
+  "assessedAt": "2026-11-15T23:44:18.951123+00:00",
+  "chapter": 1,
+  "decision": "ready",
+  "engine": "cn-novelist-gpt",
+  "hashes": {
+    "00-人物档案.md": "d85c862fef29627a0aeca861dcf52695422c540fc543ef428ee4a98e5899332d",
+    "01-大纲.md": "c12c322069d9b42fed0d14c12a1c9fa18807292af99b3e99ad321ba87900e763",
+    "03-文风基准.md": "062fcb8df1f803015c9675927a632f3877a918bfcf4f99a02e0aa71c7221e9ca",
+    "99-章节摘要.md": "ba0871aff663b149cebc8022e6fa4d152b2940cff361f3ac9f5911cc92837ee2",
+    "editorial": "d89b5633d5338143a1d094a4ce9e41df101974ca2ab61f5d6924fb40997d6965",
+    "markdown": "b59c55dbf173de2edebbac7857f257d53b06cd9d09178900e7866e3ea4410bb4",
+    "text": "05947785135f2a3e03430b8dad024a9b8949d8214246f85b96c31de790658117"
+  },
+  "note": "模型审读不是独立读者或签约认证",
+  "planSha256": "937b487626b0cc937b2a3cac10bb84a95e0d6d90f08ce8ac0c1766f79b355622",
+  "reviewer": "same-context-model"
+}

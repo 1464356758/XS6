@@ -1,8 +1,18 @@
 {
   "book_id": "52dbcdca-ceb6-4472-9f81-098c602ba2be",
-  "chapters": {},
+  "chapters": {
+    "1": {
+      "frozen_at": "2026-11-15T23:44:19.033120+00:00",
+      "number": 1,
+      "record_path": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/99-冻结记录/e9ff9bf2f48d5b010aa0212ee01b51d2301abe6b545338b6324d8baae85c2e6f.json",
+      "record_sha256": "e9ff9bf2f48d5b010aa0212ee01b51d2301abe6b545338b6324d8baae85c2e6f",
+      "text_path": "chapters/CH001_05947785135f2a3e03430b8dad024a9b8949d8214246f85b96c31de790658117.txt",
+      "text_sha256": "05947785135f2a3e03430b8dad024a9b8949d8214246f85b96c31de790658117",
+      "title": "不败者的断剑"
+    }
+  },
   "cn_plan_path": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/02-写作计划.json",
-  "cn_plan_sha256": "e23e35684e83ddfba243ee6d5f2297c3d3ef6f7d211d8076d1a8c8a9f7753e9c",
+  "cn_plan_sha256": "93fbf133e2511d02084cafd2c6cb10018b94cdf8439cd79fc8aafa519c714cf3",
   "cn_project_sha256": "740d6208fe16b2adb233d8d2d6c79c87c8b2fa13b4d5f74bf68b831db53af2d8",
   "schema": "cn-gpt-reading-view",
   "view_only": true

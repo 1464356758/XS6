@@ -4,13 +4,22 @@
     "platform": "纵横中文网",
     "title": "败剑成锋"
   },
-  "chapters": [],
+  "chapters": [
+    {
+      "han_count": 5835,
+      "number": 1,
+      "publication_status": "unconfirmed",
+      "sha256": "05947785135f2a3e03430b8dad024a9b8949d8214246f85b96c31de790658117",
+      "text_path": "book/chapters/CH001_05947785135f2a3e03430b8dad024a9b8949d8214246f85b96c31de790658117.txt",
+      "title": "不败者的断剑"
+    }
+  ],
   "engine": "cn-novelist-gpt",
-  "generated_at": "2026-11-15T23:18:23.839338+00:00",
+  "generated_at": "2026-11-15T23:44:19.034153+00:00",
   "initialized": true,
   "progress": {
-    "actual_han": 0,
-    "adopted_chapters": 0,
+    "actual_han": 5835,
+    "adopted_chapters": 1,
     "target_chapters": 150,
     "target_han": 900000
   },
@@ -18,11 +27,11 @@
   "source": {
     "branch": "main",
     "repository_url": "https://github.com/1464356758/XS6",
-    "state_sha256": "ca42abc2a045b0f88ca3fe71d94a70c9c4e1a248e50c1426a9a549a8afb5a6ef"
+    "state_sha256": "f76ec0020a62e6667c2f2194f1a66852628ec281d1ff9a4345a42ef1719fff2f"
   },
   "task": {
     "label": "CN-GPT上游写作计划",
     "next_action": "读取GPT_WORKFLOW.md",
-    "phase": "WRITING"
+    "phase": "WAITING_NEXT"
   }
 }

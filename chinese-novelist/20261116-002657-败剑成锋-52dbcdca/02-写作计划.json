@@ -2,6 +2,7 @@
   "bookId": "52dbcdca-ceb6-4472-9f81-098c602ba2be",
   "chapters": [
     {
+      "assessedPlanSha256": "937b487626b0cc937b2a3cac10bb84a95e0d6d90f08ce8ac0c1766f79b355622",
       "carryOver": "由炉事故进入；无前章",
       "chapterNumber": 1,
       "characters": [
@@ -11,24 +12,29 @@
       ],
       "coreEvent": "谢停舟为避免炉膛炸裂伸手拖出一柄错投的残剑，首次经历剑主跪地求生的片段，退出时伤痛使他失手打翻渣槽；他把烧伤的陶守拙拖离炉口，却来不及藏好剑。",
       "filePath": "第01章-不败者的断剑.md",
+      "frozenAt": "2026-11-15T23:44:19.033120+00:00",
+      "markdownSha256": "b59c55dbf173de2edebbac7857f257d53b06cd9d09178900e7866e3ea4410bb4",
       "openingHookType": "现场危机",
       "plannedTimeWindow": "第1—24日",
       "plannedVolume": 1,
       "planningDetail": "见01-大纲.md的前五章细化；正文只用自然时间。",
+      "recordPath": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/99-冻结记录/e9ff9bf2f48d5b010aa0212ee01b51d2301abe6b545338b6324d8baae85c2e6f.json",
+      "recordSha256": "e9ff9bf2f48d5b010aa0212ee01b51d2301abe6b545338b6324d8baae85c2e6f",
       "requestId": "xs6-ch001-61554e3345c74fd695ad9a74c7c7c61a",
-      "retryCount": 0,
+      "retryCount": 1,
       "scenes": [
         "废剑炉",
         "炉前渣槽"
       ],
       "startPlanSha256": "43e067866cfd0e11198fb759b90e6ffc07952096ab76577e56f1eb1fb4c309b5",
       "startedAt": "2026-11-15T23:18:23.839312+00:00",
-      "status": "in_progress",
+      "status": "completed",
       "suspenseHook": "押剑人带来的封签写着裴问霄的名字。",
+      "textSha256": "05947785135f2a3e03430b8dad024a9b8949d8214246f85b96c31de790658117",
       "title": "不败者的断剑",
       "volumeTitle": "废炉余火",
-      "wordCount": null,
-      "wordCountPass": null
+      "wordCount": 5835,
+      "wordCountPass": true
     },
     {
       "carryOver": "押剑人带来的封签写着裴问霄的名字。",
@@ -132,14 +138,14 @@
         "外役试剑台"
       ],
       "status": "pending",
-      "suspenseHook": "谢停舟记起那次片段断在闸声之前，陶却说旧渡口早已拆掉。",
+      "suspenseHook": "谢停舟记起片段止于断剑与未完的求声，陶却回避那个旧渡口。",
       "title": "我上去试",
       "volumeTitle": "废炉余火",
       "wordCount": null,
       "wordCountPass": null
     },
     {
-      "carryOver": "谢停舟记起那次片段断在闸声之前，陶却说旧渡口早已拆掉。",
+      "carryOver": "谢停舟记起片段止于断剑与未完的求声，陶却回避那个旧渡口。",
       "chapterNumber": 6,
       "characters": [
         "谢停舟",
@@ -3858,7 +3864,7 @@
   "projectPath": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca",
   "status": "in_progress",
   "totalChapters": 150,
-  "updatedAt": "2026-11-15T23:18:23.839338+00:00",
+  "updatedAt": "2026-11-15T23:44:19.034153+00:00",
   "version": 1,
   "writingMode": "serial"
 }
