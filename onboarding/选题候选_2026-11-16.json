@@ -10,7 +10,10 @@
   "provisionalTitles": true,
   "recommendedTopicId": "T01",
   "schema": "cn-gpt-topic-proposals",
-  "selectedTopicId": null,
+  "selectedAt": "2026-11-15T16:57:00.537741+00:00",
+  "selectedTitle": "败剑成锋",
+  "selectedTopicId": "T01",
+  "selectionUserInput": "01",
   "topics": [
     {
       "coreConflict": "宗门只传胜者剑谱；少年却从失败者的残剑中找到活路，逐步触及被胜利者遮住的旧战。",

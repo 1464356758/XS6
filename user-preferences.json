@@ -2,8 +2,10 @@
   "initialization": {
     "actualModel": "unverified",
     "authorPreferenceUserInput": "暂无",
+    "bookId": "52dbcdca-ceb6-4472-9f81-098c602ba2be",
     "branchObserved": "main",
     "engine": "cn-novelist-gpt",
+    "firstWritingAuthorized": false,
     "maxBodyHan": 6500,
     "minBodyHan": 5500,
     "modelApiConfigured": false,
@@ -11,22 +13,34 @@
     "platformResearchDefault": "纵横中文网男频主站",
     "platformSubmissionAuthorized": false,
     "platformUserInput": "纵横",
+    "projectPath": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca",
     "reasoningLevel": "unverified",
     "repository": "https://github.com/1464356758/XS6",
     "scheduleAuthorized": false,
-    "selectedTopicId": null,
+    "selectedTitle": "败剑成锋",
+    "selectedTopicId": "T01",
+    "selectionUserInput": "01",
     "topicProposalsPath": "onboarding/选题候选_2026-11-16.json"
+  },
+  "preferenceProvenance": {
+    "chapterScale": "作者明确默认150章，正文5500—6500汉字",
+    "perspectiveToneWorldAndCharacters": "按本书已授权默认规格由当前GPT整理；不是作者另行逐项回答",
+    "platform": "作者原始输入：纵横",
+    "topicAndTitle": "作者回复01，确认T01《败剑成锋》"
   },
   "preferences": {
     "creationHistory": [],
     "dislikes": [],
-    "favoriteGenres": [],
-    "preferredPerspective": "",
-    "preferredProtagonist": "",
-    "preferredTone": "",
+    "favoriteGenres": [
+      "东方玄幻",
+      "剑道成长"
+    ],
+    "preferredPerspective": "第三人称限制视角",
+    "preferredProtagonist": "男性成长主角",
+    "preferredTone": "紧张利落，保留日常温度",
     "styleReferences": [],
     "typicalChapterCount": 150
   },
-  "updatedAt": "2026-11-15T16:21:34.644066+00:00",
+  "updatedAt": "2026-11-15T16:57:00.537741+00:00",
   "version": 1
 }

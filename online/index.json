@@ -1,0 +1,28 @@
+{
+  "book": {
+    "id": "52dbcdca-ceb6-4472-9f81-098c602ba2be",
+    "platform": "纵横中文网",
+    "title": "败剑成锋"
+  },
+  "chapters": [],
+  "engine": "cn-novelist-gpt",
+  "generated_at": "2026-11-15T16:26:57.980667+00:00",
+  "initialized": true,
+  "progress": {
+    "actual_han": 0,
+    "adopted_chapters": 0,
+    "target_chapters": 150,
+    "target_han": 900000
+  },
+  "schema_version": 1,
+  "source": {
+    "branch": "main",
+    "repository_url": "https://github.com/1464356758/XS6",
+    "state_sha256": "ce4c11d64863aed1fc97052c7827aec8f432d58f7763d650140883fb56edc8ce"
+  },
+  "task": {
+    "label": "CN-GPT上游写作计划",
+    "next_action": "读取GPT_WORKFLOW.md",
+    "phase": "PLANNING"
+  }
+}
