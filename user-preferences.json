@@ -5,7 +5,9 @@
     "bookId": "52dbcdca-ceb6-4472-9f81-098c602ba2be",
     "branchObserved": "main",
     "engine": "cn-novelist-gpt",
-    "firstWritingAuthorized": false,
+    "firstWritingAuthorizationUserInput": "开始写",
+    "firstWritingAuthorized": true,
+    "firstWritingAuthorizedAt": "2026-11-15T23:18:23.467932+00:00",
     "maxBodyHan": 6500,
     "minBodyHan": 5500,
     "modelApiConfigured": false,
@@ -41,6 +43,6 @@
     "styleReferences": [],
     "typicalChapterCount": 150
   },
-  "updatedAt": "2026-11-15T16:57:00.537741+00:00",
+  "updatedAt": "2026-11-15T23:18:23.467932+00:00",
   "version": 1
 }
