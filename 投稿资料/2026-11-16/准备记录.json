@@ -1,0 +1,56 @@
+{
+  "bookId": "52dbcdca-ceb6-4472-9f81-098c602ba2be",
+  "engine": "cn-novelist-gpt",
+  "novelName": "败剑成锋",
+  "platform": "纵横中文网男频主站",
+  "sourceRepository": "https://github.com/1464356758/XS6",
+  "sourceBranch": "main",
+  "sourceCommit": "b3088a89821600108cf4e010ec6ff7b24ad2db9a",
+  "mainPlanSha256": "70b1c2eef24b884d4511494588ab89ec510444c7d42a1e1c6d89ab26dca1d41d",
+  "penName": null,
+  "frozenChapters": 5,
+  "bodyHan": 28880,
+  "blurbHan": 198,
+  "blurbChars": 226,
+  "synopsisHan": 2223,
+  "synopsisCharsWithoutWhitespace": 2456,
+  "futurePlotSource": "本书既有150章规划，未写正文不当已发生进度",
+  "createdAtDate": "2026-11-16",
+  "submissionStatus": "materials_only",
+  "platformActionsPerformed": false,
+  "cover": {
+    "fileName": "败剑成锋_封面_600x800.jpg",
+    "width": 600,
+    "height": 800,
+    "format": "JPEG",
+    "mode": "RGB",
+    "bytes": 194009,
+    "sha256": "fcf5e8ecb746ed8d196fce04273889b5c029784a02524ab7382dc1a82e9e9777",
+    "generatedWith": "current built-in image generation tool",
+    "containsAI": true,
+    "authorCreditIncluded": false,
+    "qualityReview": "书名逐字核对为败剑成锋；主体无明显畸形、标题无遮挡；600×800导出复看通过",
+    "specStatus": "按现用公开组件默认参数交付；未登录核验站点动态下发配置"
+  },
+  "text": {
+    "fileName": "败剑成锋.txt",
+    "bytes": 14936,
+    "sha256": "62adb42a59877c6996b842bc7bf94fa4bca8303b6cd59a0fd12d66889653ca59"
+  },
+  "sources": {
+    "currentHelp": "https://zuozhe.qimao.com/front/help-center",
+    "officialWelfare": "https://doc.zongheng.com/welfare/zongheng",
+    "category": "https://www.zongheng.com/categories?cateFineId=8101",
+    "recommendedTemplate": "https://bbs.qimao.com/detail/6027?categoryId=26",
+    "templateReadStatus": "正文未返回可读内容，未声称套用其具体格式",
+    "frontendComponent": "https://cdn-front.qimao.com/zuozhe-platform/web/js/chunk-4279bc6a.0fcd0c87.js"
+  },
+  "gitSaveInput": {
+    "baseTree": "7d38090745d1ee02d7191654c371d73ad58928b3",
+    "parentCommit": "b3088a89821600108cf4e010ec6ff7b24ad2db9a",
+    "expectedHead": "b3088a89821600108cf4e010ec6ff7b24ad2db9a",
+    "force": false,
+    "operation": "add_submission_materials_only",
+    "mainPlanAndFrozenFilesUnchanged": true
+  }
+}
