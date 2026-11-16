@@ -156,20 +156,25 @@
         "谢停舟",
         "陶守拙",
         "闻秋白",
-        "宋澄山"
+        "宋澄山",
+        "赵其衡"
       ],
       "coreEvent": "谢停舟确认试剑并非免罪承诺，但获胜能保留炉院名额与师父的医养；他选择参加。宋澄山要求先完成事故复验，陶教他在受力前松开僵住的手。",
-      "filePath": "",
+      "filePath": "第05章-我上去试.md",
       "openingHookType": "期限与选择",
       "plannedTimeWindow": "第1—24日",
       "plannedVolume": 1,
-      "planningDetail": "见01-大纲.md的前五章细化；正文只用自然时间。",
+      "planningDetail": "故事第3日晨至午前；试剑距今日十三日。按01第05章写前登记核实临时医养、配属名额、复验独立与本人报名，轻慢站步不用伤臂，末段不新增回放。",
+      "requestId": "xs6-ch005-eedc78c76a594bed9f5b1f7f63762952",
       "retryCount": 0,
       "scenes": [
+        "炉院后屋",
         "炉院",
         "外役试剑台"
       ],
-      "status": "pending",
+      "startPlanSha256": "f9a3a9e4176772ff096ed074bd7d6c585d3f5f57b272f012a2875e63ca7a9498",
+      "startedAt": "2026-11-16T06:36:50.755262+00:00",
+      "status": "in_progress",
       "suspenseHook": "谢停舟记起片段止于断剑与未完的求声，陶却回避那个旧渡口。",
       "title": "我上去试",
       "volumeTitle": "废炉余火",
@@ -3896,7 +3901,7 @@
   "projectPath": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca",
   "status": "in_progress",
   "totalChapters": 150,
-  "updatedAt": "2026-11-16T05:23:04.717308+00:00",
+  "updatedAt": "2026-11-16T06:36:50.755280+00:00",
   "version": 1,
   "writingMode": "serial"
 }
