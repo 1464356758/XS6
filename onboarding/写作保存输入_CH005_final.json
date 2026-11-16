@@ -1,0 +1,28 @@
+{
+  "repository": "1464356758/XS6",
+  "branch": "main",
+  "baseTree": "e3fcb81b1f03747ba5ca5ed5adabda9522f1b055",
+  "parentCommit": "b4f1889c99be9c15db152ee7bec394bb9b0d38ac",
+  "expectedHead": "b4f1889c99be9c15db152ee7bec394bb9b0d38ac",
+  "force": false,
+  "requestId": "xs6-ch005-eedc78c76a594bed9f5b1f7f63762952",
+  "reviewer": "same-context-model",
+  "actualRevisionCount": 1,
+  "hanCount": 5660,
+  "adopted": true,
+  "mainPlanSha256": "70b1c2eef24b884d4511494588ab89ec510444c7d42a1e1c6d89ab26dca1d41d",
+  "markdownSha256": "ee3decec1143692fdebe25caa5b0a58d23234f4e3d6b899340bc0984905342e9",
+  "textSha256": "931b778200acb59899b8d696977064d8b92c2ade96bc9fd1b70473ac7e94d22a",
+  "recordPath": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/99-冻结记录/1d42a5b268c3982eefc5c852f61f291ef39f3fe208566c1751eeafcf3ff13f07.json",
+  "recordSha256": "1d42a5b268c3982eefc5c852f61f291ef39f3fe208566c1751eeafcf3ff13f07",
+  "readbackRequired": [
+    "cn-project.json",
+    "02-写作计划.json",
+    "chapterMarkdown",
+    "freezeRecord",
+    "book/state.json",
+    "officialPlainText",
+    "online/index.json",
+    "99-章节摘要.md"
+  ]
+}

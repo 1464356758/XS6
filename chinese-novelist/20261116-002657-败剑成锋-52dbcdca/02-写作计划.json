@@ -150,6 +150,7 @@
       "wordCountPass": true
     },
     {
+      "assessedPlanSha256": "486cf1ac75c2b146ad03c68da1348a5c5a6614356d2e4d7ec96f9e4580b4d259",
       "carryOver": "赵提出让谢停舟参加外役执剑试，输者师徒一同下山。",
       "chapterNumber": 5,
       "characters": [
@@ -161,12 +162,16 @@
       ],
       "coreEvent": "谢停舟确认试剑并非免罪承诺，但获胜能保留炉院名额与师父的医养；他选择参加。宋澄山要求先完成事故复验，陶教他在受力前松开僵住的手。",
       "filePath": "第05章-我上去试.md",
+      "frozenAt": "2026-11-16T06:58:41.773496+00:00",
+      "markdownSha256": "ee3decec1143692fdebe25caa5b0a58d23234f4e3d6b899340bc0984905342e9",
       "openingHookType": "期限与选择",
       "plannedTimeWindow": "第1—24日",
       "plannedVolume": 1,
       "planningDetail": "故事第3日晨至午前；试剑距今日十三日。按01第05章写前登记核实临时医养、配属名额、复验独立与本人报名，轻慢站步不用伤臂，末段不新增回放。",
+      "recordPath": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/99-冻结记录/1d42a5b268c3982eefc5c852f61f291ef39f3fe208566c1751eeafcf3ff13f07.json",
+      "recordSha256": "1d42a5b268c3982eefc5c852f61f291ef39f3fe208566c1751eeafcf3ff13f07",
       "requestId": "xs6-ch005-eedc78c76a594bed9f5b1f7f63762952",
-      "retryCount": 0,
+      "retryCount": 1,
       "scenes": [
         "炉院后屋",
         "炉院",
@@ -174,12 +179,13 @@
       ],
       "startPlanSha256": "f9a3a9e4176772ff096ed074bd7d6c585d3f5f57b272f012a2875e63ca7a9498",
       "startedAt": "2026-11-16T06:36:50.755262+00:00",
-      "status": "in_progress",
+      "status": "completed",
       "suspenseHook": "谢停舟记起片段止于断剑与未完的求声，陶却回避那个旧渡口。",
+      "textSha256": "931b778200acb59899b8d696977064d8b92c2ade96bc9fd1b70473ac7e94d22a",
       "title": "我上去试",
       "volumeTitle": "废炉余火",
-      "wordCount": null,
-      "wordCountPass": null
+      "wordCount": 5660,
+      "wordCountPass": true
     },
     {
       "carryOver": "谢停舟记起片段止于断剑与未完的求声，陶却回避那个旧渡口。",
@@ -3901,7 +3907,7 @@
   "projectPath": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca",
   "status": "in_progress",
   "totalChapters": 150,
-  "updatedAt": "2026-11-16T06:36:50.755280+00:00",
+  "updatedAt": "2026-11-16T06:58:41.775002+00:00",
   "version": 1,
   "writingMode": "serial"
 }
