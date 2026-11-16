@@ -30,7 +30,7 @@
     }
   },
   "cn_plan_path": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/02-写作计划.json",
-  "cn_plan_sha256": "868a140cf3e03916e2ab2454c32dea0b5940da67c5952bb44119fb5303907f35",
+  "cn_plan_sha256": "a50cf4e2a9ad017382541643b0f3e2b676376d5bc69e15ed5d7d645bbabba336",
   "cn_project_sha256": "740d6208fe16b2adb233d8d2d6c79c87c8b2fa13b4d5f74bf68b831db53af2d8",
   "schema": "cn-gpt-reading-view",
   "view_only": true

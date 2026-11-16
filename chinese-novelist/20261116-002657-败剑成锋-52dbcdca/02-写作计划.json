@@ -116,20 +116,27 @@
         "谢停舟",
         "闻秋白",
         "鲁野",
-        "赵其衡"
+        "赵其衡",
+        "陶守拙",
+        "周平"
       ],
-      "coreEvent": "闻秋白坚持保留事故物证，却没有停炉权限；谢停舟利用熟悉的风道拖慢升温，鲁野冒险开卸料门，救出被热渣困住的工友，残剑也随之暴露。",
-      "filePath": "",
+      "coreEvent": "谢履行取物承诺让闻与赵看见残剑；清移损炉废架时余热与歪斗困住清灰工，谢以炉活经验与鲁、闻等分工开护门救人，余料暂分堆。赵仍追责此前藏剑，以外役执剑试名额相逼。",
+      "filePath": "第04章-先把炉门打开.md",
       "openingHookType": "物件面临毁损",
       "plannedTimeWindow": "第1—24日",
       "plannedVolume": 1,
-      "planningDetail": "见01-大纲.md的前五章细化；正文只用自然时间。",
+      "planningDetail": "按01大纲第04章写前补充：承接第3章已申报未取物；损炉不重开，风道处理是减弱余风与余火，不从炉内再取残剑。",
+      "requestId": "xs6-ch004-51ddb3f6adba44a48be4f3b34cbc79fd",
       "retryCount": 0,
       "scenes": [
-        "风道",
-        "卸料口"
+        "残料棚",
+        "炉后风道",
+        "卸料道护门",
+        "炉院"
       ],
-      "status": "pending",
+      "startPlanSha256": "a30e4d0aaa7debddba505a371f3df25cb40f775fe3c005afad56a64a7de99e74",
+      "startedAt": "2026-11-16T05:02:43.604375+00:00",
+      "status": "in_progress",
       "suspenseHook": "赵提出让谢停舟参加外役执剑试，输者师徒一同下山。",
       "title": "先把炉门打开",
       "volumeTitle": "废炉余火",
@@ -3883,7 +3890,7 @@
   "projectPath": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca",
   "status": "in_progress",
   "totalChapters": 150,
-  "updatedAt": "2026-11-16T04:39:38.768300+00:00",
+  "updatedAt": "2026-11-16T05:02:43.604389+00:00",
   "version": 1,
   "writingMode": "serial"
 }
