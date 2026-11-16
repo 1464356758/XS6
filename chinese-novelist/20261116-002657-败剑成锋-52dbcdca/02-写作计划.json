@@ -110,6 +110,7 @@
       "wordCountPass": true
     },
     {
+      "assessedPlanSha256": "125efc160c8351a1b0825cfffb776f037db7799626f5180e95ad21732def9cc6",
       "carryOver": "复验前，赵要求先熔掉所有残料。",
       "chapterNumber": 4,
       "characters": [
@@ -122,12 +123,16 @@
       ],
       "coreEvent": "谢履行取物承诺让闻与赵看见残剑；清移损炉废架时余热与歪斗困住清灰工，谢以炉活经验与鲁、闻等分工开护门救人，余料暂分堆。赵仍追责此前藏剑，以外役执剑试名额相逼。",
       "filePath": "第04章-先把炉门打开.md",
+      "frozenAt": "2026-11-16T05:23:04.715954+00:00",
+      "markdownSha256": "8aefbd59592118974e466c4b7e6107ba2e15b06927594d1bf456ec73c1bd285b",
       "openingHookType": "物件面临毁损",
       "plannedTimeWindow": "第1—24日",
       "plannedVolume": 1,
       "planningDetail": "按01大纲第04章写前补充：承接第3章已申报未取物；损炉不重开，风道处理是减弱余风与余火，不从炉内再取残剑。",
+      "recordPath": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/99-冻结记录/48facc21f0151296335641d6bfd3e79a3213cfead0a2a9037ce07e6f41ddfe08.json",
+      "recordSha256": "48facc21f0151296335641d6bfd3e79a3213cfead0a2a9037ce07e6f41ddfe08",
       "requestId": "xs6-ch004-51ddb3f6adba44a48be4f3b34cbc79fd",
-      "retryCount": 0,
+      "retryCount": 1,
       "scenes": [
         "残料棚",
         "炉后风道",
@@ -136,12 +141,13 @@
       ],
       "startPlanSha256": "a30e4d0aaa7debddba505a371f3df25cb40f775fe3c005afad56a64a7de99e74",
       "startedAt": "2026-11-16T05:02:43.604375+00:00",
-      "status": "in_progress",
+      "status": "completed",
       "suspenseHook": "赵提出让谢停舟参加外役执剑试，输者师徒一同下山。",
+      "textSha256": "a80d75e8f6b68db7481ce8d530b617709aa7a79aac6c2aa9c2ddd81ad42dc17b",
       "title": "先把炉门打开",
       "volumeTitle": "废炉余火",
-      "wordCount": null,
-      "wordCountPass": null
+      "wordCount": 5714,
+      "wordCountPass": true
     },
     {
       "carryOver": "赵提出让谢停舟参加外役执剑试，输者师徒一同下山。",
@@ -3890,7 +3896,7 @@
   "projectPath": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca",
   "status": "in_progress",
   "totalChapters": 150,
-  "updatedAt": "2026-11-16T05:02:43.604389+00:00",
+  "updatedAt": "2026-11-16T05:23:04.717308+00:00",
   "version": 1,
   "writingMode": "serial"
 }

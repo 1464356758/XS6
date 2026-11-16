@@ -1,0 +1,77 @@
+{
+  "attachments": {
+    "00-人物档案.md": {
+      "path": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/99-冻结记录/objects/98fbf6931ce2e12d14f87ad26f1dee3d1e7a8a13cb5079bddd5b326eb3152174.txt",
+      "sha256": "98fbf6931ce2e12d14f87ad26f1dee3d1e7a8a13cb5079bddd5b326eb3152174"
+    },
+    "01-大纲.md": {
+      "path": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/99-冻结记录/objects/813affce7b120e3e4ffb7cf8996f8db69918a6e275d355d744370c2219018419.txt",
+      "sha256": "813affce7b120e3e4ffb7cf8996f8db69918a6e275d355d744370c2219018419"
+    },
+    "03-文风基准.md": {
+      "path": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/99-冻结记录/objects/062fcb8df1f803015c9675927a632f3877a918bfcf4f99a02e0aa71c7221e9ca.txt",
+      "sha256": "062fcb8df1f803015c9675927a632f3877a918bfcf4f99a02e0aa71c7221e9ca"
+    },
+    "99-章节摘要.md": {
+      "path": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/99-冻结记录/objects/6f55ef4f56f936d5d795d8895d877485ba44fe6d2620415c75c1538cbf8bd163.txt",
+      "sha256": "6f55ef4f56f936d5d795d8895d877485ba44fe6d2620415c75c1538cbf8bd163"
+    },
+    "assessment": {
+      "path": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/99-冻结记录/objects/369cd9da11fd3d9de17c43bbd78fd73564cc7ac1a53b5b74fd774b899e1181ed.txt",
+      "sha256": "369cd9da11fd3d9de17c43bbd78fd73564cc7ac1a53b5b74fd774b899e1181ed"
+    },
+    "editorial": {
+      "path": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/99-冻结记录/objects/f774c09d69c3359c54b60a7beb8264cf45513056f35a69475a7f819d8ec01853.txt",
+      "sha256": "f774c09d69c3359c54b60a7beb8264cf45513056f35a69475a7f819d8ec01853"
+    },
+    "markdown": {
+      "path": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/99-冻结记录/objects/8aefbd59592118974e466c4b7e6107ba2e15b06927594d1bf456ec73c1bd285b.txt",
+      "sha256": "8aefbd59592118974e466c4b7e6107ba2e15b06927594d1bf456ec73c1bd285b"
+    },
+    "text": {
+      "path": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/99-冻结记录/objects/a80d75e8f6b68db7481ce8d530b617709aa7a79aac6c2aa9c2ddd81ad42dc17b.txt",
+      "sha256": "a80d75e8f6b68db7481ce8d530b617709aa7a79aac6c2aa9c2ddd81ad42dc17b"
+    }
+  },
+  "bookId": "52dbcdca-ceb6-4472-9f81-098c602ba2be",
+  "chapter": {
+    "assessedPlanSha256": "125efc160c8351a1b0825cfffb776f037db7799626f5180e95ad21732def9cc6",
+    "carryOver": "复验前，赵要求先熔掉所有残料。",
+    "chapterNumber": 4,
+    "characters": [
+      "谢停舟",
+      "闻秋白",
+      "鲁野",
+      "赵其衡",
+      "陶守拙",
+      "周平"
+    ],
+    "coreEvent": "谢履行取物承诺让闻与赵看见残剑；清移损炉废架时余热与歪斗困住清灰工，谢以炉活经验与鲁、闻等分工开护门救人，余料暂分堆。赵仍追责此前藏剑，以外役执剑试名额相逼。",
+    "filePath": "第04章-先把炉门打开.md",
+    "frozenAt": "2026-11-16T05:23:04.715954+00:00",
+    "markdownSha256": "8aefbd59592118974e466c4b7e6107ba2e15b06927594d1bf456ec73c1bd285b",
+    "openingHookType": "物件面临毁损",
+    "plannedTimeWindow": "第1—24日",
+    "plannedVolume": 1,
+    "planningDetail": "按01大纲第04章写前补充：承接第3章已申报未取物；损炉不重开，风道处理是减弱余风与余火，不从炉内再取残剑。",
+    "requestId": "xs6-ch004-51ddb3f6adba44a48be4f3b34cbc79fd",
+    "retryCount": 1,
+    "scenes": [
+      "残料棚",
+      "炉后风道",
+      "卸料道护门",
+      "炉院"
+    ],
+    "startPlanSha256": "a30e4d0aaa7debddba505a371f3df25cb40f775fe3c005afad56a64a7de99e74",
+    "startedAt": "2026-11-16T05:02:43.604375+00:00",
+    "status": "completed",
+    "suspenseHook": "赵提出让谢停舟参加外役执剑试，输者师徒一同下山。",
+    "textSha256": "a80d75e8f6b68db7481ce8d530b617709aa7a79aac6c2aa9c2ddd81ad42dc17b",
+    "title": "先把炉门打开",
+    "volumeTitle": "废炉余火",
+    "wordCount": 5714,
+    "wordCountPass": true
+  },
+  "engine": "cn-novelist-gpt",
+  "previousRecordSha256": "7cf70cee5985ba361ea5a6573755a47809bcc23006e74d2d863d0ff1e59686ca"
+}

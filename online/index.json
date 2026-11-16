@@ -28,14 +28,22 @@
       "sha256": "e4d487d499755adaae48b67d1075024b80771db9291459bc04a993110cabfffa",
       "text_path": "book/chapters/CH003_e4d487d499755adaae48b67d1075024b80771db9291459bc04a993110cabfffa.txt",
       "title": "这一下接不得"
+    },
+    {
+      "han_count": 5714,
+      "number": 4,
+      "publication_status": "unconfirmed",
+      "sha256": "a80d75e8f6b68db7481ce8d530b617709aa7a79aac6c2aa9c2ddd81ad42dc17b",
+      "text_path": "book/chapters/CH004_a80d75e8f6b68db7481ce8d530b617709aa7a79aac6c2aa9c2ddd81ad42dc17b.txt",
+      "title": "先把炉门打开"
     }
   ],
   "engine": "cn-novelist-gpt",
-  "generated_at": "2026-11-16T05:02:43.604389+00:00",
+  "generated_at": "2026-11-16T05:23:04.717308+00:00",
   "initialized": true,
   "progress": {
-    "actual_han": 17506,
-    "adopted_chapters": 3,
+    "actual_han": 23220,
+    "adopted_chapters": 4,
     "target_chapters": 150,
     "target_han": 900000
   },
@@ -43,11 +51,11 @@
   "source": {
     "branch": "main",
     "repository_url": "https://github.com/1464356758/XS6",
-    "state_sha256": "e07e7e39102f1e5a8ccd5b797dd40e5d9010078543775b4a51f6807d5f8fdce2"
+    "state_sha256": "a4f358aed1d975604929b68c8fd0450142b7c53767dc0e5da0f9950111e00884"
   },
   "task": {
     "label": "CN-GPT上游写作计划",
     "next_action": "读取GPT_WORKFLOW.md",
-    "phase": "WRITING"
+    "phase": "WAITING_NEXT"
   }
 }
