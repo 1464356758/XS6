@@ -82,17 +82,21 @@
         "赵其衡"
       ],
       "coreEvent": "陶只认出残剑旧制，不肯给它定主；谢停舟照着片段模仿步法，反使手臂伤势加剧。闻秋白送来事故复验通知，在现场拆穿他对剑招的错误理解。",
-      "filePath": "",
+      "filePath": "第03章-这一下接不得.md",
       "openingHookType": "伤势与错误动作",
       "plannedTimeWindow": "第1—24日",
       "plannedVolume": 1,
-      "planningDetail": "见01-大纲.md的前五章细化；正文只用自然时间。",
+      "planningDetail": "接第2日闩门后；详见01大纲第03章写前登记。护手旧制、受限口述、带伤误学与复验通知均须有实景动作，不再次触剑。",
+      "requestId": "xs6-ch003-b74a73e5dd8a49378d6b9d88571c3393",
       "retryCount": 0,
       "scenes": [
+        "后屋",
         "炉后空地",
         "残料棚"
       ],
-      "status": "pending",
+      "startPlanSha256": "84f51025666d33e8c57095d32ca66a315faf3eccb4ee0f2bff9c166a65b1b150",
+      "startedAt": "2026-11-16T01:39:05.749861+00:00",
+      "status": "in_progress",
       "suspenseHook": "复验前，赵要求先熔掉所有残料。",
       "title": "这一下接不得",
       "volumeTitle": "废炉余火",
@@ -3873,7 +3877,7 @@
   "projectPath": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca",
   "status": "in_progress",
   "totalChapters": 150,
-  "updatedAt": "2026-11-16T00:21:14.451948+00:00",
+  "updatedAt": "2026-11-16T01:39:05.749874+00:00",
   "version": 1,
   "writingMode": "serial"
 }
