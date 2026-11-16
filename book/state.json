@@ -18,10 +18,19 @@
       "text_path": "chapters/CH002_6844eaf2f0010f9076e6fa6c27b118b03be444605ce1680030e00206f9dab099.txt",
       "text_sha256": "6844eaf2f0010f9076e6fa6c27b118b03be444605ce1680030e00206f9dab099",
       "title": "炉灰里有脚印"
+    },
+    "3": {
+      "frozen_at": "2026-11-16T04:39:38.766927+00:00",
+      "number": 3,
+      "record_path": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/99-冻结记录/7cf70cee5985ba361ea5a6573755a47809bcc23006e74d2d863d0ff1e59686ca.json",
+      "record_sha256": "7cf70cee5985ba361ea5a6573755a47809bcc23006e74d2d863d0ff1e59686ca",
+      "text_path": "chapters/CH003_e4d487d499755adaae48b67d1075024b80771db9291459bc04a993110cabfffa.txt",
+      "text_sha256": "e4d487d499755adaae48b67d1075024b80771db9291459bc04a993110cabfffa",
+      "title": "这一下接不得"
     }
   },
   "cn_plan_path": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/02-写作计划.json",
-  "cn_plan_sha256": "66a3bffecd64736382f70856f4c5948f3bcfbace6e42dadd8d5088478f880412",
+  "cn_plan_sha256": "868a140cf3e03916e2ab2454c32dea0b5940da67c5952bb44119fb5303907f35",
   "cn_project_sha256": "740d6208fe16b2adb233d8d2d6c79c87c8b2fa13b4d5f74bf68b831db53af2d8",
   "schema": "cn-gpt-reading-view",
   "view_only": true

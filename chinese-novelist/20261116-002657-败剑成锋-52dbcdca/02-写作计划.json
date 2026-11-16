@@ -73,6 +73,7 @@
       "wordCountPass": true
     },
     {
+      "assessedPlanSha256": "44c7e93572a98cdd794487401ebd323560a8a12c231ddc92d4a965181a17efeb",
       "carryOver": "陶看见剑柄后，先把门闩插上了。",
       "chapterNumber": 3,
       "characters": [
@@ -83,12 +84,16 @@
       ],
       "coreEvent": "陶只认出残剑旧制，不肯给它定主；谢停舟照着片段模仿步法，反使手臂伤势加剧。闻秋白送来事故复验通知，在现场拆穿他对剑招的错误理解。",
       "filePath": "第03章-这一下接不得.md",
+      "frozenAt": "2026-11-16T04:39:38.766927+00:00",
+      "markdownSha256": "21b7ecf165b20063aef1f51953a9be2818e6f9341b604bfdc9b2a5ae8c9f39a5",
       "openingHookType": "伤势与错误动作",
       "plannedTimeWindow": "第1—24日",
       "plannedVolume": 1,
       "planningDetail": "接第2日闩门后；详见01大纲第03章写前登记。护手旧制、受限口述、带伤误学与复验通知均须有实景动作，不再次触剑。",
+      "recordPath": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/99-冻结记录/7cf70cee5985ba361ea5a6573755a47809bcc23006e74d2d863d0ff1e59686ca.json",
+      "recordSha256": "7cf70cee5985ba361ea5a6573755a47809bcc23006e74d2d863d0ff1e59686ca",
       "requestId": "xs6-ch003-b74a73e5dd8a49378d6b9d88571c3393",
-      "retryCount": 0,
+      "retryCount": 1,
       "scenes": [
         "后屋",
         "炉后空地",
@@ -96,12 +101,13 @@
       ],
       "startPlanSha256": "84f51025666d33e8c57095d32ca66a315faf3eccb4ee0f2bff9c166a65b1b150",
       "startedAt": "2026-11-16T01:39:05.749861+00:00",
-      "status": "in_progress",
+      "status": "completed",
       "suspenseHook": "复验前，赵要求先熔掉所有残料。",
+      "textSha256": "e4d487d499755adaae48b67d1075024b80771db9291459bc04a993110cabfffa",
       "title": "这一下接不得",
       "volumeTitle": "废炉余火",
-      "wordCount": null,
-      "wordCountPass": null
+      "wordCount": 5963,
+      "wordCountPass": true
     },
     {
       "carryOver": "复验前，赵要求先熔掉所有残料。",
@@ -3877,7 +3883,7 @@
   "projectPath": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca",
   "status": "in_progress",
   "totalChapters": 150,
-  "updatedAt": "2026-11-16T01:39:05.749874+00:00",
+  "updatedAt": "2026-11-16T04:39:38.768300+00:00",
   "version": 1,
   "writingMode": "serial"
 }

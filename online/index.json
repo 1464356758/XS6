@@ -20,14 +20,22 @@
       "sha256": "6844eaf2f0010f9076e6fa6c27b118b03be444605ce1680030e00206f9dab099",
       "text_path": "book/chapters/CH002_6844eaf2f0010f9076e6fa6c27b118b03be444605ce1680030e00206f9dab099.txt",
       "title": "炉灰里有脚印"
+    },
+    {
+      "han_count": 5963,
+      "number": 3,
+      "publication_status": "unconfirmed",
+      "sha256": "e4d487d499755adaae48b67d1075024b80771db9291459bc04a993110cabfffa",
+      "text_path": "book/chapters/CH003_e4d487d499755adaae48b67d1075024b80771db9291459bc04a993110cabfffa.txt",
+      "title": "这一下接不得"
     }
   ],
   "engine": "cn-novelist-gpt",
-  "generated_at": "2026-11-16T01:39:05.749874+00:00",
+  "generated_at": "2026-11-16T04:39:38.768300+00:00",
   "initialized": true,
   "progress": {
-    "actual_han": 11543,
-    "adopted_chapters": 2,
+    "actual_han": 17506,
+    "adopted_chapters": 3,
     "target_chapters": 150,
     "target_han": 900000
   },
@@ -35,11 +43,11 @@
   "source": {
     "branch": "main",
     "repository_url": "https://github.com/1464356758/XS6",
-    "state_sha256": "e37e92e10b6a7a6e6b2ac458661698567cf9a3c73641f171746f4f9869599123"
+    "state_sha256": "c8085a00ddebd9668de483552f98ca2f25b3f41d852d8438999ad39b0722c1e8"
   },
   "task": {
     "label": "CN-GPT上游写作计划",
     "next_action": "读取GPT_WORKFLOW.md",
-    "phase": "WRITING"
+    "phase": "WAITING_NEXT"
   }
 }
