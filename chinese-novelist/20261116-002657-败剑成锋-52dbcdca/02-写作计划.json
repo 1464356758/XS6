@@ -46,17 +46,20 @@
         "赵其衡"
       ],
       "coreEvent": "赵其衡要把事故推给陶守拙，谢停舟抢在清炉前找出混入湿料的实物；鲁野帮忙送伤者，两人因此错过交工，赵扣住陶的出山药和工钱。",
-      "filePath": "",
+      "filePath": "第02章-炉灰里有脚印.md",
       "openingHookType": "事故后果",
       "plannedTimeWindow": "第1—24日",
       "plannedVolume": 1,
-      "planningDetail": "见01-大纲.md的前五章细化；正文只用自然时间。",
+      "planningDetail": "先以短段正叙落实首夜求医及物件交接，主体为次晨；详见01大纲前五章与第02章写前补充。",
+      "requestId": "xs6-ch002-2f6629afe9b84a3b825d840376bb081f",
       "retryCount": 0,
       "scenes": [
         "炉院",
         "药房外廊"
       ],
-      "status": "pending",
+      "startPlanSha256": "a9dbad2a213d9d71e0810258df2c1aa46a69457c7de32b9a823f9614daee291c",
+      "startedAt": "2026-11-15T23:58:30.522696+00:00",
+      "status": "in_progress",
       "suspenseHook": "陶看见剑柄后，先把门闩插上了。",
       "title": "炉灰里有脚印",
       "volumeTitle": "废炉余火",
@@ -3864,7 +3867,7 @@
   "projectPath": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca",
   "status": "in_progress",
   "totalChapters": 150,
-  "updatedAt": "2026-11-15T23:44:19.034153+00:00",
+  "updatedAt": "2026-11-15T23:58:30.522707+00:00",
   "version": 1,
   "writingMode": "serial"
 }

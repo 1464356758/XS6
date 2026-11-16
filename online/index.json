@@ -15,7 +15,7 @@
     }
   ],
   "engine": "cn-novelist-gpt",
-  "generated_at": "2026-11-15T23:44:19.034153+00:00",
+  "generated_at": "2026-11-15T23:58:30.522707+00:00",
   "initialized": true,
   "progress": {
     "actual_han": 5835,
@@ -27,11 +27,11 @@
   "source": {
     "branch": "main",
     "repository_url": "https://github.com/1464356758/XS6",
-    "state_sha256": "f76ec0020a62e6667c2f2194f1a66852628ec281d1ff9a4345a42ef1719fff2f"
+    "state_sha256": "cb0e517fed3babc8afdf28be3a1c4ee9e5657b4da5e307ca741608575455bb42"
   },
   "task": {
     "label": "CN-GPT上游写作计划",
     "next_action": "读取GPT_WORKFLOW.md",
-    "phase": "WAITING_NEXT"
+    "phase": "WRITING"
   }
 }
