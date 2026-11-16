@@ -12,14 +12,22 @@
       "sha256": "05947785135f2a3e03430b8dad024a9b8949d8214246f85b96c31de790658117",
       "text_path": "book/chapters/CH001_05947785135f2a3e03430b8dad024a9b8949d8214246f85b96c31de790658117.txt",
       "title": "不败者的断剑"
+    },
+    {
+      "han_count": 5708,
+      "number": 2,
+      "publication_status": "unconfirmed",
+      "sha256": "6844eaf2f0010f9076e6fa6c27b118b03be444605ce1680030e00206f9dab099",
+      "text_path": "book/chapters/CH002_6844eaf2f0010f9076e6fa6c27b118b03be444605ce1680030e00206f9dab099.txt",
+      "title": "炉灰里有脚印"
     }
   ],
   "engine": "cn-novelist-gpt",
-  "generated_at": "2026-11-15T23:58:30.522707+00:00",
+  "generated_at": "2026-11-16T00:21:14.451948+00:00",
   "initialized": true,
   "progress": {
-    "actual_han": 5835,
-    "adopted_chapters": 1,
+    "actual_han": 11543,
+    "adopted_chapters": 2,
     "target_chapters": 150,
     "target_han": 900000
   },
@@ -27,11 +35,11 @@
   "source": {
     "branch": "main",
     "repository_url": "https://github.com/1464356758/XS6",
-    "state_sha256": "cb0e517fed3babc8afdf28be3a1c4ee9e5657b4da5e307ca741608575455bb42"
+    "state_sha256": "69c63116eb63e0a2609d3e0ca1697cefb116b59838f5c566becb3af7074a73bb"
   },
   "task": {
     "label": "CN-GPT上游写作计划",
     "next_action": "读取GPT_WORKFLOW.md",
-    "phase": "WRITING"
+    "phase": "WAITING_NEXT"
   }
 }

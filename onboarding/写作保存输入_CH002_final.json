@@ -1,0 +1,25 @@
+{
+  "repository": "1464356758/XS6",
+  "branch": "main",
+  "baseTree": "1735a359b62204a20aa06bfe697b3bd16b6fcaf9",
+  "parentCommit": "5f8e987358f7d3db87878b87ddefb8f1e2260577",
+  "expectedHead": "5f8e987358f7d3db87878b87ddefb8f1e2260577",
+  "force": false,
+  "stage": "CH002 completed and locally verified; final readback still required",
+  "requestId": "xs6-ch002-2f6629afe9b84a3b825d840376bb081f",
+  "reviewer": "same-context-model",
+  "actualRevisionCount": 1,
+  "hanCount": 5708,
+  "planSha256": "3527d6e6169b85a804ebd9c27699c4610377fc6b3d39b486a008b80de1e943c8",
+  "bodySha256": "6844eaf2f0010f9076e6fa6c27b118b03be444605ce1680030e00206f9dab099",
+  "readbackRequired": [
+    "cn-project.json",
+    "original 02-写作计划.json",
+    "CH002 Markdown",
+    "CH002 freeze record and attachments",
+    "book/state.json",
+    "CH002 plain body export",
+    "online/index.json",
+    "all CH001 frozen bytes and summary prefix"
+  ]
+}

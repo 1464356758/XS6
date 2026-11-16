@@ -9,10 +9,19 @@
       "text_path": "chapters/CH001_05947785135f2a3e03430b8dad024a9b8949d8214246f85b96c31de790658117.txt",
       "text_sha256": "05947785135f2a3e03430b8dad024a9b8949d8214246f85b96c31de790658117",
       "title": "不败者的断剑"
+    },
+    "2": {
+      "frozen_at": "2026-11-16T00:21:14.450764+00:00",
+      "number": 2,
+      "record_path": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/99-冻结记录/272a91a3261f258dcc03f41f9e2104884fa474b0acd1e7569d768895815ebd4f.json",
+      "record_sha256": "272a91a3261f258dcc03f41f9e2104884fa474b0acd1e7569d768895815ebd4f",
+      "text_path": "chapters/CH002_6844eaf2f0010f9076e6fa6c27b118b03be444605ce1680030e00206f9dab099.txt",
+      "text_sha256": "6844eaf2f0010f9076e6fa6c27b118b03be444605ce1680030e00206f9dab099",
+      "title": "炉灰里有脚印"
     }
   },
   "cn_plan_path": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/02-写作计划.json",
-  "cn_plan_sha256": "4e552023648d7586b4a8b581ac3cdfc067ec8abf4f95bdf4f071b2b978344ab7",
+  "cn_plan_sha256": "3527d6e6169b85a804ebd9c27699c4610377fc6b3d39b486a008b80de1e943c8",
   "cn_project_sha256": "740d6208fe16b2adb233d8d2d6c79c87c8b2fa13b4d5f74bf68b831db53af2d8",
   "schema": "cn-gpt-reading-view",
   "view_only": true

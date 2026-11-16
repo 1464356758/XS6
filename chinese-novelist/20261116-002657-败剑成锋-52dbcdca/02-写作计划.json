@@ -37,6 +37,7 @@
       "wordCountPass": true
     },
     {
+      "assessedPlanSha256": "0773bfc5a00969d0ca3c51ad9b7cfd105ec364369a2984c846e6e38b6891963d",
       "carryOver": "押剑人带来的封签写着裴问霄的名字。",
       "chapterNumber": 2,
       "characters": [
@@ -47,24 +48,29 @@
       ],
       "coreEvent": "赵其衡要把事故推给陶守拙，谢停舟抢在清炉前找出混入湿料的实物；鲁野帮忙送伤者，两人因此错过交工，赵扣住陶的出山药和工钱。",
       "filePath": "第02章-炉灰里有脚印.md",
+      "frozenAt": "2026-11-16T00:21:14.450764+00:00",
+      "markdownSha256": "f1a72ff69601242ff28473dbd32e7c646e770d8f9c5b0dad69881d87f7bb226c",
       "openingHookType": "事故后果",
       "plannedTimeWindow": "第1—24日",
       "plannedVolume": 1,
       "planningDetail": "先以短段正叙落实首夜求医及物件交接，主体为次晨；详见01大纲前五章与第02章写前补充。",
+      "recordPath": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/99-冻结记录/272a91a3261f258dcc03f41f9e2104884fa474b0acd1e7569d768895815ebd4f.json",
+      "recordSha256": "272a91a3261f258dcc03f41f9e2104884fa474b0acd1e7569d768895815ebd4f",
       "requestId": "xs6-ch002-2f6629afe9b84a3b825d840376bb081f",
-      "retryCount": 0,
+      "retryCount": 1,
       "scenes": [
         "炉院",
         "药房外廊"
       ],
       "startPlanSha256": "a9dbad2a213d9d71e0810258df2c1aa46a69457c7de32b9a823f9614daee291c",
       "startedAt": "2026-11-15T23:58:30.522696+00:00",
-      "status": "in_progress",
+      "status": "completed",
       "suspenseHook": "陶看见剑柄后，先把门闩插上了。",
+      "textSha256": "6844eaf2f0010f9076e6fa6c27b118b03be444605ce1680030e00206f9dab099",
       "title": "炉灰里有脚印",
       "volumeTitle": "废炉余火",
-      "wordCount": null,
-      "wordCountPass": null
+      "wordCount": 5708,
+      "wordCountPass": true
     },
     {
       "carryOver": "陶看见剑柄后，先把门闩插上了。",
@@ -3867,7 +3873,7 @@
   "projectPath": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca",
   "status": "in_progress",
   "totalChapters": 150,
-  "updatedAt": "2026-11-15T23:58:30.522707+00:00",
+  "updatedAt": "2026-11-16T00:21:14.451948+00:00",
   "version": 1,
   "writingMode": "serial"
 }

@@ -1,0 +1,73 @@
+{
+  "attachments": {
+    "00-人物档案.md": {
+      "path": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/99-冻结记录/objects/d85c862fef29627a0aeca861dcf52695422c540fc543ef428ee4a98e5899332d.txt",
+      "sha256": "d85c862fef29627a0aeca861dcf52695422c540fc543ef428ee4a98e5899332d"
+    },
+    "01-大纲.md": {
+      "path": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/99-冻结记录/objects/d5b41fc0ba8762d905c558e550d843b5e3a38ce54d1bb28dd631550e22d399ad.txt",
+      "sha256": "d5b41fc0ba8762d905c558e550d843b5e3a38ce54d1bb28dd631550e22d399ad"
+    },
+    "03-文风基准.md": {
+      "path": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/99-冻结记录/objects/062fcb8df1f803015c9675927a632f3877a918bfcf4f99a02e0aa71c7221e9ca.txt",
+      "sha256": "062fcb8df1f803015c9675927a632f3877a918bfcf4f99a02e0aa71c7221e9ca"
+    },
+    "99-章节摘要.md": {
+      "path": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/99-冻结记录/objects/5b3588d5d072a1fdab24641b6a0fb0e7df32f5c050707d2f174905463233a661.txt",
+      "sha256": "5b3588d5d072a1fdab24641b6a0fb0e7df32f5c050707d2f174905463233a661"
+    },
+    "assessment": {
+      "path": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/99-冻结记录/objects/24ccef4eecbdb0dd82614f25fcb271b5f64ffe6565d11d22e890fe678a4b9b13.txt",
+      "sha256": "24ccef4eecbdb0dd82614f25fcb271b5f64ffe6565d11d22e890fe678a4b9b13"
+    },
+    "editorial": {
+      "path": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/99-冻结记录/objects/eccf327ec0fc08d5e55ad74b8b32769b4e709711d96a1e7bc15ef7ab12cc4ef9.txt",
+      "sha256": "eccf327ec0fc08d5e55ad74b8b32769b4e709711d96a1e7bc15ef7ab12cc4ef9"
+    },
+    "markdown": {
+      "path": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/99-冻结记录/objects/f1a72ff69601242ff28473dbd32e7c646e770d8f9c5b0dad69881d87f7bb226c.txt",
+      "sha256": "f1a72ff69601242ff28473dbd32e7c646e770d8f9c5b0dad69881d87f7bb226c"
+    },
+    "text": {
+      "path": "chinese-novelist/20261116-002657-败剑成锋-52dbcdca/99-冻结记录/objects/6844eaf2f0010f9076e6fa6c27b118b03be444605ce1680030e00206f9dab099.txt",
+      "sha256": "6844eaf2f0010f9076e6fa6c27b118b03be444605ce1680030e00206f9dab099"
+    }
+  },
+  "bookId": "52dbcdca-ceb6-4472-9f81-098c602ba2be",
+  "chapter": {
+    "assessedPlanSha256": "0773bfc5a00969d0ca3c51ad9b7cfd105ec364369a2984c846e6e38b6891963d",
+    "carryOver": "押剑人带来的封签写着裴问霄的名字。",
+    "chapterNumber": 2,
+    "characters": [
+      "谢停舟",
+      "陶守拙",
+      "鲁野",
+      "赵其衡"
+    ],
+    "coreEvent": "赵其衡要把事故推给陶守拙，谢停舟抢在清炉前找出混入湿料的实物；鲁野帮忙送伤者，两人因此错过交工，赵扣住陶的出山药和工钱。",
+    "filePath": "第02章-炉灰里有脚印.md",
+    "frozenAt": "2026-11-16T00:21:14.450764+00:00",
+    "markdownSha256": "f1a72ff69601242ff28473dbd32e7c646e770d8f9c5b0dad69881d87f7bb226c",
+    "openingHookType": "事故后果",
+    "plannedTimeWindow": "第1—24日",
+    "plannedVolume": 1,
+    "planningDetail": "先以短段正叙落实首夜求医及物件交接，主体为次晨；详见01大纲前五章与第02章写前补充。",
+    "requestId": "xs6-ch002-2f6629afe9b84a3b825d840376bb081f",
+    "retryCount": 1,
+    "scenes": [
+      "炉院",
+      "药房外廊"
+    ],
+    "startPlanSha256": "a9dbad2a213d9d71e0810258df2c1aa46a69457c7de32b9a823f9614daee291c",
+    "startedAt": "2026-11-15T23:58:30.522696+00:00",
+    "status": "completed",
+    "suspenseHook": "陶看见剑柄后，先把门闩插上了。",
+    "textSha256": "6844eaf2f0010f9076e6fa6c27b118b03be444605ce1680030e00206f9dab099",
+    "title": "炉灰里有脚印",
+    "volumeTitle": "废炉余火",
+    "wordCount": 5708,
+    "wordCountPass": true
+  },
+  "engine": "cn-novelist-gpt",
+  "previousRecordSha256": "e9ff9bf2f48d5b010aa0212ee01b51d2301abe6b545338b6324d8baae85c2e6f"
+}
