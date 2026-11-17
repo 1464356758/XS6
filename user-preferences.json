@@ -28,7 +28,8 @@
     "chapterScale": "作者明确默认150章，正文5500—6500汉字",
     "perspectiveToneWorldAndCharacters": "按本书已授权默认规格由当前GPT整理；不是作者另行逐项回答",
     "platform": "作者原始输入：纵横",
-    "topicAndTitle": "作者回复01，确认T01《败剑成锋》"
+    "topicAndTitle": "作者回复01，确认T01《败剑成锋》",
+    "penName": "作者于2026-11-17明确说明：我的笔名是微晚。"
   },
   "preferences": {
     "creationHistory": [],
@@ -41,8 +42,9 @@
     "preferredProtagonist": "男性成长主角",
     "preferredTone": "紧张利落，保留日常温度",
     "styleReferences": [],
-    "typicalChapterCount": 150
+    "typicalChapterCount": 150,
+    "penName": "微晚"
   },
-  "updatedAt": "2026-11-15T23:18:23.467932+00:00",
+  "updatedAt": "2026-11-17T06:32:49.347254+00:00",
   "version": 1
 }
