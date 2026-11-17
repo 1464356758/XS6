@@ -1,0 +1,25 @@
+{
+  "assessment_path": "book/objects/675d2f0973c6e9962d21ac5f77d3f1e76cbfc9d4b42c4d7c0c0ad93059cc33d5.json",
+  "assessment_sha256": "675d2f0973c6e9962d21ac5f77d3f1e76cbfc9d4b42c4d7c0c0ad93059cc33d5",
+  "attachments": {
+    "memory": "book/objects/f8fafa8eb853e2ea95b34d8e6eb6dde15caf45856d138cb1d9bfd063f4dac968.md",
+    "plan": "book/objects/11c17ccad0ca1dc49b07ed7343ebc4189bc05b9d707a9b19e842cb26702c01b7.md",
+    "review": "book/objects/96b8ee6299dc871236467e51d3fa1cedf9ae050ad8f913532142f046392001fc.md"
+  },
+  "book_id": "53aad353-f0f1-4cee-8967-64a7c97f679b",
+  "frozen_at": "2026-11-17T15:03:49.516567+00:00",
+  "han_count": 5944,
+  "hashes": {
+    "memory": "f8fafa8eb853e2ea95b34d8e6eb6dde15caf45856d138cb1d9bfd063f4dac968",
+    "plan": "11c17ccad0ca1dc49b07ed7343ebc4189bc05b9d707a9b19e842cb26702c01b7",
+    "review": "96b8ee6299dc871236467e51d3fa1cedf9ae050ad8f913532142f046392001fc",
+    "text": "bc176fcf6f3f8cbc659519e18337f5fd12382919f129737ba8117b8ddf3b2a37"
+  },
+  "number": 3,
+  "previous_record_sha256": "2501867524164d567dfdbef34fec990c41d97eae0358a1888a61fa5ae75494e7",
+  "request_id": "xs6-ch003-d58159c23d1a49b2b0a43aba4e28a9ee",
+  "schema": "novel-v6-chapter",
+  "text_path": "book/chapters/CH003_bc176fcf6f3f8cbc659519e18337f5fd12382919f129737ba8117b8ddf3b2a37.txt",
+  "text_sha256": "bc176fcf6f3f8cbc659519e18337f5fd12382919f129737ba8117b8ddf3b2a37",
+  "title": "先把锅端走"
+}

@@ -27,14 +27,25 @@
       "text_path": "chapters/CH002_3c9d769e2a67ea0171b04aee540bbdbaff85a481b8f64a6b20d7e0823c29064c.txt",
       "text_sha256": "3c9d769e2a67ea0171b04aee540bbdbaff85a481b8f64a6b20d7e0823c29064c",
       "title": "巷子里还有人"
+    },
+    "3": {
+      "frozen_at": "2026-11-17T15:03:49.516567+00:00",
+      "han_count": 5944,
+      "number": 3,
+      "record_path": "objects/777083b4fc41fcc78029461df9f430fa91c08ada85f7b77e491221994292ca66.json",
+      "record_sha256": "777083b4fc41fcc78029461df9f430fa91c08ada85f7b77e491221994292ca66",
+      "request_id": "xs6-ch003-d58159c23d1a49b2b0a43aba4e28a9ee",
+      "text_path": "chapters/CH003_bc176fcf6f3f8cbc659519e18337f5fd12382919f129737ba8117b8ddf3b2a37.txt",
+      "text_sha256": "bc176fcf6f3f8cbc659519e18337f5fd12382919f129737ba8117b8ddf3b2a37",
+      "title": "先把锅端走"
     }
   },
   "platform": "纵横中文网",
   "repository_url": "https://github.com/1464356758/XS6",
-  "revision": 2,
+  "revision": 3,
   "schema": "novel-v6",
   "target_chapters": 150,
   "title": "仙门撤走后，山下还有三千人",
-  "updated_at": "2026-11-17T14:25:37.078874+00:00",
+  "updated_at": "2026-11-17T15:03:49.516567+00:00",
   "version": "6.3.0"
 }
