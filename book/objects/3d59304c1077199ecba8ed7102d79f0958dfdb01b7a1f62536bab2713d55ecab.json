@@ -1,0 +1,25 @@
+{
+  "assessment_path": "book/objects/c4b54edaf5faf4fde00dd054a58a1524774d52fc618b8006c599e23da1388552.json",
+  "assessment_sha256": "c4b54edaf5faf4fde00dd054a58a1524774d52fc618b8006c599e23da1388552",
+  "attachments": {
+    "memory": "book/objects/1a2bfa672b37fe321f45dae532ae07ce5f023ae570beccd0f8cac485a5cc2261.md",
+    "plan": "book/objects/ace972f4771f58faa2094465be777a3add45fe9bb03bdef874c9baae1c3c77ac.md",
+    "review": "book/objects/74397993b8ff505a36ac5d04b7905ce2231534deb5c171b3a300eb786db7c14e.md"
+  },
+  "book_id": "53aad353-f0f1-4cee-8967-64a7c97f679b",
+  "frozen_at": "2026-11-17T16:04:43.382627+00:00",
+  "han_count": 5737,
+  "hashes": {
+    "memory": "1a2bfa672b37fe321f45dae532ae07ce5f023ae570beccd0f8cac485a5cc2261",
+    "plan": "ace972f4771f58faa2094465be777a3add45fe9bb03bdef874c9baae1c3c77ac",
+    "review": "74397993b8ff505a36ac5d04b7905ce2231534deb5c171b3a300eb786db7c14e",
+    "text": "5a85dc78327a189823a3909d93fc8e3793870106892d7e128058ad7b71fbea56"
+  },
+  "number": 4,
+  "previous_record_sha256": "777083b4fc41fcc78029461df9f430fa91c08ada85f7b77e491221994292ca66",
+  "request_id": "xs6-ch004-c5e9da3a409544ce9d114e1056d0c06b",
+  "schema": "novel-v6-chapter",
+  "text_path": "book/chapters/CH004_5a85dc78327a189823a3909d93fc8e3793870106892d7e128058ad7b71fbea56.txt",
+  "text_sha256": "5a85dc78327a189823a3909d93fc8e3793870106892d7e128058ad7b71fbea56",
+  "title": "那座桥过不去"
+}
