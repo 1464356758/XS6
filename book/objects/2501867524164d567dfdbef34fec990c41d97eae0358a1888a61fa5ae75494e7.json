@@ -1,0 +1,25 @@
+{
+  "assessment_path": "book/objects/da53c2cd45462c562a8087d8d6e808742a2be967292dc65301cf969144d51e13.json",
+  "assessment_sha256": "da53c2cd45462c562a8087d8d6e808742a2be967292dc65301cf969144d51e13",
+  "attachments": {
+    "memory": "book/objects/e116a451475f3b08f034a3a99410f14065da16bdba36c4a61432bc7f3fd0b646.md",
+    "plan": "book/objects/f727ed4cfbd5566a0e0c12195449100529bd586777b6a1fc964e8fb7edacc5c8.md",
+    "review": "book/objects/6dedaf1652bb881053d9c2bc7fe6f0e13863e1859747a9360c5f0d74e12cabca.md"
+  },
+  "book_id": "53aad353-f0f1-4cee-8967-64a7c97f679b",
+  "frozen_at": "2026-11-17T14:25:37.078874+00:00",
+  "han_count": 5842,
+  "hashes": {
+    "memory": "e116a451475f3b08f034a3a99410f14065da16bdba36c4a61432bc7f3fd0b646",
+    "plan": "f727ed4cfbd5566a0e0c12195449100529bd586777b6a1fc964e8fb7edacc5c8",
+    "review": "6dedaf1652bb881053d9c2bc7fe6f0e13863e1859747a9360c5f0d74e12cabca",
+    "text": "3c9d769e2a67ea0171b04aee540bbdbaff85a481b8f64a6b20d7e0823c29064c"
+  },
+  "number": 2,
+  "previous_record_sha256": "7f1b5f0eb9495ab25ab7a2f75f2cf68f2301fc1be7d87046d9ee755042b75e20",
+  "request_id": "xs6-ch002-330d796dec944ff0a50b0d87b097864f",
+  "schema": "novel-v6-chapter",
+  "text_path": "book/chapters/CH002_3c9d769e2a67ea0171b04aee540bbdbaff85a481b8f64a6b20d7e0823c29064c.txt",
+  "text_sha256": "3c9d769e2a67ea0171b04aee540bbdbaff85a481b8f64a6b20d7e0823c29064c",
+  "title": "巷子里还有人"
+}

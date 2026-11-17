@@ -12,14 +12,22 @@
       "sha256": "89ac164cb339c4380bc52f92ec813b125a1df84ebdca0cfba87bb8201322580e",
       "text_path": "book/chapters/CH001_89ac164cb339c4380bc52f92ec813b125a1df84ebdca0cfba87bb8201322580e.txt",
       "title": "她没上船"
+    },
+    {
+      "han_count": 5842,
+      "number": 2,
+      "publication_status": "unconfirmed",
+      "sha256": "3c9d769e2a67ea0171b04aee540bbdbaff85a481b8f64a6b20d7e0823c29064c",
+      "text_path": "book/chapters/CH002_3c9d769e2a67ea0171b04aee540bbdbaff85a481b8f64a6b20d7e0823c29064c.txt",
+      "title": "巷子里还有人"
     }
   ],
   "engine": "novel-v6",
-  "generated_at": "2026-11-17T13:05:16.965742+00:00",
+  "generated_at": "2026-11-17T14:25:37.078874+00:00",
   "initialized": true,
   "progress": {
-    "actual_han": 5912,
-    "adopted_chapters": 1,
+    "actual_han": 11754,
+    "adopted_chapters": 2,
     "target_chapters": 150,
     "target_han": 900000
   },
@@ -27,11 +35,11 @@
   "source": {
     "branch": "main",
     "repository_url": "https://github.com/1464356758/XS6",
-    "state_sha256": "2afaa50e34eab49ad8beacb72c8b0f3185d4b0046a8eac1dc7555abe4a8b4450"
+    "state_sha256": "e060b88225cd3133a683bbbb1d066049cad19c2a2b4d6dee6eb79aee3df79337"
   },
   "task": {
-    "label": "接续草稿",
+    "label": "等待作者指令",
     "next_action": "读取WORKFLOW.md并按当前作品继续",
-    "phase": "WRITING"
+    "phase": "WAITING_NEXT"
   }
 }

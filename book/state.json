@@ -16,14 +16,25 @@
       "text_path": "chapters/CH001_89ac164cb339c4380bc52f92ec813b125a1df84ebdca0cfba87bb8201322580e.txt",
       "text_sha256": "89ac164cb339c4380bc52f92ec813b125a1df84ebdca0cfba87bb8201322580e",
       "title": "她没上船"
+    },
+    "2": {
+      "frozen_at": "2026-11-17T14:25:37.078874+00:00",
+      "han_count": 5842,
+      "number": 2,
+      "record_path": "objects/2501867524164d567dfdbef34fec990c41d97eae0358a1888a61fa5ae75494e7.json",
+      "record_sha256": "2501867524164d567dfdbef34fec990c41d97eae0358a1888a61fa5ae75494e7",
+      "request_id": "xs6-ch002-330d796dec944ff0a50b0d87b097864f",
+      "text_path": "chapters/CH002_3c9d769e2a67ea0171b04aee540bbdbaff85a481b8f64a6b20d7e0823c29064c.txt",
+      "text_sha256": "3c9d769e2a67ea0171b04aee540bbdbaff85a481b8f64a6b20d7e0823c29064c",
+      "title": "巷子里还有人"
     }
   },
   "platform": "纵横中文网",
   "repository_url": "https://github.com/1464356758/XS6",
-  "revision": 1,
+  "revision": 2,
   "schema": "novel-v6",
   "target_chapters": 150,
   "title": "仙门撤走后，山下还有三千人",
-  "updated_at": "2026-11-17T13:05:16.965742+00:00",
+  "updated_at": "2026-11-17T14:25:37.078874+00:00",
   "version": "6.3.0"
 }
