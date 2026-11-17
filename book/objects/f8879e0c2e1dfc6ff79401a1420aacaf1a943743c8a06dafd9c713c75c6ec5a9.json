@@ -1,0 +1,25 @@
+{
+  "assessment_path": "book/objects/8c8a386bc91f3674e9e64f16e88fe25737bb6416a68f74b7efaf7d3e2abee668.json",
+  "assessment_sha256": "8c8a386bc91f3674e9e64f16e88fe25737bb6416a68f74b7efaf7d3e2abee668",
+  "attachments": {
+    "memory": "book/objects/7c9c1422e5c2ab14437da708e4d6fe9179ff9c59f39684f68b3c39946a20c046.md",
+    "plan": "book/objects/e8127ec25c19a22a57c1e68558f88027f78c01878473052e3f355d5e28e0846c.md",
+    "review": "book/objects/1642ece85e5fed5942b1af38c3f17ca6d90d567bab9f3cfbfba4f3d6d022df5b.md"
+  },
+  "book_id": "53aad353-f0f1-4cee-8967-64a7c97f679b",
+  "frozen_at": "2026-11-17T23:41:21.819479+00:00",
+  "han_count": 5633,
+  "hashes": {
+    "memory": "7c9c1422e5c2ab14437da708e4d6fe9179ff9c59f39684f68b3c39946a20c046",
+    "plan": "e8127ec25c19a22a57c1e68558f88027f78c01878473052e3f355d5e28e0846c",
+    "review": "1642ece85e5fed5942b1af38c3f17ca6d90d567bab9f3cfbfba4f3d6d022df5b",
+    "text": "da37f142c8ccb34ce793feb9182ee55f7076363437dac8db4011ad126b6f6eb7"
+  },
+  "number": 5,
+  "previous_record_sha256": "3d59304c1077199ecba8ed7102d79f0958dfdb01b7a1f62536bab2713d55ecab",
+  "request_id": "xs6-ch005-109d8f30919e40768a1faa5ba52188a6",
+  "schema": "novel-v6-chapter",
+  "text_path": "book/chapters/CH005_da37f142c8ccb34ce793feb9182ee55f7076363437dac8db4011ad126b6f6eb7.txt",
+  "text_sha256": "da37f142c8ccb34ce793feb9182ee55f7076363437dac8db4011ad126b6f6eb7",
+  "title": "留一盏灯"
+}

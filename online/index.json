@@ -36,14 +36,22 @@
       "sha256": "5a85dc78327a189823a3909d93fc8e3793870106892d7e128058ad7b71fbea56",
       "text_path": "book/chapters/CH004_5a85dc78327a189823a3909d93fc8e3793870106892d7e128058ad7b71fbea56.txt",
       "title": "那座桥过不去"
+    },
+    {
+      "han_count": 5633,
+      "number": 5,
+      "publication_status": "unconfirmed",
+      "sha256": "da37f142c8ccb34ce793feb9182ee55f7076363437dac8db4011ad126b6f6eb7",
+      "text_path": "book/chapters/CH005_da37f142c8ccb34ce793feb9182ee55f7076363437dac8db4011ad126b6f6eb7.txt",
+      "title": "留一盏灯"
     }
   ],
   "engine": "novel-v6",
-  "generated_at": "2026-11-17T16:04:43.382627+00:00",
+  "generated_at": "2026-11-17T23:41:21.819479+00:00",
   "initialized": true,
   "progress": {
-    "actual_han": 23435,
-    "adopted_chapters": 4,
+    "actual_han": 29068,
+    "adopted_chapters": 5,
     "target_chapters": 150,
     "target_han": 900000
   },
@@ -51,11 +59,11 @@
   "source": {
     "branch": "main",
     "repository_url": "https://github.com/1464356758/XS6",
-    "state_sha256": "0df7f8e39005e598a6c7e5478a8998522a34b833773ebd6656e6b6062049e8d4"
+    "state_sha256": "a30fdc48fd9139aea06ef216360d514c8f2081877ba6348127f8fc78d8daf334"
   },
   "task": {
-    "label": "接续草稿",
+    "label": "等待作者指令",
     "next_action": "读取WORKFLOW.md并按当前作品继续",
-    "phase": "WRITING"
+    "phase": "WAITING_NEXT"
   }
 }

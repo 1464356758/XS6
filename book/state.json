@@ -49,14 +49,25 @@
       "text_path": "chapters/CH004_5a85dc78327a189823a3909d93fc8e3793870106892d7e128058ad7b71fbea56.txt",
       "text_sha256": "5a85dc78327a189823a3909d93fc8e3793870106892d7e128058ad7b71fbea56",
       "title": "那座桥过不去"
+    },
+    "5": {
+      "frozen_at": "2026-11-17T23:41:21.819479+00:00",
+      "han_count": 5633,
+      "number": 5,
+      "record_path": "objects/f8879e0c2e1dfc6ff79401a1420aacaf1a943743c8a06dafd9c713c75c6ec5a9.json",
+      "record_sha256": "f8879e0c2e1dfc6ff79401a1420aacaf1a943743c8a06dafd9c713c75c6ec5a9",
+      "request_id": "xs6-ch005-109d8f30919e40768a1faa5ba52188a6",
+      "text_path": "chapters/CH005_da37f142c8ccb34ce793feb9182ee55f7076363437dac8db4011ad126b6f6eb7.txt",
+      "text_sha256": "da37f142c8ccb34ce793feb9182ee55f7076363437dac8db4011ad126b6f6eb7",
+      "title": "留一盏灯"
     }
   },
   "platform": "纵横中文网",
   "repository_url": "https://github.com/1464356758/XS6",
-  "revision": 4,
+  "revision": 5,
   "schema": "novel-v6",
   "target_chapters": 150,
   "title": "仙门撤走后，山下还有三千人",
-  "updated_at": "2026-11-17T16:04:43.382627+00:00",
+  "updated_at": "2026-11-17T23:41:21.819479+00:00",
   "version": "6.3.0"
 }
