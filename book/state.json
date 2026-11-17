@@ -1,0 +1,17 @@
+{
+  "book_id": "53aad353-f0f1-4cee-8967-64a7c97f679b",
+  "branch": "main",
+  "chapter_han": [
+    5500,
+    6500
+  ],
+  "chapters": {},
+  "platform": "纵横中文网",
+  "repository_url": "https://github.com/1464356758/XS6",
+  "revision": 0,
+  "schema": "novel-v6",
+  "target_chapters": 150,
+  "title": "",
+  "updated_at": "2026-11-17T11:20:25.393234+00:00",
+  "version": "6.3.0"
+}

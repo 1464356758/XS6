@@ -1,0 +1,28 @@
+{
+  "book": {
+    "id": "53aad353-f0f1-4cee-8967-64a7c97f679b",
+    "platform": "纵横中文网",
+    "title": "待选题新书"
+  },
+  "chapters": [],
+  "engine": "novel-v6",
+  "generated_at": "2026-11-17T11:20:25.393234+00:00",
+  "initialized": true,
+  "progress": {
+    "actual_han": 0,
+    "adopted_chapters": 0,
+    "target_chapters": 150,
+    "target_han": 900000
+  },
+  "schema_version": 1,
+  "source": {
+    "branch": "main",
+    "repository_url": "https://github.com/1464356758/XS6",
+    "state_sha256": "2b34de77a14ec33193a9dc941995b9e8b35e477da1c4f2d417da311830877f99"
+  },
+  "task": {
+    "label": "等待作者指令",
+    "next_action": "读取WORKFLOW.md并按当前作品继续",
+    "phase": "WAITING_TOPIC"
+  }
+}
