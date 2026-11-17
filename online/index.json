@@ -4,13 +4,22 @@
     "platform": "纵横中文网",
     "title": "仙门撤走后，山下还有三千人"
   },
-  "chapters": [],
+  "chapters": [
+    {
+      "han_count": 5912,
+      "number": 1,
+      "publication_status": "unconfirmed",
+      "sha256": "89ac164cb339c4380bc52f92ec813b125a1df84ebdca0cfba87bb8201322580e",
+      "text_path": "book/chapters/CH001_89ac164cb339c4380bc52f92ec813b125a1df84ebdca0cfba87bb8201322580e.txt",
+      "title": "她没上船"
+    }
+  ],
   "engine": "novel-v6",
-  "generated_at": "2026-11-17T12:29:06.587789+00:00",
+  "generated_at": "2026-11-17T13:05:16.965742+00:00",
   "initialized": true,
   "progress": {
-    "actual_han": 0,
-    "adopted_chapters": 0,
+    "actual_han": 5912,
+    "adopted_chapters": 1,
     "target_chapters": 150,
     "target_han": 900000
   },
@@ -18,11 +27,11 @@
   "source": {
     "branch": "main",
     "repository_url": "https://github.com/1464356758/XS6",
-    "state_sha256": "cc23a9d2474f3329560374deecd5c9103353509cfa690444a01a50383e398e40"
+    "state_sha256": "2afaa50e34eab49ad8beacb72c8b0f3185d4b0046a8eac1dc7555abe4a8b4450"
   },
   "task": {
-    "label": "接续草稿",
+    "label": "等待作者指令",
     "next_action": "读取WORKFLOW.md并按当前作品继续",
-    "phase": "WRITING"
+    "phase": "WAITING_NEXT"
   }
 }

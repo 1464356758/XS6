@@ -5,13 +5,25 @@
     5500,
     6500
   ],
-  "chapters": {},
+  "chapters": {
+    "1": {
+      "frozen_at": "2026-11-17T13:05:16.965742+00:00",
+      "han_count": 5912,
+      "number": 1,
+      "record_path": "objects/7f1b5f0eb9495ab25ab7a2f75f2cf68f2301fc1be7d87046d9ee755042b75e20.json",
+      "record_sha256": "7f1b5f0eb9495ab25ab7a2f75f2cf68f2301fc1be7d87046d9ee755042b75e20",
+      "request_id": "xs6-ch001-c42e42c9adf24e3e8b81d63b9ddb22f8",
+      "text_path": "chapters/CH001_89ac164cb339c4380bc52f92ec813b125a1df84ebdca0cfba87bb8201322580e.txt",
+      "text_sha256": "89ac164cb339c4380bc52f92ec813b125a1df84ebdca0cfba87bb8201322580e",
+      "title": "她没上船"
+    }
+  },
   "platform": "纵横中文网",
   "repository_url": "https://github.com/1464356758/XS6",
-  "revision": 0,
+  "revision": 1,
   "schema": "novel-v6",
   "target_chapters": 150,
   "title": "仙门撤走后，山下还有三千人",
-  "updated_at": "2026-11-17T12:29:06.587789+00:00",
+  "updated_at": "2026-11-17T13:05:16.965742+00:00",
   "version": "6.3.0"
 }

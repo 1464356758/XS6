@@ -1,0 +1,25 @@
+{
+  "assessment_path": "book/objects/b8b742e7016eefef98a1b58467ae0f2a64dd4ef72a763ac90a2b936f23f37fbd.json",
+  "assessment_sha256": "b8b742e7016eefef98a1b58467ae0f2a64dd4ef72a763ac90a2b936f23f37fbd",
+  "attachments": {
+    "memory": "book/objects/ca81ce153f5f211d388c4cf749a42ddb021a4d9116805e757fca0d16ce71a6bf.md",
+    "plan": "book/objects/13ec85e8a48490d3745d545d6f3bc384d2cee1e0f6394e255799a7373ac7594f.md",
+    "review": "book/objects/aa0e9cd044cfd5e6db7b72739798513cb7d596c188f646441193669724c68da6.md"
+  },
+  "book_id": "53aad353-f0f1-4cee-8967-64a7c97f679b",
+  "frozen_at": "2026-11-17T13:05:16.965742+00:00",
+  "han_count": 5912,
+  "hashes": {
+    "memory": "ca81ce153f5f211d388c4cf749a42ddb021a4d9116805e757fca0d16ce71a6bf",
+    "plan": "13ec85e8a48490d3745d545d6f3bc384d2cee1e0f6394e255799a7373ac7594f",
+    "review": "aa0e9cd044cfd5e6db7b72739798513cb7d596c188f646441193669724c68da6",
+    "text": "89ac164cb339c4380bc52f92ec813b125a1df84ebdca0cfba87bb8201322580e"
+  },
+  "number": 1,
+  "previous_record_sha256": null,
+  "request_id": "xs6-ch001-c42e42c9adf24e3e8b81d63b9ddb22f8",
+  "schema": "novel-v6-chapter",
+  "text_path": "book/chapters/CH001_89ac164cb339c4380bc52f92ec813b125a1df84ebdca0cfba87bb8201322580e.txt",
+  "text_sha256": "89ac164cb339c4380bc52f92ec813b125a1df84ebdca0cfba87bb8201322580e",
+  "title": "她没上船"
+}
