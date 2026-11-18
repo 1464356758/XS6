@@ -1,0 +1,31 @@
+{
+  "book_id": "53aad353-f0f1-4cee-8967-64a7c97f679b",
+  "title": "仙门撤走后，山下还有三千人",
+  "pen_name": "微晚",
+  "platform": "纵横中文网",
+  "source_branch": "main",
+  "source_head": "6a722bdb74bcab154dca376a6903fd864ae1e393",
+  "source_state_sha256": "a30fdc48fd9139aea06ef216360d514c8f2081877ba6348127f8fc78d8daf334",
+  "frozen_chapters": 5,
+  "frozen_han": 29068,
+  "frozen_objects_unchanged": true,
+  "checked_date_cst": "2026-11-18",
+  "form_fields_verified_via": "official public author help; actual create form requires login",
+  "backend_category_enumerations": "unverified",
+  "backend_upload_limits": "unverified",
+  "outline_scope": "future story expanded from plan1.6; only CH001-CH005 are frozen",
+  "cover": {
+    "jpg": "仙门撤走后，山下还有三千人_封面_600x800.jpg",
+    "width": 600,
+    "height": 800,
+    "bytes": 98519,
+    "sha256": "26f719b909c83a96527eac129ea3ab91225a3f803d029a738b6c3d31121a2a29"
+  },
+  "files": {
+    "仙门撤走后，山下还有三千人.txt": "c276fa7587c99e8e241e2e315e927c12f14bca98ff3b5449cccecb2c33f8c477",
+    "仙门撤走后，山下还有三千人_封面_600x800.jpg": "26f719b909c83a96527eac129ea3ab91225a3f803d029a738b6c3d31121a2a29",
+    "后续安排说明.txt": "335287ba53986c810744a29dab19959b89851de6394f952ac135288aa3acb4a7",
+    "封面说明.txt": "d7291ceb906ec9c0f5ce0c7889d566fcb5451d22efaf8bbf0fb148d9ace29579",
+    "开篇样稿_第1-5章_29068汉字.txt": "a3bfdc2949f8793e63bc074bc216909076da0071d49ddd1b24ef49d993e226dd"
+  }
+}
