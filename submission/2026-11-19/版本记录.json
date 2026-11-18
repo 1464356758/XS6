@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-19",
+  "book_id": "53aad353-f0f1-4cee-8967-64a7c97f679b",
+  "pen_name": "微晚WW",
+  "author_position": "above_title",
+  "title_lines": [
+    "仙门撤走后，",
+    "山下还有三千人"
+  ],
+  "cover_jpg_size": [
+    600,
+    800
+  ],
+  "cover_jpg_bytes": 262171,
+  "cover_sha256": "d7ee4ff4978428b27160358bf4eb348246449172888a37314c3667f7583e77bb",
+  "state_sha256": "a30fdc48fd9139aea06ef216360d514c8f2081877ba6348127f8fc78d8daf334",
+  "source_head": "a6f26e3e5613bf3e2ac7781d392a86226f680b17"
+}

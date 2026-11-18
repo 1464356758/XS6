@@ -1,0 +1,14 @@
+《仙门撤走后，山下还有三千人》封面V2
+
+2026-11-19按作者指令重新设计，笔名更新为微晚WW，作者署名置于书名上方。
+顶部署名：微晚WW 著
+书名第一行：仙门撤走后，
+书名第二行：山下还有三千人
+
+内置生图工具新设计；米白水墨、青绿群山、远去飞舟、母子与山下灯火，书名仅两行。原图与600×800 JPG一同交付。
+平台规格沿用先前材料的核查范围：600×800为本次制作规格，未冒称已验证的后台硬性要求。
+已逐字检查书名、两个大写W、署名位置和标题行数，并检查可见肢体与文字遮挡。
+本次只改署名与封面；冻结正文和对应不可变快照保留原版本。2026-11-18材料作为历史版本保留，当前投稿使用本目录更新后的署名与封面。
+
+生成提示词：
+Use case: illustration-story. Design a completely NEW original premium commercial Chinese xianxia novel front cover, portrait 3:4, ideally 1536x2048. This is a new visual concept, not the previous cover with typography patched. Elegant cinematic Chinese ink-and-gouache illustration: warm antique ivory mist in the upper sky, monumental charcoal and muted jade mountains, restrained copper-gold light from the small town below. A winding old mountain path descends diagonally into a densely lived-in ancient riverside town. The last small wooden flying boat is receding into the distant high cloud gap, while the people below remain. Lower third foreground: a young nineteen-year-old male array-worker, back three-quarter view with face mostly hidden, dark hair bound simply, practical blue-green robe with one mended cuff, NOT shredded beggar clothes, a small worn working knife at his waist, not a giant sword. Nearby, his forty-two-year-old mother in practical brown-grey clothing carries an ordinary cloth bundle; dark hair pinned up, a few grey strands, recognizably middle-aged rather than elderly. Their modest silhouettes should read clearly, with more landscape and atmospheric breathing room than the previous design. A tiny shallow ceramic oil dish with a cotton wick and exposed flame sits on a low stone beside the path; no glass lantern. A faint green line in a stone groove provides a subtle xianxia detail. Refined painterly textures and decisive value shapes, beautiful as an actual book cover and instantly legible as a small mobile thumbnail. No army, dragons, supernatural mother, modern buildings, exaggerated magical shield, genre badges, logos, seals, slogans or watermark. Typography is CRITICAL: author must be ABOVE the book title, centered near the TOP with comfortable safe margin. Exact author text:「微晚WW 著」. Use TWO uppercase Latin W characters, exactly WW, never change them to Chinese, lowercase or other letters. Under the author, the BOOK TITLE MUST HAVE EXACTLY TWO HORIZONTAL LINES, centered, no other title line. Line 1 exactly「仙门撤走后，」. Line 2 exactly「山下还有三千人」. Preserve the Chinese comma after 后. Do not split 三千人 onto a third line. Make both lines large, crisp, beautifully designed dark charcoal calligraphy with subtle warm edge, optically balanced to similar widths against the calm light upper sky. The author credit is smaller but clearly legible above BOTH title lines. Keep ALL characters inside 7 percent side margins. No duplicate author at bottom. Leave the lower composition free from any further text. Actual finished flat cover artwork, not a physical book mockup.
