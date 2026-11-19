@@ -1,0 +1,14 @@
+{
+  "assessed_at": "2026-11-19T04:26:33.932573+00:00",
+  "chapter": 6,
+  "decision": "ready",
+  "hashes": {
+    "memory": "2386d39bc4b9ab17c26fbd9201feb32f48729728c740be78a4f9940ad05b2b1d",
+    "plan": "739d9a960558272c3ba1d3c4aa7fd74fe3924f2bfe25b6cc6c56a81621202dd1",
+    "review": "7aa0c1983c49988c0aba434b49b59ed14396f3c62eabe1ccde716213611f93b6",
+    "text": "282ff30e0eec5208fc5af20b248bb6f0c953cb639089858e6b85e246ae487270"
+  },
+  "note": "编辑判断不等于平台签约或独立读者评价",
+  "reviewer": "same-context-model",
+  "schema": "novel-v6-assessment"
+}

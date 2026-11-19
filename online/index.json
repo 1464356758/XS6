@@ -44,14 +44,22 @@
       "sha256": "da37f142c8ccb34ce793feb9182ee55f7076363437dac8db4011ad126b6f6eb7",
       "text_path": "book/chapters/CH005_da37f142c8ccb34ce793feb9182ee55f7076363437dac8db4011ad126b6f6eb7.txt",
       "title": "留一盏灯"
+    },
+    {
+      "han_count": 5807,
+      "number": 6,
+      "publication_status": "unconfirmed",
+      "sha256": "282ff30e0eec5208fc5af20b248bb6f0c953cb639089858e6b85e246ae487270",
+      "text_path": "book/chapters/CH006_282ff30e0eec5208fc5af20b248bb6f0c953cb639089858e6b85e246ae487270.txt",
+      "title": "山壁上的路"
     }
   ],
   "engine": "novel-v6",
-  "generated_at": "2026-11-19T02:30:14.545514+00:00",
+  "generated_at": "2026-11-19T04:26:34.008936+00:00",
   "initialized": true,
   "progress": {
-    "actual_han": 29068,
-    "adopted_chapters": 5,
+    "actual_han": 34875,
+    "adopted_chapters": 6,
     "target_chapters": 150,
     "target_han": 900000
   },
@@ -59,11 +67,11 @@
   "source": {
     "branch": "main",
     "repository_url": "https://github.com/1464356758/XS6",
-    "state_sha256": "1bb8aa8adf39690d3e31aff1859db0c02b3c273c80ccaa5eedbe02d73e1c6b56"
+    "state_sha256": "edcaf9416b03b777d2ef75c0d82dd2af877cc566c154390da487f869f12ef31c"
   },
   "task": {
-    "label": "接续草稿",
+    "label": "等待作者指令",
     "next_action": "读取WORKFLOW.md并按当前作品继续",
-    "phase": "WRITING"
+    "phase": "WAITING_NEXT"
   }
 }

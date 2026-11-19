@@ -60,14 +60,25 @@
       "text_path": "chapters/CH005_da37f142c8ccb34ce793feb9182ee55f7076363437dac8db4011ad126b6f6eb7.txt",
       "text_sha256": "da37f142c8ccb34ce793feb9182ee55f7076363437dac8db4011ad126b6f6eb7",
       "title": "留一盏灯"
+    },
+    "6": {
+      "frozen_at": "2026-11-19T04:26:34.008936+00:00",
+      "han_count": 5807,
+      "number": 6,
+      "record_path": "objects/855b71996851744ce1e8663c7b11322400ec7f9f7f159174a14d69387c031644.json",
+      "record_sha256": "855b71996851744ce1e8663c7b11322400ec7f9f7f159174a14d69387c031644",
+      "request_id": "ch006-2b54339ac99148ea8e90ad45842ed478",
+      "text_path": "chapters/CH006_282ff30e0eec5208fc5af20b248bb6f0c953cb639089858e6b85e246ae487270.txt",
+      "text_sha256": "282ff30e0eec5208fc5af20b248bb6f0c953cb639089858e6b85e246ae487270",
+      "title": "山壁上的路"
     }
   },
   "platform": "塔读小说",
   "repository_url": "https://github.com/1464356758/XS6",
-  "revision": 5,
+  "revision": 6,
   "schema": "novel-v6",
   "target_chapters": 150,
   "title": "仙门撤走后，山下还有三千人",
-  "updated_at": "2026-11-19T02:30:14.545514+00:00",
+  "updated_at": "2026-11-19T04:26:34.008936+00:00",
   "version": "6.3.0"
 }

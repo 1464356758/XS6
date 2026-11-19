@@ -1,0 +1,25 @@
+{
+  "assessment_path": "book/objects/20a99dc115bbaba2c1a94f5c7acfad9a5f8a6951f1ba53f69c7858e5eb65ab5d.json",
+  "assessment_sha256": "20a99dc115bbaba2c1a94f5c7acfad9a5f8a6951f1ba53f69c7858e5eb65ab5d",
+  "attachments": {
+    "memory": "book/objects/2386d39bc4b9ab17c26fbd9201feb32f48729728c740be78a4f9940ad05b2b1d.md",
+    "plan": "book/objects/739d9a960558272c3ba1d3c4aa7fd74fe3924f2bfe25b6cc6c56a81621202dd1.md",
+    "review": "book/objects/7aa0c1983c49988c0aba434b49b59ed14396f3c62eabe1ccde716213611f93b6.md"
+  },
+  "book_id": "53aad353-f0f1-4cee-8967-64a7c97f679b",
+  "frozen_at": "2026-11-19T04:26:34.008936+00:00",
+  "han_count": 5807,
+  "hashes": {
+    "memory": "2386d39bc4b9ab17c26fbd9201feb32f48729728c740be78a4f9940ad05b2b1d",
+    "plan": "739d9a960558272c3ba1d3c4aa7fd74fe3924f2bfe25b6cc6c56a81621202dd1",
+    "review": "7aa0c1983c49988c0aba434b49b59ed14396f3c62eabe1ccde716213611f93b6",
+    "text": "282ff30e0eec5208fc5af20b248bb6f0c953cb639089858e6b85e246ae487270"
+  },
+  "number": 6,
+  "previous_record_sha256": "f8879e0c2e1dfc6ff79401a1420aacaf1a943743c8a06dafd9c713c75c6ec5a9",
+  "request_id": "ch006-2b54339ac99148ea8e90ad45842ed478",
+  "schema": "novel-v6-chapter",
+  "text_path": "book/chapters/CH006_282ff30e0eec5208fc5af20b248bb6f0c953cb639089858e6b85e246ae487270.txt",
+  "text_sha256": "282ff30e0eec5208fc5af20b248bb6f0c953cb639089858e6b85e246ae487270",
+  "title": "山壁上的路"
+}
