@@ -60,14 +60,22 @@
       "sha256": "85ca2564dc08618572d35ee106c8ec2e8604a0041f453206f870f5b4513b9bd4",
       "text_path": "book/chapters/CH007_85ca2564dc08618572d35ee106c8ec2e8604a0041f453206f870f5b4513b9bd4.txt",
       "title": "鱼从天上过"
+    },
+    {
+      "han_count": 5845,
+      "number": 8,
+      "publication_status": "unconfirmed",
+      "sha256": "e9ec35661a308b0f6c21d1245248909434ea804968c65676b3965f45ebc259bc",
+      "text_path": "book/chapters/CH008_e9ec35661a308b0f6c21d1245248909434ea804968c65676b3965f45ebc259bc.txt",
+      "title": "河那边有人"
     }
   ],
   "engine": "novel-v6",
-  "generated_at": "2026-11-19T05:00:26.754910+00:00",
+  "generated_at": "2026-11-19T09:53:37.247853+00:00",
   "initialized": true,
   "progress": {
-    "actual_han": 40758,
-    "adopted_chapters": 7,
+    "actual_han": 46603,
+    "adopted_chapters": 8,
     "target_chapters": 150,
     "target_han": 900000
   },
@@ -75,11 +83,11 @@
   "source": {
     "branch": "main",
     "repository_url": "https://github.com/1464356758/XS6",
-    "state_sha256": "6e25be124f8f53c7d779e68688104626713ce4a781bf029d1c2f41f721ace0a4"
+    "state_sha256": "6f4634ee957a7ff77e0d6576f68cbdb8b635d2aaf7e1a391ae066e96e697c934"
   },
   "task": {
-    "label": "接续草稿",
+    "label": "等待作者指令",
     "next_action": "读取WORKFLOW.md并按当前作品继续",
-    "phase": "WRITING"
+    "phase": "WAITING_NEXT"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "assessment_path": "book/objects/1ea6ec6ade9cf4afe4c498a0776aaced198b3db48c31e33ef9d7964a1f61cb57.json",
+  "assessment_sha256": "1ea6ec6ade9cf4afe4c498a0776aaced198b3db48c31e33ef9d7964a1f61cb57",
+  "attachments": {
+    "memory": "book/objects/4c8b67d8af68afe4e71a3644a746d6ecb964fd7767c5aaa8b2d9e7f169aa500a.md",
+    "plan": "book/objects/50a33902c9aee6338fe1036b948d10140f19f2285fe21632243173a8bc6eadea.md",
+    "review": "book/objects/be75bfce2ef485ae8d82542f8498ef370124ce14d7e2bc03882906ae66a2d828.md"
+  },
+  "book_id": "53aad353-f0f1-4cee-8967-64a7c97f679b",
+  "frozen_at": "2026-11-19T09:53:37.247853+00:00",
+  "han_count": 5845,
+  "hashes": {
+    "memory": "4c8b67d8af68afe4e71a3644a746d6ecb964fd7767c5aaa8b2d9e7f169aa500a",
+    "plan": "50a33902c9aee6338fe1036b948d10140f19f2285fe21632243173a8bc6eadea",
+    "review": "be75bfce2ef485ae8d82542f8498ef370124ce14d7e2bc03882906ae66a2d828",
+    "text": "e9ec35661a308b0f6c21d1245248909434ea804968c65676b3965f45ebc259bc"
+  },
+  "number": 8,
+  "previous_record_sha256": "2e57dfe946c941568b9d8c3a63b72d6d71dbb94b18cb9f02316de5f750abe609",
+  "request_id": "ch008-bc52ab36acbd4d2dbe2950255f4488a4",
+  "schema": "novel-v6-chapter",
+  "text_path": "book/chapters/CH008_e9ec35661a308b0f6c21d1245248909434ea804968c65676b3965f45ebc259bc.txt",
+  "text_sha256": "e9ec35661a308b0f6c21d1245248909434ea804968c65676b3965f45ebc259bc",
+  "title": "河那边有人"
+}

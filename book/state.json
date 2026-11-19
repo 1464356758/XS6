@@ -82,14 +82,25 @@
       "text_path": "chapters/CH007_85ca2564dc08618572d35ee106c8ec2e8604a0041f453206f870f5b4513b9bd4.txt",
       "text_sha256": "85ca2564dc08618572d35ee106c8ec2e8604a0041f453206f870f5b4513b9bd4",
       "title": "鱼从天上过"
+    },
+    "8": {
+      "frozen_at": "2026-11-19T09:53:37.247853+00:00",
+      "han_count": 5845,
+      "number": 8,
+      "record_path": "objects/3b97d82bbd7edee67476a153bee67c8c33b879ad1429044799d6644860561774.json",
+      "record_sha256": "3b97d82bbd7edee67476a153bee67c8c33b879ad1429044799d6644860561774",
+      "request_id": "ch008-bc52ab36acbd4d2dbe2950255f4488a4",
+      "text_path": "chapters/CH008_e9ec35661a308b0f6c21d1245248909434ea804968c65676b3965f45ebc259bc.txt",
+      "text_sha256": "e9ec35661a308b0f6c21d1245248909434ea804968c65676b3965f45ebc259bc",
+      "title": "河那边有人"
     }
   },
   "platform": "塔读小说",
   "repository_url": "https://github.com/1464356758/XS6",
-  "revision": 7,
+  "revision": 8,
   "schema": "novel-v6",
   "target_chapters": 150,
   "title": "仙门撤走后，山下还有三千人",
-  "updated_at": "2026-11-19T05:00:26.754910+00:00",
+  "updated_at": "2026-11-19T09:53:37.247853+00:00",
   "version": "6.3.0"
 }
