@@ -1,0 +1,25 @@
+{
+  "assessment_path": "book/objects/0a5e093f5988ada3a33717989ba0234ce7d7fa186f7474a044c8064c31df0a83.json",
+  "assessment_sha256": "0a5e093f5988ada3a33717989ba0234ce7d7fa186f7474a044c8064c31df0a83",
+  "attachments": {
+    "memory": "book/objects/97d966484c3e28f6d735172a384c1111f2396cb84543708c1685cea4cc5fa0a8.md",
+    "plan": "book/objects/3641bb474a8fd484164b95618281cf86cbc613816d51e5a911d51ea3ec13573e.md",
+    "review": "book/objects/337829b87046af0590f8d9dc12f3a0e85216949219663b2fbb976140ac9d59ce.md"
+  },
+  "book_id": "53aad353-f0f1-4cee-8967-64a7c97f679b",
+  "frozen_at": "2026-11-19T05:00:26.754910+00:00",
+  "han_count": 5883,
+  "hashes": {
+    "memory": "97d966484c3e28f6d735172a384c1111f2396cb84543708c1685cea4cc5fa0a8",
+    "plan": "3641bb474a8fd484164b95618281cf86cbc613816d51e5a911d51ea3ec13573e",
+    "review": "337829b87046af0590f8d9dc12f3a0e85216949219663b2fbb976140ac9d59ce",
+    "text": "85ca2564dc08618572d35ee106c8ec2e8604a0041f453206f870f5b4513b9bd4"
+  },
+  "number": 7,
+  "previous_record_sha256": "855b71996851744ce1e8663c7b11322400ec7f9f7f159174a14d69387c031644",
+  "request_id": "ch007-7d7b100cb74b41e0b4ba2933378aa906",
+  "schema": "novel-v6-chapter",
+  "text_path": "book/chapters/CH007_85ca2564dc08618572d35ee106c8ec2e8604a0041f453206f870f5b4513b9bd4.txt",
+  "text_sha256": "85ca2564dc08618572d35ee106c8ec2e8604a0041f453206f870f5b4513b9bd4",
+  "title": "鱼从天上过"
+}
